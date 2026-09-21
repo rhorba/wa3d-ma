@@ -89,3 +89,6 @@
 
 ### [2026-09-21] COMPLETED — Story 1.2 status derivation
 - lib/catalogue/status.ts: currentStatus (latest entry or not_started), statusCounts (fixed order, zeros kept). Decision table + 2 fast-check properties. 100% threshold on status.ts added to vitest config. Coverage total 100%.
+
+### [2026-09-21] COMPLETED — Story 1.3 progress
+- lib/catalogue/progress.ts: ratio baseline→latest→target, both directions, clamped [0,1], null when no post-baseline value (FR-8) or zero distance. 6 examples + 2 properties (bounds, monotonic). 100% threshold added.
