@@ -86,3 +86,6 @@
 
 ### [2026-09-21] COMPLETED — Story 1.1 schema (PR feature/1.1-schema)
 - lib/catalogue/schema.ts (DB v1.2: strict objects, https URLs, NFC text, titles <= 90, baseline.source) + tests/builders.ts (fictional). 34 schema tests. Note: tools turned a \u0301 escape into an invisible literal; test now builds it with String.fromCodePoint (V-17 relevance).
+
+### [2026-09-21] COMPLETED — Story 1.2 status derivation
+- lib/catalogue/status.ts: currentStatus (latest entry or not_started), statusCounts (fixed order, zeros kept). Decision table + 2 fast-check properties. 100% threshold on status.ts added to vitest config. Coverage total 100%.

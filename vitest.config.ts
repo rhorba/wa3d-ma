@@ -32,8 +32,14 @@ export default defineConfig({
       exclude: ["lib/**/*.test.ts"],
       reporter: ["text-summary", "text", "json-summary"],
       // Combined unit + integration gate (CLAUDE.md rule 6, Test Strategy §2).
-      // Per-file 100% branch thresholds for status/progress/validate are added with those modules.
-      thresholds: { lines: 80, statements: 80, functions: 80, branches: 80 },
+      // The code that decides what the site says is held to 100% (Test Strategy §2).
+      thresholds: {
+        lines: 80,
+        statements: 80,
+        functions: 80,
+        branches: 80,
+        "lib/catalogue/status.ts": { lines: 100, statements: 100, functions: 100, branches: 100 },
+      },
     },
   },
 });
