@@ -25,3 +25,6 @@
 
 ### [2026-09-21] APPROACH — Sprint 1 delivery: 🔴 PR per story (user choice)
 - 12 branches/PRs, each CI-gated and squash-merged. Options offered: 🟢 one PR, 🟡 PR per epic with CI first (recommended), 🔴 PR per story.
+
+### [2026-09-21] SECURITY — archiveUrl restricted to web.archive.org (within V-7 / SEC-3 intent)
+- Otherwise a "Copie archivée" link could point anywhere. Flagged to user.

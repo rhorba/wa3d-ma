@@ -25,5 +25,8 @@ if [ -n "$server" ]; then
   echo "✗ server runtime code found (SDR-1):"; echo "$server"; status=1
 fi
 
+# V-17 applied to the code itself (the check reuses the validator's definition).
+if ! pnpm exec tsx scripts/check-hidden.ts; then status=1; fi
+
 [ "$status" -eq 0 ] && echo "✓ fitness checks passed"
 exit "$status"

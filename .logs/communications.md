@@ -55,3 +55,6 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev (Batch B) → Backend Dev + Tester (Batch C, Story 1.4)
 - Context: schema/status/progress merged (b271297), coverage 100%. Need: validateCatalogue skeleton (issues with rule/severity/file), V-1..V-6, Casablanca today, fuzz. Constraints: pure (zod only), today injected, exactly-one-rule-per-fixture tests.
+
+### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Security Engineer (Story 1.5)
+- Context: pipeline merged 7f70dfd. Need: V-7 allowlist, V-17, official-domains.json v0, adversarial table. Constraints: WHATWG URL parsing, pointers exempt, ZWNJ allowed.

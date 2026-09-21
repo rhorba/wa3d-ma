@@ -99,3 +99,7 @@
 
 ### [2026-09-21] COMPLETED — Story 1.4 validator core (V-1..V-6)
 - validate.ts (pipeline, issues sorted, hasErrors, todayInCasablanca) + rules/types.ts + rules/structure.ts. 23 tests incl. 23:30 UTC = next day in Casablanca, fuzz 200 runs. 100% thresholds on validate.ts + rules/**. Total 94 tests, 100% coverage.
+
+### [2026-09-21] COMPLETED — Story 1.5 V-7 allowlist + V-17 hidden characters
+- rules/sources.ts: dot-boundary host match via WHATWG URL (userinfo/IDN/trailing-dot/look-alike table), archiveUrl only web.archive.org, pointers exempt; V-17 via numeric code-point ranges. data/official-domains.json v0.
+- Tooling hazard hit twice: escapes written as \u202A turned into literal invisible chars (in the V-17 regex itself, then in a comment). Fix: numeric ranges + scripts/check-hidden.ts in the fitness gate (reuses firstHiddenCodePoint); verified it fails on a planted U+202E. 119 tests, 100% coverage.

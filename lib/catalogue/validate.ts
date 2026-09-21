@@ -7,6 +7,7 @@ import {
   checkQuoteProvenance,
   checkUniqueIds,
 } from "./rules/structure";
+import { checkHiddenCharacters, checkOfficialSources } from "./rules/sources";
 import type { CatalogueInput, Issue, Parsed, RuleContext, Severity } from "./rules/types";
 
 export type { CatalogueFile, CatalogueInput, Issue, RuleId, Severity } from "./rules/types";
@@ -25,6 +26,8 @@ const RULES: ((context: RuleContext) => void)[] = [
   checkQuoteProvenance, // V-4
   checkEvidenceOrder, // V-5
   checkNoFutureDates, // V-6
+  checkOfficialSources, // V-7
+  checkHiddenCharacters, // V-17
 ];
 
 export function validateCatalogue(input: CatalogueInput): ValidationResult {
