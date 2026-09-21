@@ -13,6 +13,8 @@ import {
   checkTargets,
   checkVerificationDates,
 } from "./rules/consistency";
+import { checkEmbargo, checkFreshness, checkMissingData, checkOverdue } from "./rules/lifecycle";
+import { checkBannedWords } from "./rules/neutrality";
 import { checkHiddenCharacters, checkOfficialSources } from "./rules/sources";
 import type { CatalogueInput, Issue, Parsed, RuleContext, Severity } from "./rules/types";
 
@@ -35,8 +37,13 @@ const RULES: ((context: RuleContext) => void)[] = [
   checkOfficialSources, // V-7
   checkVerificationDates, // V-8
   checkStatusAgainstDeadline, // V-9
+  checkBannedWords, // V-10
   checkTargets, // V-11
   checkIndicatorOrder, // V-12
+  checkFreshness, // V-13 (warning)
+  checkOverdue, // V-14 (warning)
+  checkMissingData, // V-15 (warning)
+  checkEmbargo, // V-16
   checkHiddenCharacters, // V-17
 ];
 

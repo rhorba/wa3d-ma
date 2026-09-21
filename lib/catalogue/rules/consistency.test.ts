@@ -11,8 +11,11 @@ import {
 import type { Commitment, IndicatorValue, Status, Target } from "../schema";
 import { validateCatalogue, type CatalogueInput } from "../validate";
 
+// These tests are about errors; warnings (V-13…V-15) have their own tests.
 const rulesOf = (input: CatalogueInput) =>
-  validateCatalogue(input).issues.map((issue) => issue.rule);
+  validateCatalogue(input)
+    .issues.filter((issue) => issue.severity === "error")
+    .map((issue) => issue.rule);
 const withCommitment = (value: Commitment) =>
   catalogueInput({ commitments: [commitmentFile(value)] });
 

@@ -12,8 +12,11 @@ import {
 import type { Commitment } from "./schema";
 import { hasErrors, todayInCasablanca, validateCatalogue, type CatalogueInput } from "./validate";
 
+// These tests are about errors; warnings (V-13…V-15) have their own tests.
 const rulesOf = (input: CatalogueInput) =>
-  validateCatalogue(input).issues.map((issue) => issue.rule);
+  validateCatalogue(input)
+    .issues.filter((issue) => issue.severity === "error")
+    .map((issue) => issue.rule);
 const withCommitments = (...values: Commitment[]) =>
   catalogueInput({ commitments: values.map((value) => commitmentFile(value)) });
 
@@ -128,10 +131,10 @@ describe("V-6 no future dates (Africa/Casablanca)", () => {
   it.each([
     [
       "an evidence date",
-      commitment({ evidence: [evidence({ date: "2026-09-22" })], lastVerified: "2026-09-22" }),
+      commitment({ evidence: [evidence({ date: "2026-10-01" })], lastVerified: "2026-10-01" }),
     ],
-    ["lastVerified", commitment({ lastVerified: "2026-09-22" })],
-    ["a source's accessed date", commitment({ origin: { ...origin, accessed: "2026-09-22" } })],
+    ["lastVerified", commitment({ lastVerified: "2026-10-01" })],
+    ["a source's accessed date", commitment({ origin: { ...origin, accessed: "2026-10-01" } })],
     ["a source's published date", commitment({ origin: { ...origin, published: "2027-01-01" } })],
   ])("rejects %s after today", (_label, value) => {
     expect(rulesOf(withCommitments(value))).toContain("V-6");
@@ -156,7 +159,7 @@ describe("V-6 no future dates (Africa/Casablanca)", () => {
   });
 
   it("accepts today itself and exempts the deadline", () => {
-    const value = commitment({ lastVerified: "2026-09-21", deadline: "2031-10-01" });
+    const value = commitment({ lastVerified: "2026-09-30", deadline: "2031-10-01" });
     expect(rulesOf(withCommitments(value))).toEqual([]);
   });
 

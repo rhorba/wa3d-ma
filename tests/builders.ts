@@ -15,7 +15,7 @@ export function source(overrides: Partial<Source> = {}): Source {
 export function evidence(overrides: Partial<Evidence> = {}): Evidence {
   return {
     date: "2024-03-14",
-    status: "in_progress",
+    status: "achieved",
     note: { fr: "Fait daté fictif.", ar: "واقعة مؤرخة وهمية." },
     source: source(),
     ...overrides,
@@ -67,14 +67,14 @@ export function indicatorFile(value: Indicator, path?: string): CatalogueFile {
   return { path: path ?? `indicators/${value.id}.json`, data: value };
 }
 
-/** A valid catalogue by default: one commitment, one indicator, "today" frozen at 2026-09-21. */
+/** A valid catalogue by default: one commitment, one indicator, "today" frozen at 2026-09-30 (after the embargo). */
 export function catalogueInput(overrides: Partial<CatalogueInput> = {}): CatalogueInput {
   return {
     commitments: [commitmentFile(commitment())],
     indicators: [indicatorFile(indicator())],
     officialDomains: ["gov.ma", "hcp.ma", "bkam.ma"],
     bannedWords: { fr: [], ar: [] },
-    today: "2026-09-21",
+    today: "2026-09-30",
     ...overrides,
   };
 }

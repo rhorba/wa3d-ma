@@ -106,3 +106,6 @@
 
 ### [2026-09-21] COMPLETED — Story 1.6 V-8, V-9, V-11, V-12
 - rules/consistency.ts + MANDATE_START (2021-10-07; 2026-2031 placeholder 2026-09-24). Full V-9 boundary table (14 cases). V-3 test isolated (V-8 correctly flagged builder evidence predating 2026-2031). 147 tests, 100%.
+
+### [2026-09-21] COMPLETED — Story 1.7 V-10 + V-13..V-16
+- rules/neutrality.ts (FR accent/case, AR tashkeel/letter variants/proclitics, whole-word + phrases), freshness.ts (daysBetween, staleCommitments), rules/lifecycle.ts (V-13/14/15 warnings, V-16 embargo error incl. invalid files). data/banned-words.json v0 (23 FR, 16 AR). Builders: today 2026-09-30, evidence default achieved; earlier error tests filter warnings. 176 tests, 100%.

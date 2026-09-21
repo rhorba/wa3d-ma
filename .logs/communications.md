@@ -61,3 +61,6 @@
 
 ### [2026-09-21] HANDOFF — Security Engineer → Backend Dev (Story 1.6)
 - Context: V-7/V-17 merged 65b703d. Need: V-8 (lastVerified/mandate start), V-9 (status vs deadline boundaries), V-11 (indicator exists, direction), V-12 (indicator values order). Constraints: mandate start dates are placeholders except 2021-10-07 (DB §3 TBC).
+
+### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Copywriter (Story 1.7)
+- Context: ec0b6cc. Need: V-10 FR/AR (normalised whole-word + AR proclitics), V-13/14/15 warnings, V-16 embargo error, banned-words.json v0. Constraints: warnings never fail; no \u escapes in source.
