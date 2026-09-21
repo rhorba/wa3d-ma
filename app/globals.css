@@ -15,8 +15,9 @@
 
   --font-sans: var(--font-plex), system-ui, sans-serif;
   --font-serif: var(--font-source-serif), Georgia, serif;
-  --font-sans-ar: var(--font-plex-arabic), "Noto Sans Arabic", sans-serif;
-  --font-serif-ar: var(--font-naskh), "Amiri", serif;
+  /* Arabic files cover Arabic only: Latin letters and digits fall back to Plex Sans. */
+  --font-sans-ar: var(--font-plex-arabic), var(--font-plex), "Noto Sans Arabic", sans-serif;
+  --font-serif-ar: var(--font-naskh), var(--font-source-serif), "Amiri", serif;
 
   --text-sm: 0.875rem;
   --text-base: 1rem;
