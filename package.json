@@ -13,11 +13,13 @@
     "test": "vitest run --coverage",
     "test:unit": "vitest run --project unit",
     "test:integration": "vitest run --project integration",
-    "e2e": "playwright test",
+    "e2e": "playwright test --grep-invert @embargo",
     "fitness": "sh scripts/fitness.sh",
     "catalogue:validate": "tsx --conditions=react-server scripts/catalogue.ts validate",
     "catalogue:freshness": "tsx --conditions=react-server scripts/catalogue.ts freshness",
-    "catalogue:links": "tsx --conditions=react-server scripts/catalogue.ts links"
+    "catalogue:links": "tsx --conditions=react-server scripts/catalogue.ts links",
+    "e2e:embargo": "playwright test --grep @embargo",
+    "route-check": "sh scripts/route-check.sh"
   },
   "dependencies": {
     "next": "15.5.25",
@@ -28,6 +30,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@eslint/eslintrc": "^3",
     "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",

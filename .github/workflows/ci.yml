@@ -106,3 +106,48 @@ jobs:
           detect --source /repo --redact --exit-code 1
       - name: pnpm audit (SCA, critical fails)
         run: pnpm audit --audit-level=critical
+
+  e2e:
+    name: Build + E2E (FR/AR, fixtures)
+    runs-on: ubuntu-latest
+    # Fictional fixture catalogue with the archive enabled: exercises every page state.
+    env:
+      WA3D_DATA_DIR: tests/fixtures/catalogue/valid
+      NEXT_PUBLIC_ARCHIVE_ENABLED: "true"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm build | tee build.log
+      # SDR-1: fails if any route is dynamic (ƒ).
+      - run: pnpm route-check build.log
+      - run: pnpm e2e
+      - if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 7
+
+  embargo-smoke:
+    name: Embargo smoke (archive flag off)
+    runs-on: ubuntu-latest
+    env:
+      WA3D_DATA_DIR: tests/fixtures/catalogue/valid
+      NEXT_PUBLIC_ARCHIVE_ENABLED: "false"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm build
+      - run: pnpm e2e:embargo

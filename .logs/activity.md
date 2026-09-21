@@ -133,3 +133,6 @@
 
 ### [2026-09-21] COMPLETED — Story 2.1 layout, i18n, tokens, headers
 - UI tokens in Tailwind @theme, next/font self-hosted (Plex, Source Serif 4, Plex Arabic, Noto Naskh), SiteHeader (mandate menu, méthodologie, same-page language toggle), SiteFooter (neutrality, correction link, build date in bdi), StatusMark, ExternalLink (secondary variant), lib/format.ts, SEC-1 headers + CSP (no upgrade-insecure-requests: HSTS covers prod, breaks local e2e). No NextIntlClientProvider (JS budget). E2E 14/14; fonts verified by computed style.
+
+### [2026-09-21] COMPLETED — Story 3.2 CI e2e, route check, embargo smoke
+- CI jobs: e2e (fixture build, archive on, route-check, Playwright FR/AR desktop+mobile incl. axe) and embargo-smoke (archive off, @embargo specs). scripts/route-check.sh verified both ways. Local: e2e 18/18, embargo 10/10.
