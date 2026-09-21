@@ -1,0 +1,4 @@
+# Keep LF everywhere so Prettier's format:check gives the same result on Windows and in CI.
+* text=auto eol=lf
+*.png binary
+*.webm binary

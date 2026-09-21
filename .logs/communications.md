@@ -46,3 +46,6 @@
 
 ### [2026-09-21] HANDOFF — Scrum Master → Tech Lead (Story 0.1)
 - Context: Sprint 1 plan confirmed, PR per story. Need: scaffold matching da3m-ma (Architecture §1), fitness ESLint rules (§8), lib/env.ts (ADR-6 + WA3D_DATA_DIR). Constraints: no middleware, pinned versions, pnpm 10, Node 22, ESM.
+
+### [2026-09-21] HANDOFF — Tech Lead → DevOps/DevSecOps (Story 3.1)
+- Context: scaffold merged 7bfefe0. Need: ci.yml quality(+grep gates)/test/security, SHA-pinned, first run watched. Constraints: read-only perms, frozen lockfile, skills/docs excluded from scanners.

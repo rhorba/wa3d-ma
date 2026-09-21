@@ -26,3 +26,6 @@ docs/design/mockups/.built-*.html
 Thumbs.db
 .vscode/
 .idea/
+
+# crash dumps
+*.stackdump
