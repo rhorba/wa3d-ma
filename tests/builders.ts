@@ -1,4 +1,5 @@
 import type { Commitment, Evidence, Indicator, Source } from "@/lib/catalogue/schema";
+import type { CatalogueFile, CatalogueInput } from "@/lib/catalogue/validate";
 
 // Fictional test data (Test Strategy §2). Names say "fictif" so they can never be mistaken for real entries.
 
@@ -54,6 +55,26 @@ export function indicator(overrides: Partial<Indicator> = {}): Indicator {
       { year: 2021, period: "Y", value: 0, source: source() },
       { year: 2025, period: "Y", value: 620000, source: source() },
     ],
+    ...overrides,
+  };
+}
+
+export function commitmentFile(value: Commitment, path?: string): CatalogueFile {
+  return { path: path ?? `promises/${value.mandate}/${value.id}.json`, data: value };
+}
+
+export function indicatorFile(value: Indicator, path?: string): CatalogueFile {
+  return { path: path ?? `indicators/${value.id}.json`, data: value };
+}
+
+/** A valid catalogue by default: one commitment, one indicator, "today" frozen at 2026-09-21. */
+export function catalogueInput(overrides: Partial<CatalogueInput> = {}): CatalogueInput {
+  return {
+    commitments: [commitmentFile(commitment())],
+    indicators: [indicatorFile(indicator())],
+    officialDomains: ["gov.ma", "hcp.ma", "bkam.ma"],
+    bannedWords: { fr: [], ar: [] },
+    today: "2026-09-21",
     ...overrides,
   };
 }

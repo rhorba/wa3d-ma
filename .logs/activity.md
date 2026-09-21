@@ -92,3 +92,10 @@
 
 ### [2026-09-21] COMPLETED — Story 1.3 progress
 - lib/catalogue/progress.ts: ratio baseline→latest→target, both directions, clamped [0,1], null when no post-baseline value (FR-8) or zero distance. 6 examples + 2 properties (bounds, monotonic). 100% threshold added.
+
+### [2026-09-21] CI — PRs #4, #5, #6 and main after each: GREEN
+
+### [2026-09-21] MILESTONE — Batch B complete (schema #4, status #5, progress #6); coverage 100%
+
+### [2026-09-21] COMPLETED — Story 1.4 validator core (V-1..V-6)
+- validate.ts (pipeline, issues sorted, hasErrors, todayInCasablanca) + rules/types.ts + rules/structure.ts. 23 tests incl. 23:30 UTC = next day in Casablanca, fuzz 200 runs. 100% thresholds on validate.ts + rules/**. Total 94 tests, 100% coverage.
