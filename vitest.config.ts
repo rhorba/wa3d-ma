@@ -40,6 +40,13 @@ export default defineConfig({
         branches: 80,
         "lib/catalogue/status.ts": { lines: 100, statements: 100, functions: 100, branches: 100 },
         "lib/catalogue/progress.ts": { lines: 100, statements: 100, functions: 100, branches: 100 },
+        "lib/catalogue/validate.ts": { lines: 100, statements: 100, functions: 100, branches: 100 },
+        "lib/catalogue/rules/**/*.ts": {
+          lines: 100,
+          statements: 100,
+          functions: 100,
+          branches: 100,
+        },
       },
     },
   },

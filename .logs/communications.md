@@ -52,3 +52,6 @@
 
 ### [2026-09-21] HANDOFF — DevOps → Backend Dev (Story 1.1)
 - Context: Batch A done, CI green on main (9d92f78). Need: zod schemas per DB v1.2 §3 + test builders. Constraints: pure module (zod only, ESLint-enforced), strict objects, https URLs, NFC text; V-17 comes in 1.5.
+
+### [2026-09-21] HANDOFF — Backend Dev (Batch B) → Backend Dev + Tester (Batch C, Story 1.4)
+- Context: schema/status/progress merged (b271297), coverage 100%. Need: validateCatalogue skeleton (issues with rule/severity/file), V-1..V-6, Casablanca today, fuzz. Constraints: pure (zod only), today injected, exactly-one-rule-per-fixture tests.
