@@ -55,7 +55,7 @@ export function checkMissingData({ commitments, indicators, report }: RuleContex
 
 /** V-16 (error): 2021-2026 files present before the embargo lifts, valid or not (SEC-8). */
 export function checkEmbargo({ input, report }: RuleContext): void {
-  if (input.today >= EMBARGO_LIFTS_ON) return;
+  if (!input.enforceEmbargo || input.today >= EMBARGO_LIFTS_ON) return;
   for (const { path } of input.commitments) {
     if (path.replaceAll("\\", "/").startsWith(EMBARGOED_FOLDER)) {
       report(

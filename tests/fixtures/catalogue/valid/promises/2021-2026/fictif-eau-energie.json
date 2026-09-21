@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-eau-energie",
+  "mandate": "2021-2026",
+  "theme": "water_energy",
+  "title": {
+    "fr": "Dessalement fictif de l'eau de mer",
+    "ar": "تحلية وهمية لمياه البحر"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : trois stations de dessalement seront mises en service. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيتم تشغيل ثلاث محطات لتحلية المياه.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 50
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-14",
+  "evidence": [
+    {
+      "date": "2022-09-01",
+      "status": "in_progress",
+      "note": {
+        "fr": "Signature fictive des conventions de construction.",
+        "ar": "توقيع وهمي لاتفاقيات البناء."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7006",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7006.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "status": "partial",
+      "note": {
+        "fr": "Mise en service fictive d'une station sur trois.",
+        "ar": "تشغيل وهمي لمحطة واحدة من أصل ثلاث."
+      },
+      "source": {
+        "name": "Ministère fictif de l'énergie",
+        "url": "https://www.mem.gov.ma/fictif/station.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

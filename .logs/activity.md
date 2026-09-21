@@ -109,3 +109,10 @@
 
 ### [2026-09-21] COMPLETED — Story 1.7 V-10 + V-13..V-16
 - rules/neutrality.ts (FR accent/case, AR tashkeel/letter variants/proclitics, whole-word + phrases), freshness.ts (daysBetween, staleCommitments), rules/lifecycle.ts (V-13/14/15 warnings, V-16 embargo error incl. invalid files). data/banned-words.json v0 (23 FR, 16 AR). Builders: today 2026-09-30, evidence default achieved; earlier error tests filter warnings. 176 tests, 100%.
+
+### [2026-09-21] CI — PRs #7-#10 and main after each: GREEN
+
+### [2026-09-21] MILESTONE — Batch C complete (validator V-1..V-17: #7 core, #8 security, #9 consistency, #10 neutrality/lifecycle); 176 tests, 100% coverage
+
+### [2026-09-21] COMPLETED — Story 1.8 loader, mandates, fixtures
+- lib/catalogue/load.ts (readCatalogue/buildCatalogue/loadCatalogue memo, CatalogueError, programme order, V-1 on unparsable JSON, reference lists always from data/, embargo only for data/), lib/mandates.ts (enabledMandates, defaultMandate ADR-10), server-only (+ vitest stub; CLI must use tsx --conditions=react-server). Fictional fixture: 10 commitments (all themes/statuses/provenances), 2 indicators, 2 intended warnings. Integration: 13 broken-catalogue scenarios generated in temp dirs. 205 tests; total branches 97.6%.

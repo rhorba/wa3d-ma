@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-logement",
+  "mandate": "2021-2026",
+  "theme": "housing",
+  "title": {
+    "fr": "Aide fictive au logement",
+    "ar": "دعم وهمي للسكن"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : une aide au logement sera créée. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيتم إحداث دعم للسكن.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 45
+  },
+  "deadline": "2024-12-31",
+  "lastVerified": "2026-09-14",
+  "evidence": [
+    {
+      "date": "2024-10-01",
+      "status": "achieved",
+      "note": {
+        "fr": "Publication fictive du décret instituant l'aide.",
+        "ar": "نشر وهمي للمرسوم المحدث للدعم."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7005",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7005.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

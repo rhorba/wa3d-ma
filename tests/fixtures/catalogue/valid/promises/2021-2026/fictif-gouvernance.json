@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-gouvernance",
+  "mandate": "2021-2026",
+  "theme": "governance",
+  "title": {
+    "fr": "Réforme fictive de l'administration",
+    "ar": "إصلاح وهمي للإدارة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif traduit : l'administration sera réformée. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«نص وهمي أصلي: سيتم إصلاح الإدارة.»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 40
+  },
+  "deadline": "2027-12-31",
+  "lastVerified": "2026-09-14",
+  "evidence": [
+    {
+      "date": "2023-06-01",
+      "status": "in_progress",
+      "note": {
+        "fr": "Dépôt fictif d'un projet de loi au Parlement.",
+        "ar": "إيداع وهمي لمشروع قانون بالبرلمان."
+      },
+      "source": {
+        "name": "Chambre des représentants fictive",
+        "url": "https://www.chambredesrepresentants.ma/fictif/projet.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

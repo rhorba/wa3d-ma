@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-autre",
+  "mandate": "2021-2026",
+  "theme": "other",
+  "title": {
+    "fr": "Création fictive d'un observatoire",
+    "ar": "إحداث وهمي لمرصد"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : un observatoire sera créé. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيتم إحداث مرصد.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 55
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-14",
+  "evidence": [
+    {
+      "date": "2026-02-01",
+      "status": "not_achieved",
+      "note": {
+        "fr": "Aucun texte fictif de création publié à l'échéance.",
+        "ar": "لم ينشر أي نص وهمي للإحداث عند الأجل."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7007",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7007.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

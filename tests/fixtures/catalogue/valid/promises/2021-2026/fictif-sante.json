@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-sante",
+  "mandate": "2021-2026",
+  "theme": "health",
+  "title": {
+    "fr": "Construction fictive de dix hôpitaux",
+    "ar": "بناء وهمي لعشرة مستشفيات"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : dix hôpitaux seront construits. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيتم بناء عشرة مستشفيات.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 25
+  },
+  "deadline": "2025-06-30",
+  "lastVerified": "2026-09-10",
+  "evidence": [
+    {
+      "date": "2023-01-15",
+      "status": "in_progress",
+      "note": {
+        "fr": "Inscription fictive des crédits en loi de finances.",
+        "ar": "رصد وهمي للاعتمادات في قانون المالية."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7004",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7004.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": "not_achieved",
+      "note": {
+        "fr": "Aucun acte fictif de réception des ouvrages à l'échéance.",
+        "ar": "لا يوجد محضر تسلم وهمي للمنشآت عند الأجل."
+      },
+      "source": {
+        "name": "Ministère fictif de la santé, rapport",
+        "url": "https://www.sante.gov.ma/fictif/rapport.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

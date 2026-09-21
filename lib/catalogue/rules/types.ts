@@ -23,6 +23,8 @@ export type CatalogueInput = {
   bannedWords: { fr: string[]; ar: string[] };
   /** Today's date in Africa/Casablanca, "YYYY-MM-DD" (injected so tests can freeze it). */
   today: string;
+  /** V-16 applies to the real catalogue only; fictional test fixtures are exempt (ADR-3). */
+  enforceEmbargo: boolean;
 };
 
 export type Parsed<T> = { file: string; value: T };

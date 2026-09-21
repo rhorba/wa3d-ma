@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-education",
+  "mandate": "2021-2026",
+  "theme": "education",
+  "title": {
+    "fr": "Réduction fictive de l'abandon scolaire",
+    "ar": "خفض وهمي للهدر المدرسي"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : l'abandon scolaire passera sous 5 %. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سينخفض الهدر المدرسي إلى أقل من 5 في المائة.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 30
+  },
+  "target": {
+    "indicatorId": "fictif-abandon-scolaire",
+    "baseline": {
+      "value": 10.5,
+      "year": 2021,
+      "source": {
+        "name": "HCP, note fictive abandon-2021",
+        "url": "https://www.hcp.ma/fictif/abandon-2021.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    "value": 5,
+    "direction": "decrease"
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-12",
+  "evidence": [
+    {
+      "date": "2024-05-02",
+      "status": "abandoned",
+      "note": {
+        "fr": "Remplacement fictif de l'objectif par un nouveau plan.",
+        "ar": "تعويض وهمي للهدف بمخطط جديد."
+      },
+      "source": {
+        "name": "Ministère fictif de l'éducation, communiqué",
+        "url": "https://www.men.gov.ma/fictif/communique.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

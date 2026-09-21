@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-economie",
+  "mandate": "2021-2026",
+  "theme": "economy",
+  "title": {
+    "fr": "Croissance fictive de 4 % par an",
+    "ar": "نمو وهمي بنسبة 4 في المائة سنويا"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : la croissance atteindra 4 % par an. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيبلغ النمو 4 في المائة سنويا.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 35
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-12",
+  "evidence": []
+}
