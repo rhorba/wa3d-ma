@@ -122,3 +122,8 @@
 
 ### [2026-09-21] COMPLETED — Story 4.1 curation guide + reference lists v1
 - docs/curation-guide.md (10 sections: layout, adding a commitment, statuses table, neutral notes, sources/archives, freshness, PR checks, embargo branch, correction issues, checklist). Lists v1 approved by user; inflected forms added. 218 tests.
+
+### [2026-09-21] MILESTONE — Sprint 1 SHIP
+- VERIFY on main 1b533db: lint/types/format/fitness ok, 218 tests, coverage 100% lines / 97.3% branches (>= 80%), catalogue:validate data/ clean, pnpm audit clean, build static, e2e 6/6, CI green.
+- Recording (rule 9): not applicable, Sprint 1 has no user-facing pages (first recording at v1.0, Story 4.5).
+- Retro: ✅ PR-per-story kept every change CI-gated and reviewable; property + adversarial tests caught real edge cases (V-3/V-8 interplay, AR feminine forms, phrase at end of text). ❌ Tooling silently turned \u escapes into invisible characters (twice) and bash heredocs with apostrophes failed; one red main run from a CI cache setting. 💡 Keep numeric code points + the fitness hidden-char scan; use the Write tool for multi-line files; watch main after every merge (did).

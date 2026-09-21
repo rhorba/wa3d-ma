@@ -23,3 +23,9 @@
 
 ### [2026-09-21] SESSION_START
 - Resumed after foundation push (1ca0e7e). Starting Sprint 1 (engine).
+
+### [2026-09-21] SESSION_END
+- Completed: Sprint 1 (engine) end to end, 13 PRs merged, CI green, reference lists v1 approved, curation guide written.
+- Open decisions for later: NFR-1 JS budget (Story 2.3/3.3); 2021-2026 mandate end date and 2026-2031 start date (curation).
+- User actions still pending: 2FA on GitHub/Vercel; GitHub email privacy settings; Vercel import (Story 3.5).
+- Next: Sprint 2 (pages + CI E2E/Lighthouse + repo hardening + first deploy), starting with UNDERSTAND/BRAINSTORM/PLAN.
