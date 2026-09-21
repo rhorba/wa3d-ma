@@ -126,6 +126,14 @@ describe("V-16 embargo (error)", () => {
     expect(issuesOf(one(value, "2026-09-24"))).not.toContain("V-16:error");
   });
 
+  it("does not apply to fictional fixtures (enforceEmbargo: false)", () => {
+    const input = {
+      ...one(commitment({ lastVerified: "2026-09-20" }), "2026-09-23"),
+      enforceEmbargo: false,
+    };
+    expect(issuesOf(input)).not.toContain("V-16:error");
+  });
+
   it("never blocks the 2026-2031 mandate", () => {
     const current = commitment({
       mandate: "2026-2031",

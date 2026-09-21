@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-protection-sociale",
+  "mandate": "2021-2026",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Généralisation fictive de la protection sociale",
+    "ar": "تعميم وهمي للحماية الاجتماعية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : la protection sociale sera généralisée. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: سيتم تعميم الحماية الاجتماعية.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 20
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-10",
+  "evidence": [
+    {
+      "date": "2022-04-01",
+      "status": "in_progress",
+      "note": {
+        "fr": "Adoption fictive d'une loi-cadre.",
+        "ar": "اعتماد وهمي لقانون إطار."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7002",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7002.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "status": "achieved",
+      "note": {
+        "fr": "Entrée en vigueur fictive du dernier décret d'application.",
+        "ar": "دخول وهمي لآخر مرسوم تطبيقي حيز التنفيذ."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7003",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7003.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

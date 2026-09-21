@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-emplois-nets",
+  "name": {
+    "fr": "Emplois nets créés (fictif)",
+    "ar": "مناصب الشغل الصافية المحدثة (وهمي)"
+  },
+  "unit": "count",
+  "decimals": 0,
+  "values": [
+    {
+      "year": 2021,
+      "period": "Y",
+      "value": 0,
+      "source": {
+        "name": "HCP, note fictive emploi-2021",
+        "url": "https://www.hcp.ma/fictif/emploi-2021.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "year": 2023,
+      "period": "Y",
+      "value": 350000,
+      "source": {
+        "name": "HCP, note fictive emploi-2023",
+        "url": "https://www.hcp.ma/fictif/emploi-2023.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "year": 2025,
+      "period": "Y",
+      "value": 620000,
+      "source": {
+        "name": "HCP, note fictive emploi-2025",
+        "url": "https://www.hcp.ma/fictif/emploi-2025.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

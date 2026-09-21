@@ -64,3 +64,6 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Copywriter (Story 1.7)
 - Context: ec0b6cc. Need: V-10 FR/AR (normalised whole-word + AR proclitics), V-13/14/15 warnings, V-16 embargo error, banned-words.json v0. Constraints: warnings never fail; no \u escapes in source.
+
+### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Tester (Story 1.8)
+- Context: validator complete 8928bce. Need: load.ts (fs, memo, throws on errors), mandates.ts (enabled/default, ADR-10), valid fixture catalogue. Constraints: server-only, reference lists always from data/, V-16 only enforced for the real data dir (fixtures are fictional).

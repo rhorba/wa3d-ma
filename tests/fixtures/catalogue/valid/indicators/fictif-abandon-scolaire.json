@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-abandon-scolaire",
+  "name": {
+    "fr": "Taux d'abandon scolaire (fictif)",
+    "ar": "نسبة الهدر المدرسي (وهمي)"
+  },
+  "unit": "percent",
+  "decimals": 1,
+  "values": [
+    {
+      "year": 2020,
+      "period": "Y",
+      "value": 11.2,
+      "source": {
+        "name": "HCP, note fictive abandon-2020",
+        "url": "https://www.hcp.ma/fictif/abandon-2020.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    {
+      "year": 2021,
+      "period": "Y",
+      "value": 10.5,
+      "source": {
+        "name": "HCP, note fictive abandon-2021",
+        "url": "https://www.hcp.ma/fictif/abandon-2021.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

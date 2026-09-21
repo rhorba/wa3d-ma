@@ -75,6 +75,7 @@ export function catalogueInput(overrides: Partial<CatalogueInput> = {}): Catalog
     officialDomains: ["gov.ma", "hcp.ma", "bkam.ma"],
     bannedWords: { fr: [], ar: [] },
     today: "2026-09-30",
+    enforceEmbargo: true,
     ...overrides,
   };
 }

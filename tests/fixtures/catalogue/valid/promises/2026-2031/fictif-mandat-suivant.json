@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-mandat-suivant",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Engagement fictif du mandat suivant",
+    "ar": "التزام وهمي للولاية الموالية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif du programme suivant. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي من البرنامج الموالي.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2026-2031",
+    "url": "https://www.cg.gov.ma/fictif/programme-2026.pdf",
+    "accessed": "2026-09-21",
+    "page": 3
+  },
+  "deadline": "2031-10-01",
+  "lastVerified": "2026-09-21",
+  "evidence": []
+}

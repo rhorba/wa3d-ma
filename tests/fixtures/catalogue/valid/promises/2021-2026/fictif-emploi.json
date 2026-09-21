@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "fictif-emploi",
+  "mandate": "2021-2026",
+  "theme": "employment",
+  "title": {
+    "fr": "Création fictive d'un million d'emplois nets",
+    "ar": "إحداث وهمي لمليون منصب شغل صاف"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Texte fictif : le gouvernement créera un million d'emplois nets. »",
+      "provenance": "original"
+    },
+    "ar": {
+      "text": "«نص وهمي: ستحدث الحكومة مليون منصب شغل صاف.»",
+      "provenance": "official_translation"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental fictif 2021-2026",
+    "url": "https://www.cg.gov.ma/fictif/programme-2021.pdf",
+    "accessed": "2026-09-10",
+    "page": 12
+  },
+  "target": {
+    "indicatorId": "fictif-emplois-nets",
+    "baseline": {
+      "value": 0,
+      "year": 2021,
+      "source": {
+        "name": "HCP, note fictive emploi-2021",
+        "url": "https://www.hcp.ma/fictif/emploi-2021.pdf",
+        "accessed": "2026-09-10"
+      }
+    },
+    "value": 1000000,
+    "direction": "increase"
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-15",
+  "evidence": [
+    {
+      "date": "2022-02-02",
+      "status": "in_progress",
+      "note": {
+        "fr": "Lancement fictif d'un programme de chantiers publics.",
+        "ar": "إطلاق وهمي لبرنامج أوراش عمومية."
+      },
+      "source": {
+        "name": "Bulletin officiel fictif n° 7001",
+        "url": "https://www.sgg.gov.ma/fictif/bo-7001.pdf",
+        "accessed": "2026-09-10"
+      },
+      "pointers": [
+        {
+          "name": "Presse fictive",
+          "url": "https://presse.example/article-fictif"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "status": "partial",
+      "note": {
+        "fr": "Le HCP fictif publie 620 000 emplois nets créés sur la période.",
+        "ar": "نشرت المندوبية الوهمية 620 000 منصب شغل صاف خلال الفترة."
+      },
+      "source": {
+        "name": "HCP, note fictive emploi-2025",
+        "url": "https://www.hcp.ma/fictif/emploi-2025.pdf",
+        "accessed": "2026-09-10"
+      }
+    }
+  ]
+}

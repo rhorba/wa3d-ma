@@ -28,3 +28,6 @@
 
 ### [2026-09-21] SECURITY — archiveUrl restricted to web.archive.org (within V-7 / SEC-3 intent)
 - Otherwise a "Copie archivée" link could point anywhere. Flagged to user.
+
+### [2026-09-21] APPROACH — V-16 enforced only for the real catalogue (data/)
+- Fixtures are fictional and include a 2021-2026 mandate; CI E2E builds them. CatalogueInput.enforceEmbargo=true only when dataDir is data/. Invalid-rule catalogues are generated in a temp dir by the integration test instead of committed invalid/<rule>/ folders (same coverage, cannot drift from the valid base).
