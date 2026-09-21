@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { SiteHeader } from "@/components/layout/SiteHeader";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -9,9 +10,12 @@ export default async function HomePage({ params }: Props) {
   const t = await getTranslations("home");
 
   return (
-    <main className="mx-auto max-w-2xl px-4 py-12">
-      <h1 className="text-3xl font-semibold">{t("title")}</h1>
-      <p className="mt-3">{t("building")}</p>
-    </main>
+    <>
+      <SiteHeader path="" />
+      <main id="main" className="mx-auto max-w-[680px] px-4 py-8">
+        <h1 className="text-xl md:text-2xl">{t("title")}</h1>
+        <p className="mt-3">{t("building")}</p>
+      </main>
+    </>
   );
 }

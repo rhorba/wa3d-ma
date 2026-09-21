@@ -6,5 +6,45 @@
   "home": {
     "title": "Wa3d.ma",
     "building": "Site en construction."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "main": "Navigation principale",
+    "mandates": "Mandats",
+    "mandate": "Mandat {mandate}",
+    "pending": "publication attendue",
+    "methodology": "Méthodologie",
+    "otherLanguage": "العربية",
+    "otherLanguageName": "Version arabe"
+  },
+  "footer": {
+    "neutrality": "Wa3d.ma suit les engagements du gouvernement, quelle que soit la coalition, avec les mêmes règles et des sources officielles.",
+    "label": "Pied de page",
+    "methodology": "Méthodologie",
+    "report": "Signaler une erreur",
+    "source": "Code source et historique",
+    "updated": "Site mis à jour le"
+  },
+  "a11y": {
+    "newTab": "(nouvel onglet)"
+  },
+  "status": {
+    "not_started": "Non engagé",
+    "in_progress": "En cours",
+    "achieved": "Réalisé",
+    "partial": "Partiellement réalisé",
+    "not_achieved": "Non réalisé",
+    "abandoned": "Abandonné"
+  },
+  "theme": {
+    "employment": "Emploi",
+    "social_protection": "Protection sociale",
+    "health": "Santé",
+    "education": "Éducation",
+    "economy": "Économie",
+    "governance": "Gouvernance",
+    "housing": "Logement",
+    "water_energy": "Eau et énergie",
+    "other": "Autres"
   }
 }

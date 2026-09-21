@@ -6,5 +6,45 @@
   "home": {
     "title": "وعد",
     "building": "الموقع قيد الإنشاء."
+  },
+  "nav": {
+    "skip": "الانتقال إلى المحتوى",
+    "main": "التنقل الرئيسي",
+    "mandates": "الولايات",
+    "mandate": "ولاية {mandate}",
+    "pending": "في انتظار النشر",
+    "methodology": "المنهجية",
+    "otherLanguage": "Français",
+    "otherLanguageName": "النسخة الفرنسية"
+  },
+  "footer": {
+    "neutrality": "يتتبع موقع وعد التزامات الحكومة، أيا كان التحالف، وفق القواعد نفسها واعتمادا على مصادر رسمية.",
+    "label": "تذييل الصفحة",
+    "methodology": "المنهجية",
+    "report": "الإبلاغ عن خطأ",
+    "source": "الشيفرة المصدرية والسجل",
+    "updated": "آخر تحديث للموقع"
+  },
+  "a11y": {
+    "newTab": "(علامة تبويب جديدة)"
+  },
+  "status": {
+    "not_started": "لم يشرع فيه",
+    "in_progress": "قيد التنفيذ",
+    "achieved": "منجز",
+    "partial": "منجز جزئيا",
+    "not_achieved": "غير منجز",
+    "abandoned": "متخلى عنه"
+  },
+  "theme": {
+    "employment": "التشغيل",
+    "social_protection": "الحماية الاجتماعية",
+    "health": "الصحة",
+    "education": "التعليم",
+    "economy": "الاقتصاد",
+    "governance": "الحكامة",
+    "housing": "السكن",
+    "water_energy": "الماء والطاقة",
+    "other": "مواضيع أخرى"
   }
 }
