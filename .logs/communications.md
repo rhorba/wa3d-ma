@@ -79,3 +79,8 @@
 
 ### [2026-09-21] HANDOFF — Scrum Master → Frontend Dev + UI Designer (Story 2.1)
 - Context: engine done; UI v1.0 approved (tokens, marks, mockups rfinal). Need: Tailwind @theme tokens, next/font, header/footer, status marks, SEC-1 headers, lang/dir. Constraints: static only, no client components here, AR mirrored with logical properties, Western digits.
+
+### [2026-09-21] CI — PR #15 (2.1) and main: GREEN
+
+### [2026-09-21] HANDOFF — Frontend Dev → DevOps + Tester (Story 3.2)
+- Context: layout merged 8bc56c9, local e2e 14/14. Need: CI e2e job on fixture build (+ axe), route check (no ƒ), embargo smoke (flag off). Constraints: SHA-pinned actions, build env via job env, @embargo specs split with --grep.
