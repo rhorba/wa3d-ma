@@ -7,6 +7,12 @@ import {
   checkQuoteProvenance,
   checkUniqueIds,
 } from "./rules/structure";
+import {
+  checkIndicatorOrder,
+  checkStatusAgainstDeadline,
+  checkTargets,
+  checkVerificationDates,
+} from "./rules/consistency";
 import { checkHiddenCharacters, checkOfficialSources } from "./rules/sources";
 import type { CatalogueInput, Issue, Parsed, RuleContext, Severity } from "./rules/types";
 
@@ -27,6 +33,10 @@ const RULES: ((context: RuleContext) => void)[] = [
   checkEvidenceOrder, // V-5
   checkNoFutureDates, // V-6
   checkOfficialSources, // V-7
+  checkVerificationDates, // V-8
+  checkStatusAgainstDeadline, // V-9
+  checkTargets, // V-11
+  checkIndicatorOrder, // V-12
   checkHiddenCharacters, // V-17
 ];
 
