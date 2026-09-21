@@ -49,3 +49,6 @@
 
 ### [2026-09-21] HANDOFF — Tech Lead → DevOps/DevSecOps (Story 3.1)
 - Context: scaffold merged 7bfefe0. Need: ci.yml quality(+grep gates)/test/security, SHA-pinned, first run watched. Constraints: read-only perms, frozen lockfile, skills/docs excluded from scanners.
+
+### [2026-09-21] HANDOFF — DevOps → Backend Dev (Story 1.1)
+- Context: Batch A done, CI green on main (9d92f78). Need: zod schemas per DB v1.2 §3 + test builders. Constraints: pure module (zod only, ESLint-enforced), strict objects, https URLs, NFC text; V-17 comes in 1.5.

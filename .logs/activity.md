@@ -78,3 +78,11 @@
 ### [2026-09-21] CI — PR #2 run 35636081083 GREEN (4/4 jobs)
 ### [2026-09-21] CI — main after #2 RED: security job
 - Cause: setup-node cache: pnpm in a job that never installs; no cache on main → post-step "Path Validation Error". Fix: drop cache from security job (fix/ci-security-cache).
+
+### [2026-09-21] CI — main after #3 GREEN (4/4). Issue closed.
+
+### [2026-09-21] MILESTONE — Batch A complete (PR #1 scaffold, #2 CI, #3 CI fix)
+- Note: python edits on Windows write CRLF; use newline="" from now on (.gitattributes keeps the index LF).
+
+### [2026-09-21] COMPLETED — Story 1.1 schema (PR feature/1.1-schema)
+- lib/catalogue/schema.ts (DB v1.2: strict objects, https URLs, NFC text, titles <= 90, baseline.source) + tests/builders.ts (fictional). 34 schema tests. Note: tools turned a \u0301 escape into an invisible literal; test now builds it with String.fromCodePoint (V-17 relevance).

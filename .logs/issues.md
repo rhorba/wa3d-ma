@@ -4,4 +4,4 @@
 
 
 ### [2026-09-21] ERROR — CI red on main: security job cache post-step
-- Status: fixing via PR (fix/ci-security-cache). Not a security finding.
+- Status: RESOLVED in #3 (9d92f78); main green. Not a security finding.
