@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js / build
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env (only .env.example is committed)
+.env
+.env*.local
+
+# tests
+coverage/
+playwright-report/
+test-results/
+.lighthouseci/
+
+# design loop build leftovers
+docs/design/mockups/.built-*.html
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

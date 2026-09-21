@@ -1,0 +1,10 @@
+import { createRequire } from 'node:module'; import path from 'node:path'; import url from 'node:url'; import fs from 'node:fs';
+const require = createRequire(path.resolve('../../../../da3m-ma/package.json'));
+const { chromium } = require('@playwright/test');
+const dir = path.dirname(url.fileURLToPath(import.meta.url));
+const [file, sel, outName, width='390'] = process.argv.slice(2);
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: +width, height: 900 }, deviceScaleFactor: 2 });
+await p.goto(url.pathToFileURL(path.join(dir, '.built-' + file + '.html')).href, { waitUntil: 'networkidle' });
+await p.evaluate(() => document.fonts.ready);
+await p.locator(sel).first().screenshot({ path: path.join(dir, 'shots', outName + '.png') });
+await b.close();
