@@ -62,3 +62,9 @@
 
 ### [2026-09-21] COMPLETED — Task 5.3 Stories draft
 - docs/stories-wa3d-ma.md v1.0 Draft: 6 epics, 31 stories (max L; dataset split 4.3a-c), Gherkin per story, 4 sprints (engine ~4d, pages+CI ~4.5d, dataset+launch ~5d, 2026-2031 triggered), traceability FR/NFR/US. Archive realistic go-live early Oct. Awaiting approval (gate), then .env.example + docs commit + push.
+
+### [2026-09-21] MILESTONE — All 10 foundation docs approved (Stories v1.0 approved)
+
+### [2026-09-21] PUSH — Foundation pushed to github.com/rhorba/wa3d-ma (public, main)
+- Commits bf328ca (docs: foundation documents) + e92133e (chore: CTS framework, handoff, logs). Branch master→main renamed; repo-local email set to GitHub noreply (SEC-7). Pre-push scan: no personal email/secrets.
+- CI status: no workflows yet (arrive with Story 3.1), nothing to monitor.
