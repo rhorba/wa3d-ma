@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Design tokens land with Story 2.1 (docs/ui-wa3d-ma.md §2). */
+@layer base {
+  body {
+    background: #f7f5f0;
+    color: #1b1b18;
+  }
+}

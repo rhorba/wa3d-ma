@@ -40,3 +40,9 @@
 
 ### [2026-09-21] HANDOFF — DevOps/DevSecOps → Scrum Master (+ Test Architect)
 - Context: 9 docs approved. Need: epics, <=1-day stories with Gherkin, deps, sprints, traceability. Constraints: solo dev, user-verified dataset, embargo floor 24 Sept, 2026-2031 within 72 h.
+
+### [2026-09-21] UNDERSTAND — Sprint 1 kickoff
+- What: Sprint 1 = stories 0.1, 1.1-1.9, 3.1, 4.1 (~4 days). Where: continuation, repo pushed, no code. Size: large epic. Env vars: already collected (.env.example). Specialists: Tech Lead, Backend Dev, Tester, DevOps, Security Engineer (1.5), PM/Copywriter (4.1).
+
+### [2026-09-21] HANDOFF — Scrum Master → Tech Lead (Story 0.1)
+- Context: Sprint 1 plan confirmed, PR per story. Need: scaffold matching da3m-ma (Architecture §1), fitness ESLint rules (§8), lib/env.ts (ADR-6 + WA3D_DATA_DIR). Constraints: no middleware, pinned versions, pnpm 10, Node 22, ESM.

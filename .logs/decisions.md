@@ -22,3 +22,6 @@
 
 ### [2026-09-21] SECURITY — CSP script-src unsafe-inline (SEC-D1)
 - SSG forbids nonces; compensating controls: no input, text-only rendering, no 3rd-party scripts, connect-src self, form-action none.
+
+### [2026-09-21] APPROACH — Sprint 1 delivery: 🔴 PR per story (user choice)
+- 12 branches/PRs, each CI-gated and squash-merged. Options offered: 🟢 one PR, 🟡 PR per epic with CI first (recommended), 🔴 PR per story.

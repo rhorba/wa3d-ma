@@ -68,3 +68,9 @@
 ### [2026-09-21] PUSH — Foundation pushed to github.com/rhorba/wa3d-ma (public, main)
 - Commits bf328ca (docs: foundation documents) + e92133e (chore: CTS framework, handoff, logs). Branch master→main renamed; repo-local email set to GitHub noreply (SEC-7). Pre-push scan: no personal email/secrets.
 - CI status: no workflows yet (arrive with Story 3.1), nothing to monitor.
+
+### [2026-09-21] PLAN — Sprint 1 confirmed by user
+- Batches: A (PR1 scaffold, PR2 CI) · B (PR3-5 schema/status/progress) · C (PR6-9 validator) · D (PR10 loader, PR11 CLI + catalogue job, PR12 guide, SHIP). Checkpoint after each batch.
+
+### [2026-09-21] COMPLETED — Story 0.1 scaffold (PR 1)
+- Next 15.5.25/React 19.1/next-intl 4/zod 4.6.5/Tailwind 4/Vitest 5/Playwright 1.63, lockfile seeded from da3m-ma (7-day release-age guard blocked prettier 3.9.8). ESLint fitness rules (pure domain imports, react/no-danger, process.env only in lib/env.ts). lib/env.ts validated at next.config load (prerender errors are redacted, so config-time check gives readable failures). Local: lint/types/format OK, 17 tests, coverage 100%, build all static, e2e 6/6. No CI yet (arrives PR 2).

@@ -20,3 +20,6 @@
 - Completed: PRD v1.1 answers + approval; System Design, Architecture (ADR-3 amended), Security, Database v1.2 (baseline.source, V-17), UX, UI (3-round design loop, mockups in docs/design), Test Strategy, DevOps, Stories — all approved. .env.example, .gitignore, public repo rhorba/wa3d-ma created, pushed.
 - Next: Sprint 1 (engine): Story 0.1 scaffold → 1.1-1.9 → 3.1 CI → 4.1 curation guide. Each story: UNDERSTAND→…→SHIP per CLAUDE.md.
 - User actions pending: 2FA on GitHub/Vercel; GitHub email privacy settings ("Keep my email private" + block pushes exposing email); Vercel import + env vars (Sprint 2, Story 3.5); confirm 2021-2026 mandate end date during curation.
+
+### [2026-09-21] SESSION_START
+- Resumed after foundation push (1ca0e7e). Starting Sprint 1 (engine).
