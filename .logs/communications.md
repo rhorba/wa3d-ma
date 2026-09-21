@@ -58,3 +58,6 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Security Engineer (Story 1.5)
 - Context: pipeline merged 7f70dfd. Need: V-7 allowlist, V-17, official-domains.json v0, adversarial table. Constraints: WHATWG URL parsing, pointers exempt, ZWNJ allowed.
+
+### [2026-09-21] HANDOFF — Security Engineer → Backend Dev (Story 1.6)
+- Context: V-7/V-17 merged 65b703d. Need: V-8 (lastVerified/mandate start), V-9 (status vs deadline boundaries), V-11 (indicator exists, direction), V-12 (indicator values order). Constraints: mandate start dates are placeholders except 2021-10-07 (DB §3 TBC).

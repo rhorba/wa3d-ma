@@ -75,7 +75,7 @@ describe("V-2 file location", () => {
 describe("V-3 unique ids", () => {
   it("rejects the same id in two mandates", () => {
     const a = commitment();
-    const b = commitment({ mandate: "2026-2031", deadline: "2031-10-01" });
+    const b = commitment({ mandate: "2026-2031", deadline: "2031-10-01", evidence: [] });
     const issues = validateCatalogue(withCommitments(a, b)).issues;
     expect(issues.map((issue) => issue.rule)).toEqual(["V-3"]);
     expect(issues[0]?.message).toMatch(
