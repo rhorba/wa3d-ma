@@ -31,3 +31,6 @@
 
 ### [2026-09-21] APPROACH — V-16 enforced only for the real catalogue (data/)
 - Fixtures are fictional and include a 2021-2026 mandate; CI E2E builds them. CatalogueInput.enforceEmbargo=true only when dataDir is data/. Invalid-rule catalogues are generated in a temp dir by the integration test instead of committed invalid/<rule>/ folders (same coverage, cannot drift from the valid base).
+
+### [2026-09-21] APPROACH — Reference lists v1 approved by user (Story 4.1)
+- official-domains: v0 + anapec.org, cnss.ma, one.org.ma, ondh.ma, cese.ma. banned-words: v0 + FR décevant, encourageant, ambitieux, remarquable, insuffisant / AR مخيب، مشجع، طموح، ملحوظ، غير كاف, plus their feminine/plural forms (whole-word matching needs them; "غير كافية" slipped through in the test). Archives: web.archive.org only (confirmed).

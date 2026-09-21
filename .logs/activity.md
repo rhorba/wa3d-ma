@@ -119,3 +119,6 @@
 
 ### [2026-09-21] COMPLETED — Story 1.9 catalogue CLI + CI catalogue job
 - scripts/catalogue.ts (validate exit 1 on errors; freshness; links HEAD→GET fallback, warnings only), lib/catalogue/report.ts (formatting, markdown summary, sourceLinks, checkLinks with injectable fetch). CI job validates data/ and the fixtures, writes the job summary. 217 tests.
+
+### [2026-09-21] COMPLETED — Story 4.1 curation guide + reference lists v1
+- docs/curation-guide.md (10 sections: layout, adding a commitment, statuses table, neutral notes, sources/archives, freshness, PR checks, embargo branch, correction issues, checklist). Lists v1 approved by user; inflected forms added. 218 tests.
