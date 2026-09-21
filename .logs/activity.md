@@ -116,3 +116,6 @@
 
 ### [2026-09-21] COMPLETED — Story 1.8 loader, mandates, fixtures
 - lib/catalogue/load.ts (readCatalogue/buildCatalogue/loadCatalogue memo, CatalogueError, programme order, V-1 on unparsable JSON, reference lists always from data/, embargo only for data/), lib/mandates.ts (enabledMandates, defaultMandate ADR-10), server-only (+ vitest stub; CLI must use tsx --conditions=react-server). Fictional fixture: 10 commitments (all themes/statuses/provenances), 2 indicators, 2 intended warnings. Integration: 13 broken-catalogue scenarios generated in temp dirs. 205 tests; total branches 97.6%.
+
+### [2026-09-21] COMPLETED — Story 1.9 catalogue CLI + CI catalogue job
+- scripts/catalogue.ts (validate exit 1 on errors; freshness; links HEAD→GET fallback, warnings only), lib/catalogue/report.ts (formatting, markdown summary, sourceLinks, checkLinks with injectable fetch). CI job validates data/ and the fixtures, writes the job summary. 217 tests.
