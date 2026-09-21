@@ -34,3 +34,9 @@
 
 ### [2026-09-21] APPROACH — Reference lists v1 approved by user (Story 4.1)
 - official-domains: v0 + anapec.org, cnss.ma, one.org.ma, ondh.ma, cese.ma. banned-words: v0 + FR décevant, encourageant, ambitieux, remarquable, insuffisant / AR مخيب، مشجع، طموح، ملحوظ، غير كاف, plus their feminine/plural forms (whole-word matching needs them; "غير كافية" slipped through in the test). Archives: web.archive.org only (confirmed).
+
+### [2026-09-21] APPROACH — Sprint 2: 🔴 PR per story (user choice); NFR-1 budget = total <= 130 KB, island <= 15 KB (user choice)
+- PRD NFR-1 to be updated in the Lighthouse story (3.3).
+
+### [2026-09-21] AUDIT — setup for 3.4/3.5 (user asked to audit, "all permissions")
+- OK: all commits noreply; secret scanning + push protection on. Unknown: 2FA + email privacy (gh token lacks user scope; user can run gh auth refresh -s user). To do in 3.4: dependabot security updates, private vuln reporting, branch protection, squash-only + delete branch on merge. Vercel CLI not logged in: user runs vercel login at 3.5.

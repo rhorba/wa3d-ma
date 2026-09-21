@@ -73,3 +73,9 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev → PM + Copywriter (Story 4.1)
 - Context: CLI merged 86fd8e0; validator enforces V-1..V-17. Need: docs/curation-guide.md (how to curate for any coalition), review official-domains.json + banned-words.json with the user. Constraints: neutrality rules from PRD/HANDOFF, ADR-3 local-only 2021-2026 branch.
+
+### [2026-09-21] UNDERSTAND — Sprint 2 kickoff
+- What: stories 2.1-2.7, 3.2, 3.3, 3.4, 3.5 (~4.5 days). Where: continuation 103f2a3. Env vars: collected. Specialists: Frontend Dev, UI/UX (design fidelity), Copywriter (FR/AR copy, Méthodologie), Tester, DevOps/Deployment, Security (headers, repo hardening). Open: NFR-1 JS budget; user prerequisites for 3.4/3.5.
+
+### [2026-09-21] HANDOFF — Scrum Master → Frontend Dev + UI Designer (Story 2.1)
+- Context: engine done; UI v1.0 approved (tokens, marks, mockups rfinal). Need: Tailwind @theme tokens, next/font, header/footer, status marks, SEC-1 headers, lang/dir. Constraints: static only, no client components here, AR mirrored with logical properties, Western digits.
