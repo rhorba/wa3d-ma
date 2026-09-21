@@ -67,3 +67,6 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + Tester (Story 1.8)
 - Context: validator complete 8928bce. Need: load.ts (fs, memo, throws on errors), mandates.ts (enabled/default, ADR-10), valid fixture catalogue. Constraints: server-only, reference lists always from data/, V-16 only enforced for the real data dir (fixtures are fictional).
+
+### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + DevOps (Story 1.9)
+- Context: loader merged 653756a. Need: catalogue:validate|freshness|links CLI, CI catalogue job with job summary. Constraints: tsx --conditions=react-server, links are warnings only (gov sites 401 bots), logic in lib/ for coverage.

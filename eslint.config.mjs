@@ -65,8 +65,9 @@ const eslintConfig = [
     },
   },
   {
-    // The only places allowed to read process.env.
-    files: ["lib/env.ts", "*.config.ts", "*.config.mjs", "tests/**", "e2e/**"],
+    // The only places allowed to read process.env (scripts read CI-only variables such as
+    // GITHUB_STEP_SUMMARY, never app configuration).
+    files: ["lib/env.ts", "*.config.ts", "*.config.mjs", "tests/**", "e2e/**", "scripts/**"],
     rules: { "no-restricted-syntax": "off" },
   },
 ];
