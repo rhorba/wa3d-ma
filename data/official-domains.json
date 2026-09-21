@@ -1,0 +1,14 @@
+{
+  "$comment": "V-7 / SEC-3 allowlist. A source URL passes when its host equals an entry or is a subdomain of it (dot boundary). Changed only by PR. v0 from docs/security-wa3d-ma.md SEC-3, pending review in Story 4.1.",
+  "domains": [
+    "gov.ma",
+    "maroc.ma",
+    "hcp.ma",
+    "bkam.ma",
+    "courdescomptes.ma",
+    "chambredesrepresentants.ma",
+    "chambredesconseillers.ma",
+    "worldbank.org",
+    "imf.org"
+  ]
+}
