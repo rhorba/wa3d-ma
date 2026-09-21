@@ -74,3 +74,7 @@
 
 ### [2026-09-21] COMPLETED — Story 0.1 scaffold (PR 1)
 - Next 15.5.25/React 19.1/next-intl 4/zod 4.6.5/Tailwind 4/Vitest 5/Playwright 1.63, lockfile seeded from da3m-ma (7-day release-age guard blocked prettier 3.9.8). ESLint fitness rules (pure domain imports, react/no-danger, process.env only in lib/env.ts). lib/env.ts validated at next.config load (prerender errors are redacted, so config-time check gives readable failures). Local: lint/types/format OK, 17 tests, coverage 100%, build all static, e2e 6/6. No CI yet (arrives PR 2).
+
+### [2026-09-21] CI — PR #2 run 35636081083 GREEN (4/4 jobs)
+### [2026-09-21] CI — main after #2 RED: security job
+- Cause: setup-node cache: pnpm in a job that never installs; no cache on main → post-step "Path Validation Error". Fix: drop cache from security job (fix/ci-security-cache).
