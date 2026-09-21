@@ -108,6 +108,11 @@ describe("V-7 official sources", () => {
       "https://www.chambredesconseillers.ma/x",
       "https://data.worldbank.org/x",
       "https://www.imf.org/x",
+      "https://www.anapec.org/x",
+      "https://www.cnss.ma/x",
+      "https://www.one.org.ma/x",
+      "https://www.ondh.ma/x",
+      "https://www.cese.ma/x",
     ]) {
       expect(isOnAllowlist(url, domains), url).toBe(true);
     }

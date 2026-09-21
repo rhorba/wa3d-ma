@@ -90,6 +90,18 @@ describe("V-10 in the pipeline", () => {
     expect(issues).toHaveLength(3);
   });
 
+  it("catches the softer evaluative words added in v1 (Story 4.1)", () => {
+    const issues = validateCatalogue(
+      input("Un résultat décevant.", "حصيلة غير كافية وتقدم ملحوظ"),
+    ).issues;
+    expect(issues.map((issue) => issue.message).sort()).toEqual(
+      [
+        'evidence[0].note.ar uses a judgement word: "ملحوظ", "غير كافية"',
+        'evidence[0].note.fr uses a judgement word: "décevant"',
+      ].sort(),
+    );
+  });
+
   it("accepts factual notes", () => {
     const issues = validateCatalogue(
       input(

@@ -1,5 +1,5 @@
 {
-  "$comment": "V-10: judgement words banned in evidence notes and titles (PRD G2). Whole-word match after normalisation (FR: case and accents; AR: tashkeel, alef/taa marbuta/alif maqsura variants, common proclitics). Add inflected forms explicitly. v0, pending review in Story 4.1.",
+  "$comment": "V-10: judgement words banned in evidence notes and titles (PRD G2). Whole-word match after normalisation (FR: case and accents; AR: tashkeel, alef/taa marbuta/alif maqsura variants, common proclitics). Add inflected forms explicitly. v1 approved 2026-09-21 (Story 4.1): v0 + softer evaluative words.",
   "fr": [
     "réussite",
     "réussi",
@@ -23,7 +23,24 @@
     "exploit",
     "promesse tenue",
     "promesse trahie",
-    "promesse non tenue"
+    "promesse non tenue",
+    "décevant",
+    "encourageant",
+    "ambitieux",
+    "remarquable",
+    "insuffisant",
+    "décevante",
+    "décevants",
+    "décevantes",
+    "encourageante",
+    "encourageants",
+    "encourageantes",
+    "ambitieuse",
+    "ambitieuses",
+    "remarquables",
+    "insuffisante",
+    "insuffisants",
+    "insuffisantes"
   ],
   "ar": [
     "نجاح",
@@ -41,6 +58,16 @@
     "مخجل",
     "باهر",
     "وعد وفى",
-    "وعد مخلوف"
+    "وعد مخلوف",
+    "مخيب",
+    "مشجع",
+    "طموح",
+    "ملحوظ",
+    "غير كاف",
+    "مخيبة",
+    "مشجعة",
+    "طموحة",
+    "ملحوظة",
+    "غير كافية"
   ]
 }

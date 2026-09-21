@@ -1,5 +1,5 @@
 {
-  "$comment": "V-7 / SEC-3 allowlist. A source URL passes when its host equals an entry or is a subdomain of it (dot boundary). Changed only by PR. v0 from docs/security-wa3d-ma.md SEC-3, pending review in Story 4.1.",
+  "$comment": "V-7 / SEC-3 allowlist. A source URL passes when its host equals an entry or is a subdomain of it (dot boundary). Changed only by PR, with the reason. v1 approved 2026-09-21 (Story 4.1): v0 from Security SEC-3 + national public agencies.",
   "domains": [
     "gov.ma",
     "maroc.ma",
@@ -9,6 +9,11 @@
     "chambredesrepresentants.ma",
     "chambredesconseillers.ma",
     "worldbank.org",
-    "imf.org"
+    "imf.org",
+    "anapec.org",
+    "cnss.ma",
+    "one.org.ma",
+    "ondh.ma",
+    "cese.ma"
   ]
 }

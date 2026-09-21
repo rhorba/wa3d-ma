@@ -70,3 +70,6 @@
 
 ### [2026-09-21] HANDOFF — Backend Dev → Backend Dev + DevOps (Story 1.9)
 - Context: loader merged 653756a. Need: catalogue:validate|freshness|links CLI, CI catalogue job with job summary. Constraints: tsx --conditions=react-server, links are warnings only (gov sites 401 bots), logic in lib/ for coverage.
+
+### [2026-09-21] HANDOFF — Backend Dev → PM + Copywriter (Story 4.1)
+- Context: CLI merged 86fd8e0; validator enforces V-1..V-17. Need: docs/curation-guide.md (how to curate for any coalition), review official-domains.json + banned-words.json with the user. Constraints: neutrality rules from PRD/HANDOFF, ADR-3 local-only 2021-2026 branch.
