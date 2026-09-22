@@ -50,3 +50,9 @@
 
 ### [2026-09-22] SESSION_START
 - Resumed after Sprint 2 ship (5a97e16). CI main GREEN + Vercel deploy success for 5a97e16. Starting Sprint 3 (Epic 4) UNDERSTAND.
+
+### [2026-09-22] SESSION_END
+- Completed: Sprint 3 Batch A (#35 fetch:indicators, #36 real-data-smoke now a required check, #37 catalogue:worksheet; Dependabot #27 merged after SHA check). Batch B: official AR programme found (cg.gov.ma, SHA-256 logged), 16-commitment pilot approved, drafted with official sources on LOCAL branch data/2021-2026 (4d3b6f9, c387985; never pushed), validate as of 2026-09-24: 0 errors, 14 V-14 (agreed). Verification pass by Claude at user request: 1 error fixed; report + worksheet in .verification/ (git-ignored).
+- Decisions: FR quotes = traduction Wa3d; latest official status until full-period data; launch on 2026-09-24 after user check (embargo kept).
+- Next (on/after 2026-09-24): user signs the report (or asks changes: #13 RSU verdict, §4 choices) -> runbook R1: build on real data, visual FR/AR check of the 16 pages, push data/2021-2026, PR, 9 green checks incl. real-data-smoke, flag true in Vercel, merge, prod checks, v1.0 recording, Search Console (user). Update mandate end date once the next government is appointed.
+- Open: Wayback archives failed (cg.gov.ma 523; others 500/429), list in .sources/archive-todo.txt. User actions still pending: 2FA confirm, correction-form manual check.

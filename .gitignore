@@ -32,3 +32,6 @@ Thumbs.db
 
 # crash dumps
 *.stackdump
+
+# official source documents downloaded for curation (large, re-downloadable; archived on the Wayback Machine)
+.sources/

@@ -57,3 +57,9 @@
 ### [2026-09-22] DECISION — Fonts: plain @font-face from public/fonts (versioned .v1, Cache-Control immutable), React preload() per locale (FR 4 files ~55 KB, AR 6 files ~105 KB), display optional kept (user choice)
 
 ### [2026-09-22] DECISION — Sprint 3 BRAINSTORM (user choices): I find the Oct 2021 programme (official FR+AR, archived); pilot ~15 flagship commitments across 9 themes, then grow; I draft entries + evidence, user verifies (4.4); mandate end stays placeholder 2026-09-23 until the next government is appointed (later data PR).
+
+### [2026-09-22] DECISION — Sprint 3 pilot approved by user: 16 commitments from the official AR programme (cg.gov.ma PDF, 86 p.): p.24 ten flagship (#1-#10), p.50 AMO, Madkhoul al-Karama, family allowances, RSU, family medicine/hospital networks, p.68 Awrach 250,000 jobs, p.79 water. Housing: no commitment in the programme (theme stays empty). Quotes: AR original, FR wa3d_translation (no official FR version found).
+
+### [2026-09-22] DECISION — Mandate-end commitments show their latest official status at launch (e.g. En cours with the latest official figures); they are settled (Réalisé / Partiellement / Non réalisé) only when official full-period data is published; V-14 flags them monthly until then (user choice).
+
+### [2026-09-22] DECISION — Launch timing: user asked to "launch now"; after the embargo (ADR-3/SEC-8, election 2026-09-23) and missing 4.4 verification were laid out, user chose: launch on 2026-09-24 after their worksheet check. Embargo kept.
