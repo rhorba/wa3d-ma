@@ -2,8 +2,10 @@
 //   pnpm catalogue:validate  [--data-dir data]            errors exit 1, warnings are listed
 //   pnpm catalogue:freshness [--data-dir data] [--markdown]  stale and overdue commitments
 //   pnpm catalogue:links     [--data-dir data] [--markdown]  unreachable sources (warnings only)
+//   pnpm catalogue:worksheet [--data-dir data] [--mandate 2021-2026]  verification worksheet (Story 4.4)
+//                            written to .verification/ (git-ignored: it can hold embargoed content)
 // Needs `tsx --conditions=react-server` because the loader is guarded by "server-only".
-import { appendFileSync } from "node:fs";
+import { appendFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { readCatalogue } from "../lib/catalogue/load";
 import {
   checkLinks,
@@ -13,6 +15,7 @@ import {
   issuesToMarkdown,
   sourceLinks,
 } from "../lib/catalogue/report";
+import { worksheetMarkdown } from "../lib/catalogue/worksheet";
 
 const [command, ...args] = process.argv.slice(2);
 const option = (name: string) => {
@@ -45,6 +48,28 @@ async function main(): Promise<number> {
     return 0;
   }
 
+  if (command === "worksheet") {
+    const mandate = option("mandate") ?? "2021-2026";
+    const { errors } = countBySeverity(result.issues);
+    if (errors > 0) {
+      console.error(
+        `${errors} validation error(s): fix them before verifying (pnpm catalogue:validate).`,
+      );
+      return 1;
+    }
+    const sheet = worksheetMarkdown(
+      mandate,
+      result.commitments,
+      result.indicators,
+      result.input.today,
+    );
+    mkdirSync(".verification", { recursive: true });
+    const file = `.verification/worksheet-${mandate}-${result.input.today}.md`;
+    writeFileSync(file, sheet);
+    console.log(`${file}: ${sheet.split("\n")[2]}`);
+    return 0;
+  }
+
   if (command === "links") {
     const links = sourceLinks(result.commitments, result.indicators);
     const results = await checkLinks(links.map((link) => link.url));
@@ -62,7 +87,7 @@ async function main(): Promise<number> {
   }
 
   console.error(
-    "Usage: catalogue <validate|freshness|links> [--data-dir <dir>] [--markdown] [--today YYYY-MM-DD]",
+    "Usage: catalogue <validate|freshness|links|worksheet> [--data-dir <dir>] [--markdown] [--mandate <id>] [--today YYYY-MM-DD]",
   );
   return 2;
 }
