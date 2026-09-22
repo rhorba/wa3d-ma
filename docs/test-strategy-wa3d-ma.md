@@ -32,7 +32,7 @@ Risk = Impact + Change frequency + Complexity (each 1–5).
 | Unit | Pure domain: `lib/catalogue/*` (except `load.ts`), `lib/filters.ts`, `lib/mandates.ts`, `lib/env.ts`, `lib/seo.ts` | ≥ 90% lines of `lib/`; **100% branches** in `status.ts`, `progress.ts`, `validate.ts` | Vitest 5, fast-check |
 | Integration | `loadCatalogue()` on fixture folders; `generateStaticParams` / `sitemap()` with the flag on and off; server components rendered to static HTML with the fixture catalogue; message-file parity | Every route's data path and every page component rendered at least once | Vitest (`node` env) + `react-dom/server` |
 | E2E | Against the **production build** (`next build && next start`) with the fixture catalogue, Chromium, mobile (390×844) + desktop (1280×900), **FR and AR** | Critical journeys in §3 | Playwright + `@axe-core/playwright` |
-| Performance / a11y budgets | List + detail, FR + AR, mobile preset | Lighthouse perf ≥ 95, a11y ≥ 95 (median of 3 runs); list-page JS < 100 KB gzip | `@lhci/cli` |
+| Performance / a11y budgets | List + detail, FR + AR, mobile preset | Lighthouse perf ≥ 95, a11y ≥ 95 (median of 3 runs); list-page JS ≤ 130 KB gzip, island ≤ 15 KB | `@lhci/cli` |
 | **Combined gate** | Unit + integration, `coverage.include = lib/**/*.ts` | **≥ 80% lines, statements, functions, branches**: non-negotiable, CI blocks merge | Vitest v8 coverage |
 
 Vitest config mirrors da3m-ma (`projects: unit | integration`), without testcontainers.
@@ -190,7 +190,7 @@ Feature: Method and corrections (US-9)
 - [ ] Unit + integration pass; **combined coverage ≥ 80%**; 100% branches in `status.ts`, `progress.ts`, `validate.ts`
 - [ ] E2E pass in FR and AR, mobile and desktop; axe shows 0 serious or critical violations
 - [ ] Embargo smoke passes (build with the flag unset → archive URLs 404, absent from the sitemap)
-- [ ] Lighthouse perf and a11y ≥ 95 (median of 3) on list + detail, FR + AR; list JS < 100 KB gzip
+- [ ] Lighthouse perf and a11y ≥ 95 (median of 3) on list + detail, FR + AR; list JS ≤ 130 KB gzip, island ≤ 15 KB
 - [ ] Route check: all routes static; grep gates clean
 - [ ] `pnpm audit --audit-level=critical` clean (SEC-4); no open critical/high security findings
 - [ ] **Data PRs only** (e.g. `data/2021-2026`): the full suite runs against the real dataset, plus **user sign-off** on the dataset (ADR-3)

@@ -75,7 +75,7 @@
 
   html[dir="rtl"] h1 {
     font-family: var(--font-serif-ar);
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.4;
   }
 

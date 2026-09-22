@@ -175,3 +175,16 @@
 ### [2026-09-22] CI — PR #23 (2.7) and main: GREEN
 
 ### [2026-09-22] MILESTONE — Sprint 2 Batch D complete (#22 home/404/méthodologie, #23 SEO): all pages built
+
+### [2026-09-22] PHASE — Story 3.3 UNDERSTAND (DevOps + Test Architect)
+- Scope: lhci on list + detail, FR + AR, mobile, median of 3; perf/a11y >= 0.95; list JS <= 130 KB (user decision 2026-09-21), island <= 15 KB; PRD NFR-1 wording update. No budget is enforced automatically today. No new env vars.
+
+### [2026-09-22] PHASE — Story 3.3 PLAN confirmed (lhci config, bundle-budget script, lighthouse job, docs); EXECUTE
+- HANDOFF DevOps -> Tech Lead: implement per plan; island = list-page chunks minus layout chunks.
+
+### [2026-09-22] COMPLETED — Story 3.3 EXECUTE (Tech Lead) -> HANDOFF to Tester/DevOps for VERIFY
+- lib/bundle-budget.ts (100%) + scripts/bundle-budget.ts (pnpm budget: list 104.3 KB, island 2.8 KB), lighthouserc.json (4 URLs x 3, median run), CI job lighthouse (artifact 7 d). Docs: PRD NFR-1, architecture, system design, stories, test strategy, devops, UI §2.
+- Local lhci (Windows, noisy): FR 0.95-0.97, AR detail 0.95, AR list 0.94; a11y 1.0 everywhere. Before: FR 0.93-0.94, AR 0.88-0.89.
+- VERIFY local: lint, types, format, fitness OK; unit+integration 255 passed (100% stmts, 97.2% branches); route check static; E2E 110/110; AR shaping checked by screenshot.
+
+### [2026-09-22] CI — PR #25 run 1 RED: lighthouse list pages perf 0.85-0.86, CLS 0.23-0.26 from web font swap (fonts no longer preloaded); detail pages 0.97-0.98, budget OK. Fix: font-display optional (user choice).

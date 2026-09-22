@@ -157,7 +157,7 @@ Commitment.target.indicatorId ─N:1─► Indicator (id, unit, name{fr,ar}, val
 | Only one client component | `'use client'` only in `components/filters/` | ESLint / grep check |
 | No raw HTML | 0 `dangerouslySetInnerHTML` | ESLint `react/no-danger` |
 | No direct env reads | `process.env` only in `lib/env.ts` | ESLint |
-| List-page JS | < 100 KB gzipped | Lighthouse CI budget |
+| List-page JS | ≤ 130 KB gzipped, island ≤ 15 KB | Lighthouse CI budget + `pnpm budget` |
 | Lighthouse a11y / perf | ≥ 95 (FR + AR, list + detail) | Lighthouse CI |
 
 ## 9. Technical Risks

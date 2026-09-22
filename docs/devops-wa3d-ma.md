@@ -36,10 +36,10 @@ Triggers: `pull_request` + `push` to `main`. `permissions: contents: read`. `con
 | `security` | Semgrep (`p/owasp-top-ten`, `p/typescript`) · Trivy fs (CRITICAL,HIGH) · Gitleaks (full history) · `pnpm audit --audit-level=critical`. Scanner images pinned by digest. `skills/` excluded. | ✅ |
 | `e2e` | `playwright install chromium` → `WA3D_DATA_DIR=tests/fixtures/catalogue/valid NEXT_PUBLIC_ARCHIVE_ENABLED=true pnpm build` → **route check** (fails on any ƒ dynamic route in the build output) → `pnpm e2e` (FR + AR, mobile + desktop, axe, security headers). Uploads the Playwright report on failure. | ✅ |
 | `embargo-smoke` | Build with fixtures and the flag **unset** → `next start` → assert 404 on 2021-2026 list/detail and no 2021-2026 URL in `/sitemap.xml` | ✅ |
-| `lighthouse` | `@lhci/cli autorun` on the `e2e` build: list + detail, FR + AR, mobile preset, 3 runs; assert perf ≥ 0.95, a11y ≥ 0.95, `resource-summary:script:size` < 100 KB on the list page | ✅ |
+| `lighthouse` | Own fixture build (same env as `e2e`) → `pnpm budget` (list JS ≤ 130 KB, filters island ≤ 15 KB, from the build manifest) → `lhci autorun` (`lighthouserc.json`): list + detail, FR + AR, mobile preset, 3 runs; assert perf ≥ 0.95, a11y ≥ 0.95 (median run), `resource-summary:script:size` ≤ 130 KB on the list pages. Reports uploaded as an artifact (7 days), never to public storage. | ✅ |
 | `real-data-smoke` | Only when the PR changes `data/**`: build on `data/`, crawl every URL in the sitemap → all 200, axe with no serious/critical violations | ✅ (data PRs) |
 
-Estimated wall time is ~6–8 minutes, since the jobs run in parallel except `lighthouse`, which needs the build.
+Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 
 **Other workflows**
 - `.github/workflows/monthly-review.yml`: `schedule: cron '0 8 1 * *'` + `workflow_dispatch`. `permissions: contents: read, issues: write`. It runs `pnpm catalogue:freshness` (V-13/V-14) and `pnpm catalogue:links` (HEAD/GET every source URL, 10 s timeout, results as warnings, because government sites like cg.gov.ma return 401 to bots). It opens **one** issue, "Revue mensuelle AAAA-MM", listing stale commitments and unreachable links. This covers PRD G3 and the Security link-rot mitigation. No auto-fix.
