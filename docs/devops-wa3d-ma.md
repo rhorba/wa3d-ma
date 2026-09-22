@@ -37,7 +37,7 @@ Triggers: `pull_request` + `push` to `main`. `permissions: contents: read`. `con
 | `e2e` | `playwright install chromium` → `WA3D_DATA_DIR=tests/fixtures/catalogue/valid NEXT_PUBLIC_ARCHIVE_ENABLED=true pnpm build` → **route check** (fails on any ƒ dynamic route in the build output) → `pnpm e2e` (FR + AR, mobile + desktop, axe, security headers). Uploads the Playwright report on failure. | ✅ |
 | `embargo-smoke` | Build with fixtures and the flag **unset** → `next start` → assert 404 on 2021-2026 list/detail and no 2021-2026 URL in `/sitemap.xml` | ✅ |
 | `lighthouse` | Own fixture build (same env as `e2e`) → `pnpm budget` (list JS ≤ 130 KB, filters island ≤ 15 KB, from the build manifest) → `lhci autorun` (`lighthouserc.json`): list + detail, FR + AR, mobile preset, 3 runs; assert perf ≥ 0.95, a11y ≥ 0.95 (median run), `resource-summary:script:size` ≤ 130 KB on the list pages. Reports uploaded as an artifact (7 days), never to public storage. | ✅ |
-| `real-data-smoke` | Only when the PR changes `data/**`: build on `data/`, crawl every URL in the sitemap → all 200, axe with no serious/critical violations | ✅ (data PRs) |
+| `real-data-smoke` | Every PR and push (cheap, and code changes can break real data too; changed from "data PRs only" on 2026-09-22): build on `data/` with the archive on → `pnpm e2e:real-data` crawls both homes + every sitemap URL → all 200, axe with no serious/critical violations. Required check. | ✅ |
 
 Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 
