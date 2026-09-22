@@ -57,15 +57,15 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 **User actions (only you can do these):**
 - [ ] 2FA (passkey/TOTP) on GitHub and Vercel; recovery codes stored offline
 - [ ] GitHub → Settings → Emails: "Keep my email private" + "Block command line pushes that expose my email"; `git config user.email "<id>+rhorba@users.noreply.github.com"` in this repo **before the first commit**
-- [ ] Create the public repo `rhorba/wa3d-ma` (empty, no README)
+- [x] Create the public repo `rhorba/wa3d-ma` (empty, no README)
 - [ ] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on
 
 **Done by me via `gh` once the repo exists (you confirm each):**
-- [ ] Branch protection on `main`: PR required, required checks = all `ci.yml` jobs, no force-push or deletion, linear history, include administrators
-- [ ] Secret scanning + push protection; private vulnerability reporting; Dependabot security updates
-- [ ] Issues: disable blank issues; `.github/ISSUE_TEMPLATE/correction.yml` (commitment id, what is wrong, official source URL, a "this issue is public" notice); `config.yml` with a link to the Méthodologie page
-- [ ] `SECURITY.md` → private vulnerability reporting
-- [ ] Squash-merge only; delete the branch on merge
+- [x] Branch protection on `main`: PR required (0 reviews: solo maintainer), required checks = all 8 `ci.yml` jobs from GitHub Actions, strict (branch up to date), no force-push or deletion, linear history, include administrators (2026-09-22)
+- [x] Secret scanning + push protection; private vulnerability reporting; Dependabot alerts + security updates (7-day cooldown in `dependabot.yml`)
+- [x] Issues: disable blank issues; `.github/ISSUE_TEMPLATE/correction.yml` (commitment id, what is wrong, official source URL, a "this issue is public" notice); `config.yml` with a link to the Méthodologie page
+- [x] `SECURITY.md` → private vulnerability reporting
+- [x] Squash-merge only; delete the branch on merge
 
 ## 6. Security Scanning Gates
 | Scanner | Scan type | Fail threshold |
