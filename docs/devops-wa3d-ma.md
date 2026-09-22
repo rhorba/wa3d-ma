@@ -18,7 +18,7 @@ There is no separate staging environment (YAGNI): previews are per-PR, protected
 ## 2. Environment Variables (CLAUDE.md rule 10), `.env.example`
 | Variable | Scope | Value | Notes |
 |---|---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | ⚠️ confirm the Vercel project name is free at setup; becomes the own domain later (runbook R3) |
+| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | Vercel project name confirmed on 2026-09-22; becomes the own domain later (runbook R3) |
 | `NEXT_PUBLIC_ARCHIVE_ENABLED` | build, public | `false` (set `true` on/after 2026-09-24 via runbook R1) | Read at build time (SDR-3) |
 | `NEXT_PUBLIC_REPO_URL` | build, public | `https://github.com/rhorba/wa3d-ma` | Correction-issue links |
 | `WA3D_DATA_DIR` | build, **CI/test only** | unset (= `data`); CI E2E sets `tests/fixtures/catalogue/valid` | New, non-public. Lets the same build run on fixtures. Parsed in `lib/env.ts` (ADR-6 extended by one var) |
