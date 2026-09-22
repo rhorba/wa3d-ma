@@ -40,3 +40,6 @@
 
 ### [2026-09-21] AUDIT — setup for 3.4/3.5 (user asked to audit, "all permissions")
 - OK: all commits noreply; secret scanning + push protection on. Unknown: 2FA + email privacy (gh token lacks user scope; user can run gh auth refresh -s user). To do in 3.4: dependabot security updates, private vuln reporting, branch protection, squash-only + delete branch on merge. Vercel CLI not logged in: user runs vercel login at 3.5.
+
+### [2026-09-22] APPROACH — List markup grouped by theme, flattened by CSS when the island is active
+- One DOM: theme sections (no-JS fallback, UX) become display:contents with row order = programme index once the filter island marks the list enhanced (2.3), giving the approved flat programme-order list. Themes ordered by first appearance in the programme.

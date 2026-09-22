@@ -140,3 +140,11 @@
 ### [2026-09-21] CI — PR #16 (3.2) 7/7 jobs GREEN; main GREEN
 
 ### [2026-09-21] MILESTONE — Sprint 2 Batch A complete (#15 layout, #16 CI e2e/route/embargo)
+
+### [2026-09-22] CI — main RED after #16 (next/font/google fetch), fixed by #17 self-hosted fonts; main GREEN 7/7 jobs
+
+### [2026-09-22] MILESTONE — Sprint 2 Batch A complete (#15 layout, #16 CI e2e/route/embargo, #17 local fonts)
+- Lesson: my local font probe first hit a stale server on :3200 (cleanup failed silently); now verify ports are free after every local server run.
+
+### [2026-09-22] COMPLETED — Story 2.2 list page
+- /{locale}/{mandate}: counts (fixed order, equal cells, no score), programme-order rows (theme, title, status mark, mini progress floor %, noData/noTarget, verified date in bdi), pending-mandate state (noindex), theme-grouped no-JS markup flattened by CSS once the island marks it enhanced. lib/list.ts (100%). E2E 36/36 incl. axe on list FR/AR.

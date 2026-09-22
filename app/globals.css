@@ -116,3 +116,41 @@
     letter-spacing: 0;
   }
 }
+
+/* Status counts: a hairline between rows of cells, whatever the column count (2 / 3 / 6). */
+.status-counts > li:nth-child(n + 3) {
+  border-top: 1px solid var(--color-rule);
+}
+@media (min-width: 48rem) {
+  .status-counts > li:nth-child(n + 3) {
+    border-top: 0;
+  }
+  .status-counts > li:nth-child(n + 4) {
+    border-top: 1px solid var(--color-rule);
+  }
+}
+@media (min-width: 64rem) {
+  .status-counts > li:nth-child(n + 4) {
+    border-top: 0;
+  }
+}
+
+/* List: grouped by theme without JavaScript; once the filter island marks it enhanced, the
+   groups dissolve and rows follow programme order (their inline "order"), as in the approved design. */
+.commitment-list[data-enhanced] {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-rule);
+}
+.commitment-list[data-enhanced] > .theme-group,
+.commitment-list[data-enhanced] > .theme-group > ol {
+  display: contents;
+}
+.commitment-list[data-enhanced] > .theme-index,
+.commitment-list[data-enhanced] > .theme-group > h2 {
+  display: none;
+}
+/* While grouped, the section heading already names the theme; the row label returns once flattened. */
+.commitment-list:not([data-enhanced]) .row-theme {
+  display: none;
+}
