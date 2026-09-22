@@ -21,3 +21,5 @@
 - EINVAL readlink on .next/diagnostics; fixed by rm -rf .next. CI/prod unaffected. Option for the user: exclude .next and node_modules from OneDrive sync, or move the repo outside OneDrive.
 
 ### [2026-09-22] RISK — Branch protection includes admins: an urgent content correction now needs a PR + ~4 min of green CI (accepted, user choice). Vercel Instant Rollback (R2) stays available for emergencies.
+
+### [2026-09-22] RISK — No favicon: browsers get a 404 for /favicon.ico on every first visit (harmless, adds a log line). Add one with the brand work, not now (YAGNI).

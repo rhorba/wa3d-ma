@@ -216,3 +216,11 @@
 
 ### [2026-09-22] PHASE — Story 3.5 UNDERSTAND (Deployment + DevOps)
 - Vercel CLI 50.32.5 installed; no .vercel link; env vars known (.env.example), no secrets.
+
+### [2026-09-22] COMPLETED — Story 3.5 first deploy (Deployment, via user browser session)
+- Vercel project wa3d-ma imported from rhorba/wa3d-ma (Hobby), Next.js preset, env vars SITE_URL / ARCHIVE_ENABLED=false / REPO_URL for Production + Preview. First deploy dpl_5behGwsLFtcvZf77pBPVau53y1gB (6eb0bf2).
+- Verified prod: / 308 -> /fr; /fr /ar /fr/methodologie /ar/methodologie 200; home intro FR/AR (no real data yet); /fr/2021-2026 and details 404 (embargo); sitemap = methodologie FR/AR only; robots OK; headers CSP (frame-ancestors none, base-uri none, form-action none), HSTS 2y, nosniff, Referrer-Policy, Permissions-Policy, COOP.
+- Found + fixed: /nope 500 on Vercel -> PR #30 (dynamicParams=false on [locale]) merged 0b40ccd, CI 8/8 + Vercel green; prod /nope /en /favicon.ico 404 (bilingual page).
+- Settings: Node.js 24.x -> 22.x (matches CI; applies from next deploy); Deployment Protection Standard (previews need Vercel login) confirmed.
+
+### [2026-09-22] MILESTONE — Story 3.5 shipped: production live at https://wa3d-ma.vercel.app (archive dark)

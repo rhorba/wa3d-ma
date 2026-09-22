@@ -18,7 +18,7 @@ There is no separate staging environment (YAGNI): previews are per-PR, protected
 ## 2. Environment Variables (CLAUDE.md rule 10), `.env.example`
 | Variable | Scope | Value | Notes |
 |---|---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | ⚠️ confirm the Vercel project name is free at setup; becomes the own domain later (runbook R3) |
+| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | Vercel project name confirmed on 2026-09-22; becomes the own domain later (runbook R3) |
 | `NEXT_PUBLIC_ARCHIVE_ENABLED` | build, public | `false` (set `true` on/after 2026-09-24 via runbook R1) | Read at build time (SDR-3) |
 | `NEXT_PUBLIC_REPO_URL` | build, public | `https://github.com/rhorba/wa3d-ma` | Correction-issue links |
 | `WA3D_DATA_DIR` | build, **CI/test only** | unset (= `data`); CI E2E sets `tests/fixtures/catalogue/valid` | New, non-public. Lets the same build run on fixtures. Parsed in `lib/env.ts` (ADR-6 extended by one var) |
@@ -50,7 +50,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 - **Compute**: none at runtime (SSG, SDR-1). The route check in CI keeps it that way.
 - **Database**: none (JSON in git).
 - **Secrets**: none. Vercel env vars hold only the public values in §2.
-- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3).
+- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3). Production live at https://wa3d-ma.vercel.app since 2026-09-22.
 - **Fallback host** (SDR-5): Cloudflare Pages, documented only, not provisioned (YAGNI). It needs the own domain.
 
 ## 5. Repository Hardening (SEC-4, SEC-5, SEC-6, SEC-7): one-time setup checklist
@@ -58,7 +58,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 - [ ] 2FA (passkey/TOTP) on GitHub and Vercel; recovery codes stored offline
 - [ ] GitHub → Settings → Emails: "Keep my email private" + "Block command line pushes that expose my email"; `git config user.email "<id>+rhorba@users.noreply.github.com"` in this repo **before the first commit**
 - [x] Create the public repo `rhorba/wa3d-ma` (empty, no README)
-- [ ] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on
+- [x] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on (2026-09-22: project `wa3d-ma` on the Hobby team, Node 22.x, Vercel Authentication = Standard Protection; the env vars are marked sensitive, so the dashboard does not show their values)
 
 **Done by me via `gh` once the repo exists (you confirm each):**
 - [x] Branch protection on `main`: PR required (0 reviews: solo maintainer), required checks = all 8 `ci.yml` jobs from GitHub Actions, strict (branch up to date), no force-push or deletion, linear history, include administrators (2026-09-22)
