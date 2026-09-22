@@ -32,3 +32,9 @@
 
 ### [2026-09-21] SESSION_START
 - Resumed after Sprint 1 ship (103f2a3). Starting Sprint 2 (pages + CI + deploy).
+
+### [2026-09-22] SESSION_END
+- Completed (Sprint 2, Batches A-D): #15 layout/tokens/headers, #16 CI e2e + route check + embargo smoke, #17 self-hosted fonts (CI fix), #18 list, #19 filters island, #20-#21 commitment page, #22 home/404/méthodologie, #23 SEO. main 5b2c7f3 GREEN (7 jobs). E2E 110/110, embargo 10/10, unit 250, JS 103-105 kB (budget 130).
+- Next (Batch E): 3.3 Lighthouse CI (+ update PRD NFR-1 to 130 KB / island 15 KB), 3.4 repo hardening (branch protection, squash-only, delete-on-merge, dependabot, private vuln reporting, SECURITY.md, correction.yml with field ids commitment/page, monthly-review workflow), 3.5 Vercel deploy. Then SHIP: full verify, coverage → metrics, design check vs mockups, recording .recordings/v0.2-<date>.webm, push, CI green.
+- User actions pending: `! vercel login` at 3.5; optional `! gh auth refresh -h github.com -s user` to verify 2FA/email privacy; consider excluding .next and node_modules from OneDrive sync.
+- Open questions: AR rendering of mandate ranges (bdi vs natural bidi) for Story 2.8; 2021-2026 end / 2026-2031 start dates during curation.
