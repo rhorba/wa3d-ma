@@ -50,7 +50,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 - **Compute**: none at runtime (SSG, SDR-1). The route check in CI keeps it that way.
 - **Database**: none (JSON in git).
 - **Secrets**: none. Vercel env vars hold only the public values in §2.
-- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3).
+- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3). Production live at https://wa3d-ma.vercel.app since 2026-09-22.
 - **Fallback host** (SDR-5): Cloudflare Pages, documented only, not provisioned (YAGNI). It needs the own domain.
 
 ## 5. Repository Hardening (SEC-4, SEC-5, SEC-6, SEC-7): one-time setup checklist
@@ -58,7 +58,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 - [ ] 2FA (passkey/TOTP) on GitHub and Vercel; recovery codes stored offline
 - [ ] GitHub → Settings → Emails: "Keep my email private" + "Block command line pushes that expose my email"; `git config user.email "<id>+rhorba@users.noreply.github.com"` in this repo **before the first commit**
 - [x] Create the public repo `rhorba/wa3d-ma` (empty, no README)
-- [ ] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on
+- [x] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on (2026-09-22: project `wa3d-ma` on the Hobby team, Node 22.x, Vercel Authentication = Standard Protection; the env vars are marked sensitive, so the dashboard does not show their values)
 
 **Done by me via `gh` once the repo exists (you confirm each):**
 - [x] Branch protection on `main`: PR required (0 reviews: solo maintainer), required checks = all 8 `ci.yml` jobs from GitHub Actions, strict (branch up to date), no force-push or deletion, linear history, include administrators (2026-09-22)
