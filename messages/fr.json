@@ -66,7 +66,8 @@
     "total": "{count, plural, one {# engagement} other {# engagements}}",
     "pendingTitle": "Le programme n'a pas encore été présenté",
     "pendingText": "Le programme gouvernemental n'a pas encore été présenté au Parlement. Les engagements seront publiés dans les 72 heures suivant sa présentation.",
-    "pendingMethodology": "Comment nous travaillons"
+    "pendingMethodology": "Comment nous travaillons",
+    "description": "{count, plural, =0 {Engagements du gouvernement {mandate} : publication attendue.} one {Suivi de # engagement du gouvernement {mandate} : statut, sources officielles et citation exacte.} other {Suivi des # engagements du gouvernement {mandate} : statuts, sources officielles et citations exactes.}}"
   },
   "filters": {
     "theme": "Thème",

@@ -66,7 +66,8 @@
     "total": "{count, plural, zero {لا يوجد أي التزام} one {التزام واحد} two {التزامان} few {# التزامات} many {# التزاما} other {# التزام}}",
     "pendingTitle": "لم يقدم البرنامج بعد",
     "pendingText": "لم يقدم البرنامج الحكومي بعد أمام البرلمان. ستنشر الالتزامات في غضون 72 ساعة من تقديمه.",
-    "pendingMethodology": "كيف نشتغل"
+    "pendingMethodology": "كيف نشتغل",
+    "description": "{count, plural, =0 {التزامات حكومة {mandate}: في انتظار النشر.} other {تتبع التزامات حكومة {mandate} ({count}): الأوضاع والمصادر الرسمية والاقتباسات الحرفية.}}"
   },
   "filters": {
     "theme": "المحور",

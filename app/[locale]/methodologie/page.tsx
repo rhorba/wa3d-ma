@@ -5,6 +5,7 @@ import { ExternalLink } from "@/components/ui/ExternalLink";
 import { StatusMark } from "@/components/ui/StatusMark";
 import { STATUSES } from "@/lib/catalogue/schema";
 import { env } from "@/lib/env";
+import { alternates } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -22,7 +23,11 @@ const SECTIONS = [
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "methodology" });
-  return { title: `${t("title")} · Wa3d.ma`, description: t("lede") };
+  return {
+    title: `${t("title")} · Wa3d.ma`,
+    description: t("lede"),
+    alternates: alternates(locale, "/methodologie"),
+  };
 }
 
 export default async function MethodologyPage({ params }: Props) {

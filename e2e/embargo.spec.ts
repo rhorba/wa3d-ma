@@ -17,8 +17,9 @@ test.describe("archive embargo @embargo", () => {
 
   test("the sitemap never lists the archive", async ({ request }) => {
     const response = await request.get("/sitemap.xml");
-    // The sitemap lands with Story 2.7; until then only its absence is possible.
-    if (response.status() === 200) expect(await response.text()).not.toContain("2021-2026");
-    else expect(response.status()).toBe(404);
+    expect(response.status()).toBe(200);
+    const xml = await response.text();
+    expect(xml).not.toContain("2021-2026");
+    expect(xml).toContain("/fr/2026-2031");
   });
 });

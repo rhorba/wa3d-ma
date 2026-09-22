@@ -5,6 +5,7 @@ import { MandateList } from "@/components/list/MandateList";
 import { loadCatalogue } from "@/lib/catalogue/load";
 import { env } from "@/lib/env";
 import { defaultMandate } from "@/lib/mandates";
+import { alternates } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -15,7 +16,10 @@ const homeMandate = () => defaultMandate(loadCatalogue().byMandate, env().archiv
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const mandate = homeMandate();
-  return mandate ? { alternates: { canonical: `/${locale}/${mandate}` } } : {};
+  const { languages } = alternates(locale, "");
+  return mandate
+    ? { alternates: { canonical: `/${locale}/${mandate}`, languages } }
+    : { alternates: { canonical: `/${locale}`, languages } };
 }
 
 export default async function HomePage({ params }: Props) {
