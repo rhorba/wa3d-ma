@@ -135,22 +135,149 @@
   }
 }
 
-/* List: grouped by theme without JavaScript; once the filter island marks it enhanced, the
+/* List: grouped by theme without JavaScript; once the filter island marks the wrapper enhanced, the
    groups dissolve and rows follow programme order (their inline "order"), as in the approved design. */
-.commitment-list[data-enhanced] {
+.commitments[data-enhanced] .static-count {
+  display: none;
+}
+.commitments[data-enhanced] .commitment-list {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--color-rule);
 }
-.commitment-list[data-enhanced] > .theme-group,
-.commitment-list[data-enhanced] > .theme-group > ol {
+.commitments[data-enhanced] .commitment-list > .theme-group,
+.commitments[data-enhanced] .commitment-list > .theme-group > ol {
   display: contents;
 }
-.commitment-list[data-enhanced] > .theme-index,
-.commitment-list[data-enhanced] > .theme-group > h2 {
+.commitments[data-enhanced] .commitment-list > .theme-index,
+.commitments[data-enhanced] .commitment-list > .theme-group > h2 {
   display: none;
 }
 /* While grouped, the section heading already names the theme; the row label returns once flattened. */
-.commitment-list:not([data-enhanced]) .row-theme {
+.commitments:not([data-enhanced]) .row-theme {
   display: none;
+}
+
+/* Filters (UI §3): chips on mobile/tablet, a ruled facet list in the side column on desktop. */
+.list-layout {
+  max-width: 760px;
+}
+@media (min-width: 64rem) {
+  .list-layout {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 240px minmax(0, 760px);
+    /* The facet column spans both rows; without this the tall facets stretch the count row. */
+    grid-template-rows: auto 1fr;
+    column-gap: 3rem;
+    align-items: start;
+  }
+  .filters-desktop {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  .filters-status,
+  .commitments {
+    grid-column: 2;
+  }
+  .filters-mobile {
+    display: none !important;
+  }
+}
+@media (max-width: 63.99rem) {
+  .filters-desktop {
+    display: none !important;
+  }
+}
+.filters-mobile {
+  padding-block: 1.5rem 0.5rem;
+}
+.filter-group {
+  margin: 0 0 1.5rem;
+  border: 0;
+  padding: 0;
+}
+.filter-options[data-variant="chip"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filter-options[data-variant="row"] {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-rule);
+}
+.filter-chip,
+.filter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding-inline: 0.75rem;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--color-ink);
+  font: inherit;
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+.filter-button {
+  justify-content: center;
+  padding-inline: 1rem;
+}
+.filter-chip[aria-pressed="true"] {
+  background: var(--color-accent-wash);
+  border-color: var(--color-accent);
+  font-weight: 600;
+}
+.filter-chip[data-variant="row"] {
+  width: 100%;
+  justify-content: flex-start;
+  border: 0;
+  border-bottom: 1px solid var(--color-rule);
+  border-inline-start: 3px solid transparent;
+  border-radius: 0;
+  padding-inline: 0.5rem;
+}
+.filter-chip[data-variant="row"][aria-pressed="true"] {
+  border-bottom-color: var(--color-rule);
+  border-inline-start-color: var(--color-accent);
+}
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-height: 32px;
+  padding-inline: 0.5rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 2px;
+  background: var(--color-accent-wash);
+  font-weight: 600;
+}
+.filter-reset {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--color-accent);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.filter-sheet {
+  margin: auto auto 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 85dvh;
+  padding: 1.5rem 1rem;
+  border: 0;
+  border-radius: 2px 2px 0 0;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  /* The only shadow in the system (UI §2). */
+  box-shadow: 0 -4px 16px rgba(27, 27, 24, 0.12);
+}
+.filter-sheet::backdrop {
+  background: rgba(27, 27, 24, 0.35);
 }

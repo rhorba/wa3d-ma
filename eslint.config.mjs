@@ -43,6 +43,7 @@ const eslintConfig = [
   },
   {
     files: [
+      "lib/catalogue/constants.ts",
       "lib/catalogue/schema.ts",
       "lib/catalogue/status.ts",
       "lib/catalogue/progress.ts",

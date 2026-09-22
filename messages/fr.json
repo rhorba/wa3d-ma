@@ -62,5 +62,16 @@
     "pendingTitle": "Le programme n'a pas encore été présenté",
     "pendingText": "Le programme gouvernemental n'a pas encore été présenté au Parlement. Les engagements seront publiés dans les 72 heures suivant sa présentation.",
     "pendingMethodology": "Comment nous travaillons"
+  },
+  "filters": {
+    "theme": "Thème",
+    "status": "Statut",
+    "apply": "Appliquer",
+    "reset": "Réinitialiser les filtres",
+    "noResults": "Aucun engagement ne correspond à ces filtres.",
+    "shownOne": "{shown} engagement affiché sur {total}",
+    "shownOther": "{shown} engagements affichés sur {total}",
+    "activeOne": "{count} filtre actif",
+    "activeOther": "{count} filtres actifs"
   }
 }

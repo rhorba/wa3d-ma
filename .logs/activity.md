@@ -148,3 +148,6 @@
 
 ### [2026-09-22] COMPLETED — Story 2.2 list page
 - /{locale}/{mandate}: counts (fixed order, equal cells, no score), programme-order rows (theme, title, status mark, mini progress floor %, noData/noTarget, verified date in bdi), pending-mandate state (noindex), theme-grouped no-JS markup flattened by CSS once the island marks it enhanced. lib/list.ts (100%). E2E 36/36 incl. axe on list FR/AR.
+
+### [2026-09-22] COMPLETED — Story 2.3 filters island
+- lib/filters.ts (parse/serialize/match/toggle, 100%, round-trip property), lib/catalogue/constants.ts (zod-free vocabularies for browser code), CommitmentFilters (only use client: URL sync via replaceState, rows hidden, aria-live count, zero results + reset, desktop ruled facets, mobile <dialog> sheet, hidden until hydrated). List page JS 105 kB total, island ~1.5 kB (budget 130/15). Fixed desktop grid gap (grid-template-rows: auto 1fr). E2E 48/48.
