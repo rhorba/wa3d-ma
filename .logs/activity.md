@@ -186,3 +186,5 @@
 - lib/bundle-budget.ts (100%) + scripts/bundle-budget.ts (pnpm budget: list 104.3 KB, island 2.8 KB), lighthouserc.json (4 URLs x 3, median run), CI job lighthouse (artifact 7 d). Docs: PRD NFR-1, architecture, system design, stories, test strategy, devops, UI §2.
 - Local lhci (Windows, noisy): FR 0.95-0.97, AR detail 0.95, AR list 0.94; a11y 1.0 everywhere. Before: FR 0.93-0.94, AR 0.88-0.89.
 - VERIFY local: lint, types, format, fitness OK; unit+integration 255 passed (100% stmts, 97.2% branches); route check static; E2E 110/110; AR shaping checked by screenshot.
+
+### [2026-09-22] CI — PR #25 run 1 RED: lighthouse list pages perf 0.85-0.86, CLS 0.23-0.26 from web font swap (fonts no longer preloaded); detail pages 0.97-0.98, budget OK. Fix: font-display optional (user choice).
