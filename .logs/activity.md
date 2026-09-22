@@ -151,3 +151,10 @@
 
 ### [2026-09-22] COMPLETED — Story 2.3 filters island
 - lib/filters.ts (parse/serialize/match/toggle, 100%, round-trip property), lib/catalogue/constants.ts (zod-free vocabularies for browser code), CommitmentFilters (only use client: URL sync via replaceState, rows hidden, aria-live count, zero results + reset, desktop ruled facets, mobile <dialog> sheet, hidden until hydrated). List page JS 105 kB total, island ~1.5 kB (budget 130/15). Fixed desktop grid gap (grid-template-rows: auto 1fr). E2E 48/48.
+
+### [2026-09-22] CI — PR #19 (2.3) and main: GREEN
+
+### [2026-09-22] MILESTONE — Sprint 2 Batch B complete (#18 list, #19 filters)
+
+### [2026-09-22] COMPLETED — Story 2.4 detail page (header, quote, progress)
+- /{locale}/{mandate}/{id} static per enabled mandate (dynamicParams=false, wrong mandate → 404): breadcrumb (theme link pre-filters list), title, status + definition link, deadline (passée at build), lastVerified, verbatim quote + provenance (wa3d label + original in details, official/original notes), source opens PDF at #page=N, progress panel metric/no-data/editorial with units. lib/detail.ts 100%. E2E 72/72, axe on 2 detail pages.

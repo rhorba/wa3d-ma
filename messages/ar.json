@@ -73,5 +73,39 @@
     "shownOther": "الالتزامات المعروضة: {shown} من أصل {total}",
     "activeOne": "المرشحات النشطة: {count}",
     "activeOther": "المرشحات النشطة: {count}"
+  },
+  "detail": {
+    "breadcrumb": "مسار التنقل",
+    "statusHelp": "كيف يحدد هذا الوضع؟",
+    "deadline": "الأجل",
+    "deadlinePassed": "(انقضى)",
+    "lastVerified": "آخر تحقق",
+    "promised": "ما تم الالتزام به",
+    "source": "المصدر:",
+    "page": "ص. {page}",
+    "archived": "نسخة مؤرشفة",
+    "provenance": {
+      "original": "النص الأصلي",
+      "official_translation": "ترجمة رسمية",
+      "wa3d_translation": "ترجمة وعد"
+    },
+    "showOriginal": "عرض النص الأصلي",
+    "progress": "أين وصل التنفيذ",
+    "baseline": "نقطة الانطلاق",
+    "latest": "آخر قيمة",
+    "target": "الهدف",
+    "progressLabel": "{latest} من أصل هدف {target} ({percent} في المائة من المسافة منذ {baseline})",
+    "decreaseCaption": "هدف الخفض: من {baseline} إلى {target}.",
+    "noData": "البيانات غير متوفرة",
+    "noDataText": "لم تنشر بعد أي قيمة رسمية بعد سنة {year}. آخر قيمة معروفة: {value} ({lastYear}).",
+    "editorial": "التزام بدون هدف رقمي: يتم تتبع الوضع فقط."
+  },
+  "unit": {
+    "percent": "{value} في المائة",
+    "count": "{value}",
+    "thousand": "{value} ألف",
+    "mad_billion": "{value} مليار درهم",
+    "rank": "المرتبة {value}",
+    "ratio": "{value}"
   }
 }

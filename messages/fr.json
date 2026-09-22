@@ -73,5 +73,39 @@
     "shownOther": "{shown} engagements affichés sur {total}",
     "activeOne": "{count} filtre actif",
     "activeOther": "{count} filtres actifs"
+  },
+  "detail": {
+    "breadcrumb": "Fil d'Ariane",
+    "statusHelp": "Comment ce statut est-il défini ?",
+    "deadline": "Échéance",
+    "deadlinePassed": "(passée)",
+    "lastVerified": "Dernière vérification",
+    "promised": "Ce qui a été promis",
+    "source": "Source :",
+    "page": "p. {page}",
+    "archived": "Copie archivée",
+    "provenance": {
+      "original": "Texte original",
+      "official_translation": "Traduction officielle",
+      "wa3d_translation": "Traduction Wa3d"
+    },
+    "showOriginal": "Voir le texte original",
+    "progress": "Où en est-on",
+    "baseline": "Départ",
+    "latest": "Dernière valeur",
+    "target": "Cible",
+    "progressLabel": "{latest} sur une cible de {target} ({percent} % du chemin depuis {baseline})",
+    "decreaseCaption": "Objectif de baisse : de {baseline} à {target}.",
+    "noData": "Données indisponibles",
+    "noDataText": "Aucune valeur officielle n'a encore été publiée après {year}. Dernière valeur connue : {value} ({lastYear}).",
+    "editorial": "Engagement sans cible chiffrée : seul le statut est suivi."
+  },
+  "unit": {
+    "percent": "{value} %",
+    "count": "{value}",
+    "thousand": "{value} milliers",
+    "mad_billion": "{value} milliards de dirhams",
+    "rank": "{value}e",
+    "ratio": "{value}"
   }
 }

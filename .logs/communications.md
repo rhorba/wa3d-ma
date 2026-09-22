@@ -95,3 +95,6 @@
 
 ### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Tester (Story 2.3)
 - Context: list merged 8b1a12b (grouped markup, data-enhanced CSS ready). Need: lib/filters.ts (pure, 100%), CommitmentFilters client island (chips, mobile dialog, desktop ledger, replaceState, aria-live, reset, zero results), island <= 15 KB. Constraints: only use-client in components/filters, labels as props (no intl provider), hidden until hydrated.
+
+### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Copywriter (Story 2.4)
+- Context: list + filters merged 553881f. Need: /{locale}/{mandate}/{id} top: breadcrumb, title, status + definition link, deadline (passée), lastVerified, verbatim quote + provenance (wa3d translation label + original), progress panel (metric sourced baseline/latest/target, no-data last known value, editorial). Constraints: static params per enabled mandate, text-only rendering (ADR-8), PDFs open at #page=N.

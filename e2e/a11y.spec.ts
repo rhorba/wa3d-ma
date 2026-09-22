@@ -2,7 +2,14 @@ import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 
 // NFR-3: WCAG 2.2 AA in both languages. Pages are added to this list as they are built.
-const PAGES = ["/fr", "/ar", "/fr/2021-2026", "/ar/2021-2026"];
+const PAGES = [
+  "/fr",
+  "/ar",
+  "/fr/2021-2026",
+  "/ar/2021-2026",
+  "/fr/2021-2026/fictif-emploi",
+  "/ar/2021-2026/fictif-gouvernance",
+];
 
 for (const path of PAGES) {
   test(`${path} has no serious or critical axe violations`, async ({ page }) => {
