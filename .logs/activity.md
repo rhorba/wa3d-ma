@@ -231,3 +231,10 @@
 - #1-#3 tmp/uuid fixed by pnpm overrides (tmp 0.2.7, uuid 11.1.1; lhci verified). #4-#5 extract-zip dismissed not_used (only runs on puppeteer browser download, never in our lhci job; no patched version) - user choice.
 
 ### [2026-09-22] PHASE — Sprint 2 SHIP (Tester + Test Architect + DevOps): full verify, coverage, design check, recording v0.2
+
+### [2026-09-22] COMPLETED — Sprint 2 SHIP verify
+- Full verify on main 3c39159 then e0a7173: lint/types/format/fitness/catalogue OK; 262 tests, coverage 100% stmts / 97.22% branches; fixture build static; budget OK; E2E 116/116; embargo 10/10; pnpm audit high = 2 dismissed extract-zip only.
+- Design check vs docs/design/mockups/shots/rfinal (list-fr desktop, detail-ar mobile): layout and anatomy match; deltas: fixture data, ↗ outside underline (cosmetic), AR mandate range order (Story 2.8 open question), system fonts on first visit (fixed #33, verified cold on prod AR + FR 4G).
+- Recording: .recordings/v0.2-2026-09-22.webm (22 s: home, list, filters theme+status, detail FR, language toggle, detail AR, Méthodologie, 404). pnpm e2e:record added (playwright.record.config.ts, e2e/record, scripts/record.sh). Local next start serves root 404 unstyled; production 404 styled (checked).
+
+### [2026-09-22] MILESTONE — Sprint 2 complete: site in FR + AR live at https://wa3d-ma.vercel.app with the archive dark

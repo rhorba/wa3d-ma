@@ -99,7 +99,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 **R2 Rollback**: Vercel → Deployments → previous production → "Instant Rollback" (seconds). Then `git revert` the bad PR on `main` so git matches production again. For a wrong status, follow Security §8 (correct it with a dated evidence note).
 **R3 Own-domain swap**: buy the domain (registrar lock, 2FA, auto-renew) → add it in Vercel → set `NEXT_PUBLIC_SITE_URL` → redeploy → add `preload` to HSTS (SEC-1) and submit to hstspreload.org → new Search Console property + sitemap → keep `wa3d-ma.vercel.app` redirecting to the domain.
 **R4 2026-2031 ingestion** (within 72 h of the programme's presentation, PRD G4): a `data/2026-2031-programme` branch → curate → PR → CI + your sign-off → merge. The home page switches automatically (ADR-10). No embargo applies to the current mandate.
-**R5 Version recording** (rule 9): `pnpm e2e:record` (Playwright `video: 'on'` on the critical journeys, fixture build) → the script copies the result to `.recordings/v<version>-<YYYY-MM-DD>.webm` → commit it → log it.
+**R5 Version recording** (rule 9): fixture build with the archive on (`WA3D_DATA_DIR=tests/fixtures/catalogue/valid NEXT_PUBLIC_ARCHIVE_ENABLED=true pnpm build`) → `pnpm e2e:record <version>` (`playwright.record.config.ts`, `e2e/record/journeys.record.ts`, video on, slowMo) → `scripts/record.sh` copies it to `.recordings/v<version>-<YYYY-MM-DD>.webm` → commit it → log it. Note: local `next start` serves the root 404 without its stylesheet; production is styled.
 
 ## DevOps Validation Checklist
 - [x] Environments defined with deploy triggers (local / preview / production; preview replaces staging)

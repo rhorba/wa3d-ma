@@ -15,3 +15,12 @@
 - Perf/a11y (3 runs, mobile): FR list 0.95-0.99, AR list 0.97-0.99, FR detail 0.98, AR detail 0.98; a11y 1.0 everywhere; CLS <= 0.043; LCP 1.6-2.4 s.
 - JS: list page 104.9 KB gzip (budget 130), filters island 2.8 KB (budget 15).
 - Coverage: statements 100%, branches 97.2% (255 tests).
+
+### [2026-09-22] SPRINT_SNAPSHOT — Sprint 2 (pages + CI + deploy) shipped
+- Stories: 2.1-2.7, 3.2-3.5 in PRs #15-#23, #25, #26, #30 (+ fixes #17, #32, #33; logs #24, #29, #31).
+- Tests: 262 unit + integration (22 files) · E2E 116 (FR/AR, desktop + mobile, axe) · embargo 10.
+- Coverage (rule 6): statements 100%, lines 100%, functions 100%, branches 97.22%.
+- Performance (CI Lighthouse, mobile, median of 3): perf 0.95-0.99, a11y 1.0 on list + detail FR/AR; list JS 104.9 KB (budget 130), island 2.8 KB (15).
+- Security: CI Semgrep/Trivy/Gitleaks green; Dependabot 3 fixed, 2 dismissed not_used (extract-zip, dev-only); branch protection strict on main.
+- Production: https://wa3d-ma.vercel.app live (archive dark), fonts preloaded per locale, designed faces on cold first visits.
+- CI: red runs this sprint: #16 fonts (fixed #17), #25 run 1 CLS, #26 run 1 dependabot cooldown; all fixed before merge.

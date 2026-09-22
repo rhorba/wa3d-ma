@@ -41,3 +41,9 @@
 
 ### [2026-09-22] SESSION_START
 - Resumed at Sprint 2 Batch E (e2ecc2e). Story 3.3 Lighthouse CI: UNDERSTAND.
+
+### [2026-09-22] SESSION_END
+- Completed: Sprint 2 Batch E + SHIP. 3.3 Lighthouse CI (#25), 3.4 repo hardening + settings (#26, #29), 3.5 Vercel project + first deploy (via user browser) with /nope 500 fix (#30, #31), dev-dep alerts (#32), per-locale font preload after design check (#33), recording v0.2 + e2e:record (this PR).
+- Production: https://wa3d-ma.vercel.app (archive dark). main protected: PR + 8 green checks, strict.
+- Next: Epic 4 (2021-2026 dataset, local branch data/2021-2026) and runbook R1 embargo lift on/after 2026-09-24 with user sign-off; Story 2.8 (AR mandate range bidi); favicon with brand work.
+- User actions pending: 2FA on GitHub/Vercel (unverified); confirm 2021-2026 end / 2026-2031 start dates during curation; one manual check that the correction form opens prefilled.
