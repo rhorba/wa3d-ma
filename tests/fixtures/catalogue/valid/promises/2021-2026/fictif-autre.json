@@ -30,7 +30,7 @@
       "date": "2026-02-01",
       "status": "not_achieved",
       "note": {
-        "fr": "Aucun texte fictif de création publié à l'échéance.",
+        "fr": "Aucun texte fictif de création publié à l'échéance.\n\nTest d'échappement : <script>alert(1)</script> doit s'afficher comme du texte.",
         "ar": "لم ينشر أي نص وهمي للإحداث عند الأجل."
       },
       "source": {

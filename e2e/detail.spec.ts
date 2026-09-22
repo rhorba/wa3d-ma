@@ -112,3 +112,69 @@ test.describe("commitment page", () => {
     });
   }
 });
+
+test.describe("commitment timeline, citation and corrections (US-3, US-8, US-9)", () => {
+  test("the timeline is newest first, each entry with an official source", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-emploi");
+    const entries = page.getByTestId("timeline").locator("li");
+    await expect(entries).toHaveCount(2);
+    await expect(entries.nth(0)).toContainText("10/03/2026 · statut actuel");
+    await expect(entries.nth(0)).toContainText("Partiellement réalisé");
+    await expect(entries.nth(1)).toContainText("02/02/2022");
+    await expect(
+      entries.nth(0).getByRole("link", { name: /HCP, note fictive emploi-2025/ }),
+    ).toHaveAttribute("href", "https://www.hcp.ma/fictif/emploi-2025.pdf");
+  });
+
+  test("press links are visibly secondary", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-emploi");
+    const pointers = page.getByTestId("pointers");
+    await expect(pointers).toContainText("Presse, pour information :");
+    const link = pointers.getByRole("link", { name: /Presse fictive/ });
+    await expect(link).toHaveCSS("text-decoration-style", "dotted");
+  });
+
+  test("a commitment without evidence says so", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-economie");
+    await expect(page.getByTestId("timeline-empty")).toHaveText(
+      "Aucun acte officiel relevé à ce jour.",
+    );
+  });
+
+  test("notes are text: markup in the data is shown, never executed (ADR-8)", async ({ page }) => {
+    let dialog = false;
+    page.on("dialog", async (d) => {
+      dialog = true;
+      await d.dismiss();
+    });
+    await page.goto("/fr/2021-2026/fictif-autre");
+    await expect(page.getByTestId("timeline")).toContainText("<script>alert(1)</script>");
+    await expect(page.getByTestId("timeline").locator("script")).toHaveCount(0);
+    await expect(page.getByTestId("timeline").locator("li p.my-1")).toHaveCount(2);
+    expect(dialog).toBe(false);
+  });
+
+  test("the citation carries the permanent URL", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-emploi");
+    await expect(page.getByTestId("citation")).toHaveText(
+      "Wa3d.ma, « Création fictive d'un million d'emplois nets », statut au 15/09/2026, https://wa3d-ma.vercel.app/fr/2021-2026/fictif-emploi",
+    );
+  });
+
+  test("the correction link opens the prefilled public issue form", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-emploi");
+    const report = page.getByRole("link", { name: /Signaler une erreur sur cet engagement/ });
+    const href = (await report.getAttribute("href")) ?? "";
+    expect(href).toMatch(/^https:\/\/github\.com\/rhorba\/wa3d-ma\/issues\/new\?/);
+    const params = new URL(href).searchParams;
+    expect(params.get("template")).toBe("correction.yml");
+    expect(params.get("commitment")).toBe("fictif-emploi");
+    await expect(
+      page.getByText("Le signalement est public et nécessite un compte GitHub."),
+    ).toBeVisible();
+    await expect(page.getByRole("link", { name: /Tous les engagements Emploi/ })).toHaveAttribute(
+      "href",
+      "/fr/2021-2026?theme=employment",
+    );
+  });
+});

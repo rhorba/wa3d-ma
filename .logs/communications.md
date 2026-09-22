@@ -98,3 +98,6 @@
 
 ### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Copywriter (Story 2.4)
 - Context: list + filters merged 553881f. Need: /{locale}/{mandate}/{id} top: breadcrumb, title, status + definition link, deadline (passée), lastVerified, verbatim quote + provenance (wa3d translation label + original), progress panel (metric sourced baseline/latest/target, no-data last known value, editorial). Constraints: static params per enabled mandate, text-only rendering (ADR-8), PDFs open at #page=N.
+
+### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Tester (Story 2.5)
+- Context: detail top merged 0773561. Need: evidence timeline (newest first, official source + archive, secondary pointers, current marker, empty state), Citer block (canonical URL), correction link (issue form prefilled), back link, escaping proof. Constraints: text-only rendering (ADR-8), notes split on blank lines.
