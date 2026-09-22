@@ -1,5 +1,6 @@
 # SEC-4 (DevOps §3): npm gets security updates only (enabled in the repo settings); the zero limit turns off
 # routine version bumps (framework-churn risk, Architecture §9). Actions stay pinned by SHA and are bumped monthly.
+# Cooldown: never propose a version published less than 7 days ago (supply-chain window; security updates skip it).
 version: 2
 updates:
   - package-ecosystem: npm
@@ -7,10 +8,14 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 0
+    cooldown:
+      default-days: 7
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    cooldown:
+      default-days: 7
     groups:
       actions:
         patterns: ["*"]

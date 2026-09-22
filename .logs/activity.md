@@ -202,3 +202,5 @@
 ### [2026-09-22] COMPLETED — Story 3.4 files (EXECUTE) -> HANDOFF Tester for VERIFY
 - correction.yml (bilingual, public notice first, required commitment/what/source, ids match CommitmentActions), config.yml (no blank issues, Méthodologie + private security links), SECURITY.md, dependabot.yml (npm security-only via limit 0, actions monthly grouped), monthly-review.yml (1st 08:00 UTC + dispatch, one issue per month, updates on re-run). tests/integration/repo-templates.test.ts.
 - VERIFY local: actionlint 1.7.7 clean (checksum-verified binary; Docker down), lint/types/format/fitness OK, 259 tests, coverage 100% stmts / 97.2% branches.
+
+### [2026-09-22] CI — PR #26 run 1 RED: Semgrep dependabot-missing-cooldown (2 blocking). Fix: cooldown default-days 7 on both ecosystems.
