@@ -21,7 +21,8 @@
     "e2e:embargo": "playwright test --grep @embargo",
     "route-check": "sh scripts/route-check.sh",
     "budget": "tsx scripts/bundle-budget.ts",
-    "lighthouse": "lhci autorun"
+    "lighthouse": "lhci autorun",
+    "e2e:record": "sh scripts/record.sh"
   },
   "dependencies": {
     "next": "15.5.25",
