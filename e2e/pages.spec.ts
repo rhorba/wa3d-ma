@@ -17,6 +17,13 @@ test.describe("home page (ADR-10)", () => {
 });
 
 test.describe("pages that do not exist", () => {
+  for (const path of ["/nope", "/favicon.ico", "/en"]) {
+    test(`a single-segment unknown URL (${path}) is a 404, not a render`, async ({ request }) => {
+      const response = await request.get(path);
+      expect(response.status()).toBe(404);
+    });
+  }
+
   test("an unknown URL returns the bilingual 404 page", async ({ page }) => {
     const response = await page.goto("/fr/2031-2036");
     expect(response?.status()).toBe(404);

@@ -213,3 +213,6 @@
 - Smoke: monthly-review dispatched -> issue #28 created; re-run updated #28 (no duplicate); #28 closed as test.
 
 ### [2026-09-22] MILESTONE — Story 3.4 shipped (#26)
+
+### [2026-09-22] PHASE — Story 3.5 UNDERSTAND (Deployment + DevOps)
+- Vercel CLI 50.32.5 installed; no .vercel link; env vars known (.env.example), no secrets.

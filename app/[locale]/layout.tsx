@@ -18,6 +18,10 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// Only fr and ar exist (SDR-1). Without this, Vercel rendered /anything on demand as a locale and
+// answered 500 instead of the static 404 (seen on the first production deploy, Story 3.5).
+export const dynamicParams = false;
+
 export async function generateMetadata({ params }: Omit<Props, "children">): Promise<Metadata> {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
