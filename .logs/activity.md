@@ -188,3 +188,17 @@
 - VERIFY local: lint, types, format, fitness OK; unit+integration 255 passed (100% stmts, 97.2% branches); route check static; E2E 110/110; AR shaping checked by screenshot.
 
 ### [2026-09-22] CI — PR #25 run 1 RED: lighthouse list pages perf 0.85-0.86, CLS 0.23-0.26 from web font swap (fonts no longer preloaded); detail pages 0.97-0.98, budget OK. Fix: font-display optional (user choice).
+
+### [2026-09-22] CI — PR #25 run 2: 8/8 GREEN; merged as 968dae8 (user said merge); main 8/8 GREEN
+
+### [2026-09-22] MILESTONE — Story 3.3 shipped (#25)
+
+### [2026-09-22] PHASE — Story 3.4 UNDERSTAND (DevOps + Security Engineer)
+- Repo: public; secret scanning + push protection ON; OFF: branch protection, private vuln reporting, dependabot security updates, squash-only, delete-on-merge. Missing: ISSUE_TEMPLATE (correction.yml fields commitment/page used by CommitmentActions), config.yml, SECURITY.md, dependabot.yml, monthly-review.yml. No new env vars.
+
+### [2026-09-22] PHASE — Story 3.4 PLAN confirmed; EXECUTE
+- HANDOFF DevOps -> Tech Lead (files) -> DevOps (settings via gh api after merge). Security Engineer reviews SECURITY.md + form notice.
+
+### [2026-09-22] COMPLETED — Story 3.4 files (EXECUTE) -> HANDOFF Tester for VERIFY
+- correction.yml (bilingual, public notice first, required commitment/what/source, ids match CommitmentActions), config.yml (no blank issues, Méthodologie + private security links), SECURITY.md, dependabot.yml (npm security-only via limit 0, actions monthly grouped), monthly-review.yml (1st 08:00 UTC + dispatch, one issue per month, updates on re-run). tests/integration/repo-templates.test.ts.
+- VERIFY local: actionlint 1.7.7 clean (checksum-verified binary; Docker down), lint/types/format/fitness OK, 259 tests, coverage 100% stmts / 97.2% branches.

@@ -1,0 +1,45 @@
+name: "Signaler une erreur · الإبلاغ عن خطأ"
+description: "Un statut, une date ou une source erronés sur un engagement. · خطأ في وضع أو تاريخ أو مصدر التزام."
+title: "[correction] "
+labels: ["correction"]
+body:
+  # SEC-6: the reader must know this is public before writing anything.
+  - type: markdown
+    attributes:
+      value: |
+        **Ce signalement est public.** Tout le monde peut le lire, avec votre nom d'utilisateur GitHub. N'y mettez aucune donnée personnelle.
+        Une correction n'est apportée que sur la base d'une **source officielle**.
+
+        **هذا البلاغ علني.** يمكن للجميع قراءته مع اسم المستخدم الخاص بك على GitHub. لا تضع فيه أي معطيات شخصية.
+        لا يتم أي تصحيح إلا بناء على **مصدر رسمي**.
+  # Field ids `commitment` and `page` are prefilled by the site (components/detail/CommitmentActions.tsx).
+  - type: input
+    id: commitment
+    attributes:
+      label: "Identifiant de l'engagement · معرف الالتزام"
+      description: "Rempli automatiquement depuis la page. · يملأ تلقائيا من الصفحة."
+      placeholder: "ex. emploi-million-postes"
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: "Page concernée · الصفحة المعنية"
+      placeholder: "https://wa3d-ma.vercel.app/fr/2021-2026/..."
+    validations:
+      required: false
+  - type: textarea
+    id: what
+    attributes:
+      label: "Ce qui est erroné · ما هو الخطأ"
+      description: "Le statut, la date, le chiffre ou le lien en cause, et ce qu'il devrait être. · الوضع أو التاريخ أو الرقم أو الرابط المعني، وما يجب أن يكون عليه."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Source officielle · المصدر الرسمي"
+      description: "Lien vers le document officiel (site gouvernemental, Bulletin officiel, HCP, Bank Al-Maghrib…). · رابط الوثيقة الرسمية."
+      placeholder: "https://"
+    validations:
+      required: true

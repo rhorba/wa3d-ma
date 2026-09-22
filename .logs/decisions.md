@@ -49,3 +49,5 @@
 ### [2026-09-22] DECISION — Story 3.3: fonts subset (scripts/subset-fonts.sh, ~-50% Arabic), not preloaded, wordmark-only Naskh face, AR H1 Naskh 700 -> 400 and 700 file dropped (user choice; UI §2 updated). Perf decided by CI numbers.
 
 ### [2026-09-22] DECISION — Story 3.3: font-display optional instead of swap (no layout shift; slow first visits may show system fonts) (user choice)
+
+### [2026-09-22] DECISION — Story 3.4 BRAINSTORM: branch protection strict + up-to-date, admins included, 0 reviews (user choice)
