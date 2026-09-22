@@ -13,7 +13,7 @@
     "test": "vitest run --coverage",
     "test:unit": "vitest run --project unit",
     "test:integration": "vitest run --project integration",
-    "e2e": "playwright test --grep-invert @embargo",
+    "e2e": "playwright test --grep-invert \"@embargo|@realdata\"",
     "fitness": "sh scripts/fitness.sh",
     "catalogue:validate": "tsx --conditions=react-server scripts/catalogue.ts validate",
     "catalogue:freshness": "tsx --conditions=react-server scripts/catalogue.ts freshness",
@@ -23,7 +23,8 @@
     "budget": "tsx scripts/bundle-budget.ts",
     "lighthouse": "lhci autorun",
     "e2e:record": "sh scripts/record.sh",
-    "fetch:indicators": "tsx --conditions=react-server scripts/fetch-indicators.ts"
+    "fetch:indicators": "tsx --conditions=react-server scripts/fetch-indicators.ts",
+    "e2e:real-data": "playwright test --grep @realdata --project desktop-chromium"
   },
   "dependencies": {
     "next": "15.5.25",

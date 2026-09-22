@@ -246,3 +246,4 @@
 ### [2026-09-22] CI — PR #27 re-run after rebase 8/8 GREEN; merged
 
 ### [2026-09-22] COMPLETED — Story 4.2 tooling: pnpm fetch:indicators (lib/catalogue/world-bank.ts 100%, scripts/fetch-indicators.ts), curation guide "Indicator values". End-to-end on a scratch dir: SL.UEM.TOTL.ZS 7 values, catalogue 0 errors. Indicator data files come with the pilot on the local data branch.
+### [2026-09-22] COMPLETED — real-data-smoke CI job (gap from DevOps §3): e2e/real-data.spec.ts @realdata (homes + every sitemap URL: 200 + axe), pnpm e2e:real-data, job on every PR with the archive on; default suite excludes @realdata (116). Local run on data/ passes.
