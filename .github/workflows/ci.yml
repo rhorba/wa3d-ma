@@ -151,3 +151,31 @@ jobs:
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm build
       - run: pnpm e2e:embargo
+
+  lighthouse:
+    name: Lighthouse + JS budget (NFR-1)
+    runs-on: ubuntu-latest
+    # Same fixture build as e2e: list + detail pages exist in both locales.
+    env:
+      WA3D_DATA_DIR: tests/fixtures/catalogue/valid
+      NEXT_PUBLIC_ARCHIVE_ENABLED: "true"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      # List page <= 130 KB gzip, filters island <= 15 KB (from the build manifest).
+      - run: pnpm budget
+      # lighthouserc.json: 4 URLs x 3 runs, mobile; perf + a11y >= 0.95 (median run), list JS <= 130 KB.
+      - run: pnpm lighthouse
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/reports
+          retention-days: 7
+          if-no-files-found: ignore

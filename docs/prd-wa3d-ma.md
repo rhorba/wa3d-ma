@@ -64,7 +64,7 @@ Moroccans have no independent, durable way to check what the government promised
 - **FR-12** A sitemap and per-page metadata (title, description, canonical, `hreflang` FR/AR) are generated from `NEXT_PUBLIC_SITE_URL`.
 
 ### 5.2 Non-Functional
-- **NFR-1 Performance**: static pages, LCP < 2.0 s on mid-range mobile over 4G, JS < 100 KB gzipped on the list page.
+- **NFR-1 Performance**: static pages, LCP < 2.0 s on mid-range mobile over 4G, JS ≤ 130 KB gzipped on the list page, of which the filters island ≤ 15 KB (budget revised 2026-09-21: the Next.js + React runtime alone is ~102 KB). Self-hosted fonts are subset and not preloaded (Story 3.3).
 - **NFR-2 Security**: no user input, no secrets, strict security headers (CSP, HSTS). Details in the Security doc.
 - **NFR-3 Accessibility**: WCAG 2.2 AA in both FR and AR. Status is never conveyed by colour alone.
 - **NFR-4 Neutrality**: identical rules for any coalition. Party names appear only as the programme's author.

@@ -12,7 +12,7 @@
 | Availability | 99.9% best effort | Inherited from Vercel's CDN. Hobby has no contractual SLA, which is acceptable for a civic site with no transactions. |
 | Latency (TTFB, p95) | < 200 ms from Morocco | Static HTML is served from the nearest edge (Paris/Madrid). |
 | LCP | < 2.0 s, mid-range mobile on 4G | PRD NFR-1. Measured with Lighthouse in CI (see Test Strategy). |
-| JS on list page | < 100 KB gzipped | PRD NFR-1. Only the filter UI hydrates. |
+| JS on list page | ≤ 130 KB gzipped (island ≤ 15 KB) | PRD NFR-1 (revised 2026-09-21). Only the filter UI hydrates. |
 | Throughput | ~30 RPS peak (see §6) | Served by the CDN. Nothing at the origin scales with traffic. |
 | Data volume | < 5 MB catalogue, ~1,200 pages | ~300 commitments × 2 mandates × 2 locales at the 5-year horizon. |
 | Retention | Forever | Git history is the public audit trail (HANDOFF ADR-1). Nothing is deleted. |
@@ -75,7 +75,7 @@ Only the boxes above get built. There is no API gateway, load balancer, cache, q
 - **Re-evaluate when**: content needs to change more often than a deploy is practical (not foreseen).
 
 ### SDR-2: List filters run client-side on a static page
-- **NFR Driver**: FR-10 (filters in the URL), NFR-1 (JS < 100 KB).
+- **NFR Driver**: FR-10 (filters in the URL), NFR-1 (JS ≤ 130 KB).
 - **Options**: 🟢 one static list page per locale × mandate, with filtering in the browser from `?theme=&status=` · 🟡 pre-render every filter combination · 🔴 filter on the server per request.
 - **Decision**: 🟢. The full list for one mandate (≤ ~300 short cards) is in the static HTML, so it works without JS and is indexable. A small client component reads the URL params, hides non-matching cards and updates the per-status counts. Shared filtered links work.
 - **Alternatives**: 🟡 would mean themes × statuses × locales × mandates pages for little SEO value. 🔴 breaks SDR-1.

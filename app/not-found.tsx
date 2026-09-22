@@ -25,7 +25,7 @@ export default function NotFound() {
           </section>
           <section lang="ar" dir="rtl" className="border-t border-rule pt-12">
             <p className="mb-2 text-sm text-ink-muted">وعد</p>
-            <h2 className="mb-3 font-[family-name:var(--font-serif-ar)] text-xl font-bold md:text-2xl">
+            <h2 className="mb-3 font-[family-name:var(--font-serif-ar)] text-xl font-normal md:text-2xl">
               الصفحة غير موجودة
             </h2>
             <p>هذا الالتزام أو هذه الولاية غير موجودة، أو لم تنشر بعد.</p>

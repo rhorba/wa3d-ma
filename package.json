@@ -19,7 +19,9 @@
     "catalogue:freshness": "tsx --conditions=react-server scripts/catalogue.ts freshness",
     "catalogue:links": "tsx --conditions=react-server scripts/catalogue.ts links",
     "e2e:embargo": "playwright test --grep @embargo",
-    "route-check": "sh scripts/route-check.sh"
+    "route-check": "sh scripts/route-check.sh",
+    "budget": "tsx scripts/bundle-budget.ts",
+    "lighthouse": "lhci autorun"
   },
   "dependencies": {
     "next": "15.5.25",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@eslint/eslintrc": "^3",
+    "@lhci/cli": "0.15.1",
     "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

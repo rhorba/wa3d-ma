@@ -128,7 +128,7 @@ And without JavaScript the rows are grouped by theme with a jump-link index
 ```gherkin
 Then the Test Strategy "Browse commitments" scenarios pass (share URL, zero results + reset, invalid params ignored)
 And the result count is announced (aria-live), mobile uses a <dialog> sheet, desktop a ruled facet list
-And list-page JS stays < 100 KB gzip
+And list-page JS stays ≤ 130 KB gzip (island ≤ 15 KB)
 ```
 **Tech notes**: pure `lib/filters.ts` (parse / apply / serialise) unit-tested; `history.replaceState`. **Deps**: 2.2.
 
@@ -196,7 +196,7 @@ Then e2e runs on a fixture build (FR + AR, mobile + desktop, axe, headers), the 
 ### Story 3.3: CI: Lighthouse budgets
 **Must · S · DevOps**. As a mobile reader, I want the site fast and accessible (G6, NFR-1).
 ```gherkin
-Then lhci asserts perf ≥ 0.95, a11y ≥ 0.95 (median of 3) on list + detail FR + AR, and list JS < 100 KB
+Then lhci asserts perf ≥ 0.95, a11y ≥ 0.95 (median of 3) on list + detail FR + AR, and list JS ≤ 130 KB (island ≤ 15 KB, `pnpm budget`)
 ```
 **Deps**: 3.2.
 

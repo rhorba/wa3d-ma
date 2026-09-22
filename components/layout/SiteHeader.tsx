@@ -25,7 +25,7 @@ export async function SiteHeader({ mandate, path }: Props) {
           Wa3d.ma
           <span
             lang="ar"
-            className="ms-2 font-[family-name:var(--font-serif-ar)] font-normal text-ink-muted"
+            className="ms-2 font-[family-name:var(--font-wordmark)] font-normal text-ink-muted"
           >
             وعد
           </span>

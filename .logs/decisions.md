@@ -43,3 +43,7 @@
 
 ### [2026-09-22] APPROACH — List markup grouped by theme, flattened by CSS when the island is active
 - One DOM: theme sections (no-JS fallback, UX) become display:contents with row order = programme index once the filter island marks the list enhanced (2.3), giving the approved flat programme-order list. Themes ordered by first appearance in the programme.
+
+### [2026-09-22] DECISION — Story 3.3 BRAINSTORM: 🔴 separate lighthouse job + island size script (user choice)
+
+### [2026-09-22] DECISION — Story 3.3: fonts subset (scripts/subset-fonts.sh, ~-50% Arabic), not preloaded, wordmark-only Naskh face, AR H1 Naskh 700 -> 400 and 700 file dropped (user choice; UI §2 updated). Perf decided by CI numbers.

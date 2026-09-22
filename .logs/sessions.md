@@ -38,3 +38,6 @@
 - Next (Batch E): 3.3 Lighthouse CI (+ update PRD NFR-1 to 130 KB / island 15 KB), 3.4 repo hardening (branch protection, squash-only, delete-on-merge, dependabot, private vuln reporting, SECURITY.md, correction.yml with field ids commitment/page, monthly-review workflow), 3.5 Vercel deploy. Then SHIP: full verify, coverage → metrics, design check vs mockups, recording .recordings/v0.2-<date>.webm, push, CI green.
 - User actions pending: `! vercel login` at 3.5; optional `! gh auth refresh -h github.com -s user` to verify 2FA/email privacy; consider excluding .next and node_modules from OneDrive sync.
 - Open questions: AR rendering of mandate ranges (bdi vs natural bidi) for Story 2.8; 2021-2026 end / 2026-2031 start dates during curation.
+
+### [2026-09-22] SESSION_START
+- Resumed at Sprint 2 Batch E (e2ecc2e). Story 3.3 Lighthouse CI: UNDERSTAND.
