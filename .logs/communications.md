@@ -84,3 +84,9 @@
 
 ### [2026-09-21] HANDOFF — Frontend Dev → DevOps + Tester (Story 3.2)
 - Context: layout merged 8bc56c9, local e2e 14/14. Need: CI e2e job on fixture build (+ axe), route check (no ƒ), embargo smoke (flag off). Constraints: SHA-pinned actions, build env via job env, @embargo specs split with --grep.
+
+### [2026-09-22] HANDOFF — DevOps → Frontend Dev + Copywriter (Story 2.2)
+- Context: CI e2e/embargo gates live (883671e). Need: /{locale}/{mandate} list: counts (fixed order, equal weight), programme-order rows, mini progress, verified date, no-JS theme grouping. Constraints: static params from enabled mandates, dynamicParams=false, no client code (island is 2.3).
+
+### [2026-09-22] QUESTION — AR rendering of mandate ranges (for Story 2.8 copy review)
+- "2021-2026" after Arabic text renders visually as 2026-2021 (bidi W2: EN→AN, ES does not join ANs). Conventional in Arabic press (read RTL: 2021 first); the approved mockup isolated it with <bdi> (LTR 2021-2026). Kept natural bidi for now; ask the user at 2.8 and apply one rule everywhere.

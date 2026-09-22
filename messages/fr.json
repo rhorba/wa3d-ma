@@ -46,5 +46,21 @@
     "housing": "Logement",
     "water_energy": "Eau et énergie",
     "other": "Autres"
+  },
+  "list": {
+    "eyebrow": "Mandat {mandate}",
+    "heading": "Gouvernement {mandate}",
+    "lede": "{count, plural, one {# engagement suivi} other {# engagements suivis}}, tirés du <link>programme gouvernemental</link>. Chaque statut s'appuie sur une source officielle.",
+    "countsLabel": "Engagements par statut",
+    "themes": "Thèmes",
+    "towardTarget": "{percent} % vers la cible",
+    "targetReached": "100 % : cible atteinte",
+    "noTarget": "Sans cible chiffrée",
+    "noData": "Données indisponibles",
+    "verified": "Vérifié le",
+    "total": "{count, plural, one {# engagement} other {# engagements}}",
+    "pendingTitle": "Le programme n'a pas encore été présenté",
+    "pendingText": "Le programme gouvernemental n'a pas encore été présenté au Parlement. Les engagements seront publiés dans les 72 heures suivant sa présentation.",
+    "pendingMethodology": "Comment nous travaillons"
   }
 }

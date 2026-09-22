@@ -17,3 +17,5 @@
 - 2FA on GitHub/Vercel/registrar + noreply commit email required before first push (user action).
 ### [2026-09-21] PERFORMANCE — NFR-1 list-page JS < 100 KB likely infeasible as written
 - Empty Next 15 + React 19 page already ships ~102 kB shared First Load JS. Decide at Story 2.3/3.3 with a real list page: raise budget (e.g. <= 130 KB total, island <= 15 KB) or keep and trim. User decision.
+### [2026-09-22] DEPENDENCY — OneDrive sync interferes with .next build cache (local only)
+- EINVAL readlink on .next/diagnostics; fixed by rm -rf .next. CI/prod unaffected. Option for the user: exclude .next and node_modules from OneDrive sync, or move the repo outside OneDrive.
