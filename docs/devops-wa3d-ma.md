@@ -18,7 +18,7 @@ There is no separate staging environment (YAGNI): previews are per-PR, protected
 ## 2. Environment Variables (CLAUDE.md rule 10), `.env.example`
 | Variable | Scope | Value | Notes |
 |---|---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | ⚠️ confirm the Vercel project name is free at setup; becomes the own domain later (runbook R3) |
+| `NEXT_PUBLIC_SITE_URL` | build, public | `https://wa3d-ma.vercel.app` | Vercel project name confirmed on 2026-09-22; becomes the own domain later (runbook R3) |
 | `NEXT_PUBLIC_ARCHIVE_ENABLED` | build, public | `false` (set `true` on/after 2026-09-24 via runbook R1) | Read at build time (SDR-3) |
 | `NEXT_PUBLIC_REPO_URL` | build, public | `https://github.com/rhorba/wa3d-ma` | Correction-issue links |
 | `WA3D_DATA_DIR` | build, **CI/test only** | unset (= `data`); CI E2E sets `tests/fixtures/catalogue/valid` | New, non-public. Lets the same build run on fixtures. Parsed in `lib/env.ts` (ADR-6 extended by one var) |
@@ -50,22 +50,22 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 - **Compute**: none at runtime (SSG, SDR-1). The route check in CI keeps it that way.
 - **Database**: none (JSON in git).
 - **Secrets**: none. Vercel env vars hold only the public values in §2.
-- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3).
+- **DNS / domain**: `*.vercel.app` until a domain is bought (runbook R3). Production live at https://wa3d-ma.vercel.app since 2026-09-22.
 - **Fallback host** (SDR-5): Cloudflare Pages, documented only, not provisioned (YAGNI). It needs the own domain.
 
 ## 5. Repository Hardening (SEC-4, SEC-5, SEC-6, SEC-7): one-time setup checklist
 **User actions (only you can do these):**
 - [ ] 2FA (passkey/TOTP) on GitHub and Vercel; recovery codes stored offline
 - [ ] GitHub → Settings → Emails: "Keep my email private" + "Block command line pushes that expose my email"; `git config user.email "<id>+rhorba@users.noreply.github.com"` in this repo **before the first commit**
-- [ ] Create the public repo `rhorba/wa3d-ma` (empty, no README)
-- [ ] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on
+- [x] Create the public repo `rhorba/wa3d-ma` (empty, no README)
+- [x] Import it into Vercel, set the §2 env vars for Production and Preview, keep Deployment Protection on (2026-09-22: project `wa3d-ma` on the Hobby team, Node 22.x, Vercel Authentication = Standard Protection; the env vars are marked sensitive, so the dashboard does not show their values)
 
 **Done by me via `gh` once the repo exists (you confirm each):**
-- [ ] Branch protection on `main`: PR required, required checks = all `ci.yml` jobs, no force-push or deletion, linear history, include administrators
-- [ ] Secret scanning + push protection; private vulnerability reporting; Dependabot security updates
-- [ ] Issues: disable blank issues; `.github/ISSUE_TEMPLATE/correction.yml` (commitment id, what is wrong, official source URL, a "this issue is public" notice); `config.yml` with a link to the Méthodologie page
-- [ ] `SECURITY.md` → private vulnerability reporting
-- [ ] Squash-merge only; delete the branch on merge
+- [x] Branch protection on `main`: PR required (0 reviews: solo maintainer), required checks = all 8 `ci.yml` jobs from GitHub Actions, strict (branch up to date), no force-push or deletion, linear history, include administrators (2026-09-22)
+- [x] Secret scanning + push protection; private vulnerability reporting; Dependabot alerts + security updates (7-day cooldown in `dependabot.yml`)
+- [x] Issues: disable blank issues; `.github/ISSUE_TEMPLATE/correction.yml` (commitment id, what is wrong, official source URL, a "this issue is public" notice); `config.yml` with a link to the Méthodologie page
+- [x] `SECURITY.md` → private vulnerability reporting
+- [x] Squash-merge only; delete the branch on merge
 
 ## 6. Security Scanning Gates
 | Scanner | Scan type | Fail threshold |
@@ -99,7 +99,7 @@ Estimated wall time is ~6–8 minutes, since all jobs run in parallel.
 **R2 Rollback**: Vercel → Deployments → previous production → "Instant Rollback" (seconds). Then `git revert` the bad PR on `main` so git matches production again. For a wrong status, follow Security §8 (correct it with a dated evidence note).
 **R3 Own-domain swap**: buy the domain (registrar lock, 2FA, auto-renew) → add it in Vercel → set `NEXT_PUBLIC_SITE_URL` → redeploy → add `preload` to HSTS (SEC-1) and submit to hstspreload.org → new Search Console property + sitemap → keep `wa3d-ma.vercel.app` redirecting to the domain.
 **R4 2026-2031 ingestion** (within 72 h of the programme's presentation, PRD G4): a `data/2026-2031-programme` branch → curate → PR → CI + your sign-off → merge. The home page switches automatically (ADR-10). No embargo applies to the current mandate.
-**R5 Version recording** (rule 9): `pnpm e2e:record` (Playwright `video: 'on'` on the critical journeys, fixture build) → the script copies the result to `.recordings/v<version>-<YYYY-MM-DD>.webm` → commit it → log it.
+**R5 Version recording** (rule 9): fixture build with the archive on (`WA3D_DATA_DIR=tests/fixtures/catalogue/valid NEXT_PUBLIC_ARCHIVE_ENABLED=true pnpm build`) → `pnpm e2e:record <version>` (`playwright.record.config.ts`, `e2e/record/journeys.record.ts`, video on, slowMo) → `scripts/record.sh` copies it to `.recordings/v<version>-<YYYY-MM-DD>.webm` → commit it → log it. Note: local `next start` serves the root 404 without its stylesheet; production is styled.
 
 ## DevOps Validation Checklist
 - [x] Environments defined with deploy triggers (local / preview / production; preview replaces staging)

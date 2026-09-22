@@ -38,7 +38,7 @@
   --text-xl:   1.75rem;   /* 28px: H1 on mobile */
   --text-2xl:  2.125rem;  /* 34px: H1 ≥ 768px */
   --leading-body: 1.55;  --leading-ar: 1.75;  --leading-heading: 1.2;
-  /* Weights in use: 400, 600 (sans); 400 italic not used; 600 (serif H1); Naskh 400 only (AR H1 + quotes; 700 dropped for NFR-1, 2026-09-22). Fonts subset by scripts/subset-fonts.sh, not preloaded, font-display optional (no swap shift; slow first visits may show system fonts). Figures: tabular (tnum) everywhere. */
+  /* Weights in use: 400, 600 (sans); 400 italic not used; 600 (serif H1); Naskh 400 only (AR H1 + quotes; 700 dropped for NFR-1, 2026-09-22). Fonts subset by scripts/subset-fonts.sh, served from public/fonts (immutable, versioned names), preloaded per locale (lib/fonts.ts), font-display optional (no swap shift). Figures: tabular (tnum) everywhere. */
   --tracking-label: 0.06em;  /* uppercase theme labels and section labels only */
 
   /* Spacing: 4px base; steps in use */

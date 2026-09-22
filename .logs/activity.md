@@ -204,3 +204,37 @@
 - VERIFY local: actionlint 1.7.7 clean (checksum-verified binary; Docker down), lint/types/format/fitness OK, 259 tests, coverage 100% stmts / 97.2% branches.
 
 ### [2026-09-22] CI — PR #26 run 1 RED: Semgrep dependabot-missing-cooldown (2 blocking). Fix: cooldown default-days 7 on both ecosystems.
+
+### [2026-09-22] CI — PR #26 run 2: 8/8 GREEN + dependabot check; merged as ce412f3; main 8/8 GREEN
+
+### [2026-09-22] COMPLETED — Story 3.4 settings (DevOps via gh api)
+- Squash-only (title/body), delete-on-merge; private vulnerability reporting ON; Dependabot alerts + security updates ON; label correction.
+- Branch protection main: 8 required checks (app 15368), strict, enforce_admins, 0 reviews, linear history, no force-push/deletion. From now on every change to main goes through a PR.
+- Smoke: monthly-review dispatched -> issue #28 created; re-run updated #28 (no duplicate); #28 closed as test.
+
+### [2026-09-22] MILESTONE — Story 3.4 shipped (#26)
+
+### [2026-09-22] PHASE — Story 3.5 UNDERSTAND (Deployment + DevOps)
+- Vercel CLI 50.32.5 installed; no .vercel link; env vars known (.env.example), no secrets.
+
+### [2026-09-22] COMPLETED — Story 3.5 first deploy (Deployment, via user browser session)
+- Vercel project wa3d-ma imported from rhorba/wa3d-ma (Hobby), Next.js preset, env vars SITE_URL / ARCHIVE_ENABLED=false / REPO_URL for Production + Preview. First deploy dpl_5behGwsLFtcvZf77pBPVau53y1gB (6eb0bf2).
+- Verified prod: / 308 -> /fr; /fr /ar /fr/methodologie /ar/methodologie 200; home intro FR/AR (no real data yet); /fr/2021-2026 and details 404 (embargo); sitemap = methodologie FR/AR only; robots OK; headers CSP (frame-ancestors none, base-uri none, form-action none), HSTS 2y, nosniff, Referrer-Policy, Permissions-Policy, COOP.
+- Found + fixed: /nope 500 on Vercel -> PR #30 (dynamicParams=false on [locale]) merged 0b40ccd, CI 8/8 + Vercel green; prod /nope /en /favicon.ico 404 (bilingual page).
+- Settings: Node.js 24.x -> 22.x (matches CI; applies from next deploy); Deployment Protection Standard (previews need Vercel login) confirmed.
+
+### [2026-09-22] MILESTONE — Story 3.5 shipped: production live at https://wa3d-ma.vercel.app (archive dark)
+
+### [2026-09-22] CI — PR #31 (logs) and #32 (dev-dep overrides) 8/8 + Vercel GREEN; main 3c39159 GREEN; production redeployed on Node 22.x, spot-checked (/ 308, /fr /ar 200, archive 404, /nope 404)
+
+### [2026-09-22] COMPLETED — Dependabot alerts (5, all dev-only via @lhci/cli)
+- #1-#3 tmp/uuid fixed by pnpm overrides (tmp 0.2.7, uuid 11.1.1; lhci verified). #4-#5 extract-zip dismissed not_used (only runs on puppeteer browser download, never in our lhci job; no patched version) - user choice.
+
+### [2026-09-22] PHASE — Sprint 2 SHIP (Tester + Test Architect + DevOps): full verify, coverage, design check, recording v0.2
+
+### [2026-09-22] COMPLETED — Sprint 2 SHIP verify
+- Full verify on main 3c39159 then e0a7173: lint/types/format/fitness/catalogue OK; 262 tests, coverage 100% stmts / 97.22% branches; fixture build static; budget OK; E2E 116/116; embargo 10/10; pnpm audit high = 2 dismissed extract-zip only.
+- Design check vs docs/design/mockups/shots/rfinal (list-fr desktop, detail-ar mobile): layout and anatomy match; deltas: fixture data, ↗ outside underline (cosmetic), AR mandate range order (Story 2.8 open question), system fonts on first visit (fixed #33, verified cold on prod AR + FR 4G).
+- Recording: .recordings/v0.2-2026-09-22.webm (22 s: home, list, filters theme+status, detail FR, language toggle, detail AR, Méthodologie, 404). pnpm e2e:record added (playwright.record.config.ts, e2e/record, scripts/record.sh). Local next start serves root 404 unstyled; production 404 styled (checked).
+
+### [2026-09-22] MILESTONE — Sprint 2 complete: site in FR + AR live at https://wa3d-ma.vercel.app with the archive dark
