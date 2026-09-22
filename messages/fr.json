@@ -4,8 +4,13 @@
     "description": "Suivi indépendant des engagements du gouvernement marocain, avec citations exactes et sources officielles."
   },
   "home": {
-    "title": "Wa3d.ma",
-    "building": "Site en construction."
+    "heading": "Suivi des engagements du gouvernement",
+    "intro": [
+      "Wa3d.ma suit, un par un, les engagements du programme gouvernemental : ce qui a été promis, mot pour mot, et ce qui a été fait, source officielle à l'appui.",
+      "Chaque statut repose sur un acte daté et publié par une institution officielle. Les mêmes règles s'appliquent quelle que soit la coalition au pouvoir."
+    ],
+    "upcoming": "Les engagements du gouvernement 2026-2031 seront publiés dans les 72 heures suivant la présentation de son programme au Parlement.",
+    "methodology": "Comment nous travaillons"
   },
   "nav": {
     "skip": "Aller au contenu",
@@ -125,5 +130,71 @@
     "link": "Signaler une erreur sur cet engagement",
     "note": "Le signalement est public et nécessite un compte GitHub.",
     "back": "Tous les engagements {theme}"
+  },
+  "methodology": {
+    "title": "Méthodologie",
+    "lede": "Comment Wa3d.ma choisit, cite, classe et corrige les engagements du gouvernement.",
+    "toc": "Sur cette page",
+    "tracking": {
+      "title": "Ce que nous suivons",
+      "body": [
+        "Nous suivons les engagements inscrits dans le programme que le gouvernement présente au Parlement après sa nomination. Chaque engagement est cité mot pour mot, avec le document et la page d'où il vient.",
+        "Nous ne comparons pas les partis, ne notons pas les ministres et ne calculons aucun « score » global : les engagements n'ont pas tous le même poids, et les additionner serait un jugement."
+      ]
+    },
+    "statuses": {
+      "title": "Les six statuts",
+      "intro": "Le statut d'un engagement est celui de la dernière entrée datée de sa chronologie. Il ne change que lorsqu'une source officielle nouvelle le justifie.",
+      "definitions": {
+        "not_started": "Aucun acte officiel n'a été trouvé en direction de l'engagement. Ce statut n'est possible qu'avant l'échéance.",
+        "in_progress": "Un acte officiel existe (projet de loi déposé, décret, ligne budgétaire, programme lancé) et l'échéance n'est pas passée.",
+        "achieved": "Une source officielle montre que la cible est atteinte, ou que l'acte promis est adopté et en vigueur.",
+        "partial": "L'échéance est passée ; une source officielle montre qu'une partie de la cible est atteinte ou qu'une partie de l'acte est adoptée.",
+        "not_achieved": "L'échéance est passée ; aucune source officielle ne montre que la cible est atteinte ou que l'acte est adopté.",
+        "abandoned": "Une déclaration ou un acte officiel retire ou remplace l'engagement."
+      }
+    },
+    "sources": {
+      "title": "Sources acceptées",
+      "body": [
+        "Seules des sources officielles peuvent justifier un statut ou un chiffre : Bulletin officiel, site du Chef du gouvernement, ministères, Haut-Commissariat au Plan, Bank Al-Maghrib, Cour des comptes, Parlement, lois de finances, et pour les indicateurs internationaux la Banque mondiale et le FMI.",
+        "La presse peut apparaître en complément, clairement signalée, mais ne justifie jamais un statut. Chaque source est archivée pour que les liens restent consultables."
+      ],
+      "list": "Liste complète des domaines acceptés"
+    },
+    "neutrality": {
+      "title": "Neutralité",
+      "body": [
+        "Les notes décrivent des faits datés, sans adjectif ni jugement. Une liste de mots de jugement, en français et en arabe, est vérifiée automatiquement à chaque modification.",
+        "Les noms de partis n'apparaissent que comme auteurs du programme. Les mêmes règles s'appliquent à toute coalition."
+      ]
+    },
+    "translations": {
+      "title": "Traductions",
+      "body": [
+        "Chaque citation est affichée en français et en arabe. Lorsqu'aucune traduction officielle n'existe, nous traduisons nous-mêmes et l'indiquons par la mention « Traduction Wa3d », avec un lien vers le texte original."
+      ]
+    },
+    "corrections": {
+      "title": "Signaler une erreur",
+      "body": [
+        "Vous pouvez signaler une erreur depuis la page de chaque engagement. Le signalement se fait sur GitHub : il est public et nécessite un compte GitHub.",
+        "Une correction n'est apportée que sur la base d'une source officielle. Lorsqu'un statut publié était erroné, la correction est ajoutée à la chronologie plutôt qu'effacée."
+      ],
+      "link": "Ouvrir un signalement"
+    },
+    "history": {
+      "title": "Historique des modifications",
+      "body": [
+        "Toutes les données sont publiques et chaque modification est conservée dans l'historique du dépôt : on peut voir qui a changé quoi, quand et avec quelle source."
+      ],
+      "link": "Voir l'historique"
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Cet engagement ou ce mandat n'existe pas, ou n'est pas encore publié.",
+    "home": "Voir les engagements",
+    "methodology": "Méthodologie"
   }
 }

@@ -101,3 +101,6 @@
 
 ### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Tester (Story 2.5)
 - Context: detail top merged 0773561. Need: evidence timeline (newest first, official source + archive, secondary pointers, current marker, empty state), Citer block (canonical URL), correction link (issue form prefilled), back link, escaping proof. Constraints: text-only rendering (ADR-8), notes split on blank lines.
+
+### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Copywriter (Story 2.6)
+- Context: detail page merged 1043a60. Need: home (ADR-10: newest mandate with data, canonical to mandate URL; intro when none), bilingual 404 for unknown URLs (root not-found + passthrough root layout), localized not-found, Méthodologie FR/AR with #statut-* anchors. Constraints: static, neutral copy, fonts shared by both layouts.

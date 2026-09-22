@@ -9,6 +9,9 @@ const PAGES = [
   "/ar/2021-2026",
   "/fr/2021-2026/fictif-emploi",
   "/ar/2021-2026/fictif-gouvernance",
+  "/fr/methodologie",
+  "/ar/methodologie",
+  "/fr/2031-2036",
 ];
 
 for (const path of PAGES) {
