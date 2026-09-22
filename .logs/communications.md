@@ -104,3 +104,8 @@
 
 ### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Copywriter (Story 2.6)
 - Context: detail page merged 1043a60. Need: home (ADR-10: newest mandate with data, canonical to mandate URL; intro when none), bilingual 404 for unknown URLs (root not-found + passthrough root layout), localized not-found, Méthodologie FR/AR with #statut-* anchors. Constraints: static, neutral copy, fonts shared by both layouts.
+
+### [2026-09-22] CI — PR #22 (2.6) and main: GREEN
+
+### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Digital Marketer (Story 2.7)
+- Context: all pages merged f8a7c8b. Need: canonical + hreflang (fr/ar/x-default), descriptions, basic OpenGraph, sitemap.xml (enabled non-empty mandates, details, méthodologie; alternates; lastModified), robots.txt. Constraints: all from NEXT_PUBLIC_SITE_URL, static routes, embargo respected, no OG images (later sprint).

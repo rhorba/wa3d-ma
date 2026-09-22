@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { localeDirection, routing } from "@/i18n/routing";
 import { env } from "@/lib/env";
+import { openGraph } from "@/lib/seo";
 import { fontVariables } from "../fonts";
 import "../globals.css";
 
@@ -22,7 +23,13 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "metadata" });
   // env() validates the configuration during the build (ADR-6).
-  return { metadataBase: new URL(env().siteUrl), title: t("title"), description: t("description") };
+  return {
+    metadataBase: new URL(env().siteUrl),
+    title: t("title"),
+    description: t("description"),
+    openGraph: openGraph(locale),
+    twitter: { card: "summary" },
+  };
 }
 
 // No NextIntlClientProvider: it would ship every message to the browser. The only client

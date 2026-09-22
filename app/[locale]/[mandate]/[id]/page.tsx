@@ -15,6 +15,7 @@ import { todayInCasablanca } from "@/lib/catalogue/validate";
 import { env } from "@/lib/env";
 import { formatDate } from "@/lib/format";
 import { enabledMandates } from "@/lib/mandates";
+import { alternates, openGraph, truncate } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string; mandate: string; id: string }> };
 
@@ -42,7 +43,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, mandate, id } = await params;
   const commitment = commitmentOf(mandate, id);
   const lang = locale === "ar" ? "ar" : "fr";
-  return { title: `${commitment.title[lang]} · Wa3d.ma` };
+  const tStatus = await getTranslations({ locale, namespace: "status" });
+  const title = `${commitment.title[lang]} · Wa3d.ma`;
+  // Status first, then the promise in its own words: what a reader needs from a search result.
+  const description = truncate(
+    `${tStatus(currentStatus(commitment))} · ${commitment.quote[lang].text}`,
+  );
+  const path = `/${mandate}/${id}`;
+  return {
+    title,
+    description,
+    alternates: alternates(locale, path),
+    openGraph: openGraph(locale, { title, description, url: `/${locale}${path}`, type: "article" }),
+  };
 }
 
 // "(passée)" is computed when the page is built; every data change rebuilds the site (SDR-1).

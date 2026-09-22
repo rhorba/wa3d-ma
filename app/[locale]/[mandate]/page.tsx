@@ -8,6 +8,7 @@ import { loadCatalogue } from "@/lib/catalogue/load";
 import type { Mandate } from "@/lib/catalogue/schema";
 import { env } from "@/lib/env";
 import { enabledMandates } from "@/lib/mandates";
+import { alternates, openGraph } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string; mandate: string }> };
 
@@ -29,11 +30,16 @@ function mandateOf(value: string): Mandate {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, mandate } = await params;
   const t = await getTranslations({ locale, namespace: "list" });
-  const empty = (loadCatalogue().byMandate.get(mandate as Mandate)?.length ?? 0) === 0;
+  const count = loadCatalogue().byMandate.get(mandate as Mandate)?.length ?? 0;
+  const title = `${t("heading", { mandate })} · Wa3d.ma`;
+  const description = t("description", { count, mandate });
   // An enabled but empty mandate is not worth indexing yet (ADR-10).
   return {
-    title: `${t("heading", { mandate })} · Wa3d.ma`,
-    robots: empty ? { index: false } : undefined,
+    title,
+    description,
+    alternates: alternates(locale, `/${mandate}`),
+    openGraph: openGraph(locale, { title, description, url: `/${locale}/${mandate}` }),
+    robots: count === 0 ? { index: false } : undefined,
   };
 }
 

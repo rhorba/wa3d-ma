@@ -168,3 +168,6 @@
 
 ### [2026-09-22] COMPLETED — Story 2.6 home, 404, Méthodologie
 - Home = defaultMandate list (canonical → mandate URL) or intro when none (real data today); shared MandateList; passthrough root layout + bilingual root not-found for unknown URLs; localized [locale]/not-found; Méthodologie FR/AR (7 sections, sticky TOC, #statut-* anchors with definitions from PRD §5.3, links to domain list, correction form, git history); fonts moved to app/fonts.ts; @next/next/no-html-link-for-pages off (plain anchors by design). E2E 102/102; intro verified on real (empty) data build.
+
+### [2026-09-22] COMPLETED — Story 2.7 SEO
+- lib/seo.ts (alternates fr/ar/x-default, truncate, openGraph helper vs shallow metadata merge, sitemapEntries), app/sitemap.ts (enabled non-empty mandates + details + méthodologie, alternates, lastModified; never home or archive when embargoed), app/robots.ts; metadata on home/list/detail/méthodologie (canonical, hreflang, descriptions status-first, OG). Embargo spec now requires sitemap 200 without 2021-2026. E2E 110/110, embargo 10/10.
