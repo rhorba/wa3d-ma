@@ -158,3 +158,6 @@
 
 ### [2026-09-22] COMPLETED — Story 2.4 detail page (header, quote, progress)
 - /{locale}/{mandate}/{id} static per enabled mandate (dynamicParams=false, wrong mandate → 404): breadcrumb (theme link pre-filters list), title, status + definition link, deadline (passée at build), lastVerified, verbatim quote + provenance (wa3d label + original in details, official/original notes), source opens PDF at #page=N, progress panel metric/no-data/editorial with units. lib/detail.ts 100%. E2E 72/72, axe on 2 detail pages.
+
+### [2026-09-22] COMPLETED — Story 2.5 timeline, citation, correction link
+- EvidenceTimeline (newest first, current marker, notes split on blank lines as text, official source + archive, dotted secondary press pointers, empty state), CommitmentActions (Citer open with permalink from NEXT_PUBLIC_SITE_URL, correction.yml issue link prefilled with id/page, public note, back link to pre-filtered list). Fixture fictif-autre carries an escaping test note. E2E 84/84.

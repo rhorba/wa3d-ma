@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { CommitmentActions } from "@/components/detail/CommitmentActions";
+import { EvidenceTimeline } from "@/components/detail/EvidenceTimeline";
 import { ProgressPanel } from "@/components/detail/ProgressPanel";
 import { QuoteBlock } from "@/components/detail/QuoteBlock";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -104,6 +106,8 @@ export default async function CommitmentPage({ params }: Props) {
 
           <QuoteBlock commitment={commitment} />
           <ProgressPanel commitment={commitment} indicators={indicators} />
+          <EvidenceTimeline commitment={commitment} />
+          <CommitmentActions commitment={commitment} />
         </div>
       </main>
     </>

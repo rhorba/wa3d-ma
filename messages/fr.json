@@ -107,5 +107,23 @@
     "mad_billion": "{value} milliards de dirhams",
     "rank": "{value}e",
     "ratio": "{value}"
+  },
+  "timeline": {
+    "heading": "Chronologie",
+    "order": "(plus récent d'abord)",
+    "current": "statut actuel",
+    "source": "Source officielle :",
+    "archived": "Copie archivée",
+    "press": "Presse, pour information :",
+    "empty": "Aucun acte officiel relevé à ce jour."
+  },
+  "cite": {
+    "heading": "Citer cet engagement",
+    "text": "Wa3d.ma, « {title} », statut au {date}, {url}"
+  },
+  "report": {
+    "link": "Signaler une erreur sur cet engagement",
+    "note": "Le signalement est public et nécessite un compte GitHub.",
+    "back": "Tous les engagements {theme}"
   }
 }
