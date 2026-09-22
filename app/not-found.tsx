@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { fontVariables } from "./fonts";
 import "./globals.css";
 
 // Any URL that matches no page (an unknown mandate, id, or the embargoed archive). The locale
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <html lang="fr" dir="ltr" className={fontVariables}>
+    <html lang="fr" dir="ltr">
       <body className="min-h-dvh antialiased">
         <main id="main" className="mx-auto grid max-w-[680px] gap-12 px-4 py-16">
           <section>
