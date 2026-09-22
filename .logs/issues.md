@@ -12,3 +12,5 @@
 ### [2026-09-22] ISSUE — Story 3.3: perf below 0.95 locally (FR 0.93-0.94, AR 0.88-0.89); fonts on FCP path. Font preloads disabled (preload:false). User chose: subset + trim fonts.
 
 ### [2026-09-22] ISSUE — Story 3.5 first production deploy (dpl_5behGwsLFtcvZf77pBPVau53y1gB, 6eb0bf2): single-segment unknown URLs (/nope, /favicon.ico) answered 500 on Vercel (X-Matched-Path /500), 404 locally. Cause: [locale] lacked dynamicParams=false, so Vercel rendered unknown locales on demand. Fix PR: dynamicParams=false on [locale] layout + e2e for /nope, /favicon.ico, /en (116/116).
+
+### [2026-09-22] ISSUE — Sprint 2 design check: with display optional and no preload, first visits rendered system fonts (prod /ar cold on a fast link, /fr cold on 4G); designed faces only from cache. User chose per-locale preload + optional.

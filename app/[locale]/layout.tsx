@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { preload } from "react-dom";
 import { hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { localeDirection, routing } from "@/i18n/routing";
 import { env } from "@/lib/env";
+import { fontPreloads } from "@/lib/fonts";
 import { openGraph } from "@/lib/seo";
-import { fontVariables } from "../fonts";
 import "../globals.css";
 
 type Props = {
@@ -42,10 +43,14 @@ export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  // React hoists these into <head>: the locale's faces start downloading with the CSS (lib/fonts.ts).
+  for (const href of fontPreloads(locale)) {
+    preload(href, { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
+  }
   const t = await getTranslations("nav");
 
   return (
-    <html lang={locale} dir={localeDirection(locale)} className={fontVariables}>
+    <html lang={locale} dir={localeDirection(locale)}>
       <body className="min-h-dvh antialiased">
         <a
           href="#main"

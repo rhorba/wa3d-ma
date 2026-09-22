@@ -224,3 +224,10 @@
 - Settings: Node.js 24.x -> 22.x (matches CI; applies from next deploy); Deployment Protection Standard (previews need Vercel login) confirmed.
 
 ### [2026-09-22] MILESTONE — Story 3.5 shipped: production live at https://wa3d-ma.vercel.app (archive dark)
+
+### [2026-09-22] CI — PR #31 (logs) and #32 (dev-dep overrides) 8/8 + Vercel GREEN; main 3c39159 GREEN; production redeployed on Node 22.x, spot-checked (/ 308, /fr /ar 200, archive 404, /nope 404)
+
+### [2026-09-22] COMPLETED — Dependabot alerts (5, all dev-only via @lhci/cli)
+- #1-#3 tmp/uuid fixed by pnpm overrides (tmp 0.2.7, uuid 11.1.1; lhci verified). #4-#5 extract-zip dismissed not_used (only runs on puppeteer browser download, never in our lhci job; no patched version) - user choice.
+
+### [2026-09-22] PHASE — Sprint 2 SHIP (Tester + Test Architect + DevOps): full verify, coverage, design check, recording v0.2

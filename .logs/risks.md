@@ -23,3 +23,5 @@
 ### [2026-09-22] RISK — Branch protection includes admins: an urgent content correction now needs a PR + ~4 min of green CI (accepted, user choice). Vercel Instant Rollback (R2) stays available for emergencies.
 
 ### [2026-09-22] RISK — No favicon: browsers get a 404 for /favicon.ico on every first visit (harmless, adds a log line). Add one with the brand work, not now (YAGNI).
+
+### [2026-09-22] RISK — extract-zip (GHSA-7pqw-9j4j-h8q3, GHSA-jmr9-qjv8-65gv) dismissed as not_used in @lhci/cli chain; no upstream fix. Recheck monthly; if a fix ships, reopen and override.

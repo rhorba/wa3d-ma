@@ -53,3 +53,5 @@
 ### [2026-09-22] DECISION — Story 3.4 BRAINSTORM: branch protection strict + up-to-date, admins included, 0 reviews (user choice)
 
 ### [2026-09-22] DECISION — Story 3.5 BRAINSTORM: Vercel project via dashboard import by user (user choice); PLAN shared: user imports + env vars, I verify URL/headers/embargo, docs via PR.
+
+### [2026-09-22] DECISION — Fonts: plain @font-face from public/fonts (versioned .v1, Cache-Control immutable), React preload() per locale (FR 4 files ~55 KB, AR 6 files ~105 KB), display optional kept (user choice)

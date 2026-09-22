@@ -47,7 +47,15 @@ const nextConfig: NextConfig = {
     return [{ source: "/", destination: "/fr", permanent: true }];
   },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [
+      { source: "/:path*", headers: securityHeaders },
+      // Versioned file names (lib/fonts.ts): a changed font gets a new URL, so browsers may keep
+      // these forever. Without it every page revalidates each font and can miss the optional window.
+      {
+        source: "/fonts/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+    ];
   },
 };
 
