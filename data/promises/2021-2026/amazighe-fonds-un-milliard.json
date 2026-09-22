@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "amazighe-fonds-un-milliard",
+  "mandate": "2021-2026",
+  "theme": "other",
+  "title": {
+    "fr": "Caractère officiel de l'amazighe : un fonds d'un milliard de dirhams d'ici 2025",
+    "ar": "تفعيل الطابع الرسمي للأمازيغية عبر صندوق خاص بميزانية تصل لمليار درهم بحلول 2025"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Mettre en œuvre le caractère officiel de l'amazighe, notamment par la création d'un fonds spécial doté d'un budget atteignant un milliard de dirhams à l'horizon 2025. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تفعيل الطابع الرسمي للأمازيغية، خاصة من خلال إحداث صندوق خاص وضخه بميزانية تصل لمليار درهم بحلول سنة 2025»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2025-12-31",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2023-01-10",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le Chef du gouvernement indique qu'environ 200 millions de dirhams ont été alloués en 2022 et que 300 millions sont programmés dans la loi de finances 2023, montant à porter progressivement à un milliard de dirhams d'ici 2025.",
+        "ar": "أفاد رئيس الحكومة أنه تم تخصيص حوالي 200 مليون درهم سنة 2022، وبرمجة 300 مليون درهم في قانون المالية لسنة 2023، على أن يرفع هذا المبلغ تدريجيا ليصل إلى مليار درهم بحلول سنة 2025."
+      },
+      "source": {
+        "name": "Chef du gouvernement, discours de lancement du plan intégré de mise en œuvre du caractère officiel de l'amazighe",
+        "url": "https://www.cg.gov.ma/en/node/10961",
+        "published": "2023-01-10",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

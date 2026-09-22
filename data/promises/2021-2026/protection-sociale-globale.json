@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "protection-sociale-globale",
+  "mandate": "2021-2026",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Mettre en œuvre la protection sociale globale",
+    "ar": "تفعيل الحماية الاجتماعية الشاملة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Mettre en œuvre la protection sociale globale. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تفعيل الحماية الاجتماعية الشاملة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2022-11-30",
+      "status": "in_progress",
+      "note": {
+        "fr": "Publication au Bulletin officiel n° 7147 bis de la loi n° 27-22, qui fait basculer les bénéficiaires du RAMED vers l'assurance maladie obligatoire (régime « AMO Tadamon ») à partir du 1er décembre 2022.",
+        "ar": "نشر القانون رقم 27.22 في الجريدة الرسمية عدد 7147 مكرر، والذي ينقل المستفيدين من نظام المساعدة الطبية (راميد) إلى التأمين الإجباري الأساسي عن المرض (نظام «أمو تضامن») ابتداء من فاتح دجنبر 2022."
+      },
+      "source": {
+        "name": "CESE, avis « Généralisation de l'AMO, bilan d'étape : une avancée sociale à consolider, des défis à relever » (adopté le 31 octobre 2024)",
+        "url": "https://www.cese.ma/media/2024/11/Avis-AMO-VF.pdf",
+        "published": "2024-10-31",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2023-12-04",
+      "status": "in_progress",
+      "note": {
+        "fr": "Publication au Bulletin officiel n° 7253 de la loi n° 58-23 relative au régime d'aide sociale directe.",
+        "ar": "نشر القانون رقم 58.23 المتعلق بنظام الدعم الاجتماعي المباشر في الجريدة الرسمية عدد 7253."
+      },
+      "source": {
+        "name": "Loi n° 58-23 relative au régime d'aide sociale directe (Bulletin officiel n° 7253 du 4 décembre 2023), texte publié par l'ANSS",
+        "url": "https://www.anss.gov.ma/sites/default/files/decrets/Loi_n58.23_AR.pdf",
+        "published": "2023-12-04",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le CESE indique que 88 % de la population est assurée selon l'ANAM, et que 8,54 millions de personnes n'accèdent pas encore à l'AMO : 4,97 millions non immatriculées et plus de 11 % des immatriculés en situation de « droits fermés ».",
+        "ar": "أفاد المجلس الاقتصادي والاجتماعي والبيئي أن 88% من السكان مؤمنون حسب الوكالة الوطنية للتأمين الصحي، وأن 8,54 مليون شخص لا يستفيدون بعد من التأمين الإجباري عن المرض: 4,97 مليون غير مسجلين، وأزيد من 11% من المسجلين في وضعية «حقوق مغلقة»."
+      },
+      "source": {
+        "name": "CESE, avis « Généralisation de l'AMO, bilan d'étape : une avancée sociale à consolider, des défis à relever » (adopté le 31 octobre 2024)",
+        "url": "https://www.cese.ma/media/2024/11/Avis-AMO-VF.pdf",
+        "published": "2024-10-31",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

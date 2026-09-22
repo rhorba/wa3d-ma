@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "croissance-quatre-pourcent",
+  "mandate": "2021-2026",
+  "theme": "economy",
+  "title": {
+    "fr": "Porter la croissance à un rythme de 4 % sur cinq ans",
+    "ar": "الرفع من وتيرة النمو إلى معدل 4% خلال الخمس سنوات المقبلة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Porter le rythme de la croissance à un taux de 4 % au cours des cinq prochaines années. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«الرفع من وتيرة النمو إلى معدل 4% خلال الخمس سنوات المقبلة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2024-06-04",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une croissance de 3,4 % en 2023, après 1,5 % en 2022.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن نمو الاقتصاد الوطني بلغ 3,4% سنة 2023، بعد 1,5% سنة 2022."
+      },
+      "source": {
+        "name": "HCP, Situation économique nationale en 2023",
+        "url": "https://www.hcp.ma/Situation-economique-nationale-en-2023_a3890.html",
+        "published": "2024-06-04",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une croissance de 3,8 % en 2024 et révise celle de 2023 à 3,7 %.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن النمو بلغ 3,8% سنة 2024، ومراجعة نمو سنة 2023 إلى 3,7%."
+      },
+      "source": {
+        "name": "HCP, Situation économique nationale en 2024",
+        "url": "https://www.hcp.ma/Situation-economique-nationale-en-2024_a4119.html",
+        "published": "2025-06-06",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une croissance de 4,9 % en 2025 et révise celle de 2024 à 4,4 %. Moyenne 2022-2025 selon les derniers chiffres publiés : 3,6 %. Les chiffres de 2026 ne sont pas encore publiés.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن النمو بلغ 4,9% سنة 2025، ومراجعة نمو سنة 2024 إلى 4,4%. متوسط الفترة 2022-2025 حسب آخر الأرقام المنشورة: 3,6%. لم تنشر بعد أرقام سنة 2026."
+      },
+      "source": {
+        "name": "HCP, Situation économique nationale en 2025",
+        "url": "https://www.hcp.ma/Situation-economique-nationale-en-2025_a4317.html",
+        "published": "2026-06-08",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

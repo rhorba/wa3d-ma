@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "madkhoul-al-karama-65-ans",
+  "mandate": "2021-2026",
+  "theme": "social_protection",
+  "title": {
+    "fr": "« Madkhoul al-karama » de 1 000 dirhams pour les plus de 65 ans en 2026",
+    "ar": "توفير مدخول الكرامة لمن تزيد أعمارهم عن 65 سنة يبلغ 1000 درهم سنة 2026"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Instaurer un \"revenu de la dignité\" (madkhoul al-karama) pour les personnes de plus de 65 ans, atteignant 1 000 dirhams en 2026. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«توفير \"مدخول الكرامة“ لمن تزيد أعمارهم عن 65 سنة، يبلغ 1000 درهم سنة 2026»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 50
+  },
+  "deadline": "2026-12-31",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2025-06-20",
+      "status": "in_progress",
+      "note": {
+        "fr": "L'ANSS indique que l'aide sociale directe verse une aide forfaitaire de 500 dirhams par mois aux ménages sans enfants ou ayant à charge des personnes âgées. Ce montant est versé par ménage et non par personne âgée.",
+        "ar": "أفادت الوكالة الوطنية للدعم الاجتماعي أن الدعم الاجتماعي المباشر يمنح إعانة جزافية قدرها 500 درهم شهريا للأسر التي ليس لها أطفال أو التي تتكفل بأشخاص مسنين. يصرف هذا المبلغ عن كل أسرة وليس عن كل شخص مسن."
+      },
+      "source": {
+        "name": "ANSS, Aides sociales : ce qui change pour les familles dès la fin novembre",
+        "url": "https://anss.gov.ma/fr/aides-sociales-ce-qui-change-pour-les-familles-des-la-fin-novembre",
+        "published": "2025-06-20",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "activite-femmes-trente-pourcent",
+  "mandate": "2021-2026",
+  "theme": "employment",
+  "title": {
+    "fr": "Porter le taux d'activité des femmes à plus de 30 % au lieu de 20 %",
+    "ar": "رفع نسبة نشاط النساء إلى أكثر من 30% عوض 20% حاليا"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Porter le taux d'activité des femmes à plus de 30 %, au lieu de 20 % actuellement. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«رفع نسبة نشاط النساء إلى أكثر من 30% عوض 20% حاليا»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "target": {
+    "indicatorId": "activite-femmes-hcp",
+    "baseline": {
+      "value": 20,
+      "year": 2021,
+      "source": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22"
+      }
+    },
+    "value": 30,
+    "direction": "increase"
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2024-03-19",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie un taux d'activité des femmes de 19 % en 2023, en recul de 0,8 point sur un an.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن معدل نشاط النساء بلغ 19% سنة 2023، بتراجع قدره 0,8 نقطة خلال سنة."
+      },
+      "source": {
+        "name": "HCP, Principales caractéristiques de la population active et ses composantes en 2023",
+        "url": "https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "published": "2024-03-19",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie un taux d'activité des femmes de 19 % en 2025, contre 19,1 % en 2024. Les chiffres de 2026 ne sont pas encore publiés.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن معدل نشاط النساء بلغ 19% سنة 2025، مقابل 19,1% سنة 2024. لم تنشر بعد أرقام سنة 2026."
+      },
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2025",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "published": "2026-02-03",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

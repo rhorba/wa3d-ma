@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "allocations-familiales-300-dirhams",
+  "mandate": "2021-2026",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Généraliser les allocations familiales de 300 dirhams par enfant, dans la limite de trois",
+    "ar": "تعميم التعويضات العائلية المحددة في 300 درهم شهريا عن كل طفل في حدود ثلاثة أطفال"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Généraliser les allocations familiales, fixées à 300 dirhams par mois et par enfant, dans la limite de trois enfants. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعميم التعويضات العائلية المحددة في 300 درهم شهريا عن كل طفل، في حدود ثلاثة أطفال»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 50
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2023-12-04",
+      "status": "in_progress",
+      "note": {
+        "fr": "Publication au Bulletin officiel n° 7253 de la loi n° 58-23 relative au régime d'aide sociale directe, qui prévoit une allocation mensuelle par enfant.",
+        "ar": "نشر القانون رقم 58.23 المتعلق بنظام الدعم الاجتماعي المباشر في الجريدة الرسمية عدد 7253، وهو ينص على إعانة شهرية عن كل طفل."
+      },
+      "source": {
+        "name": "Loi n° 58-23 relative au régime d'aide sociale directe (Bulletin officiel n° 7253 du 4 décembre 2023), texte publié par l'ANSS",
+        "url": "https://www.anss.gov.ma/sites/default/files/decrets/Loi_n58.23_AR.pdf",
+        "published": "2023-12-04",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "status": "in_progress",
+      "note": {
+        "fr": "L'ANSS annonce le passage de l'allocation de 200 à 250 dirhams par mois et par enfant, pour les trois premiers enfants, à partir de fin novembre 2025 ; une nouvelle hausse est prévue en 2026.",
+        "ar": "أعلنت الوكالة الوطنية للدعم الاجتماعي رفع الإعانة من 200 إلى 250 درهما شهريا عن كل طفل، بالنسبة للأطفال الثلاثة الأوائل، ابتداء من نهاية نونبر 2025، مع زيادة جديدة مرتقبة سنة 2026."
+      },
+      "source": {
+        "name": "ANSS, Aides sociales : ce qui change pour les familles dès la fin novembre",
+        "url": "https://anss.gov.ma/fr/aides-sociales-ce-qui-change-pour-les-familles-des-la-fin-novembre",
+        "published": "2025-06-20",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

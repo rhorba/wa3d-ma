@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "eau-barrages-dessalement",
+  "mandate": "2021-2026",
+  "theme": "water_energy",
+  "title": {
+    "fr": "Accélérer la construction de barrages, le dessalement et le traitement des eaux usées",
+    "ar": "التنزيل المحكم لبرامج بناء السدود وتحلية مياه البحر ومعالجة المياه العادمة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement s'engage à restructurer la gouvernance de l'eau afin de renforcer l'efficacité et la cohérence entre les programmes et les acteurs, en vue d'une offre et d'une répartition équitables des ressources en eau entre les régions et au sein de chaque région, à travers la mise en œuvre rigoureuse des programmes de construction de barrages, de dessalement de l'eau de mer et de traitement des eaux usées et des eaux pluviales, puis l'amélioration du rendement des réseaux de distribution de l'eau d'irrigation et de l'eau potable. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تتعهد الحكومة إعادة هيكلة منظومة الحكامة المائية من أجل تعزيز النجاعة والانسجام بين البرامج والفاعلين في أفق توفير وتوزيع عادل للموارد المائية بين الجهات وداخل كل جهة من خلال الوقوف على التنزيل المحكم لبرامج بناء السدود وتحلية مياه البحر ومعالجة المياه العادمة ومياه الأمطار ثم تحسين مردودية قنوات توزيع مياه السقي والشرب.»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 79
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2024-06-10",
+      "status": "in_progress",
+      "note": {
+        "fr": "Début des travaux de construction de la station de dessalement de Casablanca, dans le cadre du programme national d'approvisionnement en eau potable et d'irrigation 2020-2027.",
+        "ar": "انطلاق أشغال بناء محطة تحلية مياه البحر بالدار البيضاء، في إطار البرنامج الوطني للتزويد بالماء الشروب ومياه السقي 2020-2027."
+      },
+      "source": {
+        "name": "Portail national du Maroc, Le dessalement au service de la souveraineté hydrique",
+        "url": "https://www.maroc.ma/fr/actualites/le-dessalement-au-service-de-la-souverainete-hydrique",
+        "published": "2025-07-16",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

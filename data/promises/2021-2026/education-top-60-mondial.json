@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "education-top-60-mondial",
+  "mandate": "2021-2026",
+  "theme": "education",
+  "title": {
+    "fr": "Mobiliser le système éducatif pour classer le Maroc parmi les 60 meilleurs pays",
+    "ar": "تعبئة المنظومة التربوية بهدف تصنيف المغرب ضمن أحسن 60 دولة عالميا"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Mobiliser le système éducatif, dans toutes ses composantes, afin de classer le Maroc parmi les 60 meilleurs pays au monde (au lieu des rangs tardifs dans la plupart des indicateurs internationaux concernés). »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعبئة المنظومة التربوية - بكل مكوناتها - بهدف تصنيف المغرب ضمن أحسن 60 دولة عالميا (عوض المراتب المتأخرة في جل المؤشرات الدولية ذات الصلة)»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2023-04-21",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le Chef du gouvernement préside une réunion de suivi de la feuille de route 2022-2026 de réforme du système éducatif, fondée sur trois axes : l'enseignant, l'élève et l'établissement scolaire.",
+        "ar": "ترأس رئيس الحكومة اجتماعا لتتبع تنفيذ خارطة الطريق 2022-2026 لإصلاح منظومة التربية الوطنية، المرتكزة على ثلاثة محاور: الأستاذ والتلميذ والمؤسسة التعليمية."
+      },
+      "source": {
+        "name": "Chef du gouvernement, réunion de suivi de la feuille de route 2022-2026 de réforme du système éducatif",
+        "url": "https://www.cg.gov.ma/en/node/11138",
+        "published": "2023-04-21",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}
