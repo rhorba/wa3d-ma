@@ -55,3 +55,5 @@
 ### [2026-09-22] DECISION — Story 3.5 BRAINSTORM: Vercel project via dashboard import by user (user choice); PLAN shared: user imports + env vars, I verify URL/headers/embargo, docs via PR.
 
 ### [2026-09-22] DECISION — Fonts: plain @font-face from public/fonts (versioned .v1, Cache-Control immutable), React preload() per locale (FR 4 files ~55 KB, AR 6 files ~105 KB), display optional kept (user choice)
+
+### [2026-09-22] DECISION — Sprint 3 BRAINSTORM (user choices): I find the Oct 2021 programme (official FR+AR, archived); pilot ~15 flagship commitments across 9 themes, then grow; I draft entries + evidence, user verifies (4.4); mandate end stays placeholder 2026-09-23 until the next government is appointed (later data PR).

@@ -61,6 +61,11 @@ The "Allowed" column is enforced (V-9): "Non réalisé" can never appear before 
 - `accessed` = the day you checked the source; `published` = the date printed on the document, if any.
 - cg.gov.ma deep pages refuse automated requests: download the PDF manually, never scrape.
 
+### Indicator values
+- **World Bank series** (internationally reported figures): list them in `data/world-bank-series.json` (`id`, `series` code, FR/AR `name`, `unit`, `decimals`, first year `from`), then run `pnpm fetch:indicators`. It writes `data/indicators/<id>.json` with the World Bank page as source, the dataset's update date as `published` and today as `accessed`, then validates everything. Re-run it to refresh; review the diff before committing.
+- **HCP, Bank Al-Maghrib, ministries**: enter the values by hand in `data/indicators/<id>.json`, one value per year (or `Q1`-`Q4`, `M01`-`M12`), each with the exact publication as `source` and its archive copy.
+- Prefer the **national official figure** when the promise is about it (e.g. HCP unemployment, not the World Bank's modelled ILO estimate): the target must be measured with the series the programme itself refers to.
+
 ## 6. Re-verification and freshness
 - Re-check every commitment at least every **45 days** (PRD G3). When nothing changed, update only `lastVerified`: do **not** add an evidence entry for "no change".
 - `lastVerified` can never be older than the latest evidence entry (V-8) or later than today (V-6).
