@@ -30,6 +30,9 @@ const eslintConfig = [
   {
     rules: {
       "@typescript-eslint/no-explicit-any": "error",
+      // Plain <a> on purpose: every page is a static document (SDR-1); next/link would pull the
+      // client-side router into the bundle for no benefit (NFR-1 budget).
+      "@next/next/no-html-link-for-pages": "off",
       // ADR-8: data is rendered as text, never as HTML.
       "react/no-danger": "error",
       "no-restricted-syntax": [

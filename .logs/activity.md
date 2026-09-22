@@ -161,3 +161,10 @@
 
 ### [2026-09-22] COMPLETED — Story 2.5 timeline, citation, correction link
 - EvidenceTimeline (newest first, current marker, notes split on blank lines as text, official source + archive, dotted secondary press pointers, empty state), CommitmentActions (Citer open with permalink from NEXT_PUBLIC_SITE_URL, correction.yml issue link prefilled with id/page, public note, back link to pre-filtered list). Fixture fictif-autre carries an escaping test note. E2E 84/84.
+
+### [2026-09-22] CI — PRs #20, #21 and main: GREEN
+
+### [2026-09-22] MILESTONE — Sprint 2 Batch C complete (#20 detail top, #21 timeline/cite/report)
+
+### [2026-09-22] COMPLETED — Story 2.6 home, 404, Méthodologie
+- Home = defaultMandate list (canonical → mandate URL) or intro when none (real data today); shared MandateList; passthrough root layout + bilingual root not-found for unknown URLs; localized [locale]/not-found; Méthodologie FR/AR (7 sections, sticky TOC, #statut-* anchors with definitions from PRD §5.3, links to domain list, correction form, git history); fonts moved to app/fonts.ts; @next/next/no-html-link-for-pages off (plain anchors by design). E2E 102/102; intro verified on real (empty) data build.
