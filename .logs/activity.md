@@ -204,3 +204,12 @@
 - VERIFY local: actionlint 1.7.7 clean (checksum-verified binary; Docker down), lint/types/format/fitness OK, 259 tests, coverage 100% stmts / 97.2% branches.
 
 ### [2026-09-22] CI — PR #26 run 1 RED: Semgrep dependabot-missing-cooldown (2 blocking). Fix: cooldown default-days 7 on both ecosystems.
+
+### [2026-09-22] CI — PR #26 run 2: 8/8 GREEN + dependabot check; merged as ce412f3; main 8/8 GREEN
+
+### [2026-09-22] COMPLETED — Story 3.4 settings (DevOps via gh api)
+- Squash-only (title/body), delete-on-merge; private vulnerability reporting ON; Dependabot alerts + security updates ON; label correction.
+- Branch protection main: 8 required checks (app 15368), strict, enforce_admins, 0 reviews, linear history, no force-push/deletion. From now on every change to main goes through a PR.
+- Smoke: monthly-review dispatched -> issue #28 created; re-run updated #28 (no duplicate); #28 closed as test.
+
+### [2026-09-22] MILESTONE — Story 3.4 shipped (#26)

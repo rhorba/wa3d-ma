@@ -19,3 +19,5 @@
 - Empty Next 15 + React 19 page already ships ~102 kB shared First Load JS. Decide at Story 2.3/3.3 with a real list page: raise budget (e.g. <= 130 KB total, island <= 15 KB) or keep and trim. User decision.
 ### [2026-09-22] DEPENDENCY — OneDrive sync interferes with .next build cache (local only)
 - EINVAL readlink on .next/diagnostics; fixed by rm -rf .next. CI/prod unaffected. Option for the user: exclude .next and node_modules from OneDrive sync, or move the repo outside OneDrive.
+
+### [2026-09-22] RISK — Branch protection includes admins: an urgent content correction now needs a PR + ~4 min of green CI (accepted, user choice). Vercel Instant Rollback (R2) stays available for emergencies.
