@@ -238,3 +238,11 @@
 - Recording: .recordings/v0.2-2026-09-22.webm (22 s: home, list, filters theme+status, detail FR, language toggle, detail AR, Méthodologie, 404). pnpm e2e:record added (playwright.record.config.ts, e2e/record, scripts/record.sh). Local next start serves root 404 unstyled; production 404 styled (checked).
 
 ### [2026-09-22] MILESTONE — Sprint 2 complete: site in FR + AR live at https://wa3d-ma.vercel.app with the archive dark
+
+### [2026-09-22] CI — Dependabot PR #27 (actions group: checkout v7.0.1, setup-node v7.0.0, pnpm/action-setup v6.1.0, upload-artifact v7.0.1): 8/8 GREEN, all 4 pinned SHAs verified against official tags; branch updated for strict protection.
+
+### [2026-09-22] PHASE — Sprint 3 PLAN confirmed (Batches A-D); EXECUTE Batch A (tooling)
+
+### [2026-09-22] CI — PR #27 re-run after rebase 8/8 GREEN; merged
+
+### [2026-09-22] COMPLETED — Story 4.2 tooling: pnpm fetch:indicators (lib/catalogue/world-bank.ts 100%, scripts/fetch-indicators.ts), curation guide "Indicator values". End-to-end on a scratch dir: SL.UEM.TOTL.ZS 7 values, catalogue 0 errors. Indicator data files come with the pilot on the local data branch.

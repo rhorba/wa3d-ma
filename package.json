@@ -22,7 +22,8 @@
     "route-check": "sh scripts/route-check.sh",
     "budget": "tsx scripts/bundle-budget.ts",
     "lighthouse": "lhci autorun",
-    "e2e:record": "sh scripts/record.sh"
+    "e2e:record": "sh scripts/record.sh",
+    "fetch:indicators": "tsx --conditions=react-server scripts/fetch-indicators.ts"
   },
   "dependencies": {
     "next": "15.5.25",

@@ -47,3 +47,6 @@
 - Production: https://wa3d-ma.vercel.app (archive dark). main protected: PR + 8 green checks, strict.
 - Next: Epic 4 (2021-2026 dataset, local branch data/2021-2026) and runbook R1 embargo lift on/after 2026-09-24 with user sign-off; Story 2.8 (AR mandate range bidi); favicon with brand work.
 - User actions pending: 2FA on GitHub/Vercel (unverified); confirm 2021-2026 end / 2026-2031 start dates during curation; one manual check that the correction form opens prefilled.
+
+### [2026-09-22] SESSION_START
+- Resumed after Sprint 2 ship (5a97e16). CI main GREEN + Vercel deploy success for 5a97e16. Starting Sprint 3 (Epic 4) UNDERSTAND.
