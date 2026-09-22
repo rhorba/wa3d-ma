@@ -16,3 +16,9 @@
 ### [2026-09-22] ISSUE — Sprint 2 design check: with display optional and no preload, first visits rendered system fonts (prod /ar cold on a fast link, /fr cold on 4G); designed faces only from cache. User chose per-locale preload + optional.
 
 ### [2026-09-22] ISSUE — real-data-smoke CI job (DevOps §3, needed by runbook R1) was never implemented; added to Sprint 3 Batch A.
+
+### [2026-09-22] ISSUE — Rebase of #37: a failed regex conflict fix did not stop the command chain, so a package.json with conflict markers was pushed to the PR branch (never main). Fixed within minutes by amend + force-push. Lesson: resolve conflicts with the Edit tool and run multi-step shell with set -e.
+
+### [2026-09-22] ISSUE — Wayback Machine cannot fetch cg.gov.ma (save returns 523; likely bot/geo block). Programme PDF kept locally in .sources/ with SHA-256 9401e0c0359f5f786f43540ad9e23909411bcab0eff2502601e967dcbc143280 (downloaded 2026-09-22, 3 492 634 bytes, created 2022-10-06). Entries on cg.gov.ma carry no archiveUrl for now (worksheet flags them); retry later.
+
+### [2026-09-22] ISSUE — Wayback save failed for all 14 non-cg sources (13 x HTTP 500, 1 x 429), incl. maroc.ma: anonymous SPN refused from this connection. archiveUrl left empty (optional; worksheet flags). Options: user saves via browser (list in .sources/archive-todo.txt) or one slow retry before launch.
