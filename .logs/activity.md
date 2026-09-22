@@ -171,3 +171,7 @@
 
 ### [2026-09-22] COMPLETED — Story 2.7 SEO
 - lib/seo.ts (alternates fr/ar/x-default, truncate, openGraph helper vs shallow metadata merge, sitemapEntries), app/sitemap.ts (enabled non-empty mandates + details + méthodologie, alternates, lastModified; never home or archive when embargoed), app/robots.ts; metadata on home/list/detail/méthodologie (canonical, hreflang, descriptions status-first, OG). Embargo spec now requires sitemap 200 without 2021-2026. E2E 110/110, embargo 10/10.
+
+### [2026-09-22] CI — PR #23 (2.7) and main: GREEN
+
+### [2026-09-22] MILESTONE — Sprint 2 Batch D complete (#22 home/404/méthodologie, #23 SEO): all pages built
