@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Méthodologie · المنهجية"
+    url: https://wa3d-ma.vercel.app/fr/methodologie
+    about: "Comment les statuts sont attribués et comment les corrections sont traitées. · كيف تحدد الأوضاع وكيف تعالج التصحيحات."
+  - name: "Signaler une faille de sécurité (privé) · الإبلاغ عن ثغرة أمنية (خاص)"
+    url: https://github.com/rhorba/wa3d-ma/security/advisories/new
+    about: "Ne signalez jamais une faille dans une issue publique. · لا تبلغ عن ثغرة في بلاغ علني."

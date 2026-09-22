@@ -1,0 +1,57 @@
+name: Monthly review
+
+# PRD G3, Security link-rot mitigation (DevOps §3): one issue a month listing stale or overdue commitments
+# and unreachable sources. Reports only, never fixes; the curator works through it (curation guide).
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: monthly-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    name: Freshness + links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Build the report
+        run: |
+          {
+            echo "Revue automatique du $(date -u +%Y-%m-%d) ([run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}))."
+            echo
+            pnpm --silent catalogue:freshness --markdown
+            echo
+            pnpm --silent catalogue:links --markdown
+            echo
+            echo "### À vérifier aussi"
+            echo
+            echo "- [ ] Vercel → Usage : bande passante du mois (> 70 GB → préparer le repli Cloudflare, SDR-5)"
+          } > review.md
+      # One issue per month: a manual re-run updates this month's issue instead of opening another.
+      - name: Open or update the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Revue mensuelle $(date -u +%Y-%m)"
+          gh label create revue-mensuelle --color 6E5A2B --description "Monthly review" 2>/dev/null || true
+          number=$(gh issue list --state open --label revue-mensuelle --search "\"$title\" in:title" --json number,title \
+            --jq "map(select(.title == \"$title\")) | .[0].number // empty")
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file review.md
+            echo "Updated #$number" >> "$GITHUB_STEP_SUMMARY"
+          else
+            gh issue create --title "$title" --label revue-mensuelle --body-file review.md >> "$GITHUB_STEP_SUMMARY"
+          fi

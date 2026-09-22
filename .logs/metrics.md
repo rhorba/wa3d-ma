@@ -10,3 +10,8 @@
 - Security: pnpm audit clean; CI Semgrep/Trivy/Gitleaks green; fitness gate incl. hidden-character scan.
 - CI: every PR and every main run green except one red main run after #2 (cache config), fixed in #3.
 - Build: all routes static; shared First Load JS 102 kB (NFR-1 budget risk logged).
+
+### [2026-09-22] STORY_SNAPSHOT — Story 3.3 Lighthouse (CI run 35717489558)
+- Perf/a11y (3 runs, mobile): FR list 0.95-0.99, AR list 0.97-0.99, FR detail 0.98, AR detail 0.98; a11y 1.0 everywhere; CLS <= 0.043; LCP 1.6-2.4 s.
+- JS: list page 104.9 KB gzip (budget 130), filters island 2.8 KB (budget 15).
+- Coverage: statements 100%, branches 97.2% (255 tests).
