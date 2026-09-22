@@ -90,3 +90,8 @@
 
 ### [2026-09-22] QUESTION — AR rendering of mandate ranges (for Story 2.8 copy review)
 - "2021-2026" after Arabic text renders visually as 2026-2021 (bidi W2: EN→AN, ES does not join ANs). Conventional in Arabic press (read RTL: 2021 first); the approved mockup isolated it with <bdi> (LTR 2021-2026). Kept natural bidi for now; ask the user at 2.8 and apply one rule everywhere.
+
+### [2026-09-22] CI — PR #18 (2.2) and main: GREEN
+
+### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Tester (Story 2.3)
+- Context: list merged 8b1a12b (grouped markup, data-enhanced CSS ready). Need: lib/filters.ts (pure, 100%), CommitmentFilters client island (chips, mobile dialog, desktop ledger, replaceState, aria-live, reset, zero results), island <= 15 KB. Constraints: only use-client in components/filters, labels as props (no intl provider), hidden until hydrated.
