@@ -24,7 +24,8 @@
     "lighthouse": "lhci autorun",
     "e2e:record": "sh scripts/record.sh",
     "fetch:indicators": "tsx --conditions=react-server scripts/fetch-indicators.ts",
-    "e2e:real-data": "playwright test --grep @realdata --project desktop-chromium"
+    "e2e:real-data": "playwright test --grep @realdata --project desktop-chromium",
+    "catalogue:worksheet": "tsx --conditions=react-server scripts/catalogue.ts worksheet"
   },
   "dependencies": {
     "next": "15.5.25",

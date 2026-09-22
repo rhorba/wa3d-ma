@@ -247,3 +247,4 @@
 
 ### [2026-09-22] COMPLETED — Story 4.2 tooling: pnpm fetch:indicators (lib/catalogue/world-bank.ts 100%, scripts/fetch-indicators.ts), curation guide "Indicator values". End-to-end on a scratch dir: SL.UEM.TOTL.ZS 7 values, catalogue 0 errors. Indicator data files come with the pilot on the local data branch.
 ### [2026-09-22] COMPLETED — real-data-smoke CI job (gap from DevOps §3): e2e/real-data.spec.ts @realdata (homes + every sitemap URL: 200 + axe), pnpm e2e:real-data, job on every PR with the archive on; default suite excludes @realdata (116). Local run on data/ passes.
+### [2026-09-22] COMPLETED — Story 4.4 tooling: pnpm catalogue:worksheet (lib/catalogue/worksheet.ts 100% lines / 90% branches), output to git-ignored .verification/; refuses to run with validation errors. Fixture sheet: 9 commitments, 64 checks + sign-off.

@@ -83,7 +83,7 @@ pnpm catalogue:links           # optional: unreachable sources (warnings)
 
 ## 8. The 2021-2026 archive (embargo, ADR-3)
 - Curate on the **local-only** branch `data/2021-2026`. **Do not push it before 2026-09-24**: every pushed branch of a public repo is public (Security §7). The validator blocks 2021-2026 files on any pushed ref before that date (V-16).
-- After curation: verification worksheet → your sign-off → push and PR on or after 2026-09-24 → runbook R1 (DevOps §8).
+- After curation: `pnpm catalogue:worksheet --mandate 2021-2026` writes `.verification/worksheet-2021-2026-<date>.md` (git-ignored: never commit it before the embargo lifts), one checkbox per quote, target, baseline, evidence entry and indicator value, each next to its source → check every line against its source, note any difference under it → corrections, then a fresh worksheet → your written sign-off (logged) → push and PR on or after 2026-09-24 → runbook R1 (DevOps §8).
 
 ## 9. Handling correction issues
 Correction reports arrive as GitHub issues ("Correction" form, public).
