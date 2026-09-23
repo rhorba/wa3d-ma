@@ -29,9 +29,9 @@
       "value": 20,
       "year": 2021,
       "source": {
-    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
-    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
-    "accessed": "2026-09-22"
+        "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+        "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+        "accessed": "2026-09-22"
       }
     },
     "value": 30,
@@ -50,6 +50,7 @@
       "source": {
         "name": "HCP, Principales caractéristiques de la population active et ses composantes en 2023",
         "url": "https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "archiveUrl": "https://web.archive.org/web/20260923052606/https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
         "published": "2024-03-19",
         "accessed": "2026-09-22"
       }
@@ -64,6 +65,7 @@
       "source": {
         "name": "HCP, Situation du marché du travail en 2025",
         "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134128/https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
         "published": "2026-02-03",
         "accessed": "2026-09-22"
       }
