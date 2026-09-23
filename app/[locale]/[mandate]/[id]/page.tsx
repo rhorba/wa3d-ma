@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ltr } from "@/components/ui/ltr";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CommitmentActions } from "@/components/detail/CommitmentActions";
@@ -79,7 +80,7 @@ export default async function CommitmentPage({ params }: Props) {
       <main id="main" className="mx-auto max-w-[1120px] px-4">
         <div className="max-w-[680px]">
           <nav aria-label={t("breadcrumb")} className="pt-6 text-sm text-ink-muted">
-            <a href={`/${locale}/${mandate}`}>{tNav("mandate", { mandate })}</a>
+            <a href={`/${locale}/${mandate}`}>{tNav.rich("mandate", { mandate, ltr })}</a>
             <span aria-hidden="true" className="mx-2">
               ›
             </span>

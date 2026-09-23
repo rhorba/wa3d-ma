@@ -100,6 +100,29 @@ test.describe("commitment page", () => {
     await expect(page.getByTestId("deadline")).toHaveText("31/12/2025 (انقضى)");
   });
 
+  test("Arabic: the mandate range, French source names and the citation URL stay left to right (Story 2.8)", async ({
+    page,
+  }) => {
+    await page.goto("/ar/2021-2026/fictif-emploi");
+    const crumb = page.getByRole("navigation", { name: "مسار التنقل" }).getByRole("link").first();
+    await expect(crumb.locator('bdi[dir="ltr"]')).toHaveText("2021-2026");
+    await expect(page.locator("header").locator('bdi[dir="ltr"]').first()).toHaveText("2021-2026");
+    await expect(page.locator("section[aria-labelledby=h-promised] a bdi").first()).toHaveText(
+      "Programme gouvernemental fictif 2021-2026",
+    );
+    await expect(page.getByTestId("citation").locator('bdi[dir="ltr"]')).toHaveText(
+      /^https:\/\/.+\/ar\/2021-2026\/fictif-emploi$/,
+    );
+  });
+
+  test("French guillemets are bound to their words by no-break spaces", async ({ page }) => {
+    await page.goto("/fr/2021-2026/fictif-emploi");
+    const quote = await page.getByTestId("quote").textContent();
+    expect(quote).toMatch(/^« Texte fictif .* »$/);
+    const citation = await page.getByTestId("citation").textContent();
+    expect(citation).toContain("Wa3d.ma, « ");
+  });
+
   test("the language toggle stays on the same commitment", async ({ page }) => {
     await page.goto("/fr/2021-2026/fictif-emploi");
     await page.getByRole("link", { name: "Version arabe" }).click();

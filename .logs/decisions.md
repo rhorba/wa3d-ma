@@ -63,3 +63,5 @@
 ### [2026-09-22] DECISION — Mandate-end commitments show their latest official status at launch (e.g. En cours with the latest official figures); they are settled (Réalisé / Partiellement / Non réalisé) only when official full-period data is published; V-14 flags them monthly until then (user choice).
 
 ### [2026-09-22] DECISION — Launch timing: user asked to "launch now"; after the embargo (ADR-3/SEC-8, election 2026-09-23) and missing 4.4 verification were laid out, user chose: launch on 2026-09-24 after their worksheet check. Embargo kept.
+
+### [2026-09-23] DECISION — Batch C BRAINSTORM: 🔴 C (user choice): AR bidi isolation of source titles + citation, FR guillemet no-break, Story 2.8 mandate range shown LTR 2021-2026 on AR pages. User asks Claude to re-check and sign off .verification/.

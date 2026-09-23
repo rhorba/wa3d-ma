@@ -50,8 +50,8 @@ describe("loading the valid fixture catalogue", () => {
     expect(readCatalogue({ dataDir: "data", today: TODAY }).input.enforceEmbargo).toBe(true);
   });
 
-  it("loads the real catalogue folder (empty until data is curated)", () => {
-    expect(() => buildCatalogue({ dataDir: "data", today: TODAY })).not.toThrow();
+  it("loads the real catalogue folder as of the real date (as the production build does)", () => {
+    expect(() => buildCatalogue({ dataDir: "data" })).not.toThrow();
   });
 });
 

@@ -28,7 +28,7 @@ export async function QuoteBlock({ commitment }: { commitment: Commitment }) {
       <p className="mt-3 text-sm text-ink-muted">
         {t("source")}{" "}
         <ExternalLink href={withPage(origin.url, origin.page)}>
-          {origin.name}
+          <bdi>{origin.name}</bdi>
           {origin.page ? <>, {t("page", { page: origin.page })}</> : null}
         </ExternalLink>
         {origin.archiveUrl && (

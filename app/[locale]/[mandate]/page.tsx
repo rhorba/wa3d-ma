@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { plain } from "@/components/ui/ltr";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, mandate } = await params;
   const t = await getTranslations({ locale, namespace: "list" });
   const count = loadCatalogue().byMandate.get(mandate as Mandate)?.length ?? 0;
-  const title = `${t("heading", { mandate })} · Wa3d.ma`;
+  const title = `${t.markup("heading", { mandate, ltr: plain })} · Wa3d.ma`;
   const description = t("description", { count, mandate });
   // An enabled but empty mandate is not worth indexing yet (ADR-10).
   return {

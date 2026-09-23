@@ -50,7 +50,9 @@ export async function EvidenceTimeline({ commitment }: { commitment: Commitment 
               ))}
               <p className="text-sm">
                 {t("source")}{" "}
-                <ExternalLink href={entry.source.url}>{entry.source.name}</ExternalLink>
+                <ExternalLink href={entry.source.url}>
+                  <bdi>{entry.source.name}</bdi>
+                </ExternalLink>
                 {entry.source.archiveUrl && (
                   <>
                     {" · "}
@@ -67,7 +69,7 @@ export async function EvidenceTimeline({ commitment }: { commitment: Commitment 
                     <span key={pointer.url}>
                       {i > 0 && " · "}
                       <ExternalLink href={pointer.url} variant="secondary">
-                        {pointer.name}
+                        <bdi>{pointer.name}</bdi>
                       </ExternalLink>
                     </span>
                   ))}

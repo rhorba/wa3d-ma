@@ -16,7 +16,7 @@
     "skip": "الانتقال إلى المحتوى",
     "main": "التنقل الرئيسي",
     "mandates": "الولايات",
-    "mandate": "ولاية {mandate}",
+    "mandate": "ولاية <ltr>{mandate}</ltr>",
     "pending": "في انتظار النشر",
     "methodology": "المنهجية",
     "otherLanguage": "Français",
@@ -53,8 +53,8 @@
     "other": "مواضيع أخرى"
   },
   "list": {
-    "eyebrow": "ولاية {mandate}",
-    "heading": "حكومة {mandate}",
+    "eyebrow": "ولاية <ltr>{mandate}</ltr>",
+    "heading": "حكومة <ltr>{mandate}</ltr>",
     "lede": "{count, plural, zero {لا يوجد أي التزام متتبع} one {التزام واحد متتبع} two {التزامان متتبعان} few {# التزامات متتبعة} many {# التزاما متتبعا} other {# التزام متتبع}}، مستخرجة من <link>البرنامج الحكومي</link>. يستند كل وضع إلى مصدر رسمي.",
     "countsLabel": "الالتزامات حسب الوضع",
     "themes": "المحاور",
@@ -125,7 +125,7 @@
   },
   "cite": {
     "heading": "الاستشهاد بهذا الالتزام",
-    "text": "وعد، «{title}»، الوضع في {date}، {url}"
+    "text": "وعد، «{title}»، الوضع في {date}، <ltr>{url}</ltr>"
   },
   "report": {
     "link": "الإبلاغ عن خطأ في هذا الالتزام",

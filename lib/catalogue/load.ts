@@ -2,6 +2,7 @@ import "server-only";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { env } from "../env";
+import { withFrenchSpacing } from "../format";
 import type { Commitment, Indicator, Mandate } from "./schema";
 import {
   hasErrors,
@@ -110,9 +111,13 @@ const programmeOrder = (a: Commitment, b: Commitment) =>
 
 /** Validates and indexes a catalogue folder; throws CatalogueError on any error. */
 export function buildCatalogue(options: ReadOptions): Catalogue {
-  const { issues, commitments, indicators } = readCatalogue(options);
+  const read = readCatalogue(options);
+  const { issues } = read;
   if (hasErrors(issues))
     throw new CatalogueError(issues.filter((issue) => issue.severity === "error"));
+  // Display only, after validation: the files keep plain spaces, pages get no-break ones.
+  const commitments = withFrenchSpacing(read.commitments);
+  const indicators = withFrenchSpacing(read.indicators);
 
   const byMandate = new Map<Mandate, Commitment[]>();
   for (const commitment of [...commitments].sort(programmeOrder)) {

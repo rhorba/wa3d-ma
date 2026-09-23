@@ -1,4 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server";
+import { ltr } from "@/components/ui/ltr";
 import { loadCatalogue } from "@/lib/catalogue/load";
 import type { Mandate } from "@/lib/catalogue/schema";
 import { env } from "@/lib/env";
@@ -34,7 +35,7 @@ export async function SiteHeader({ mandate, path }: Props) {
           {mandates.length > 0 && (
             <details className="relative">
               <summary className="flex min-h-11 cursor-pointer list-none items-center gap-2 font-semibold">
-                {mandate ? t("mandate", { mandate }) : t("mandates")}
+                {mandate ? t.rich("mandate", { mandate, ltr }) : t("mandates")}
                 <span aria-hidden="true" className="text-ink-muted">
                   ▾
                 </span>
@@ -47,7 +48,7 @@ export async function SiteHeader({ mandate, path }: Props) {
                       aria-current={item === mandate ? "page" : undefined}
                       className="block min-h-11 px-3 py-2"
                     >
-                      {t("mandate", { mandate: item })}
+                      {t.rich("mandate", { mandate: item, ltr })}
                       {(byMandate.get(item)?.length ?? 0) === 0 && (
                         <span className="text-ink-muted"> · {t("pending")}</span>
                       )}
