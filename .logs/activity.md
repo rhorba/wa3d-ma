@@ -266,3 +266,5 @@
 ### [2026-09-23] COMPLETED — Batch C fix/ar-bidi-display (Frontend Dev -> HANDOFF Tester)
 - Mandate range: messages nav.mandate / list.eyebrow / list.heading / cite.text mark values with <ltr>; t.rich renders <bdi dir="ltr">, t.markup strips it for the <title> (components/ui/ltr.tsx). FR guillemets: frenchSpacing/withFrenchSpacing applied in buildCatalogue after validation (files unchanged) + FR messages use  . Source names in <bdi>. Real-data test uses the real date.
 - VERIFY local: lint/types OK, 275 unit/integration, fixture build, budget 104.1 KB / 2.8 KB, E2E 120/120 (+4). After-screenshots on a private data copy: AR mandate reads 2021-2026 in header, eyebrow, H1, breadcrumb.
+### [2026-09-23] CI — PR #39 run 1: 9/9 + Vercel GREEN; squash-merged as 4145647 (user authorized). main 9/9 GREEN.
+### [2026-09-23] COMPLETED — Production check after #39 (Deployment): Vercel deploy success; / 308, /fr /ar /methodologie 200; archive list/detail 404 and absent from sitemap (embargo holds); /nope 404; HSTS + CSP present; FR méthodologie serves « score ».
