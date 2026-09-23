@@ -22,3 +22,7 @@
 ### [2026-09-22] ISSUE — Wayback Machine cannot fetch cg.gov.ma (save returns 523; likely bot/geo block). Programme PDF kept locally in .sources/ with SHA-256 9401e0c0359f5f786f43540ad9e23909411bcab0eff2502601e967dcbc143280 (downloaded 2026-09-22, 3 492 634 bytes, created 2022-10-06). Entries on cg.gov.ma carry no archiveUrl for now (worksheet flags them); retry later.
 
 ### [2026-09-22] ISSUE — Wayback save failed for all 14 non-cg sources (13 x HTTP 500, 1 x 429), incl. maroc.ma: anonymous SPN refused from this connection. archiveUrl left empty (optional; worksheet flags). Options: user saves via browser (list in .sources/archive-todo.txt) or one slow retry before launch.
+
+### [2026-09-23] ISSUE — AR pages: French source titles and the citation URL are not bidi-isolated
+- detail AR: source title parentheses and citation URL looked scrambled (see corrections.md: misdiagnosis). Mandate reads "2026-2021" (Story 2.8, open). Fix in components with <bdi>/dir=ltr, fixture tests.
+### [2026-09-23] ISSUE — FR: guillemets with a normal space can wrap alone on a list row; the data files use « x » with normal spaces.

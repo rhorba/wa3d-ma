@@ -1,4 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server";
+import { ltr } from "@/components/ui/ltr";
 import { CommitmentFilters, type FilterLabels } from "@/components/filters/CommitmentFilters";
 import { CommitmentRow } from "@/components/list/CommitmentRow";
 import { StatusCounts } from "@/components/list/StatusCounts";
@@ -39,8 +40,8 @@ export async function MandateList({ mandate }: { mandate: Mandate }) {
   return (
     <main id="main" className="mx-auto max-w-[1120px] px-4">
       <div className="pt-8 pb-6">
-        <p className="label-caps mb-2 text-ink-muted">{t("eyebrow", { mandate })}</p>
-        <h1 className="mb-3 text-xl md:text-2xl">{t("heading", { mandate })}</h1>
+        <p className="label-caps mb-2 text-ink-muted">{t.rich("eyebrow", { mandate, ltr })}</p>
+        <h1 className="mb-3 text-xl md:text-2xl">{t.rich("heading", { mandate, ltr })}</h1>
         {commitments.length === 0 ? (
           <div className="max-w-[680px]" data-testid="pending-mandate">
             <p className="font-semibold">{t("pendingTitle")}</p>

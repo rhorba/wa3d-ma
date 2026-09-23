@@ -72,7 +72,7 @@ export async function ProgressPanel({ commitment, indicators }: Props) {
                 <bdi>{panel.baseline.year}</bdi>
                 <span className="block">
                   <ExternalLink href={panel.baseline.source.url}>
-                    {panel.baseline.source.name}
+                    <bdi>{panel.baseline.source.name}</bdi>
                   </ExternalLink>
                 </span>
               </dd>
@@ -89,7 +89,7 @@ export async function ProgressPanel({ commitment, indicators }: Props) {
                 </bdi>
                 <span className="block">
                   <ExternalLink href={panel.latest.source.url}>
-                    {panel.latest.source.name}
+                    <bdi>{panel.latest.source.name}</bdi>
                   </ExternalLink>
                 </span>
               </dd>
@@ -103,9 +103,11 @@ export async function ProgressPanel({ commitment, indicators }: Props) {
                 <bdi>{panel.target.year}</bdi>
                 <span className="block">
                   <ExternalLink href={withPage(commitment.origin.url, commitment.origin.page)}>
-                    {commitment.origin.page
-                      ? t("page", { page: commitment.origin.page })
-                      : commitment.origin.name}
+                    {commitment.origin.page ? (
+                      t("page", { page: commitment.origin.page })
+                    ) : (
+                      <bdi>{commitment.origin.name}</bdi>
+                    )}
                   </ExternalLink>
                 </span>
               </dd>

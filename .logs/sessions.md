@@ -56,3 +56,6 @@
 - Decisions: FR quotes = traduction Wa3d; latest official status until full-period data; launch on 2026-09-24 after user check (embargo kept).
 - Next (on/after 2026-09-24): user signs the report (or asks changes: #13 RSU verdict, §4 choices) -> runbook R1: build on real data, visual FR/AR check of the 16 pages, push data/2021-2026, PR, 9 green checks incl. real-data-smoke, flag true in Vercel, merge, prod checks, v1.0 recording, Search Console (user). Update mandate end date once the next government is appointed.
 - Open: Wayback archives failed (cg.gov.ma 523; others 500/429), list in .sources/archive-todo.txt. User actions still pending: 2FA confirm, correction-form manual check.
+
+### [2026-09-23] SESSION_START
+- Resumed at Sprint 3 Batch C (go-live prep). Data branch rebased on origin/main 972a0e3 (still local only). Embargo lift R1 not before 2026-09-24 + user sign-off.

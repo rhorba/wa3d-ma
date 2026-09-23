@@ -1,4 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server";
+import { ltr } from "@/components/ui/ltr";
 import { ExternalLink } from "@/components/ui/ExternalLink";
 import type { Commitment } from "@/lib/catalogue/schema";
 import { env } from "@/lib/env";
@@ -28,10 +29,11 @@ export async function CommitmentActions({ commitment }: { commitment: Commitment
           {tCite("heading")}
         </summary>
         <p className="border border-rule px-4 py-3 break-words" data-testid="citation">
-          {tCite("text", {
+          {tCite.rich("text", {
             title: commitment.title[lang],
             date: formatDate(commitment.lastVerified),
             url: permalink,
+            ltr,
           })}
         </p>
       </details>

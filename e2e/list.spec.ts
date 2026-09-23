@@ -65,6 +65,10 @@ test.describe("mandate list (US-1, US-7)", () => {
     await page.goto("/ar/2021-2026");
     await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("حكومة 2021-2026");
+    // Story 2.8: the range is isolated left to right, otherwise it would read "2026-2021".
+    await expect(page.getByRole("heading", { level: 1 }).locator('bdi[dir="ltr"]')).toHaveText(
+      "2021-2026",
+    );
     await expect(page.locator('li[data-id="fictif-emploi"]')).toContainText(
       "62 في المائة نحو الهدف",
     );

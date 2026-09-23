@@ -21,3 +21,22 @@ export function formatNumber(value: number, decimals = 0): string {
   }
   return format.format(value);
 }
+
+/** "« Awrach »" → "« Awrach »": a guillemet never wraps away from its word (French typography). */
+export function frenchSpacing(text: string): string {
+  return text.replace(/« /g, "« ").replace(/ »/g, " »");
+}
+
+/** Applies frenchSpacing to every French string ({ fr: "…" } or { fr: { text: "…" } }) of a catalogue value. */
+export function withFrenchSpacing<T>(value: T): T {
+  if (Array.isArray(value)) return value.map(withFrenchSpacing) as T;
+  if (value === null || typeof value !== "object") return value;
+  const entries = Object.entries(value).map(([key, item]) => {
+    if (key !== "fr") return [key, withFrenchSpacing(item)];
+    if (typeof item === "string") return [key, frenchSpacing(item)];
+    if (item && typeof item === "object" && typeof item.text === "string")
+      return [key, { ...item, text: frenchSpacing(item.text) }];
+    return [key, item];
+  });
+  return Object.fromEntries(entries) as T;
+}

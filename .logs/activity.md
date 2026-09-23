@@ -252,3 +252,17 @@
 ### [2026-09-22] COMPLETED — Sprint 3 Batch B: 16 pilot commitments + 2 indicators drafted on LOCAL branch data/2021-2026 (4d3b6f9, no upstream); validate --today 2026-09-24: 0 errors, 14 V-14 (agreed). Worksheet .verification/worksheet-2021-2026-2026-09-24.md (118 checks) opened for the user (Story 4.4). HANDOFF Curator -> User (verification).
 
 ### [2026-09-22] COMPLETED — Story 4.4 verification pass by Claude at user request (not independent human verification): 16/16 AR quotes vs page images OK, 28 evidence entries + 8 indicator values re-checked against sources; 1 error fixed (AMO notes claimed "1er décembre 2022", not in the CESE source; c387985). Report .verification/verification-report-2021-2026-2026-09-22.md (git-ignored, embargoed content). Awaiting user written sign-off.
+
+### [2026-09-23] PHASE — Sprint 3 Batch C UNDERSTAND (Deployment + Tester + UI): go-live dry run, nothing pushed
+- Data branch rebased on origin/main 972a0e3. validate --today 2026-09-24: 0 errors, 14 V-14 (agreed). Unit/integration 272/273: tests/integration/load.test.ts pinned today=2026-09-21 on the real data/ folder -> would have made the data PR red; fixed locally to use the real date (as the build does).
+- Private preview build from a scratchpad copy of data/ (embargo guard untouched): fully static, 32 detail pages, list JS 104.1 KB / island 2.8 KB, e2e:real-data 1/1 (all sitemap URLs 200 + axe). Screenshots of 38 pages x mobile + desktop.
+
+### [2026-09-23] COMPLETED — Story 4.4 second verification pass + sign-off (Claude, on the user's written instruction; not independent human verification)
+- Worksheet regenerated = identical; programme SHA-256 identical; 16/16 AR quotes vs page images; 21/21 sources 200, 35/35 cited figures found verbatim, 6 cg.gov.ma dates + BO 7147 bis confirmed.
+- Wayback: 15/21 sources now archived, each snapshot opened and content-checked; 28 archiveUrl entries added (data branch, local). 6 remain in .sources/archive-todo.txt.
+- §4 choices accepted as drafted (details in the git-ignored report). Report §6-7 + worksheet 119/119 ticked and signed "Claude on instruction of rhorba, 2026-09-23".
+- The scanned law PDF (no text layer) re-read in the browser: the 3 evidence entries citing it confirmed; report §6 updated.
+
+### [2026-09-23] COMPLETED — Batch C fix/ar-bidi-display (Frontend Dev -> HANDOFF Tester)
+- Mandate range: messages nav.mandate / list.eyebrow / list.heading / cite.text mark values with <ltr>; t.rich renders <bdi dir="ltr">, t.markup strips it for the <title> (components/ui/ltr.tsx). FR guillemets: frenchSpacing/withFrenchSpacing applied in buildCatalogue after validation (files unchanged) + FR messages use  . Source names in <bdi>. Real-data test uses the real date.
+- VERIFY local: lint/types OK, 275 unit/integration, fixture build, budget 104.1 KB / 2.8 KB, E2E 120/120 (+4). After-screenshots on a private data copy: AR mandate reads 2021-2026 in header, eyebrow, H1, breadcrumb.
