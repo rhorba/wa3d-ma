@@ -268,3 +268,13 @@
 - VERIFY local: lint/types OK, 275 unit/integration, fixture build, budget 104.1 KB / 2.8 KB, E2E 120/120 (+4). After-screenshots on a private data copy: AR mandate reads 2021-2026 in header, eyebrow, H1, breadcrumb.
 ### [2026-09-23] CI — PR #39 run 1: 9/9 + Vercel GREEN; squash-merged as 4145647 (user authorized). main 9/9 GREEN.
 ### [2026-09-23] COMPLETED — Production check after #39 (Deployment): Vercel deploy success; / 308, /fr /ar /methodologie 200; archive list/detail 404 and absent from sitemap (embargo holds); /nope 404; HSTS + CSP present; FR méthodologie serves « score ».
+
+- [2026-09-24] UNDERSTAND (R1 go-live): R1 step 1 passes locally: catalogue:validate 0 errors / 14 V-14 (agreed), unit+integration 275/275, coverage 99.82% lines. 6 sources still without Wayback copy.
+- [2026-09-24] PLAN confirmed: push data branch -> PR -> CI green -> user sets flag + signs off -> squash-merge -> prod checks -> v1.0 recording + logs PR -> Search Console (user).
+- [2026-09-24] HANDOFF Orchestrator -> DevOps/Deployment: context R1 go-live, dataset verified locally; need push + PR + CI monitoring; constraint: no merge before user flag + sign-off.
+- [2026-09-24] Pushed data/2021-2026 (4799db6), PR opened. CI monitoring started.
+- [2026-09-24] CI PR #41: GREEN (all 9 CI jobs incl. real-data-smoke + Vercel preview). Waiting on user: flag in Vercel Production + sign-off in PR.
+- [2026-09-24] R1 step 3: dataset sign-off comment on PR #41 (Claude on user instruction; data/ identical to 2026-09-23 signed version). R1 step 4: Vercel NEXT_PUBLIC_ARCHIVE_ENABLED recreated as Config, Production only, value true (old Secret-type var deleted: Vercel refuses Secret type for NEXT_PUBLIC_). Preview unset -> embargoed. No redeploy triggered.
+- [2026-09-24] R1 step 5: PR #41 squash-merged (1e66bdc). CI main GREEN (run 35990058107), Vercel prod success. Prod checks: /fr/2021-2026, /ar/2021-2026, /sitemap.xml, /fr, /ar all 200; 16 detail links on FR list; sitemap has 32 archive detail URLs; AR detail page renders real data (status, baseline/latest/target, sources, archive links). ARCHIVE LIVE.
+- [2026-09-24] Rule 9: v1.0 recording .recordings/v1.0-2026-09-24.webm (R5 fixture build, archive on, 1.5 MB).
+- [2026-09-24] Search Console: URL-prefix property https://wa3d-ma.vercel.app/ added; HTML-file verification (public/googleb5242999b23fa791.html, excluded from prettier). Verify + sitemap submit after this PR deploys.

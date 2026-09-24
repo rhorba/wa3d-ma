@@ -64,3 +64,6 @@
 - Completed: go-live dry run (private build from a copy of data/, real-data crawl 200 + axe, visual FR/AR); Story 4.4 second verification pass + sign-off (Claude on the user's written instruction, not independent human verification); 15/21 sources archived on the local data branch (9af086c); #39 (AR mandate range LTR, Story 2.8; FR guillemets no-break; real-date catalogue test) merged 4145647, main GREEN, production checked (archive dark).
 - Next (2026-09-24, data PR only): rebase data/2021-2026 on main, push, PR, 9 green checks incl. real-data-smoke; user sets NEXT_PUBLIC_ARCHIVE_ENABLED=true (Production) before merge; merge; prod checks; v1.0 recording; Search Console (user).
 - Open: 6 sources without archive (.sources/archive-todo.txt); user: 2FA confirm, correction-form manual check; favicon with brand work; mandate end date once the next government is appointed.
+
+### [2026-09-24] SESSION_START
+- Resumed for go-live (runbook R1). data/2021-2026 is 3 commits ahead of origin/main 9098a02, 0 behind (no rebase needed). main CI GREEN.
