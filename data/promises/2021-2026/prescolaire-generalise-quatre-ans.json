@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "prescolaire-generalise-quatre-ans",
+  "mandate": "2021-2026",
+  "theme": "education",
+  "title": {
+    "fr": "Généraliser l'enseignement préscolaire à tous les enfants dès l'âge de quatre ans",
+    "ar": "تعميم التعليم الأولي لفائدة كل الأطفال ابتداء من سن الرابعة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Généraliser l'enseignement préscolaire au profit de tous les enfants dès l'âge de quatre ans, avec une gouvernance permanente et efficace du contrôle de la qualité. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعميم التعليم الأولي لفائدة كل الأطفال ابتداء من سن الرابعة مع إرساء حكامة دائمة وفعالة لمراقبة الجودة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2025-12-26",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le portail national indique que le taux de préscolarisation des enfants de 4 à 5 ans est passé de 50,2 % à 70,4 % entre 2015 et 2025.",
+        "ar": "أفادت البوابة الوطنية أن نسبة التعليم الأولي للأطفال البالغين من العمر 4 إلى 5 سنوات انتقلت من 50,2% إلى 70,4% بين سنتي 2015 و2025."
+      },
+      "source": {
+        "name": "Portail national du Maroc, Le taux de préscolarisation des enfants est passé à plus de 70 % en 2025",
+        "url": "https://www.maroc.ma/fr/actualites/le-taux-de-prescolarisation-des-enfants-est-passe-plus-de-70-en-2025",
+        "archiveUrl": "https://web.archive.org/web/20260923052856/https://www.maroc.ma/fr/actualites/le-taux-de-prescolarisation-des-enfants-est-passe-plus-de-70-en-2025",
+        "published": "2025-12-26",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

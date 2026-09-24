@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "awrach-250000-emplois",
+  "mandate": "2021-2026",
+  "theme": "employment",
+  "title": {
+    "fr": "250 000 emplois directs par le programme de chantiers publics temporaires « Awrach »",
+    "ar": "250.000 فرصة شغل مباشرة من خلال برنامج أوراش عامة مؤقتة كبرى وصغرى"
+  },
+  "quote": {
+    "fr": {
+      "text": "« 250 000 emplois directs à travers un programme de grands et petits chantiers publics temporaires. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«250.000 فرصة شغل مباشرة من خلال برنامج أوراش عامة مؤقتة كبرى وصغرى»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 68
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2022-01-12",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le Chef du gouvernement signe la circulaire de lancement du programme « Awrach » : 250 000 emplois directs dans des chantiers temporaires en 2022 et 2023, avec une enveloppe de 2,25 milliards de dirhams pour 2022.",
+        "ar": "وقع رئيس الحكومة منشور إطلاق برنامج «أوراش»: 250.000 منصب شغل مباشر في أوراش مؤقتة خلال سنتي 2022 و2023، بغلاف مالي قدره 2,25 مليار درهم لسنة 2022."
+      },
+      "source": {
+        "name": "Chef du gouvernement, circulaire de lancement du programme « Awrach »",
+        "url": "https://www.cg.gov.ma/en/node/10717",
+        "published": "2022-01-12",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2023-03-06",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le Chef du gouvernement émet la circulaire « Awrach 2 » : 250 000 emplois directs en deux ans, avec une enveloppe de 2,25 milliards de dirhams pour 2023.",
+        "ar": "أصدر رئيس الحكومة منشور «أوراش 2»: 250.000 منصب شغل مباشر خلال سنتين، بغلاف مالي قدره 2,25 مليار درهم لسنة 2023."
+      },
+      "source": {
+        "name": "Chef du gouvernement, circulaire de mise en œuvre du programme « Awrach 2 »",
+        "url": "https://www.cg.gov.ma/en/node/11058",
+        "archiveUrl": "https://web.archive.org/web/20250815093649/https://www.cg.gov.ma/en/node/11058",
+        "published": "2023-03-06",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

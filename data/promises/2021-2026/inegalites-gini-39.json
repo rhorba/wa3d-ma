@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "inegalites-gini-39",
+  "mandate": "2021-2026",
+  "theme": "economy",
+  "title": {
+    "fr": "Réduire les inégalités sociales et territoriales à moins de 39 % selon l'indice de Gini",
+    "ar": "تقليص الفوارق الاجتماعية والمجالية إلى أقل من 39% حسب مؤشر جيني"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Réduire les disparités sociales et territoriales à moins de 39 %, au lieu de 46,4 %, selon l'indice de Gini. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تقليص الفوارق الاجتماعية والمجالية إلى أقل من 39% عوض 46,4% حسب مؤشر جيني»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2025-02-17",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie un indice de Gini du niveau de vie de 40,5 % en 2022, contre 39,5 % en 2014. Cet indice porte sur les dépenses de consommation ; le programme ne précise pas la mesure de son chiffre de 46,4 %. Dernière mesure publiée : 2022.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن مؤشر جيني لمستوى المعيشة بلغ 40,5% سنة 2022، مقابل 39,5% سنة 2014. يقيس هذا المؤشر نفقات الاستهلاك، ولا يحدد البرنامج مقياس رقم 46,4% الوارد فيه. آخر قياس منشور: سنة 2022."
+      },
+      "source": {
+        "name": "HCP, Note sur les principaux résultats de l'Enquête nationale sur le niveau de vie des ménages 2022-2023",
+        "url": "https://www.hcp.ma/Note-sur-les-principaux-resultats-de-l-Enquete-Nationale-sur-le-Niveau-de-Vie-des-Menages-2022-2023_a4061.html",
+        "archiveUrl": "https://web.archive.org/web/20260923052540/https://www.hcp.ma/Note-sur-les-principaux-resultats-de-l-Enquete-Nationale-sur-le-Niveau-de-Vie-des-Menages-2022-2023_a4061.html",
+        "published": "2025-02-17",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

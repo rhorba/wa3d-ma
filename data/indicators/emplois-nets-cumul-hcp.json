@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "emplois-nets-cumul-hcp",
+  "name": {
+    "fr": "Emplois nets créés depuis 2021 (somme des bilans annuels du HCP)",
+    "ar": "مناصب الشغل الصافية المحدثة منذ 2021 (مجموع الحصائل السنوية للمندوبية السامية للتخطيط)"
+  },
+  "unit": "count",
+  "decimals": 0,
+  "values": [
+    {
+      "year": 2022,
+      "period": "Y",
+      "value": -24000,
+      "source": {
+        "name": "HCP, La situation du marché du travail en 2022",
+        "url": "https://www.hcp.ma/La-situation-du-marche-du-travail-en-2022_a3661.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134351/https://www.hcp.ma/La-situation-du-marche-du-travail-en-2022_a3661.html",
+        "published": "2023-02-02",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2023,
+      "period": "Y",
+      "value": -181000,
+      "source": {
+        "name": "HCP, La situation du marché du travail en 2023",
+        "url": "https://www.hcp.ma/La-situation-du-marche-du-travail-en-2023_a3816.html",
+        "published": "2024-02-05",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2024,
+      "period": "Y",
+      "value": -99000,
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2024",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2024_a4059.html",
+        "published": "2025-02-03",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2025,
+      "period": "Y",
+      "value": 94000,
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2025",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134128/https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "published": "2026-02-03",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

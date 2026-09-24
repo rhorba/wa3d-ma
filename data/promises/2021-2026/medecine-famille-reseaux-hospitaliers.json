@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "medecine-famille-reseaux-hospitaliers",
+  "mandate": "2021-2026",
+  "theme": "health",
+  "title": {
+    "fr": "Généraliser la médecine de famille et créer des réseaux hospitaliers régionaux",
+    "ar": "تعميم طب الأسرة وتعزيز المراكز الصحية الأولية وإحداث شبكات مستشفيات جهوية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Généraliser progressivement la médecine de famille, renforcer les centres de santé primaires et créer des réseaux d'hôpitaux régionaux. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعميم طب الأسرة على نحو تدريجي، وتعزيز المراكز الصحية الأولية، وإحداث شبكات مستشفيات جهوية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 50
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2024-07-11",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le Conseil de gouvernement adopte le projet de décret n° 2.23.1054 pris pour l'application de la loi n° 08.22 relative à la création des groupements sanitaires territoriaux.",
+        "ar": "صادق مجلس الحكومة على مشروع المرسوم رقم 2.23.1054 بتطبيق بعض مقتضيات القانون رقم 08.22 المتعلق بإحداث المجموعات الصحية الترابية."
+      },
+      "source": {
+        "name": "Chef du gouvernement, réunion du Conseil de gouvernement du 11 juillet 2024",
+        "url": "https://www.cg.gov.ma/en/node/11616",
+        "archiveUrl": "https://web.archive.org/web/20250502223854/https://www.cg.gov.ma/en/node/11616",
+        "published": "2024-07-11",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "activite-femmes-hcp",
+  "name": {
+    "fr": "Taux d'activité des femmes (HCP)",
+    "ar": "معدل نشاط النساء (المندوبية السامية للتخطيط)"
+  },
+  "unit": "percent",
+  "decimals": 1,
+  "values": [
+    {
+      "year": 2022,
+      "period": "Y",
+      "value": 19.8,
+      "source": {
+        "name": "HCP, Principales caractéristiques de la population active et ses composantes en 2023 (19 % en 2023, recul de 0,8 point)",
+        "url": "https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "archiveUrl": "https://web.archive.org/web/20260923052606/https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "published": "2024-03-19",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2023,
+      "period": "Y",
+      "value": 19,
+      "source": {
+        "name": "HCP, Principales caractéristiques de la population active et ses composantes en 2023",
+        "url": "https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "archiveUrl": "https://web.archive.org/web/20260923052606/https://www.hcp.ma/Principales-caracteristiques-de-la-population-active-et-ses-composantes-en-2023_a3847.html",
+        "published": "2024-03-19",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2024,
+      "period": "Y",
+      "value": 19.1,
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2024",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2024_a4059.html",
+        "published": "2025-02-03",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "year": 2025,
+      "period": "Y",
+      "value": 19,
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2025",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134128/https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "published": "2026-02-03",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "million-familles-pauvrete",
+  "mandate": "2021-2026",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Sortir un million de familles de la pauvreté et de la précarité",
+    "ar": "إخراج مليون أسرة من الفقر والهشاشة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Sortir un million de familles de la pauvreté et de la précarité. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إخراج مليون أسرة من الفقر والهشاشة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2023-12-04",
+      "status": "in_progress",
+      "note": {
+        "fr": "Publication au Bulletin officiel n° 7253 de la loi n° 58-23 relative au régime d'aide sociale directe, destiné aux ménages ciblés par le registre social unifié.",
+        "ar": "نشر القانون رقم 58.23 المتعلق بنظام الدعم الاجتماعي المباشر في الجريدة الرسمية عدد 7253، وهو موجه للأسر المستهدفة عبر السجل الاجتماعي الموحد."
+      },
+      "source": {
+        "name": "Loi n° 58-23 relative au régime d'aide sociale directe (Bulletin officiel n° 7253 du 4 décembre 2023), texte publié par l'ANSS",
+        "url": "https://www.anss.gov.ma/sites/default/files/decrets/Loi_n58.23_AR.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260923052111/https://www.anss.gov.ma/sites/default/files/decrets/Loi_n58.23_AR.pdf",
+        "published": "2023-12-04",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2025-02-17",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie un taux de pauvreté absolue de 3,9 % en 2022 (1,42 million de personnes), contre 1,7 % en 2019 et 4,8 % en 2014.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن معدل الفقر المطلق بلغ 3,9% سنة 2022 (1,42 مليون شخص)، مقابل 1,7% سنة 2019 و4,8% سنة 2014."
+      },
+      "source": {
+        "name": "HCP, Note sur les principaux résultats de l'Enquête nationale sur le niveau de vie des ménages 2022-2023",
+        "url": "https://www.hcp.ma/Note-sur-les-principaux-resultats-de-l-Enquete-Nationale-sur-le-Niveau-de-Vie-des-Menages-2022-2023_a4061.html",
+        "archiveUrl": "https://web.archive.org/web/20260923052540/https://www.hcp.ma/Note-sur-les-principaux-resultats-de-l-Enquete-Nationale-sur-le-Niveau-de-Vie-des-Menages-2022-2023_a4061.html",
+        "published": "2025-02-17",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}

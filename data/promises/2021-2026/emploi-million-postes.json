@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "emploi-million-postes",
+  "mandate": "2021-2026",
+  "theme": "employment",
+  "title": {
+    "fr": "Création d'au moins un million d'emplois nets en cinq ans",
+    "ar": "إحداث مليون منصب شغل صافي على الأقل خلال الخمس سنوات المقبلة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Créer au moins un million d'emplois nets au cours des cinq prochaines années. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إحداث مليون منصب شغل صافي على الأقل خلال الخمس سنوات المقبلة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+    "accessed": "2026-09-22",
+    "page": 24
+  },
+  "target": {
+    "indicatorId": "emplois-nets-cumul-hcp",
+    "baseline": {
+      "value": 0,
+      "year": 2021,
+      "source": {
+        "name": "Programme gouvernemental 2021-2026 (Chef du gouvernement)",
+        "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PROGRAMME%20GOUVERNEMENTAL%20-%202021-2026.pdf",
+        "accessed": "2026-09-22"
+      }
+    },
+    "value": 1000000,
+    "direction": "increase"
+  },
+  "deadline": "2026-09-23",
+  "lastVerified": "2026-09-22",
+  "evidence": [
+    {
+      "date": "2023-02-02",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une perte nette de 24 000 emplois entre 2021 et 2022.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن الاقتصاد الوطني فقد 24.000 منصب شغل بين سنتي 2021 و2022."
+      },
+      "source": {
+        "name": "HCP, La situation du marché du travail en 2022",
+        "url": "https://www.hcp.ma/La-situation-du-marche-du-travail-en-2022_a3661.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134351/https://www.hcp.ma/La-situation-du-marche-du-travail-en-2022_a3661.html",
+        "published": "2023-02-02",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2024-02-05",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une perte nette de 157 000 emplois entre 2022 et 2023.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن الاقتصاد الوطني فقد 157.000 منصب شغل بين سنتي 2022 و2023."
+      },
+      "source": {
+        "name": "HCP, La situation du marché du travail en 2023",
+        "url": "https://www.hcp.ma/La-situation-du-marche-du-travail-en-2023_a3816.html",
+        "published": "2024-02-05",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une création nette de 82 000 emplois entre 2023 et 2024.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن الاقتصاد الوطني أحدث 82.000 منصب شغل بين سنتي 2023 و2024."
+      },
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2024",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2024_a4059.html",
+        "published": "2025-02-03",
+        "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le HCP publie une création nette de 193 000 emplois entre 2024 et 2025. Somme des bilans annuels 2022-2025 : 94 000 emplois nets. Les chiffres de 2026 ne sont pas encore publiés.",
+        "ar": "أعلنت المندوبية السامية للتخطيط أن الاقتصاد الوطني أحدث 193.000 منصب شغل بين سنتي 2024 و2025. مجموع الحصائل السنوية 2022-2025: 94.000 منصب شغل صاف. لم تنشر بعد أرقام سنة 2026."
+      },
+      "source": {
+        "name": "HCP, Situation du marché du travail en 2025",
+        "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "archiveUrl": "https://web.archive.org/web/20260922134128/https://www.hcp.ma/Situation-du-marche-du-travail-en-2025_a4248.html",
+        "published": "2026-02-03",
+        "accessed": "2026-09-22"
+      }
+    }
+  ]
+}
