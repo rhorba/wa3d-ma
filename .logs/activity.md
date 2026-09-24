@@ -278,3 +278,8 @@
 - [2026-09-24] R1 step 5: PR #41 squash-merged (1e66bdc). CI main GREEN (run 35990058107), Vercel prod success. Prod checks: /fr/2021-2026, /ar/2021-2026, /sitemap.xml, /fr, /ar all 200; 16 detail links on FR list; sitemap has 32 archive detail URLs; AR detail page renders real data (status, baseline/latest/target, sources, archive links). ARCHIVE LIVE.
 - [2026-09-24] Rule 9: v1.0 recording .recordings/v1.0-2026-09-24.webm (R5 fixture build, archive on, 1.5 MB).
 - [2026-09-24] Search Console: URL-prefix property https://wa3d-ma.vercel.app/ added; HTML-file verification (public/googleb5242999b23fa791.html, excluded from prettier). Verify + sitemap submit after this PR deploys.
+- [2026-09-24] CI PR #42 (recording + Search Console file + logs): GREEN. Merge blocked by auto-mode permission (merge without review): waiting for user.
+- [2026-09-24] Wayback retry: 4 of 6 now archived (HCP a3816, a4059, a3890; maroc.ma dessalement), each snapshot opened and cited figure found. PR #43 (data/archive-links-4). Still missing: 2 cg.gov.ma (save endpoint 500).
+- [2026-09-24] PR #42 merged by user (11:25Z); verification file live. Search Console: https://wa3d-ma.vercel.app/ ownership verified (HTML file). R1 step 6: sitemap.xml submitted; initial status "Couldn't fetch" (new property; sitemap checked: 200 application/xml, 36 URLs on host, robots Allow + Sitemap line). Recheck in 24-48 h. R1 COMPLETE.
+- [2026-09-24] CI PR #43 (4 archive links) GREEN after update-branch. Waiting for user merge.
+- [2026-09-24] PR #43 merged by user (11:34Z). main CI GREEN; prod shows new archive link (croissance-quatre-pourcent). VERIFY/SHIP: validate 0 errors, 275/275, CI green on #41 #42 #43 + main.
