@@ -67,3 +67,9 @@
 
 ### [2026-09-24] SESSION_START
 - Resumed for go-live (runbook R1). data/2021-2026 is 3 commits ahead of origin/main 9098a02, 0 behind (no rebase needed). main CI GREEN.
+
+### [2026-09-24] SESSION_END
+- Completed: runbook R1 end to end. #41 dataset (16 commitments + 2 indicators) pushed, CI green, sign-off comment (Claude on user instruction), Vercel NEXT_PUBLIC_ARCHIVE_ENABLED=true (Config, Production only; Preview unset = embargoed), merged 1e66bdc, prod checks OK: ARCHIVE LIVE. #42 v1.0 recording + Search Console HTML verification file; property verified; sitemap submitted. #43 Wayback links for 4 more sources (19/21).
+- Open: Search Console sitemap showed "Couldn't fetch" at submit (new property; sitemap valid): recheck on/after 2026-09-26. 2 cg.gov.ma sources without Wayback copy (.sources/archive-todo.txt). Monitor PRD G5 (>= 90% of pages indexed by 2026-10-24).
+- Next: R4 2026-2031 ingestion within 72 h of the new programme; update 2021-2026 end date once the next government is appointed; favicon/brand work.
+- Notes: merges need the user (auto-mode blocks gh pr merge). User actions still pending: 2FA confirm, correction-form manual check.

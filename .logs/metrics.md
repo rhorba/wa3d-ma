@@ -24,3 +24,9 @@
 - Security: CI Semgrep/Trivy/Gitleaks green; Dependabot 3 fixed, 2 dismissed not_used (extract-zip, dev-only); branch protection strict on main.
 - Production: https://wa3d-ma.vercel.app live (archive dark), fonts preloaded per locale, designed faces on cold first visits.
 - CI: red runs this sprint: #16 fonts (fixed #17), #25 run 1 CLS, #26 run 1 dependabot cooldown; all fixed before merge.
+
+## 2026-09-24 (Sprint 3 close, v1.0 go-live)
+- Coverage: 99.82% lines (unit + integration 275/275), gate 80%.
+- Dataset live: 16 commitments + 2 indicators (2021-2026), 0 validation errors, 14 V-14 (agreed). Sources archived: 19/21.
+- CI: all green on #41, #42, #43 and main; no red runs this session.
+- Recording: .recordings/v1.0-2026-09-24.webm.
