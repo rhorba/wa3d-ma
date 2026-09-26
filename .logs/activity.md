@@ -298,3 +298,4 @@
 
 ### [2026-09-26] MILESTONE
 - Post-launch checks done. Logs PR chore/logs-2026-09-26.
+- [2026-09-26] CI check PR #45: GREEN (all checks incl. real-data-smoke).
