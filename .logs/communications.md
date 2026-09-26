@@ -109,3 +109,6 @@
 
 ### [2026-09-22] HANDOFF — Frontend Dev → Frontend Dev + Digital Marketer (Story 2.7)
 - Context: all pages merged f8a7c8b. Need: canonical + hreflang (fr/ar/x-default), descriptions, basic OpenGraph, sitemap.xml (enabled non-empty mandates, details, méthodologie; alternates; lastModified), robots.txt. Constraints: all from NEXT_PUBLIC_SITE_URL, static routes, embargo respected, no OG images (later sprint).
+
+### [2026-09-26] UNDERSTAND
+- User picked: post-launch checks (Search Console sitemap recheck + indexing vs G5, 2 missing cg.gov.ma Wayback archives, correction-form manual check).

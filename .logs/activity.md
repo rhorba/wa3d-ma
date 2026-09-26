@@ -283,3 +283,19 @@
 - [2026-09-24] PR #42 merged by user (11:25Z); verification file live. Search Console: https://wa3d-ma.vercel.app/ ownership verified (HTML file). R1 step 6: sitemap.xml submitted; initial status "Couldn't fetch" (new property; sitemap checked: 200 application/xml, 36 URLs on host, robots Allow + Sitemap line). Recheck in 24-48 h. R1 COMPLETE.
 - [2026-09-24] CI PR #43 (4 archive links) GREEN after update-branch. Waiting for user merge.
 - [2026-09-24] PR #43 merged by user (11:34Z). main CI GREEN; prod shows new archive link (croissance-quatre-pourcent). VERIFY/SHIP: validate 0 errors, 275/275, CI green on #41 #42 #43 + main.
+
+### [2026-09-26] PLAN (approved)
+- 1 Wayback retry 2 cg.gov.ma URLs; 2 Search Console sitemap + Pages (G5); 3 correction form prefill check (no submit); 4 log, logs PR, push, CI.
+
+### [2026-09-26] EXECUTE: post-launch checks
+- Wayback retry (2 cg.gov.ma URLs): Save Page Now 520, origin 200, still no snapshot. Unchanged: 19/21 archived.
+- Search Console: /sitemap.xml status Success, last read 2026-09-26, 36 pages discovered (the 2026-09-24 "Couldn't fetch" is resolved; no resubmit).
+- Search Console Page indexing: "Processing data" (property 2 days old), no G5 baseline yet.
+- Correction form: live link on /fr/2021-2026/generalisation-amo (FR + AR hrefs checked) opens correction.yml with title, commitment, page prefilled and label correction. Not submitted. Closes the pending user manual check.
+
+### [2026-09-26] VERIFY
+- No code/data change. npm test: 23 files, 275 tests pass; coverage 99.82 stmts / 96.78 branch / 100 funcs / 100 lines. Security: logs-only diff, no secrets.
+
+### [2026-09-26] MILESTONE
+- Post-launch checks done. Logs PR chore/logs-2026-09-26.
+- [2026-09-26] CI check PR #45: GREEN (all checks incl. real-data-smoke).
