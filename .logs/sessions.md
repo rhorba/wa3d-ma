@@ -80,4 +80,11 @@
 ### [2026-09-26] SESSION_END
 - Completed: post-launch checks. GSC sitemap Success (36 pages); Page indexing still processing; correction form prefill verified in browser (user manual check closed); Wayback cg.gov.ma still 520 (19/21). Tests 275, coverage 99.82%.
 - Next: recheck GSC Page indexing on/after 2026-10-01 and track G5 (>= 90% indexed by 2026-10-24); R4 2026-2031 ingestion within 72 h of the new programme; update 2021-2026 end date; favicon/brand work.
-- User actions pending: 2FA confirm; merge the logs PR.
+- User actions pending: 2FA confirm. (Logs PR #45 merged.)
+- TODO 2026-10-01 (next session start; no code planned):
+  1. GSC Page indexing (https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fwa3d-ma.vercel.app%2F): record indexed / not-indexed counts vs 36 sitemap URLs -> .logs/metrics.md (G5 baseline; target >= 33/36 = 90% by 2026-10-24).
+  2. If "not indexed" reasons appear: triage per reason (Discovered/Crawled not indexed = wait; 404/redirect/noindex/canonical = bug -> fix via bug-fix workflow). Use URL Inspection + "Request indexing" on the FR/AR home and 2021-2026 list pages if they are not indexed.
+  3. GSC Sitemaps: confirm still Success, 36 discovered.
+  4. Wayback: one more Save Page Now retry for the 2 cg.gov.ma URLs (.sources/archive-todo.txt); if still 520, decide: keep retrying vs accept local SHA-256 copy as provenance.
+  5. Check whether the 2026-2031 government programme is published (triggers R4 ingestion within 72 h + 2021-2026 end date update).
+  6. main CI + prod smoke (/fr, /ar, /sitemap.xml 200).
