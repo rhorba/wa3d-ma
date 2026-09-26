@@ -26,3 +26,6 @@
 ### [2026-09-23] ISSUE — AR pages: French source titles and the citation URL are not bidi-isolated
 - detail AR: source title parentheses and citation URL looked scrambled (see corrections.md: misdiagnosis). Mandate reads "2026-2021" (Story 2.8, open). Fix in components with <bdi>/dir=ltr, fixture tests.
 ### [2026-09-23] ISSUE — FR: guillemets with a normal space can wrap alone on a list row; the data files use « x » with normal spaces.
+
+### [2026-09-26] OPEN: 2 cg.gov.ma sources without Wayback copy
+- Save Page Now returns 520 for cg.gov.ma (3rd failure). Local SHA-256 of the programme PDF is logged. Options later: retry, or accept the SHA + local copy as provenance.

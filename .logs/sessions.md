@@ -73,3 +73,11 @@
 - Open: Search Console sitemap showed "Couldn't fetch" at submit (new property; sitemap valid): recheck on/after 2026-09-26. 2 cg.gov.ma sources without Wayback copy (.sources/archive-todo.txt). Monitor PRD G5 (>= 90% of pages indexed by 2026-10-24).
 - Next: R4 2026-2031 ingestion within 72 h of the new programme; update 2021-2026 end date once the next government is appointed; favicon/brand work.
 - Notes: merges need the user (auto-mode blocks gh pr merge). User actions still pending: 2FA confirm, correction-form manual check.
+
+### [2026-09-26] SESSION_START
+- Resumed after v1.0 go-live (47b5691). Checking main CI and open items (Search Console sitemap recheck due today).
+
+### [2026-09-26] SESSION_END
+- Completed: post-launch checks. GSC sitemap Success (36 pages); Page indexing still processing; correction form prefill verified in browser (user manual check closed); Wayback cg.gov.ma still 520 (19/21). Tests 275, coverage 99.82%.
+- Next: recheck GSC Page indexing on/after 2026-10-01 and track G5 (>= 90% indexed by 2026-10-24); R4 2026-2031 ingestion within 72 h of the new programme; update 2021-2026 end date; favicon/brand work.
+- User actions pending: 2FA confirm; merge the logs PR.

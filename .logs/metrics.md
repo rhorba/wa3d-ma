@@ -30,3 +30,6 @@
 - Dataset live: 16 commitments + 2 indicators (2021-2026), 0 validation errors, 14 V-14 (agreed). Sources archived: 19/21.
 - CI: all green on #41, #42, #43 and main; no red runs this session.
 - Recording: .recordings/v1.0-2026-09-24.webm.
+
+### [2026-09-26] SPRINT_SNAPSHOT (post-launch checks)
+- Tests 275/275, coverage 99.82% stmts (>= 80%). Sitemap: 36 URLs, GSC Success. Indexing: pending (GSC processing). Wayback: 19/21.
