@@ -163,10 +163,18 @@ describe("V-6 no future dates (Africa/Casablanca)", () => {
     expect(rulesOf(withCommitments(value))).toEqual([]);
   });
 
-  it("computes today in Morocco: 23:30 UTC is already the next day in Casablanca", () => {
-    expect(todayInCasablanca(new Date("2026-09-21T23:30:00Z"))).toBe("2026-09-22");
-    expect(todayInCasablanca(new Date("2026-09-21T10:00:00Z"))).toBe("2026-09-21");
+  // Morocco was UTC+1 until 2026-09-20 02:00, then plain UTC (IANA tzdata 2026c).
+  it("computes today in Morocco: under UTC+1, 23:30 UTC is already the next day", () => {
+    expect(todayInCasablanca(new Date("2026-09-01T23:30:00Z"))).toBe("2026-09-02");
+    expect(todayInCasablanca(new Date("2026-09-01T10:00:00Z"))).toBe("2026-09-01");
   });
+
+  it.runIf((process.versions.tz ?? "") >= "2026c")(
+    "follows the 2026-09-20 switch to UTC: 23:30 UTC stays the same day",
+    () => {
+      expect(todayInCasablanca(new Date("2026-09-21T23:30:00Z"))).toBe("2026-09-21");
+    },
+  );
 
   it("defaults to the current time", () => {
     expect(todayInCasablanca()).toMatch(/^\d{4}-\d{2}-\d{2}$/);

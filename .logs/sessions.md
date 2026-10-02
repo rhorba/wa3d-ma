@@ -88,3 +88,13 @@
   4. Wayback: one more Save Page Now retry for the 2 cg.gov.ma URLs (.sources/archive-todo.txt); if still 520, decide: keep retrying vs accept local SHA-256 copy as provenance.
   5. Check whether the 2026-2031 government programme is published (triggers R4 ingestion within 72 h + 2021-2026 end date update).
   6. main CI + prod smoke (/fr, /ar, /sitemap.xml 200).
+
+### [2026-10-02] SESSION_START
+- Resumed for the 2026-10-01 post-launch checks (one day late). Plan branch chore/logs-2026-10-01-plan (c8c880e). No code planned.
+
+### [2026-10-02] SESSION_END
+- Completed: post-launch checks (CI green, prod 200, Wayback 520 x3 -> 19/21); #48 monthly review lists bot-blocked official links apart (401/403/429 on official domains), 280 tests, coverage 99.83%; #47 closed with triage note. Head of government appointed 2026-09-29 (Fatima Ezzahra El Mansouri); cabinet + 2026-2031 programme pending.
+- Decisions: keep 2026-09-23 placeholder until the full cabinet dahir; end-of-mandate verdicts for 14 overdue commitments after that, in one data PR.
+- Next: (1) GSC Page indexing counts -> metrics (Chrome extension was not connected; G5 >= 33/36 by 2026-10-24); (2) watch for the cabinet appointment -> set 2021-2026 end date + verdicts batch; (3) 2026-2031 programme -> R4 within 72 h; (4) Wayback retry for 2 cg.gov.ma URLs, else decide on SHA-256 local copy as provenance.
+- User actions: merge #48; Vercel Usage (bandwidth) check from #47; optional `! git stash drop` (stale duplicate of today's logs); 2FA confirm.
+- Config: .claude/settings.local.json allows `git switch` / `git checkout -b` (auto mode blocked branch creation).

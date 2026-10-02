@@ -29,3 +29,7 @@
 
 ### [2026-09-26] OPEN: 2 cg.gov.ma sources without Wayback copy
 - Save Page Now returns 520 for cg.gov.ma (3rd failure). Local SHA-256 of the programme PDF is logged. Options later: retry, or accept the SHA + local copy as provenance.
+
+### [2026-10-02] ISSUE — Monthly review flags 7 cg.gov.ma links as 403 (false positive: runner IP blocked; origin 200 locally). Also 14 overdue in_progress commitments need end-of-mandate evidence/verdicts.
+
+### [2026-10-02] ISSUE — CI red on #48: validate.test.ts hard-coded UTC+1 for 2026-09-21. Morocco moved to plain UTC on 2026-09-20 (IANA tzdata 2026c); runner Node 22.23.3 has it, local Node 22.23.1 (tz 2026a) does not. Fix: pre-switch date for the UTC+1 case + post-switch case gated on process.versions.tz >= 2026c. Code (Intl, Africa/Casablanca) was already correct.

@@ -35,3 +35,6 @@ Thumbs.db
 
 # official source documents downloaded for curation (large, re-downloadable; archived on the Wayback Machine)
 .sources/
+
+# Claude Code personal settings
+.claude/settings.local.json
