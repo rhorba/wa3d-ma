@@ -65,7 +65,7 @@ Tests freeze the clock with `vi.setSystemTime`.
 
 **Other boundaries**:
 - Freshness V-13: `lastVerified` 45 days ago → no warning; 46 days ago → warning.
-- V-6 "today" is computed in **Africa/Casablanca**: an entry dated today at 00:30 Morocco time (23:30 UTC the day before) is **not** in the future.
+- V-6 "today" is computed in **Africa/Casablanca**: an entry dated today at 00:30 Morocco time is **not** in the future. Morocco was UTC+1 until 2026-09-20, plain UTC since (IANA tzdata 2026c): the code relies on the runtime's tzdata, never on a fixed offset; the post-switch test runs only with tzdata >= 2026c.
 - V-5: two entries on the same date → error.
 
 **Property tests (fast-check)**:
