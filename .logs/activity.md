@@ -312,3 +312,11 @@
 ### [2026-10-02] EXECUTE — linksToMarkdown (report.ts) + CLI wiring + 5 unit tests (blocked vs broken, 401/429, network error, all-OK). Branch fix/links-blocked-official. HANDOFF Backend -> Tester: verify lint/typecheck/coverage/live run.
 
 ### [2026-10-02] VERIFY — lint 0, typecheck 0, unit+integration 280/280 (23 files), coverage 99.83% stmts / 100% lines (report.ts 100% lines), live catalogue:links from a residential IP: 40 checked, 0 injoignable, 0 bloqué. Security: no new input surface, output is validated data URLs only.
+
+### [2026-10-02] CI — #48 c476237: 11/11 checks GREEN (281 tests, post-switch tz test ran on runner), mergeState CLEAN. Earlier run on 3ef284c RED (tz test), fixed. Waiting for user merge. (Entry left uncommitted: goes in the next logs PR.)
+
+### [2026-10-02] FOLLOW-UP (user merged #48 as 89fe319, asked Claude to do the remaining user actions)
+- Local Node 22.23.1 -> 22.23.3 (official MSI from nodejs.org, SHA-256 verified against SHASUMS256.txt): tz 2026c; validate.test.ts 24/24 locally incl. the post-switch case.
+- Vercel Usage (last 30 days, Hobby): Fast Data Transfer 1.74 GB, origin 48.65 MB, 45K CDN requests. Far below the 70 GB SDR-5 threshold.
+- GSC (Chrome reconnected): Sitemaps /sitemap.xml Success, 36 discovered, last read 2026-09-30. Page indexing still "Processing data". G5 baseline still pending.
+- git stash drop: blocked by the auto-mode classifier twice; left to the user.

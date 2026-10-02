@@ -27,3 +27,5 @@
 ### [2026-09-22] RISK — extract-zip (GHSA-7pqw-9j4j-h8q3, GHSA-jmr9-qjv8-65gv) dismissed as not_used in @lhci/cli chain; no upstream fix. Recheck monthly; if a fix ships, reopen and override.
 
 ### [2026-10-02] RISK — Stale tzdata gives Casablanca dates 1 h off (23:00-00:00 UTC) on runtimes older than tzdata 2026c: local dev Node 22.23.1, possibly the Vercel build image (BUILT_ON in footer/commitment pages, V-6 "today"). Impact low (date label only near midnight). Mitigation: update local Node to >= 22.23.3; check Vercel build Node at next deploy.
+
+### [2026-10-02] UPDATE — tz risk: local Node now 22.23.3 (tz 2026c). Vercel build Node still to check.

@@ -35,3 +35,5 @@
 - Tests 275/275, coverage 99.82% stmts (>= 80%). Sitemap: 36 URLs, GSC Success. Indexing: pending (GSC processing). Wayback: 19/21.
 
 ### [2026-10-02] SPRINT_SNAPSHOT — fix/links-blocked-official: tests 280 (+5), coverage 99.83% statements, 96.87% branches, 100% lines.
+
+### [2026-10-02] METRIC — Vercel 30-day transfer 1.74 GB (limit 100 GB, alert 70 GB). GSC: sitemap 36 discovered; indexed count not yet available.
