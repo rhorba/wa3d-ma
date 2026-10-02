@@ -70,3 +70,5 @@
 
 ### [2026-09-26] DECISION
 - Approach: Claude drives Chrome (user session) for Search Console + correction form; Wayback retry from shell.
+
+### [2026-10-02] DECISION — BRAINSTORM (user choices): (1) keep the 2026-09-23 placeholder until the full cabinet is appointed by dahir, then one data PR; (2) monthly review: 403 from official domains goes to a separate "blocked, check by hand" list (unit-tested); (3) end-of-mandate verdicts for the 14 overdue commitments start after the end date is set; close #47 with a note.

@@ -1,4 +1,5 @@
 import { staleCommitments } from "./freshness";
+import { isOnAllowlist } from "./rules/sources";
 import type { Commitment, Indicator, Source } from "./schema";
 import type { Issue } from "./validate";
 
@@ -123,4 +124,42 @@ export async function checkLinks(
   };
   await Promise.all(Array.from({ length: Math.min(concurrency, unique.length) }, worker));
   return results;
+}
+
+// Answers official sites give to datacenter IPs (the GitHub runner) while the page is up.
+const BOT_BLOCK_STATUSES = new Set([401, 403, 429]);
+
+/**
+ * "Liens" section of the monthly review. A bot-block status from an official domain is listed
+ * apart ("bloqué"): cg.gov.ma answers 403 to the runner but 200 to a reader, so only a manual
+ * check can tell. Anything else that fails is "injoignable".
+ */
+export function linksToMarkdown(
+  results: readonly LinkResult[],
+  links: readonly SourceLink[],
+  officialDomains: readonly string[],
+): string {
+  const where = (url: string) =>
+    links
+      .filter((l) => l.url === url)
+      .map((l) => `${l.file} ${l.field}`)
+      .join("; ");
+  const line = (r: LinkResult) => `- ${r.url} (${r.status ?? r.error}): ${where(r.url)}`;
+  const failing = results.filter((r) => !r.ok);
+  const isBlocked = (r: LinkResult) =>
+    r.status !== undefined &&
+    BOT_BLOCK_STATUSES.has(r.status) &&
+    isOnAllowlist(r.url, officialDomains);
+  const blocked = failing.filter(isBlocked);
+  const broken = failing.filter((r) => !isBlocked(r));
+  return [
+    "### Liens",
+    "",
+    `${results.length} lien(s) vérifié(s), ${broken.length} injoignable(s), ${blocked.length} bloqué(s)`,
+    ...(broken.length ? ["", ...broken.map(line)] : []),
+    ...(blocked.length
+      ? ["", "**Bloqués pour les robots (à vérifier à la main)**", "", ...blocked.map(line)]
+      : []),
+    "",
+  ].join("\n");
 }

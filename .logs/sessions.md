@@ -88,3 +88,6 @@
   4. Wayback: one more Save Page Now retry for the 2 cg.gov.ma URLs (.sources/archive-todo.txt); if still 520, decide: keep retrying vs accept local SHA-256 copy as provenance.
   5. Check whether the 2026-2031 government programme is published (triggers R4 ingestion within 72 h + 2021-2026 end date update).
   6. main CI + prod smoke (/fr, /ar, /sitemap.xml 200).
+
+### [2026-10-02] SESSION_START
+- Resumed for the 2026-10-01 post-launch checks (one day late). Plan branch chore/logs-2026-10-01-plan (c8c880e). No code planned.

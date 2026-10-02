@@ -6,6 +6,7 @@ import {
   formatIssues,
   freshnessToMarkdown,
   issuesToMarkdown,
+  linksToMarkdown,
   sourceLinks,
 } from "./report";
 import type { Issue } from "./validate";
@@ -130,5 +131,69 @@ describe("checkLinks", () => {
 
   it("returns nothing for no URLs", async () => {
     expect(await checkLinks([], fakeFetch({}))).toEqual([]);
+  });
+});
+
+describe("linksToMarkdown", () => {
+  const official = ["gov.ma", "hcp.ma"];
+  const links = [
+    { file: "promises/2021-2026/a.json", field: "origin.url", url: "https://www.cg.gov.ma/p.pdf" },
+    { file: "promises/2021-2026/b.json", field: "origin.url", url: "https://www.cg.gov.ma/p.pdf" },
+    {
+      file: "promises/2021-2026/b.json",
+      field: "evidence[0].source.url",
+      url: "https://www.hcp.ma/x",
+    },
+    {
+      file: "indicators/i.json",
+      field: "values[0].source.url",
+      url: "https://press.example.com/y",
+    },
+  ];
+
+  it("lists a bot-block status on an official domain apart from broken links", () => {
+    const report = linksToMarkdown(
+      [
+        { url: "https://www.cg.gov.ma/p.pdf", ok: false, status: 403 },
+        { url: "https://www.hcp.ma/x", ok: false, status: 404 },
+        { url: "https://press.example.com/y", ok: false, status: 403 },
+      ],
+      links,
+      official,
+    );
+    expect(report).toContain("3 lien(s) vérifié(s), 2 injoignable(s), 1 bloqué(s)");
+    const [broken, blocked] = report.split("**Bloqués pour les robots (à vérifier à la main)**");
+    expect(broken).toContain(
+      "- https://www.hcp.ma/x (404): promises/2021-2026/b.json evidence[0].source.url",
+    );
+    expect(broken).toContain("- https://press.example.com/y (403): indicators/i.json");
+    expect(blocked).toContain(
+      "- https://www.cg.gov.ma/p.pdf (403): promises/2021-2026/a.json origin.url; promises/2021-2026/b.json origin.url",
+    );
+  });
+
+  it.each([401, 429])("treats %s from an official domain as blocked", (status) => {
+    const report = linksToMarkdown(
+      [{ url: "https://www.cg.gov.ma/p.pdf", ok: false, status }],
+      links,
+      official,
+    );
+    expect(report).toContain("0 injoignable(s), 1 bloqué(s)");
+  });
+
+  it("keeps network errors on an official domain as broken", () => {
+    const report = linksToMarkdown(
+      [{ url: "https://www.hcp.ma/x", ok: false, error: "timeout" }],
+      links,
+      official,
+    );
+    expect(report).toContain("1 injoignable(s), 0 bloqué(s)");
+    expect(report).toContain("- https://www.hcp.ma/x (timeout):");
+  });
+
+  it("prints only the count when every link answers", () => {
+    expect(
+      linksToMarkdown([{ url: "https://www.hcp.ma/x", ok: true, status: 200 }], links, official),
+    ).toBe("### Liens\n\n1 lien(s) vérifié(s), 0 injoignable(s), 0 bloqué(s)\n");
   });
 });

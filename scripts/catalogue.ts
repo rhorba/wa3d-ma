@@ -13,6 +13,7 @@ import {
   formatIssues,
   freshnessToMarkdown,
   issuesToMarkdown,
+  linksToMarkdown,
   sourceLinks,
 } from "../lib/catalogue/report";
 import { worksheetMarkdown } from "../lib/catalogue/worksheet";
@@ -73,14 +74,7 @@ async function main(): Promise<number> {
   if (command === "links") {
     const links = sourceLinks(result.commitments, result.indicators);
     const results = await checkLinks(links.map((link) => link.url));
-    const failing = results.filter((r) => !r.ok);
-    const where = (url: string) =>
-      links
-        .filter((l) => l.url === url)
-        .map((l) => `${l.file} ${l.field}`)
-        .join("; ");
-    const lines = failing.map((r) => `- ${r.url} (${r.status ?? r.error}): ${where(r.url)}`);
-    const report = `### Liens\n\n${results.length} lien(s) vérifié(s), ${failing.length} injoignable(s)\n${lines.length ? `\n${lines.join("\n")}\n` : ""}`;
+    const report = linksToMarkdown(results, links, result.input.officialDomains);
     console.log(report);
     if (summaryFile && markdown) appendFileSync(summaryFile, report);
     return 0; // warnings only

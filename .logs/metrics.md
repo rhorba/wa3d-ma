@@ -33,3 +33,5 @@
 
 ### [2026-09-26] SPRINT_SNAPSHOT (post-launch checks)
 - Tests 275/275, coverage 99.82% stmts (>= 80%). Sitemap: 36 URLs, GSC Success. Indexing: pending (GSC processing). Wayback: 19/21.
+
+### [2026-10-02] SPRINT_SNAPSHOT — fix/links-blocked-official: tests 280 (+5), coverage 99.83% statements, 96.87% branches, 100% lines.

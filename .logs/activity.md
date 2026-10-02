@@ -299,3 +299,16 @@
 ### [2026-09-26] MILESTONE
 - Post-launch checks done. Logs PR chore/logs-2026-09-26.
 - [2026-09-26] CI check PR #45: GREEN (all checks incl. real-data-smoke).
+
+### [2026-10-02] CHECKS — post-launch (2026-10-01 TODO, UNDERSTAND)
+- main 35eae52 CI GREEN; prod /fr /ar /sitemap.xml /fr/2021-2026 /ar/2021-2026 all 200. No open PRs.
+- Wayback: 2 cg.gov.ma URLs, save 520 again (3rd attempt), origin 200 locally. Still 19/21.
+- Monthly review issue #47 (2026-10-01): 0 stale; 14 commitments past deadline still in_progress; 7 cg.gov.ma links 403 from GitHub runner (200 from a residential IP: bot/datacenter block, not dead links).
+- News: 2026-09-29 the King appointed Fatima Ezzahra El Mansouri (PAM) head of government after the 2026-09-23 elections. The cabinet and the 2026-2031 programme are not published yet, so R4 is not triggered.
+- GSC Page indexing NOT checked: Chrome extension not connected. Carried over.
+
+### [2026-10-02] PLAN — fix/links-blocked-official: linksToMarkdown in lib/catalogue/report.ts (401/403/429 on official domains -> "bloqué" list, not "injoignable"), CLI uses it, unit tests, verify (lint/typecheck/coverage/live run), PR + CI green, close #47 with note. GSC carried over (Chrome not connected).
+
+### [2026-10-02] EXECUTE — linksToMarkdown (report.ts) + CLI wiring + 5 unit tests (blocked vs broken, 401/429, network error, all-OK). Branch fix/links-blocked-official. HANDOFF Backend -> Tester: verify lint/typecheck/coverage/live run.
+
+### [2026-10-02] VERIFY — lint 0, typecheck 0, unit+integration 280/280 (23 files), coverage 99.83% stmts / 100% lines (report.ts 100% lines), live catalogue:links from a residential IP: 40 checked, 0 injoignable, 0 bloqué. Security: no new input surface, output is validated data URLs only.
