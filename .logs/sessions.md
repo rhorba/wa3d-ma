@@ -98,3 +98,11 @@
 - Next: (1) GSC Page indexing counts -> metrics (Chrome extension was not connected; G5 >= 33/36 by 2026-10-24); (2) watch for the cabinet appointment -> set 2021-2026 end date + verdicts batch; (3) 2026-2031 programme -> R4 within 72 h; (4) Wayback retry for 2 cg.gov.ma URLs, else decide on SHA-256 local copy as provenance.
 - User actions: merge #48; Vercel Usage (bandwidth) check from #47; optional `! git stash drop` (stale duplicate of today's logs); 2FA confirm.
 - Config: .claude/settings.local.json allows `git switch` / `git checkout -b` (auto mode blocked branch creation).
+
+### [2026-10-04] SESSION_START
+- Resumed. main ee947d9 in sync, CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. Uncommitted 2026-10-02 log tail (CI + tz risk) carried over. UNDERSTAND: awaiting user pick of work item.
+
+### [2026-10-04] SESSION_END
+- Completed: checks 1-3. GSC sample: /fr /ar indexed, /fr/2021-2026 crawled-not-indexed, commitment pages unknown -> #50 home hreflang follows canonical (ADR-10 amendment), merged ea040ac, CI green, prod verified. Wayback closed: SHA-256 local copies accepted (programme PDF 9401e0c0...143280 unchanged; node/10717 d718038a...fd472a). Cabinet not formed (PAM council 2026-10-03 mandated El Mansouri to negotiate); 2026-2031 programme not published. Tests 281, coverage 99.83%.
+- Next: (1) GSC Request indexing /fr/2021-2026 + /ar/2021-2026 (approved; quota hit today); (2) Page indexing counts -> G5 baseline; recheck ~2026-10-14, fallback 308 if still not indexed; (3) cabinet dahir -> 2021-2026 end date + 14 verdicts batch; (4) programme -> R4 within 72 h; (5) favicon/brand.
+- User actions: optional `! git stash drop`; 2FA confirm.

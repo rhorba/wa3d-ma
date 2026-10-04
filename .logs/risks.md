@@ -29,3 +29,9 @@
 ### [2026-10-02] RISK — Stale tzdata gives Casablanca dates 1 h off (23:00-00:00 UTC) on runtimes older than tzdata 2026c: local dev Node 22.23.1, possibly the Vercel build image (BUILT_ON in footer/commitment pages, V-6 "today"). Impact low (date label only near midnight). Mitigation: update local Node to >= 22.23.3; check Vercel build Node at next deploy.
 
 ### [2026-10-02] UPDATE — tz risk: local Node now 22.23.3 (tz 2026c). Vercel build Node still to check.
+
+### [2026-10-02] UPDATE — tz risk: Vercel project Node setting is "22.x" (patch chosen by Vercel, not visible). Worst case: BUILT_ON label 1 day off for builds 23:00-00:00 UTC. Accepted (low); recheck if a date label looks wrong.
+
+### [2026-10-04] RISK — G5 (>= 90% of 36 sitemap URLs indexed by 2026-10-24) at risk. Home /{locale} and mandate page /{locale}/2021-2026 serve the same content; home declares canonical -> mandate page (ADR-10) but its hreflang alternates point to the home itself, and internal links / Referring page favour the home. Google indexed the home and left the mandate page "Crawled - currently not indexed". Commitment pages not yet known to Google despite the sitemap.
+
+### [2026-10-04] UPDATE — G5: hreflang fix live (#50). GSC Request indexing hit the daily quota; retry next session. If /fr|ar/2021-2026 still not indexed ~2026-10-14 -> option A (308 home -> mandate).
