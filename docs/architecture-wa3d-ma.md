@@ -70,6 +70,7 @@ Dropped from da3m-ma because this project doesn't need them: Clerk, Drizzle/Post
 - **Status**: Accepted
 - **Context**: Until the 2026-2031 programme is presented (~Oct 2026), that mandate has no commitments. Before 24 Sept, nothing is public at all.
 - **Decision**: `/{locale}` renders the list of the **newest enabled mandate that has ≥ 1 commitment**, with `<link rel="canonical">` pointing to `/{locale}/{mandate}` to avoid duplicate content. If no mandate qualifies, it renders an explanatory empty state. A mandate that is enabled but empty (2026-2031 before ingestion) appears in the switcher as "Programme 2026-2031: publication attendue" and has a static page saying so. The empty-mandate page is `noindex`.
+- **Amendment (2026-10-04)**: the home page's hreflang alternates also point to the mandate URLs, matching its canonical. With alternates pointing at the home itself, Google indexed `/{locale}` and left `/{locale}/{mandate}` "Crawled - currently not indexed".
 - **Consequences**: the site is useful from 24 Sept (archive) and switches to 2026-2031 automatically on the first data merge, with no code change.
 
 ## 3. Code Structure & Dependency Rule

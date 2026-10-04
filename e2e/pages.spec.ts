@@ -3,12 +3,26 @@ import { expect, test } from "@playwright/test";
 // Test Strategy §3.2 "Mandates and embargo" (ADR-10) and "Method and corrections" (US-9), on fixtures.
 
 test.describe("home page (ADR-10)", () => {
-  test("shows the newest mandate that has commitments, canonical to its own URL", async ({
+  test("shows the newest mandate that has commitments, canonical and hreflang to its own URL", async ({
     page,
   }) => {
     await page.goto("/fr");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Gouvernement 2026-2031");
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      "https://wa3d-ma.vercel.app/fr/2026-2031",
+    );
+    // Alternates pointing at the home itself made Google keep the home and drop the mandate page.
+    const alternate = (lang: string) => page.locator(`link[rel="alternate"][hreflang="${lang}"]`);
+    await expect(alternate("fr")).toHaveAttribute(
+      "href",
+      "https://wa3d-ma.vercel.app/fr/2026-2031",
+    );
+    await expect(alternate("ar")).toHaveAttribute(
+      "href",
+      "https://wa3d-ma.vercel.app/ar/2026-2031",
+    );
+    await expect(alternate("x-default")).toHaveAttribute(
       "href",
       "https://wa3d-ma.vercel.app/fr/2026-2031",
     );
