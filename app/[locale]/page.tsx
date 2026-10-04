@@ -11,15 +11,12 @@ type Props = { params: Promise<{ locale: string }> };
 
 const homeMandate = () => defaultMandate(loadCatalogue().byMandate, env().archiveEnabled);
 
-// ADR-10: the home page is the newest published mandate; its canonical URL is the mandate page,
-// so search engines do not see the same list twice.
+// ADR-10: the home page is the newest published mandate; its canonical URL and hreflang alternates
+// are the mandate page's, so search engines do not see the same list twice.
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const mandate = homeMandate();
-  const { languages } = alternates(locale, "");
-  return mandate
-    ? { alternates: { canonical: `/${locale}/${mandate}`, languages } }
-    : { alternates: { canonical: `/${locale}`, languages } };
+  return { alternates: alternates(locale, mandate ? `/${mandate}` : "") };
 }
 
 export default async function HomePage({ params }: Props) {
