@@ -320,3 +320,25 @@
 - Vercel Usage (last 30 days, Hobby): Fast Data Transfer 1.74 GB, origin 48.65 MB, 45K CDN requests. Far below the 70 GB SDR-5 threshold.
 - GSC (Chrome reconnected): Sitemaps /sitemap.xml Success, 36 discovered, last read 2026-09-30. Page indexing still "Processing data". G5 baseline still pending.
 - git stash drop: blocked by the auto-mode classifier twice; left to the user.
+
+### [2026-10-02] CI — main ee947d9 (#49) CI GREEN, Vercel production deploy success, prod /fr /ar /sitemap.xml 200.
+
+### [2026-10-04] CI — main ee947d9 still GREEN; prod 200 x3.
+
+### [2026-10-04] PLAN — (1) GSC Page indexing counts -> metrics.md; (2) Wayback SPN retry for .sources/archive-todo.txt URLs; (3) web check cabinet dahir + 2026-2031 programme. Read-only; log results; commit logs via PR.
+
+### [2026-10-04] CHECKS — Wayback SPN retry cg.gov.ma x2: origin 200, save 520 again (4th failure since 2026-09-24), still 19/21. Cabinet: not formed; PAM national council (2026-10-03) mandated El Mansouri to negotiate the coalition; 2026-2031 programme not published. GSC: see metrics.md 2026-10-04.
+
+### [2026-10-04] PLAN — fix/home-hreflang: (1) app/[locale]/page.tsx metadata = alternates(locale, "/"+mandate) when a mandate exists; (2) e2e/pages.spec.ts home test asserts hreflang fr/ar/x-default -> mandate URLs; (3) ADR-10 note in docs/architecture; (4) lint, unit+coverage, e2e; PR, CI green, user merges; (5) after deploy: GSC Request indexing on /fr/2021-2026 and /ar/2021-2026 (needs user OK). Wayback: capture node/10717 + SHA-256 to .sources (gitignored), hashes logged; logs PR.
+
+### [2026-10-04] DONE — Wayback provenance: programme PDF re-fetched 2026-10-04, SHA-256 9401e0c0359f5f786f43540ad9e23909411bcab0eff2502601e967dcbc143280 (identical to 2026-09-22). node/10717 saved 2026-10-04 (HTTP 200, 68,685 B, title matches Awrach 250,000 jobs), SHA-256 d718038a3f08798f3e0ff0c709b21fbee94f160ad826fe5ca507cf9382fd472a. .sources/archive-todo.txt updated (local, gitignored). Archive retries closed.
+
+### [2026-10-04] EXECUTE+VERIFY — #50 fix/home-hreflang: lint+tsc OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build + e2e 120/120 (first run hit a stale build, rebuilt with CI env). Security: metadata-only change, no new input/deps.
+
+### [2026-10-04] CI — PR #50 all 11 checks GREEN (incl. e2e, real-data smoke, Lighthouse, security). Awaiting user merge.
+
+### [2026-10-04] CI — main ea040ac (#50 merged) CI GREEN; prod /fr and /ar: canonical + hreflang fr/ar/x-default -> /{locale}/2021-2026; /fr /ar /sitemap.xml 200.
+
+### [2026-10-04] BLOCKED — GSC Request indexing /fr/2021-2026: "Quota Exceeded" (daily quota). Not retried; /ar/2021-2026 not attempted. Retry next session (user approved both requests 2026-10-04).
+
+### [2026-10-04] SHIP — #50 merged (ea040ac), main CI GREEN, prod verified. No version recording: metadata-only change, no user-facing flow changed (rule 9 n/a). Logs PR pushed (this entry).

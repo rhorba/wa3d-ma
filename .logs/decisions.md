@@ -72,3 +72,9 @@
 - Approach: Claude drives Chrome (user session) for Search Console + correction form; Wayback retry from shell.
 
 ### [2026-10-02] DECISION — BRAINSTORM (user choices): (1) keep the 2026-09-23 placeholder until the full cabinet is appointed by dahir, then one data PR; (2) monthly review: 403 from official domains goes to a separate "blocked, check by hand" list (unit-tested); (3) end-of-mandate verdicts for the 14 overdue commitments start after the end date is set; close #47 with a note.
+
+### [2026-10-04] DECISION — Session scope: batch checks 1-3 (GSC G5 baseline, Wayback retry cg.gov.ma x2, cabinet/2026-2031 programme watch). BRAINSTORM: single option (read-only checks); any data change goes to its own PLAN gate.
+
+### [2026-10-04] DECISION — Indexing: option B (keep ADR-10; home hreflang alternates point to the mandate page; Request indexing on /fr|ar/2021-2026). Fallback: if still not indexed ~2026-10-14, 308 home -> mandate (option A).
+
+### [2026-10-04] DECISION — Wayback: stop retrying the 2 cg.gov.ma URLs; accept local SHA-256 copies as provenance (programme PDF 9401e0c0...143280 already in the 2026-09-22 verification report; node/10717 to be captured).
