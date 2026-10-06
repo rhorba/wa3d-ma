@@ -82,3 +82,5 @@
 ### [2026-10-06] DECISION — Brand assets: option B (favicon set + static per-locale OG image), mark = "و" (Noto Naskh, ink #1B1B18 on paper #F7F5F0). Chosen by user. Rationale: no favicon/preview card today; share previews matter for a civic site; per-commitment dynamic cards deferred (YAGNI, no share traffic yet).
 
 ### [2026-10-06] DECISION — CVE-2026-93749 fix: option A (lockfile-only `pnpm update source-map-js` to 1.2.2, branch fix/source-map-js-cve), chosen by user. Plan: update -> verify (lint/types/tests/coverage/build/trivy-equivalent audit) -> PR -> CI green -> merge -> rebase #52.
+
+### [2026-10-06] DECISION — CVE-2026-93749: option A (wait for the 7-day release-age window; bump source-map-js to 1.2.2 after 2026-10-07 14:08 UTC on fix/source-map-js-cve). Security scans job stays red until then; no merges. Risk accepted: build-time-only DoS on our own CSS source maps. Brand assets proceed on their branch meanwhile.

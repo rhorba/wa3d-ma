@@ -37,3 +37,5 @@
 ### [2026-10-06] ISSUE (low) — GSC "Request indexing" returns Quota Exceeded on the first request of the day (2026-10-04 and 2026-10-06). Likely a reduced quota on a new property. Workaround: rely on sitemap (Success, 36 discovered) + internal links; retry manual requests at most once per day. Not a site bug.
 
 ### [2026-10-06] ISSUE (high, CI RED) — PR #52 (logs only) Security scans fail: Trivy SCA flags source-map-js 1.2.1 CVE-2026-93749 (HIGH, DoS via malformed indexed source maps), fixed in 1.2.2 (published 2026-09-30). Transitive prod dep: next 15.5.25 -> postcss 8.5.28 -> source-map-js ^1.2.1. New advisory, not caused by #52; main will fail too on next run. Brand work paused per rule 11.
+
+### [2026-10-06] BLOCKER — option A blocked by our own supply-chain policy: .npmrc minimum-release-age=10080 (7 days); source-map-js 1.2.2 published 2026-09-30 14:08 UTC -> resolvable from 2026-10-07 14:08 UTC. `pnpm update` kept 1.2.1 and drifted unrelated deps (rolldown 1.2.8->1.2.11, oxc types); lockfile reverted, nothing committed.

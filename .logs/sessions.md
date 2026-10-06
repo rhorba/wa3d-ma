@@ -115,3 +115,13 @@
 
 ### [2026-10-06] SESSION_START
 - Resumed. main 24d0fc9 in sync, CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. 2026-10-05 logs still uncommitted on chore/logs-2026-10-05. UNDERSTAND: awaiting user pick of work item.
+
+### [2026-10-06] SESSION_END
+- Completed: checks (cabinet not formed, PAM + Koutla talks, PPS committee 2026-10-06, parliament opens 2026-10-09; programme not published; GSC indexing still processing, Request indexing quota exceeded again). PR #52 logs. PR #53 feat(brand): و favicon set + per-locale share cards, 283 tests, coverage 99.83%, e2e 122/122.
+- CI RED (not from our changes): Trivy flags source-map-js 1.2.1 CVE-2026-93749; 1.2.2 held by the 7-day minimum-release-age until 2026-10-07 14:08 UTC. User chose to wait (option A).
+- TODO next session (on/after 2026-10-07 15:08 Morocco):
+  1. Branch fix/source-map-js-cve from main; `pnpm update source-map-js` (check lockfile diff is only source-map-js; revert unrelated drift; consider basic-ftp 6.2.1 dev-only bump); verify; PR; CI green; merge.
+  2. Rebase + merge #52 (logs), then rebase #53 -> confirm Gitleaks/pnpm audit green -> merge -> prod check /icon.svg, /favicon.ico, /og/fr.png 200 + share debugger.
+  3. News: cabinet dahir -> 2021-2026 end date + 14 verdicts; programme -> R4 within 72 h.
+  4. GSC: one Request indexing attempt; G5 counts when report finishes processing (target 33/36 by 2026-10-24).
+- User actions: merge PRs after CI green (auto mode blocks gh pr merge); 2FA confirm; optional `! git stash drop`.
