@@ -41,3 +41,7 @@
 ### [2026-10-04] METRIC — GSC Page indexing report still "Processing data" (day 10). URL Inspection sample: /fr indexed, /ar indexed (both outside the sitemap; declare canonical -> /{locale}/2021-2026 per ADR-10, Google kept the home); /fr/2021-2026 "Crawled - currently not indexed"; /fr/2021-2026/generalisation-amo "URL is unknown to Google". G5 baseline (sitemap URLs indexed) still unknown; sample suggests low.
 
 ### [2026-10-04] SPRINT_SNAPSHOT — fix/home-hreflang: tests 281, coverage 99.83% statements, 96.87% branches, 100% lines; e2e 120/120.
+
+### [2026-10-05] METRIC — GSC Page indexing report still "Processing data" (day 11). Sitemap last read 2026-10-04, Success, 36 discovered. URL Inspection: /fr/2021-2026 and /ar/2021-2026 now INDEXED (yesterday: crawled-not-indexed / not checked) -> 308 fallback dropped. Commitment sample (FR): medecine-famille-reseaux-hospitaliers indexed; activite-femmes-trente-pourcent, emploi-million-postes, protection-sociale-globale "URL is unknown to Google". Sitemap indexed so far: >= 3/36 confirmed (target 33/36 by 2026-10-24).
+
+### [2026-10-06] METRIC — GSC Page indexing still "Processing data" (day 12). activite-femmes-trente-pourcent still unknown to Google. Sitemap indexed: >= 3/36 confirmed (target 33/36 by 2026-10-24).

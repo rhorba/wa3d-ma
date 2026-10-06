@@ -342,3 +342,13 @@
 ### [2026-10-04] BLOCKED — GSC Request indexing /fr/2021-2026: "Quota Exceeded" (daily quota). Not retried; /ar/2021-2026 not attempted. Retry next session (user approved both requests 2026-10-04).
 
 ### [2026-10-04] SHIP — #50 merged (ea040ac), main CI GREEN, prod verified. No version recording: metadata-only change, no user-facing flow changed (rule 9 n/a). Logs PR pushed (this entry).
+
+### [2026-10-05] UNDERSTAND/BRAINSTORM/PLAN — user picked items 1+2 (no-code checks). Single option (checks only); plan = news check + GSC inspection; no code, no gate decision beyond pick.
+
+### [2026-10-05] EXECUTE — (2) Cabinet not formed: PAM council 2026-10-03 excluded RNI and mandated El Mansouri; Istiqlal mandated Baraka; formal negotiations "this week"; parliament opening 2026-10-09; dahir appointing El Mansouri published in BO 2026-10-02. 2026-2031 programme not published (presented after cabinet). Source: le360 live (fr.le360.ma). (1) GSC: both mandate list pages indexed, Request indexing for them no longer needed; 3/4 sampled commitment pages unknown to Google -> see metrics.
+
+### [2026-10-06] UNDERSTAND/BRAINSTORM/PLAN — user picked 1+2+3: (2) news + GSC checks, then (1) commit 2026-10-05/06 logs in one PR, then (3) favicon/brand (separate feature branch; UX/UI brainstorm gate before any code). Order: checks first so the logs PR carries their results.
+
+### [2026-10-06] EXECUTE — (2) news: cabinet not formed. El Mansouri favours PAM + Koutla (Istiqlal, USFP, PPS; ~207 seats), RNI sidelined but candidate; PPS central committee 2026-10-06; parliament opening 2026-10-09. 2026-2031 programme not published. Sources: ledesk.ma 2026-10-03, fr.le360.ma, moroccoworldnews.com 2026-10. GSC: Page indexing still processing; activite-femmes-trente-pourcent still "URL is unknown to Google"; Request indexing -> "Quota Exceeded" on the FIRST request of the day (2nd time, cf. 2026-10-04). Not retried; other 2 pages not attempted.
+
+### [2026-10-06] VERIFY/SHIP — logs-only change (no code; tests/coverage/security n/a). Pushed chore/logs-2026-10-05 + PR.

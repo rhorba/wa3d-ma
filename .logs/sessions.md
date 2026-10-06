@@ -106,3 +106,12 @@
 - Completed: checks 1-3. GSC sample: /fr /ar indexed, /fr/2021-2026 crawled-not-indexed, commitment pages unknown -> #50 home hreflang follows canonical (ADR-10 amendment), merged ea040ac, CI green, prod verified. Wayback closed: SHA-256 local copies accepted (programme PDF 9401e0c0...143280 unchanged; node/10717 d718038a...fd472a). Cabinet not formed (PAM council 2026-10-03 mandated El Mansouri to negotiate); 2026-2031 programme not published. Tests 281, coverage 99.83%.
 - Next: (1) GSC Request indexing /fr/2021-2026 + /ar/2021-2026 (approved; quota hit today); (2) Page indexing counts -> G5 baseline; recheck ~2026-10-14, fallback 308 if still not indexed; (3) cabinet dahir -> 2021-2026 end date + 14 verdicts batch; (4) programme -> R4 within 72 h; (5) favicon/brand.
 - User actions: optional `! git stash drop`; 2FA confirm.
+
+### [2026-10-05] SESSION_START
+- Resumed. main 24d0fc9 in sync (#51 logs merged), CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. UNDERSTAND: awaiting user pick of work item.
+
+### [2026-10-05] SESSION_END (written 2026-10-06; session closed without one)
+- Completed: news check (cabinet not formed, programme not published) + GSC inspection (/fr and /ar 2021-2026 indexed; >= 3/36 sitemap URLs confirmed). Logs left uncommitted on chore/logs-2026-10-05.
+
+### [2026-10-06] SESSION_START
+- Resumed. main 24d0fc9 in sync, CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. 2026-10-05 logs still uncommitted on chore/logs-2026-10-05. UNDERSTAND: awaiting user pick of work item.
