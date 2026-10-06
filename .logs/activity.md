@@ -352,3 +352,10 @@
 ### [2026-10-06] EXECUTE — (2) news: cabinet not formed. El Mansouri favours PAM + Koutla (Istiqlal, USFP, PPS; ~207 seats), RNI sidelined but candidate; PPS central committee 2026-10-06; parliament opening 2026-10-09. 2026-2031 programme not published. Sources: ledesk.ma 2026-10-03, fr.le360.ma, moroccoworldnews.com 2026-10. GSC: Page indexing still processing; activite-femmes-trente-pourcent still "URL is unknown to Google"; Request indexing -> "Quota Exceeded" on the FIRST request of the day (2nd time, cf. 2026-10-04). Not retried; other 2 pages not attempted.
 
 ### [2026-10-06] VERIFY/SHIP — logs-only change (no code; tests/coverage/security n/a). Pushed chore/logs-2026-10-05 + PR.
+
+### [2026-10-06] HANDOFF — Orchestrator → UI Designer. Context: no favicon/app icon/OG image exists (public/ has only fonts + GSC file). Need: brand mark options within docs/ui-wa3d-ma.md tokens (paper/ink/sepia, Naskh/Source Serif) and out-of-bounds (no illustrations, no party logos, no colour-coded status). Constraints: YAGNI, static assets via Next file conventions, NFR-1 perf budget.
+### [2026-10-06] BRAINSTORM — favicon/brand: A) monogram favicon set only; B) A + static per-locale default OG image; C) B + dynamic per-commitment OG images + manifest. Awaiting user pick.
+
+### [2026-10-06] PLAN — branch feature/brand-assets. B1: scripts/make-brand-assets (fontTools outline of "و" -> app/icon.svg; Playwright renders apple-icon.png 180, favicon.ico 32, public/og/{fr,ar}.png 1200x630 with the site's own subset fonts). B2: openGraph() adds the locale image, layout twitter summary_large_image, unit tests. B3: lint/typecheck/tests/coverage/e2e, security check, PR + CI. Awaiting user go.
+
+### [2026-10-06] CI_CHECK — PR #52 RED (Security scans: Trivy source-map-js CVE-2026-93749). All other jobs green. Blocker presented to user.
