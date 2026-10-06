@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+import ar from "@/messages/ar.json";
+import fr from "@/messages/fr.json";
 import type { Commitment, Mandate } from "./catalogue/schema";
 
 // FR-12: canonical URLs, hreflang and the sitemap all derive from NEXT_PUBLIC_SITE_URL, so moving to
@@ -26,6 +28,13 @@ export function truncate(text: string, limit = 155): string {
 
 export const OG_LOCALE: Record<string, string> = { fr: "fr_MA", ar: "ar_MA" };
 
+const SITE_TITLE: Record<string, string> = { fr: fr.metadata.title, ar: ar.metadata.title };
+
+/** Static share card per locale (public/og, made by scripts/make-brand-assets.mjs). */
+export function ogImage(locale: string) {
+  return { url: `/og/${locale}.png`, width: 1200, height: 630, alt: SITE_TITLE[locale] };
+}
+
 type OpenGraphFields = {
   title?: string;
   description?: string;
@@ -35,10 +44,16 @@ type OpenGraphFields = {
 
 /**
  * Next merges metadata shallowly: a page's openGraph object replaces the layout's. Pages call this
- * so the site name and locale are never lost.
+ * so the site name, locale and share image are never lost.
  */
 export function openGraph(locale: string, fields: OpenGraphFields = {}) {
-  return { siteName: "Wa3d.ma", locale: OG_LOCALE[locale], type: "website" as const, ...fields };
+  return {
+    siteName: "Wa3d.ma",
+    locale: OG_LOCALE[locale],
+    type: "website" as const,
+    images: [ogImage(locale)],
+    ...fields,
+  };
 }
 
 type SitemapInput = {
