@@ -342,3 +342,7 @@
 ### [2026-10-04] BLOCKED — GSC Request indexing /fr/2021-2026: "Quota Exceeded" (daily quota). Not retried; /ar/2021-2026 not attempted. Retry next session (user approved both requests 2026-10-04).
 
 ### [2026-10-04] SHIP — #50 merged (ea040ac), main CI GREEN, prod verified. No version recording: metadata-only change, no user-facing flow changed (rule 9 n/a). Logs PR pushed (this entry).
+
+### [2026-10-07] EXECUTE — fix/dependency-cves (renamed from fix/source-map-js-cve): override "sharp@<0.35.5": "^0.35.5" (existing CVE-override pattern). `pnpm update sharp` re-resolved rolldown 1.2.8->1.2.11 (unrelated drift) so it was reverted; override diff = sharp + @img/* only. basic-ftp not bumped: get-uri 6.0.5 pins ^5, no 5.x fix (6.x = major jump, dev-only via @lhci) -> stays in risks.
+
+### [2026-10-07] VERIFY — fix/dependency-cves (sharp only so far): lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build, route-check all static; e2e 120/120 (--workers=2; first default-worker run had 1 fail + 5 flaky on mobile-chromium from local CPU load, sharp unused at runtime). pnpm audit 7 -> 6 (sharp gone). Committed locally, NOT pushed (avoid red CI until source-map-js 1.2.2 clears at 14:08 UTC).
