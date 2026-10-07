@@ -125,3 +125,6 @@
   3. News: cabinet dahir -> 2021-2026 end date + 14 verdicts; programme -> R4 within 72 h.
   4. GSC: one Request indexing attempt; G5 counts when report finishes processing (target 33/36 by 2026-10-24).
 - User actions: merge PRs after CI green (auto mode blocks gh pr merge); 2FA confirm; optional `! git stash drop`.
+
+### [2026-10-07] SESSION_START
+- Resumed 09:01 UTC. main 24d0fc9, last main CI GREEN. PR #53 open (BLOCKED on Trivy source-map-js CVE). source-map-js 1.2.2 clears the 7-day release-age at 14:08 UTC today (~5 h). UNDERSTAND: awaiting user pick.

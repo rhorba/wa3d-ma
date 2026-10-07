@@ -39,3 +39,5 @@
 ### [2026-10-06] ISSUE (high, CI RED) — PR #52 (logs only) Security scans fail: Trivy SCA flags source-map-js 1.2.1 CVE-2026-93749 (HIGH, DoS via malformed indexed source maps), fixed in 1.2.2 (published 2026-09-30). Transitive prod dep: next 15.5.25 -> postcss 8.5.28 -> source-map-js ^1.2.1. New advisory, not caused by #52; main will fail too on next run. Brand work paused per rule 11.
 
 ### [2026-10-06] BLOCKER — option A blocked by our own supply-chain policy: .npmrc minimum-release-age=10080 (7 days); source-map-js 1.2.2 published 2026-09-30 14:08 UTC -> resolvable from 2026-10-07 14:08 UTC. `pnpm update` kept 1.2.1 and drifted unrelated deps (rolldown 1.2.8->1.2.11, oxc types); lockfile reverted, nothing committed.
+
+### [2026-10-07] ISSUE — pnpm audit: new HIGH sharp <0.35.5 (GHSA-wq5f-xc86-pv6w, librsvg CVE-2026-96889) via next 15.5.25 (prod, optional dep). Fix 0.35.5 published 2026-09-27 (past release-age). basic-ftp 6.2.1 (dev, 2026-08-27) also installable now.

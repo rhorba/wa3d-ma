@@ -47,3 +47,6 @@
 ### [2026-10-06] METRIC — GSC Page indexing still "Processing data" (day 12). activite-femmes-trente-pourcent still unknown to Google. Sitemap indexed: >= 3/36 confirmed (target 33/36 by 2026-10-24).
 
 ### [2026-10-06] SPRINT_SNAPSHOT — feature/brand-assets: tests 283, coverage 99.83% statements, 96.87% branches, 100% lines; e2e 122/122.
+
+### [2026-10-07] GSC Page indexing (G5 baseline; report data as of 2026-10-04)
+- Sitemap filter (/sitemap.xml): indexed 11, not indexed 28 (Discovered - currently not indexed 27; Crawled - currently not indexed 1). Both reasons are Google-side (wait), no site-side reasons (no 404/redirect/noindex/canonical). Live sitemap 36 URLs; GSC counts 39 (stale snapshot). G5 target 33/36 by 2026-10-24: currently ~11/36 (31%).
