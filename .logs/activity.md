@@ -383,3 +383,7 @@
 ### [2026-10-08] VERIFY — lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build (Next 15.5.27, routes static/SSG), e2e 120/120 (--workers=2). Security: dependency-only change, no new input surface.
 
 ### [2026-10-08] CI — PR #54 all 11 checks GREEN (e2e, real-data smoke, Lighthouse, security). Awaiting user merge.
+
+### [2026-10-08] CI — PR #54 re-run (logs commit f576066) 11/11 GREEN. Red runs seen by user = #53 + chore/logs-2026-10-05 from 2026-10-06: Trivy HIGH source-map-js 1.2.1 (CVE-2026-93749), fixed by #54; rebase both after merge.
+
+### [2026-10-08] SHIP — #54 merged (ebb8753). chore/logs-2026-10-05: merged main (append-only logs resolved as base + branch 10-05..10-07 + main 10-07..10-08, no dups; no force-push). feature/brand-assets: main merged (no file overlap), rerun tests, push; CI watch on both + main.
