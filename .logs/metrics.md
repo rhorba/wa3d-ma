@@ -41,3 +41,5 @@
 ### [2026-10-04] METRIC — GSC Page indexing report still "Processing data" (day 10). URL Inspection sample: /fr indexed, /ar indexed (both outside the sitemap; declare canonical -> /{locale}/2021-2026 per ADR-10, Google kept the home); /fr/2021-2026 "Crawled - currently not indexed"; /fr/2021-2026/generalisation-amo "URL is unknown to Google". G5 baseline (sitemap URLs indexed) still unknown; sample suggests low.
 
 ### [2026-10-04] SPRINT_SNAPSHOT — fix/home-hreflang: tests 281, coverage 99.83% statements, 96.87% branches, 100% lines; e2e 120/120.
+
+### [2026-10-08] METRICS — fix/dependency-cves: tests 281, coverage 99.83% stmts / 96.87% branches / 100% lines; pnpm audit 5 (0 critical, 0 runtime).
