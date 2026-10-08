@@ -35,3 +35,5 @@
 ### [2026-10-04] RISK — G5 (>= 90% of 36 sitemap URLs indexed by 2026-10-24) at risk. Home /{locale} and mandate page /{locale}/2021-2026 serve the same content; home declares canonical -> mandate page (ADR-10) but its hreflang alternates point to the home itself, and internal links / Referring page favour the home. Google indexed the home and left the mandate page "Crawled - currently not indexed". Commitment pages not yet known to Google despite the sitemap.
 
 ### [2026-10-04] UPDATE — G5: hreflang fix live (#50). GSC Request indexing hit the daily quota; retry next session. If /fr|ar/2021-2026 still not indexed ~2026-10-14 -> option A (308 home -> mandate).
+
+### [2026-10-08] RISK — braces (GHSA-vfj7-8cjw-p6xm, high) via eslint-config-next > fast-glob > micromatch and sprintf-js (GHSA-hp3w-g68c-fv3c, moderate) via @lhci/cli > js-yaml > argparse: no patched version published; dev/lint/CI tooling only, not in the deployed bundle. Recheck monthly with extract-zip/basic-ftp; override when a fix ships.
