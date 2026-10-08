@@ -106,3 +106,8 @@
 - Completed: checks 1-3. GSC sample: /fr /ar indexed, /fr/2021-2026 crawled-not-indexed, commitment pages unknown -> #50 home hreflang follows canonical (ADR-10 amendment), merged ea040ac, CI green, prod verified. Wayback closed: SHA-256 local copies accepted (programme PDF 9401e0c0...143280 unchanged; node/10717 d718038a...fd472a). Cabinet not formed (PAM council 2026-10-03 mandated El Mansouri to negotiate); 2026-2031 programme not published. Tests 281, coverage 99.83%.
 - Next: (1) GSC Request indexing /fr/2021-2026 + /ar/2021-2026 (approved; quota hit today); (2) Page indexing counts -> G5 baseline; recheck ~2026-10-14, fallback 308 if still not indexed; (3) cabinet dahir -> 2021-2026 end date + 14 verdicts batch; (4) programme -> R4 within 72 h; (5) favicon/brand.
 - User actions: optional `! git stash drop`; 2FA confirm.
+
+### [2026-10-07] SESSION_END (paused until 14:08 UTC)
+- Completed: news (cabinet not formed, programme not published); GSC G5 baseline 11/36 indexed (27 Discovered, 1 Crawled; Google-side), Request indexing Quota Exceeded (3rd) -> risk logged, manual requests stopped; fix/dependency-cves: sharp 0.35.5 override, verified, committed locally (not pushed). Logs committed on chore/logs-2026-10-05 (not pushed).
+- Next (on/after 14:08 UTC): on fix/dependency-cves add "source-map-js@<1.2.2": "^1.2.2" override (or pnpm update source-map-js; check diff = only source-map-js), verify, push, PR, CI green -> user merges -> push logs branch + PR -> rebase #53, CI green, merge -> prod check /icon.svg /favicon.ico /og/fr.png.
+- Recheck GSC counts ~2026-10-14. Watch cabinet dahir / 2026-2031 programme.

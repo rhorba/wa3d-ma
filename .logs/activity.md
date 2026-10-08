@@ -342,3 +342,15 @@
 ### [2026-10-04] BLOCKED — GSC Request indexing /fr/2021-2026: "Quota Exceeded" (daily quota). Not retried; /ar/2021-2026 not attempted. Retry next session (user approved both requests 2026-10-04).
 
 ### [2026-10-04] SHIP — #50 merged (ea040ac), main CI GREEN, prod verified. No version recording: metadata-only change, no user-facing flow changed (rule 9 n/a). Logs PR pushed (this entry).
+
+### [2026-10-07] EXECUTE — fix/dependency-cves (renamed from fix/source-map-js-cve): override "sharp@<0.35.5": "^0.35.5" (existing CVE-override pattern). `pnpm update sharp` re-resolved rolldown 1.2.8->1.2.11 (unrelated drift) so it was reverted; override diff = sharp + @img/* only. basic-ftp not bumped: get-uri 6.0.5 pins ^5, no 5.x fix (6.x = major jump, dev-only via @lhci) -> stays in risks.
+
+### [2026-10-07] VERIFY — fix/dependency-cves (sharp only so far): lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build, route-check all static; e2e 120/120 (--workers=2; first default-worker run had 1 fail + 5 flaky on mobile-chromium from local CPU load, sharp unused at runtime). pnpm audit 7 -> 6 (sharp gone). Committed locally, NOT pushed (avoid red CI until source-map-js 1.2.2 clears at 14:08 UTC).
+
+### [2026-10-08] PLAN — fix/dependency-cves (user picked option 1): audit had 8 advisories (next <15.5.27 x2 moderate published since 10-07). Add "source-map-js@<1.2.2": "^1.2.2" override + next / eslint-config-next 15.5.25 -> 15.5.27 (patch). Log braces + sprintf-js (no fix, dev-only) as risks.
+
+### [2026-10-08] EXECUTE — lock diff limited to next, @next/*, eslint-config-next, next-intl peer string, source-map-js 1.2.1->1.2.2. pnpm audit 8 -> 5 (remaining: extract-zip x2, basic-ftp, braces, sprintf-js; all dev-only, no in-range fix).
+
+### [2026-10-08] VERIFY — lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build (Next 15.5.27, routes static/SSG), e2e 120/120 (--workers=2). Security: dependency-only change, no new input surface.
+
+### [2026-10-08] CI — PR #54 all 11 checks GREEN (e2e, real-data smoke, Lighthouse, security). Awaiting user merge.
