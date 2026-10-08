@@ -52,3 +52,5 @@
 - Sitemap filter (/sitemap.xml): indexed 11, not indexed 28 (Discovered - currently not indexed 27; Crawled - currently not indexed 1). Both reasons are Google-side (wait), no site-side reasons (no 404/redirect/noindex/canonical). Live sitemap 36 URLs; GSC counts 39 (stale snapshot). G5 target 33/36 by 2026-10-24: currently ~11/36 (31%).
 
 ### [2026-10-08] METRICS — fix/dependency-cves: tests 281, coverage 99.83% stmts / 96.87% branches / 100% lines; pnpm audit 5 (0 critical, 0 runtime).
+
+### [2026-10-08] METRIC — GSC Page indexing (report data last update 2026-10-04, unchanged since baseline): indexed 11, not indexed 28 (Discovered - currently not indexed 27, Crawled - currently not indexed 1; both Google-side, validation Not Started). Sitemap /sitemap.xml Success, last read 2026-10-04, 36 discovered. G5 11/36 = 31% (target >= 33/36 by 2026-10-24). No new data -> recheck ~2026-10-14.
