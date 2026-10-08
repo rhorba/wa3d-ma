@@ -25,6 +25,14 @@ test.describe("SEO metadata", () => {
     );
     await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute("content", "ar_MA");
     await expect(page.locator('meta[property="og:type"]')).toHaveAttribute("content", "article");
+    await expect(page.locator('meta[property="og:image"]')).toHaveAttribute(
+      "content",
+      `${SITE}/og/ar.png`,
+    );
+    await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute(
+      "content",
+      "summary_large_image",
+    );
   });
 
   test("a list page describes the mandate", async ({ page }) => {
@@ -37,6 +45,28 @@ test.describe("SEO metadata", () => {
       "content",
       "Suivi des 9 engagements du gouvernement 2021-2026 : statuts, sources officielles et citations exactes.",
     );
+  });
+});
+
+test.describe("brand assets", () => {
+  test("every page links the favicons, and they and the share cards are served", async ({
+    page,
+    request,
+  }) => {
+    await page.goto("/fr/methodologie");
+    await expect(page.locator('link[rel="icon"][type="image/svg+xml"]')).toHaveCount(1);
+    await expect(page.locator('link[rel="apple-touch-icon"]')).toHaveCount(1);
+    for (const [path, type] of [
+      ["/icon.svg", "image/svg+xml"],
+      ["/favicon.ico", "image/x-icon"],
+      ["/apple-icon.png", "image/png"],
+      ["/og/fr.png", "image/png"],
+      ["/og/ar.png", "image/png"],
+    ] as const) {
+      const response = await request.get(path);
+      expect(response.status(), path).toBe(200);
+      expect(response.headers()["content-type"], path).toContain(type);
+    }
   });
 });
 

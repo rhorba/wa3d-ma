@@ -1,7 +1,8 @@
+import { existsSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { commitment } from "@/tests/builders";
 import type { Commitment, Mandate } from "./catalogue/schema";
-import { alternates, openGraph, sitemapEntries, truncate } from "./seo";
+import { LOCALES, alternates, ogImage, openGraph, sitemapEntries, truncate } from "./seo";
 
 describe("alternates", () => {
   it("points the canonical at this locale and lists both languages, French as x-default", () => {
@@ -13,14 +14,38 @@ describe("alternates", () => {
 });
 
 describe("openGraph", () => {
-  it("always carries the site name and locale, with page fields on top", () => {
+  it("always carries the site name, locale and share image, with page fields on top", () => {
     expect(openGraph("ar", { title: "T", type: "article" })).toEqual({
       siteName: "Wa3d.ma",
       locale: "ar_MA",
       type: "article",
+      images: [ogImage("ar")],
       title: "T",
     });
-    expect(openGraph("fr")).toEqual({ siteName: "Wa3d.ma", locale: "fr_MA", type: "website" });
+    expect(openGraph("fr")).toEqual({
+      siteName: "Wa3d.ma",
+      locale: "fr_MA",
+      type: "website",
+      images: [ogImage("fr")],
+    });
+  });
+});
+
+describe("ogImage", () => {
+  it("points at the locale's 1200x630 card with the localized site title as alt text", () => {
+    expect(ogImage("fr")).toEqual({
+      url: "/og/fr.png",
+      width: 1200,
+      height: 630,
+      alt: "Wa3d.ma : suivi des engagements du gouvernement",
+    });
+    expect(ogImage("ar")).toMatchObject({ url: "/og/ar.png", alt: "وعد: تتبع التزامات الحكومة" });
+  });
+
+  it("has a committed image for every locale", () => {
+    for (const locale of LOCALES) {
+      expect(existsSync(`public/og/${locale}.png`)).toBe(true);
+    }
   });
 });
 

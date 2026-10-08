@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
     title: t("title"),
     description: t("description"),
     openGraph: openGraph(locale),
-    twitter: { card: "summary" },
+    twitter: { card: "summary_large_image" },
   };
 }
 
