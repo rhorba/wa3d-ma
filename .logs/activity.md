@@ -352,3 +352,5 @@
 ### [2026-10-08] EXECUTE — lock diff limited to next, @next/*, eslint-config-next, next-intl peer string, source-map-js 1.2.1->1.2.2. pnpm audit 8 -> 5 (remaining: extract-zip x2, basic-ftp, braces, sprintf-js; all dev-only, no in-range fix).
 
 ### [2026-10-08] VERIFY — lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build (Next 15.5.27, routes static/SSG), e2e 120/120 (--workers=2). Security: dependency-only change, no new input surface.
+
+### [2026-10-08] CI — PR #54 all 11 checks GREEN (e2e, real-data smoke, Lighthouse, security). Awaiting user merge.
