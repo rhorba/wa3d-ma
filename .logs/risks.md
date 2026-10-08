@@ -36,4 +36,8 @@
 
 ### [2026-10-04] UPDATE — G5: hreflang fix live (#50). GSC Request indexing hit the daily quota; retry next session. If /fr|ar/2021-2026 still not indexed ~2026-10-14 -> option A (308 home -> mandate).
 
+### [2026-10-06] RISK (low) — pnpm audit: 5 high + 1 moderate in dev-only tooling (extract-zip, basic-ftp via @lhci/cli; braces via eslint-config-next; sprintf-js via @lhci) plus source-map-js (prod, tracked in issues). Not in CI gate (critical only; Trivy skips dev deps). Revisit with the source-map-js bump (basic-ftp 6.2.1 available).
+
+### [2026-10-07] GSC Request indexing quota — 3rd "Quota Exceeded" on the first request of a day (2026-10-04, 2026-10-06, 2026-10-07). Likely a per-property limit on a new property, not daily usage. Impact: low (sitemap is Success; pages are "Discovered", Google will crawl on its own schedule). Mitigation: stop manual requests; let the sitemap + internal links drive discovery; recheck counts ~2026-10-14. G5 (90% by 2026-10-24) at risk: 11/36 today.
+
 ### [2026-10-08] RISK — braces (GHSA-vfj7-8cjw-p6xm, high) via eslint-config-next > fast-glob > micromatch and sprintf-js (GHSA-hp3w-g68c-fv3c, moderate) via @lhci/cli > js-yaml > argparse: no patched version published; dev/lint/CI tooling only, not in the deployed bundle. Recheck monthly with extract-zip/basic-ftp; override when a fix ships.

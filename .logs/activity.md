@@ -343,6 +343,35 @@
 
 ### [2026-10-04] SHIP — #50 merged (ea040ac), main CI GREEN, prod verified. No version recording: metadata-only change, no user-facing flow changed (rule 9 n/a). Logs PR pushed (this entry).
 
+### [2026-10-05] UNDERSTAND/BRAINSTORM/PLAN — user picked items 1+2 (no-code checks). Single option (checks only); plan = news check + GSC inspection; no code, no gate decision beyond pick.
+
+### [2026-10-05] EXECUTE — (2) Cabinet not formed: PAM council 2026-10-03 excluded RNI and mandated El Mansouri; Istiqlal mandated Baraka; formal negotiations "this week"; parliament opening 2026-10-09; dahir appointing El Mansouri published in BO 2026-10-02. 2026-2031 programme not published (presented after cabinet). Source: le360 live (fr.le360.ma). (1) GSC: both mandate list pages indexed, Request indexing for them no longer needed; 3/4 sampled commitment pages unknown to Google -> see metrics.
+
+### [2026-10-06] UNDERSTAND/BRAINSTORM/PLAN — user picked 1+2+3: (2) news + GSC checks, then (1) commit 2026-10-05/06 logs in one PR, then (3) favicon/brand (separate feature branch; UX/UI brainstorm gate before any code). Order: checks first so the logs PR carries their results.
+
+### [2026-10-06] EXECUTE — (2) news: cabinet not formed. El Mansouri favours PAM + Koutla (Istiqlal, USFP, PPS; ~207 seats), RNI sidelined but candidate; PPS central committee 2026-10-06; parliament opening 2026-10-09. 2026-2031 programme not published. Sources: ledesk.ma 2026-10-03, fr.le360.ma, moroccoworldnews.com 2026-10. GSC: Page indexing still processing; activite-femmes-trente-pourcent still "URL is unknown to Google"; Request indexing -> "Quota Exceeded" on the FIRST request of the day (2nd time, cf. 2026-10-04). Not retried; other 2 pages not attempted.
+
+### [2026-10-06] VERIFY/SHIP — logs-only change (no code; tests/coverage/security n/a). Pushed chore/logs-2026-10-05 + PR.
+
+### [2026-10-06] HANDOFF — Orchestrator → UI Designer. Context: no favicon/app icon/OG image exists (public/ has only fonts + GSC file). Need: brand mark options within docs/ui-wa3d-ma.md tokens (paper/ink/sepia, Naskh/Source Serif) and out-of-bounds (no illustrations, no party logos, no colour-coded status). Constraints: YAGNI, static assets via Next file conventions, NFR-1 perf budget.
+### [2026-10-06] BRAINSTORM — favicon/brand: A) monogram favicon set only; B) A + static per-locale default OG image; C) B + dynamic per-commitment OG images + manifest. Awaiting user pick.
+
+### [2026-10-06] PLAN — branch feature/brand-assets. B1: scripts/make-brand-assets (fontTools outline of "و" -> app/icon.svg; Playwright renders apple-icon.png 180, favicon.ico 32, public/og/{fr,ar}.png 1200x630 with the site's own subset fonts). B2: openGraph() adds the locale image, layout twitter summary_large_image, unit tests. B3: lint/typecheck/tests/coverage/e2e, security check, PR + CI. Awaiting user go.
+
+### [2026-10-06] CI_CHECK — PR #52 RED (Security scans: Trivy source-map-js CVE-2026-93749). All other jobs green. Blocker presented to user.
+
+### [2026-10-06] EXECUTE — B1 done on feature/brand-assets: scripts/make-icon-svg.py (fontTools outline of "و", Naskh wordmark subset) -> app/icon.svg 921 B; scripts/make-brand-assets.mjs (Playwright, site subset fonts) -> app/apple-icon.png 180 (3.8 KB), app/favicon.ico 32 (0.9 KB), public/og/fr.png 55 KB + ar.png 43 KB. Fix during render: unquoted family "Serif" resolved to the generic keyword -> renamed SourceSerif. Awaiting user review of the images.
+
+### [2026-10-06] EXECUTE — B2 done: lib/seo.ts ogImage(locale) (alt = localized metadata.title) added to every openGraph(); layout twitter card summary_large_image; unit tests (283) + e2e brand-asset checks (og:image, twitter:card, icon links, 5 assets served with types). e2e pages.spec "/favicon.ico is a 404" example swapped to "/favicon.png" (the file now exists; intent unchanged). docs/ui-wa3d-ma.md §3 brand row.
+### [2026-10-06] VERIFY — lint, typecheck, format, fitness OK; unit+integration 283/283, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build route-check all static; e2e 122/122. Security: no dependency change (package.json/lockfile untouched), static assets only, script escapes HTML; pnpm audit --audit-level=critical passes (5 high/1 moderate pre-existing on main, incl. source-map-js tracked separately).
+### [2026-10-06] SHIP — feature/brand-assets pushed (0fdb4f9), PR #53 opened; CI watch running. Merge order: source-map-js fix PR (after 2026-10-07 14:08 UTC) -> #52 -> #53. Rule 9 recording: n/a per plan (headless video cannot show the tab icon; PR shows the card PNGs).
+
+### [2026-10-06] CI_CHECK — PR #53: all jobs green except Security scans (Semgrep 0 findings; Trivy only source-map-js CVE-2026-93749, same as main). Gitleaks + pnpm audit steps skipped after the Trivy failure; local Gitleaks not run (Docker Desktop off) -> they run on the rebase after the CVE fix. Vercel preview deployed.
+
+### [2026-10-07] UNDERSTAND/BRAINSTORM/PLAN — user picked 1+2+3: news check, GSC (1 Request indexing + G5 counts), prep fix/source-map-js-cve (update itself waits for 14:08 UTC release-age). No-code checks + branch prep; single option.
+
+### [2026-10-07] EXECUTE — (1) news: cabinet not formed (as of 2026-10-06: El Mansouri negotiating with Koutla parties Istiqlal/PPS/USFP; leaner government <= 22 portfolios by poles planned). 2026-2031 programme not published. Sources: atalayar.com 2026-10-06, fr.le360.ma. (2) GSC: see metrics.md 2026-10-07; Request indexing /fr/2021-2026/activite-femmes-trente-pourcent (still "URL is unknown to Google") -> "Quota Exceeded" on the first request of the day (3rd time). Not retried. (3) Branch fix/source-map-js-cve created at origin/main 24d0fc9 (not checked out). All dependents (postcss 8.5.28, @tailwindcss/node 4.3.3, magicast 0.5.5) declare ^1.2.1, so `pnpm update source-map-js` resolves 1.2.2 without overrides once the release-age clears at 14:08 UTC.
+
 ### [2026-10-07] EXECUTE — fix/dependency-cves (renamed from fix/source-map-js-cve): override "sharp@<0.35.5": "^0.35.5" (existing CVE-override pattern). `pnpm update sharp` re-resolved rolldown 1.2.8->1.2.11 (unrelated drift) so it was reverted; override diff = sharp + @img/* only. basic-ftp not bumped: get-uri 6.0.5 pins ^5, no 5.x fix (6.x = major jump, dev-only via @lhci) -> stays in risks.
 
 ### [2026-10-07] VERIFY — fix/dependency-cves (sharp only so far): lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build, route-check all static; e2e 120/120 (--workers=2; first default-worker run had 1 fail + 5 flaky on mobile-chromium from local CPU load, sharp unused at runtime). pnpm audit 7 -> 6 (sharp gone). Committed locally, NOT pushed (avoid red CI until source-map-js 1.2.2 clears at 14:08 UTC).
@@ -354,3 +383,7 @@
 ### [2026-10-08] VERIFY — lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build (Next 15.5.27, routes static/SSG), e2e 120/120 (--workers=2). Security: dependency-only change, no new input surface.
 
 ### [2026-10-08] CI — PR #54 all 11 checks GREEN (e2e, real-data smoke, Lighthouse, security). Awaiting user merge.
+
+### [2026-10-08] CI — PR #54 re-run (logs commit f576066) 11/11 GREEN. Red runs seen by user = #53 + chore/logs-2026-10-05 from 2026-10-06: Trivy HIGH source-map-js 1.2.1 (CVE-2026-93749), fixed by #54; rebase both after merge.
+
+### [2026-10-08] SHIP — #54 merged (ebb8753). chore/logs-2026-10-05: merged main (append-only logs resolved as base + branch 10-05..10-07 + main 10-07..10-08, no dups; no force-push). feature/brand-assets: main merged (no file overlap), rerun tests, push; CI watch on both + main.
