@@ -371,3 +371,15 @@
 ### [2026-10-07] UNDERSTAND/BRAINSTORM/PLAN — user picked 1+2+3: news check, GSC (1 Request indexing + G5 counts), prep fix/source-map-js-cve (update itself waits for 14:08 UTC release-age). No-code checks + branch prep; single option.
 
 ### [2026-10-07] EXECUTE — (1) news: cabinet not formed (as of 2026-10-06: El Mansouri negotiating with Koutla parties Istiqlal/PPS/USFP; leaner government <= 22 portfolios by poles planned). 2026-2031 programme not published. Sources: atalayar.com 2026-10-06, fr.le360.ma. (2) GSC: see metrics.md 2026-10-07; Request indexing /fr/2021-2026/activite-femmes-trente-pourcent (still "URL is unknown to Google") -> "Quota Exceeded" on the first request of the day (3rd time). Not retried. (3) Branch fix/source-map-js-cve created at origin/main 24d0fc9 (not checked out). All dependents (postcss 8.5.28, @tailwindcss/node 4.3.3, magicast 0.5.5) declare ^1.2.1, so `pnpm update source-map-js` resolves 1.2.2 without overrides once the release-age clears at 14:08 UTC.
+
+### [2026-10-07] EXECUTE — fix/dependency-cves (renamed from fix/source-map-js-cve): override "sharp@<0.35.5": "^0.35.5" (existing CVE-override pattern). `pnpm update sharp` re-resolved rolldown 1.2.8->1.2.11 (unrelated drift) so it was reverted; override diff = sharp + @img/* only. basic-ftp not bumped: get-uri 6.0.5 pins ^5, no 5.x fix (6.x = major jump, dev-only via @lhci) -> stays in risks.
+
+### [2026-10-07] VERIFY — fix/dependency-cves (sharp only so far): lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build, route-check all static; e2e 120/120 (--workers=2; first default-worker run had 1 fail + 5 flaky on mobile-chromium from local CPU load, sharp unused at runtime). pnpm audit 7 -> 6 (sharp gone). Committed locally, NOT pushed (avoid red CI until source-map-js 1.2.2 clears at 14:08 UTC).
+
+### [2026-10-08] PLAN — fix/dependency-cves (user picked option 1): audit had 8 advisories (next <15.5.27 x2 moderate published since 10-07). Add "source-map-js@<1.2.2": "^1.2.2" override + next / eslint-config-next 15.5.25 -> 15.5.27 (patch). Log braces + sprintf-js (no fix, dev-only) as risks.
+
+### [2026-10-08] EXECUTE — lock diff limited to next, @next/*, eslint-config-next, next-intl peer string, source-map-js 1.2.1->1.2.2. pnpm audit 8 -> 5 (remaining: extract-zip x2, basic-ftp, braces, sprintf-js; all dev-only, no in-range fix).
+
+### [2026-10-08] VERIFY — lint, typecheck, format, fitness OK; unit+integration 281/281, coverage 99.83% stmts / 96.87% branches / 100% lines; fixture build (Next 15.5.27, routes static/SSG), e2e 120/120 (--workers=2). Security: dependency-only change, no new input surface.
+
+### [2026-10-08] CI — PR #54 all 11 checks GREEN (e2e, real-data smoke, Lighthouse, security). Awaiting user merge.

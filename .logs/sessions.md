@@ -128,3 +128,8 @@
 
 ### [2026-10-07] SESSION_START
 - Resumed 09:01 UTC. main 24d0fc9, last main CI GREEN. PR #53 open (BLOCKED on Trivy source-map-js CVE). source-map-js 1.2.2 clears the 7-day release-age at 14:08 UTC today (~5 h). UNDERSTAND: awaiting user pick.
+
+### [2026-10-07] SESSION_END (paused until 14:08 UTC)
+- Completed: news (cabinet not formed, programme not published); GSC G5 baseline 11/36 indexed (27 Discovered, 1 Crawled; Google-side), Request indexing Quota Exceeded (3rd) -> risk logged, manual requests stopped; fix/dependency-cves: sharp 0.35.5 override, verified, committed locally (not pushed). Logs committed on chore/logs-2026-10-05 (not pushed).
+- Next (on/after 14:08 UTC): on fix/dependency-cves add "source-map-js@<1.2.2": "^1.2.2" override (or pnpm update source-map-js; check diff = only source-map-js), verify, push, PR, CI green -> user merges -> push logs branch + PR -> rebase #53, CI green, merge -> prod check /icon.svg /favicon.ico /og/fr.png.
+- Recheck GSC counts ~2026-10-14. Watch cabinet dahir / 2026-2031 programme.
