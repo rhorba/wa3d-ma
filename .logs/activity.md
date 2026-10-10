@@ -393,3 +393,8 @@
 ### [2026-10-08] SHIP — #53 merged (dbed78c), main CI GREEN, Vercel production deploy success. Prod: /fr /ar /sitemap.xml /icon.svg /favicon.ico /apple-icon.png /og/fr.png /og/ar.png 200 with correct content types; og/fr.png, og/ar.png, favicon.ico SHA-256 match repo; og:image (1200x630, localized alt) + icon/apple-touch-icon links present on /fr/2021-2026 and /ar/2021-2026.
 
 ### [2026-10-08] RECORDING — rule 9: .recordings/v1.1-2026-10-08.webm (1.8 MB, fixture build Next 15.5.27, archive on; critical journeys 1/1 pass). v1.1 = brand assets (user-facing) + CVE fixes.
+
+### [2026-10-10] CHECK — news triggers
+- Cabinet: NOT formed. El Mansouri still in coalition talks (PAM + Koutla: Istiqlal, PPS, USFP; UC/MP possible; RNI unresolved). No appointment date announced as of 2026-10-09 (Morocco World News, Atalayar 2026-10-06). Agence Ecofin "0910-92223" page returned 403; other results show it as the 2021 Akhannouch list, so it does not count.
+- 2026-2031 programme: NOT published (no government yet). Precedent: 2021 programme presented 3 days after cabinet (2021-10-07 -> 10-11). R4 72 h clock not started.
+- No data change. 2026-09-23 placeholder end date kept.
