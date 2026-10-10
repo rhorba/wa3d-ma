@@ -387,3 +387,9 @@
 ### [2026-10-08] CI — PR #54 re-run (logs commit f576066) 11/11 GREEN. Red runs seen by user = #53 + chore/logs-2026-10-05 from 2026-10-06: Trivy HIGH source-map-js 1.2.1 (CVE-2026-93749), fixed by #54; rebase both after merge.
 
 ### [2026-10-08] SHIP — #54 merged (ebb8753). chore/logs-2026-10-05: merged main (append-only logs resolved as base + branch 10-05..10-07 + main 10-07..10-08, no dups; no force-push). feature/brand-assets: main merged (no file overlap), rerun tests, push; CI watch on both + main.
+
+### [2026-10-08] CI — #55 merged (abf6137) main GREEN. #53 BEHIND after #55 -> merged main (logs only), 11/11 GREEN, CLEAN.
+
+### [2026-10-08] SHIP — #53 merged (dbed78c), main CI GREEN, Vercel production deploy success. Prod: /fr /ar /sitemap.xml /icon.svg /favicon.ico /apple-icon.png /og/fr.png /og/ar.png 200 with correct content types; og/fr.png, og/ar.png, favicon.ico SHA-256 match repo; og:image (1200x630, localized alt) + icon/apple-touch-icon links present on /fr/2021-2026 and /ar/2021-2026.
+
+### [2026-10-08] RECORDING — rule 9: .recordings/v1.1-2026-10-08.webm (1.8 MB, fixture build Next 15.5.27, archive on; critical journeys 1/1 pass). v1.1 = brand assets (user-facing) + CVE fixes.
