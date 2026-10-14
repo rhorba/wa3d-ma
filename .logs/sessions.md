@@ -146,3 +146,10 @@
 - Completed: #56 merged (logs + v1.1 recording); news check: cabinet not formed (coalition talks ongoing), 2026-2031 programme not published -> no data change.
 - Next: GSC Page indexing recheck ~2026-10-14 (G5 >= 33/36 by 2026-10-24; baseline 11/36); watch cabinet dahir -> 2021-2026 end date + 14 verdicts batch; programme -> R4 within 72 h (2021 precedent: programme 4 days after cabinet).
 - User actions: merge this logs PR; optional `! git stash drop` (stale stash); 2FA confirm.
+
+### [2026-10-13] SESSION_START
+- Resumed on chore/logs-2026-10-10. UNDERSTAND: user asked to review a Search Console email.
+- Finding: GSC email 2026-10-12 "New reason: Alternate page with proper canonical tag". Audit: all 36 sitemap URLs have self-referencing canonicals; /fr and /ar (200, not in sitemap) canonicalize to /{locale}/2021-2026, query-string variants likewise. Intended behaviour, no fix needed.
+
+### [2026-10-14] SESSION_START
+- Resumed. main da6ea05 (#57 merged), CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. 2026-10-13 GSC canonical audit note uncommitted. Today = planned GSC Page indexing recheck. UNDERSTAND: awaiting user pick.

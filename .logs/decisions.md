@@ -84,3 +84,6 @@
 ### [2026-10-06] DECISION — CVE-2026-93749 fix: option A (lockfile-only `pnpm update source-map-js` to 1.2.2, branch fix/source-map-js-cve), chosen by user. Plan: update -> verify (lint/types/tests/coverage/build/trivy-equivalent audit) -> PR -> CI green -> merge -> rebase #52.
 
 ### [2026-10-06] DECISION — CVE-2026-93749: option A (wait for the 7-day release-age window; bump source-map-js to 1.2.2 after 2026-10-07 14:08 UTC on fix/source-map-js-cve). Security scans job stays red until then; no merges. Risk accepted: build-time-only DoS on our own CSS source maps. Brand assets proceed on their branch meanwhile.
+
+### [2026-10-14] DECISION
+- Session order A -> B -> C: GSC indexing recheck, news check, logs PR. No code planned; PLAN = checks only.

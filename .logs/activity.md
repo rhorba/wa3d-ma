@@ -398,3 +398,11 @@
 - Cabinet: NOT formed. El Mansouri still in coalition talks (PAM + Koutla: Istiqlal, PPS, USFP; UC/MP possible; RNI unresolved). No appointment date announced as of 2026-10-09 (Morocco World News, Atalayar 2026-10-06). Agence Ecofin "0910-92223" page returned 403; other results show it as the 2021 Akhannouch list, so it does not count.
 - 2026-2031 programme: NOT published (no government yet). Precedent: 2021 programme presented 3 days after cabinet (2021-10-07 -> 10-11). R4 72 h clock not started.
 - No data change. 2026-09-23 placeholder end date kept.
+
+### [2026-10-14] News check
+- Coalition announced 2026-10-12: PAM + Istiqlal + USFP + PPS, 207/395 seats, RNI out. No minister list yet. Alyaoum24 reports royal audience to appoint the cabinet expected today 2026-10-14 (unconfirmed officially). 2026-2031 programme not published (due before investiture vote).
+- Action: no data change today. Next check: confirm dahir -> 2021-2026 end date + 14 verdicts batch; programme -> R4 within 72 h.
+- Sources: apanews.net, oeildafrique.com 2026-10-13, fr.alyaoum24.com/gouvernement/64519.html, moroccoworldnews.com 2026/10/341786.
+
+### [2026-10-14] SHIP
+- Logs PR from chore/logs-2026-10-14 (GSC canonical audit 10-13, G5 recheck, news check). Push logged; CI to monitor.
