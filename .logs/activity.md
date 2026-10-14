@@ -406,3 +406,4 @@
 
 ### [2026-10-14] SHIP
 - Logs PR from chore/logs-2026-10-14 (GSC canonical audit 10-13, G5 recheck, news check). Push logged; CI to monitor.
+- CI check PR #58: GREEN (all 11 checks). Dependabot #8 = sprintf-js <=1.1.3, dev-only, no patch -> already in risks (monthly recheck).
