@@ -87,3 +87,5 @@
 
 ### [2026-10-14] DECISION
 - Session order A -> B -> C: GSC indexing recheck, news check, logs PR. No code planned; PLAN = checks only.
+
+### [2026-10-16] DECISION — Cabinet appointed 2026-10-16 (El Mansouri, oath at Royal Palace). BRAINSTORM: user chose B = (A) end-date data PR: 14 placeholder deadlines 2026-09-23 -> 2026-10-16 with official source, then (B) end-of-mandate verdicts batch per commitment (settle only where official full-period data exists; rest stay V-14 flagged). R4 programme takes priority if published.

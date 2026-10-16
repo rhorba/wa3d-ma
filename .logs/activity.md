@@ -407,3 +407,14 @@
 ### [2026-10-14] SHIP
 - Logs PR from chore/logs-2026-10-14 (GSC canonical audit 10-13, G5 recheck, news check). Push logged; CI to monitor.
 - CI check PR #58: GREEN (all 11 checks). Dependabot #8 = sprintf-js <=1.1.3, dev-only, no patch -> already in risks (monthly recheck).
+
+### [2026-10-16] PLAN — Batch 1 (end-date PR, fix/mandate-end-2026-10-16): (1) official source URL for 2026-10-16 appointment (maroc.ma / cg.gov.ma; not indexed yet, retry at EXECUTE); (2) 14 data/promises/2021-2026 deadlines 2026-09-23 -> 2026-10-16, lastVerified untouched; (3) MANDATE_START 2026-2031 2026-09-24 -> 2026-10-16 + comment (lib/catalogue/schema.ts); (4) docs: curation-guide §31, database §3 mandate table; real-data tests touching these dates; (5) verify lint/types/tests/coverage/build/e2e/fitness + security note; PR, CI, merge, prod check. Batch 2 (verdicts): worksheet .verification/worksheet-2021-2026-verdicts-2026-10-XX.md, per commitment: full-period official data? -> settle (partial/not_achieved/achieved, evidence dated >= 2026-10-16) else leave V-14; user sign-off; one data PR. Awaiting user confirmation.
+
+### [2026-10-16] HANDOFF — Orchestrator -> DBA + Backend Dev
+- Context: cabinet appointed 2026-10-16; plan Batch 1 approved by user.
+- Need: 14 deadlines 2026-09-23 -> 2026-10-16, MANDATE_START 2026-2031 -> 2026-10-16, docs mandate table + curation guide.
+- Constraints: data-only semantics, keep lastVerified, V-1..V-17 must pass; official source URL in logs/docs only.
+
+### [2026-10-16] EXECUTE — fix/mandate-end-2026-10-16: official source https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement (ceremony 2026-10-16, Palais Royal Rabat). 14 deadlines 2026-09-23 -> 2026-10-16 (lastVerified unchanged); MANDATE_START 2026-2031 2026-09-24 -> 2026-10-16; docs database §3 mandate table + curation-guide §7 updated with source.
+
+### [2026-10-16] VERIFY — lint, typecheck, format, fitness OK; unit+integration 283/283, coverage 99.83% stmts / 96.87% branches / 100% lines; catalogue:validate 0 errors, warnings 14 -> 1 (amazighe 2025-12-31, real; the 13 return from 2026-10-17 as intended); real-data build + e2e:real-data 1/1, FR/AR detail shows 16/10/2026; fixture build, route-check all static, e2e 122/122 (--workers=2). Security: data/doc/constant change only, no new input surface or dependency.

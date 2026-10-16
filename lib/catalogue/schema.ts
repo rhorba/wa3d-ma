@@ -10,11 +10,11 @@ export { MANDATES, PROVENANCES, STATUSES, THEMES, UNITS } from "./constants";
 export const Mandate = z.enum(MANDATES);
 
 // First day of each mandate (V-8: no evidence before it). docs/database-wa3d-ma.md §3.
-// 2021-2026: the government was appointed on 2021-10-07. 2026-2031: placeholder until the new
-// government is appointed (TBC, ~Oct 2026); the day after the 2026-09-23 election is a safe lower bound.
+// 2021-2026: the government was appointed on 2021-10-07. 2026-2031: the government was appointed on
+// 2026-10-16 (maroc.ma), which is also the 2021-2026 mandate end (default deadline).
 export const MANDATE_START: Record<(typeof MANDATES)[number], string> = {
   "2021-2026": "2021-10-07",
-  "2026-2031": "2026-09-24",
+  "2026-2031": "2026-10-16",
 };
 export const Theme = z.enum(THEMES);
 export const Status = z.enum(STATUSES);

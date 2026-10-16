@@ -58,3 +58,5 @@
 ### [2026-10-14] G5 GSC Page indexing (data as of 2026-10-09)
 - All known pages: 13 indexed / 28 not indexed (41). Not indexed: 3 Alternate w/ proper canonical (intended: /fr, /ar, query variant), 23 Discovered-not-indexed, 2 Crawled-not-indexed (Google-side).
 - Sitemap estimate ~13/36 (baseline 11/36 on 2026-10-07). Target >= 33/36 by 2026-10-24 at risk. 308 fallback not needed (/fr|/ar/2021-2026 indexed since 2026-10-05).
+
+- [2026-10-16] 2026-10-16 coverage 99.83% stmts / 96.87% branches / 100% lines, 283 tests (fix/mandate-end-2026-10-16).
