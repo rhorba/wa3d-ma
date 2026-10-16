@@ -88,8 +88,8 @@ Mandate constants (`lib/mandates.ts`, code, not data):
 
 | id | start | end (default deadline) |
 |---|---|---|
-| `2021-2026` | 2021-10-07 (government appointed) | ⚠️ **TBC by the curator**: the date the next government is appointed. Placeholder `2026-09-23` (election day). |
-| `2026-2031` | ⚠️ TBC (appointment, ~Oct 2026) | start + 5 years, TBC |
+| `2021-2026` | 2021-10-07 (government appointed) | 2026-10-16: the next government was appointed ([maroc.ma, 2026-10-16](https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement)). Was placeholder `2026-09-23` until then. |
+| `2026-2031` | 2026-10-16 (government appointed, [maroc.ma, 2026-10-16](https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement)) | the day the next government is appointed, TBC |
 
 ### Illustrative file (placeholders, not real data)
 ```json

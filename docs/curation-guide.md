@@ -28,7 +28,7 @@ Every change goes through a pull request. Git history is the public audit trail:
    - ✅ "Création d'un million d'emplois nets"
    - ❌ "Le million d'emplois promis", "L'emploi, grand chantier du gouvernement"
 6. **Theme**: one of employment, social protection, health, education, economy, governance, housing, water & energy, other.
-7. **Deadline**: the date the programme gives. If none is given, use the **mandate end** (2021-2026: the day the next government is appointed; confirm it during curation, the current placeholder is 2026-09-23).
+7. **Deadline**: the date the programme gives. If none is given, use the **mandate end** (2021-2026: the day the next government was appointed, 2026-10-16, [maroc.ma, 2026-10-16](https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement)).
 8. **Target** (only if the promise has a number): the indicator, the baseline value, year and **source**, the target value and the direction (`increase`/`decrease`, V-11). **Never invent a target** for a promise without a number (FR-7): it stays editorial, with a status only.
 
 ## 3. Evidence entries and statuses

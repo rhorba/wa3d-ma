@@ -158,3 +158,6 @@
 - Completed: A) GSC G5 recheck 13 indexed / 28 not (data 10-09; 23 Discovered, 2 Crawled, 3 intended canonical alternates) -> 33/36 by 10-24 at risk, Google-side; B) news: 4-party coalition (PAM, Istiqlal, USFP, PPS) announced 10-12, cabinet appointment reported for today but unconfirmed; C) PR #58 logs, CI GREEN.
 - Next: confirm cabinet dahir -> 2021-2026 end date + 14 verdicts batch (one data PR); programme -> R4 within 72 h; GSC recheck ~2026-10-21, decide on G5 target revision if still < 20/36.
 - User actions: merge #58; optional `! git stash drop`; 2FA confirm.
+
+### [2026-10-16] SESSION_START
+- Resumed. main 35f0f3d (#58 merged), CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. UNDERSTAND: news check first (cabinet dahir is the top pending trigger).
