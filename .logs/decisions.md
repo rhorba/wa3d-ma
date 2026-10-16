@@ -89,3 +89,11 @@
 - Session order A -> B -> C: GSC indexing recheck, news check, logs PR. No code planned; PLAN = checks only.
 
 ### [2026-10-16] DECISION — Cabinet appointed 2026-10-16 (El Mansouri, oath at Royal Palace). BRAINSTORM: user chose B = (A) end-date data PR: 14 placeholder deadlines 2026-09-23 -> 2026-10-16 with official source, then (B) end-of-mandate verdicts batch per commitment (settle only where official full-period data exists; rest stay V-14 flagged). R4 programme takes priority if published.
+
+### [2026-10-16] DECISION — Batch 2 verdict policy (user): Q1 wait (AMO, protection sociale, préscolaire stay En cours until CdC 2025-2026 / rentrée 2026 data); Q2 allocations = partial; Q3 eau = partial (CdC end-2024 data); Q4 default: entry dated on the day of the finding, the note cites the source and its date; Q5 Gini/pauvreté/PISA wait, yearly review.
+
+### [2026-10-16] DECISION — Q1/Q3 alignment (user chose b): AMO, protection sociale and eau all settled now as partial on Cour des comptes RA 2024-2025 (end-2024 data). Préscolaire (maroc.ma source) keeps waiting for rentrée 2026 figure.
+
+### [2026-10-16] DECISION — Vercel missed prod deploy for #59: user chose C (wait; next merge to main deploys it). Verify prod shows 16/10/2026 after the verdicts PR merges.
+
+### [2026-10-17] DECISION — User approved AR notes for the 4 entries and the split (PR 1 = 4 verdicts now; PR 2 = GST, amazighe, Awrach when official sources are found).

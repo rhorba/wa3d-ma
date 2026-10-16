@@ -418,3 +418,15 @@
 ### [2026-10-16] EXECUTE — fix/mandate-end-2026-10-16: official source https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement (ceremony 2026-10-16, Palais Royal Rabat). 14 deadlines 2026-09-23 -> 2026-10-16 (lastVerified unchanged); MANDATE_START 2026-2031 2026-09-24 -> 2026-10-16; docs database §3 mandate table + curation-guide §7 updated with source.
 
 ### [2026-10-16] VERIFY — lint, typecheck, format, fitness OK; unit+integration 283/283, coverage 99.83% stmts / 96.87% branches / 100% lines; catalogue:validate 0 errors, warnings 14 -> 1 (amazighe 2025-12-31, real; the 13 return from 2026-10-17 as intended); real-data build + e2e:real-data 1/1, FR/AR detail shows 16/10/2026; fixture build, route-check all static, e2e 122/122 (--workers=2). Security: data/doc/constant change only, no new input surface or dependency.
+
+### [2026-10-16] SHIP — PR #59 pushed (cd8814a). CI check: all 11 GREEN. Awaiting user merge (auto mode blocks gh pr merge); then prod check deadline 16/10/2026.
+
+### [2026-10-16] SHIP — #59 merged (c5b899d); main CI in progress, prod deploy pending (prod still 23/09 at 22:12 UTC) -> recheck.
+
+### [2026-10-16] EXECUTE — Batch 2 started on feature/verdicts-2021-2026: research per overdue commitment (13 in_progress at 2026-10-16 + amazighe 2025-12-31; RSU already achieved; madkhoul deadline 2026-12-31 not due).
+
+### [2026-10-16] EXECUTE — Batch 2 worksheet draft .verification/worksheet-2021-2026-verdicts-2026-10-16.md: official sources in hand for allocations (ANSS barème), AMO + protection sociale + eau (Cour des comptes RA 2024-2025, p.32/p.58); sources still to find for GST/médecine de famille, amazighe LF 2025, Awrach final tally; HCP-measured items wait for 2026 data (2027). 5 editorial questions Q1-Q5 for user.
+
+### [2026-10-16] EXECUTE — Batch 2: 4 partial entries added (allocations: ANSS typologies-d-aides, archived 20261016222121; AMO, protection sociale, eau: CdC RA 2024-2025, archived 20261016222140), lastVerified 2026-10-16. catalogue:validate 0 errors / 1 warning (amazighe); tests 283/283, coverage 99.83%. Sources for GST (CG 2025-12-11), amazighe (LF/execution reports), Awrach (final tally) not found on official domains -> worksheet leads.
+
+### [2026-10-17] VERIFY — feature/verdicts-2021-2026: lint, typecheck, format, fitness OK; tests 283/283, coverage 99.83%; catalogue:validate 0 errors; real-data build + e2e:real-data 1/1; FR/AR detail pages render Partiellement réalisé / منجز جزئيا. Security: data-only, official sources on V-7 allowlist, archived.
