@@ -97,3 +97,5 @@
 ### [2026-10-16] DECISION — Vercel missed prod deploy for #59: user chose C (wait; next merge to main deploys it). Verify prod shows 16/10/2026 after the verdicts PR merges.
 
 ### [2026-10-17] DECISION — User approved AR notes for the 4 entries and the split (PR 1 = 4 verdicts now; PR 2 = GST, amazighe, Awrach when official sources are found).
+
+### [2026-10-17] DECISION — PR 2 scope: user chose C (ship GST entry now; amazighe + Awrach stay En cours until an official source is reachable; yearly review). GST AR note shipped on user go-ahead.
