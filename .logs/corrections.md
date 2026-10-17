@@ -8,3 +8,5 @@
 
 ### [2026-09-23] CORRECTION — AR "scrambled source title / citation URL" was a misdiagnosis
 - Before/after crops: both lines follow correct RTL wrapping (the French name's end, then "، ص. 50"; the date right of the URL). Only real defects: mandate range "2026-2021" (AL + ES + AN bidi rule) and FR guillemets wrapping. <bdi> on source names + citation URL kept as a free safeguard; PR says so.
+
+### [2026-10-16] CORRECTION — Batch 2 split proposed: PR 1 = 4 settled entries (after user AR review); PR 2 = GST, amazighe, Awrach once official sources are found (cg.gov.ma needs manual download).

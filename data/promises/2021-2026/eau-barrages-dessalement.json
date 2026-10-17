@@ -24,7 +24,7 @@
     "page": 79
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-16",
   "evidence": [
     {
       "date": "2024-06-10",
@@ -39,6 +39,20 @@
         "archiveUrl": "https://web.archive.org/web/20260924110717/https://www.maroc.ma/fr/actualites/le-dessalement-au-service-de-la-souverainete-hydrique",
         "published": "2025-07-16",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "partial",
+      "note": {
+        "fr": "La Cour des comptes indique qu'à fin 2024 les capacités de production d'eau dessalée et de réutilisation des eaux usées traitées atteignent environ 324 et 52 millions de m³ par an, et que les travaux de la station de dessalement de Casablanca, prévue pour 2015, n'ont démarré qu'en 2024.",
+        "ar": "أفاد المجلس الأعلى للحسابات أن الطاقة الإنتاجية للمياه المحلاة بلغت حوالي 324 مليون متر مكعب سنويا، وطاقة إعادة استعمال المياه العادمة المعالجة حوالي 52 مليون متر مكعب سنويا في نهاية سنة 2024، وأن أشغال محطة تحلية مياه البحر بالدار البيضاء، التي كان من المفترض أن تكون جاهزة سنة 2015، لم تنطلق إلا سنة 2024."
+      },
+      "source": {
+        "name": "Cour des comptes, Rapport annuel au titre de 2024-2025 : principaux axes",
+        "url": "https://www.courdescomptes.ma/wp-content/uploads/2026/01/Axes-principaux_Rapport-annuel-de-la-CDC-au-titre-2024-2025.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261016222140/https://www.courdescomptes.ma/wp-content/uploads/2026/01/Axes-principaux_Rapport-annuel-de-la-CDC-au-titre-2024-2025.pdf",
+        "accessed": "2026-10-16"
       }
     }
   ]

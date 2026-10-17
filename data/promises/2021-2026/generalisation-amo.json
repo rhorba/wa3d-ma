@@ -24,7 +24,7 @@
     "page": 50
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-16",
   "evidence": [
     {
       "date": "2022-11-30",
@@ -54,6 +54,20 @@
         "archiveUrl": "https://web.archive.org/web/20260309020345/https://www.cese.ma/media/2024/11/Avis-AMO-VF.pdf",
         "published": "2024-10-31",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "partial",
+      "note": {
+        "fr": "La Cour des comptes indique que 31,94 millions de personnes étaient immatriculées à l'AMO fin 2024, soit près de 87 % de la population, dont 25,6 millions avec des droits ouverts, soit une couverture effective proche de 70 %.",
+        "ar": "أفاد المجلس الأعلى للحسابات أن عدد المسجلين في نظام التأمين الإجباري الأساسي عن المرض بلغ 31,94 مليون شخص في نهاية سنة 2024، أي حوالي 87% من السكان، منهم 25,6 مليون شخص يتمتعون بحقوق مفتوحة، أي نسبة تغطية فعلية تقارب 70%."
+      },
+      "source": {
+        "name": "Cour des comptes, Rapport annuel au titre de 2024-2025 : principaux axes",
+        "url": "https://www.courdescomptes.ma/wp-content/uploads/2026/01/Axes-principaux_Rapport-annuel-de-la-CDC-au-titre-2024-2025.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261016222140/https://www.courdescomptes.ma/wp-content/uploads/2026/01/Axes-principaux_Rapport-annuel-de-la-CDC-au-titre-2024-2025.pdf",
+        "accessed": "2026-10-16"
       }
     }
   ]
