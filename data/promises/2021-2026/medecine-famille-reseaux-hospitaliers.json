@@ -24,7 +24,7 @@
     "page": 50
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-17",
   "evidence": [
     {
       "date": "2024-07-11",
@@ -39,6 +39,20 @@
         "archiveUrl": "https://web.archive.org/web/20250502223854/https://www.cg.gov.ma/en/node/11616",
         "published": "2024-07-11",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "partial",
+      "note": {
+        "fr": "Le 11 décembre 2025, le Conseil de gouvernement adopte onze projets de décret fixant la date de début effectif de l'exercice des compétences des groupements sanitaires territoriaux dans onze régions, au premier jour du troisième mois suivant la première réunion de leur conseil d'administration.",
+        "ar": "صادق مجلس الحكومة يوم 11 دجنبر 2025 على أحد عشر مشروع مرسوم بتحديد تاريخ الشروع الفعلي في ممارسة المجموعات الصحية الترابية لاختصاصاتها في إحدى عشرة جهة، وذلك في اليوم الأول من الشهر الثالث الموالي لانعقاد أول اجتماع لمجالسها الإدارية."
+      },
+      "source": {
+        "name": "Chef du gouvernement, Réunion du Conseil de gouvernement du jeudi 11 décembre 2025",
+        "url": "https://www.cg.gov.ma/fr/node/12667",
+        "published": "2025-12-11",
+        "accessed": "2026-10-17"
       }
     }
   ]

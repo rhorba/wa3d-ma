@@ -43,3 +43,7 @@
 ### [2026-10-07] ISSUE — pnpm audit: new HIGH sharp <0.35.5 (GHSA-wq5f-xc86-pv6w, librsvg CVE-2026-96889) via next 15.5.25 (prod, optional dep). Fix 0.35.5 published 2026-09-27 (past release-age). basic-ftp 6.2.1 (dev, 2026-08-27) also installable now.
 
 ### [2026-10-16] ISSUE — Vercel production deploy not triggered for main c5b899d (#59) after 20+ min; no Vercel status on the commit; prod still shows 23/09/2026. Preview deploys work.
+
+### [2026-10-17] ISSUE — PR 2 sources: finances.gov.ma unreachable from this machine (connection fails); cg.gov.ma refuses automated requests (guide §5). GST, amazighe and Awrach official sources need a manual download.
+
+### [2026-10-17] ISSUE — A (manual source download): finances.gov.ma also fails to load in Chrome (user network); hcp.ma loads fine. Budget-execution reports (PLF 2026, loi de règlement 2024 n° 04.26) only hosted there. Paused, asked user.

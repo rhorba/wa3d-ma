@@ -430,3 +430,11 @@
 ### [2026-10-16] EXECUTE — Batch 2: 4 partial entries added (allocations: ANSS typologies-d-aides, archived 20261016222121; AMO, protection sociale, eau: CdC RA 2024-2025, archived 20261016222140), lastVerified 2026-10-16. catalogue:validate 0 errors / 1 warning (amazighe); tests 283/283, coverage 99.83%. Sources for GST (CG 2025-12-11), amazighe (LF/execution reports), Awrach (final tally) not found on official domains -> worksheet leads.
 
 ### [2026-10-17] VERIFY — feature/verdicts-2021-2026: lint, typecheck, format, fitness OK; tests 283/283, coverage 99.83%; catalogue:validate 0 errors; real-data build + e2e:real-data 1/1; FR/AR detail pages render Partiellement réalisé / منجز جزئيا. Security: data-only, official sources on V-7 allowlist, archived.
+
+### [2026-10-17] SHIP — PR #60 pushed (ff24e56). CI check: all 11 GREEN. Awaiting user merge; then verify prod deploy (also carries #59) shows 16/10/2026 + Partiellement réalisé.
+
+### [2026-10-17] SHIP — #60 merged (45384e9); Vercel prod deploy success (also carries #59). Prod verified: deadline 16/10/2026 FR/AR, generalisation-amo Partiellement réalisé / منجز جزئيا. Issue from 2026-10-16 (missed deploy) resolved by this deploy.
+
+### [2026-10-17] EXECUTE — PR 2: GST entry (partial, dated 2026-10-16) from cg.gov.ma/fr/node/12667 (CG 2025-12-11, decrees 2.25.1044-1054). Wayback save 520 -> local copy .verification/sources/cg-node-12667-2026-10-17.html SHA-256 e96a07e2...289fa (2026-10-04 provenance decision). Amazighe/Awrach: no official figure on cg.gov.ma (search + 2021-2026 record speech node/12873 checked); finances.gov.ma unreachable from this machine.
+
+### [2026-10-17] VERIFY — feature/verdicts-2021-2026-pr2: lint, typecheck, format, fitness OK; tests 283/283, coverage 99.83%; catalogue:validate 0 errors / 9 warnings (expected pending); real-data build + e2e:real-data 1/1. Security: data-only, cg.gov.ma on V-7 allowlist; no archiveUrl (Wayback 520), local SHA-256 copy kept.
