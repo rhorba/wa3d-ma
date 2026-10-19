@@ -24,7 +24,7 @@
     "page": 24
   },
   "deadline": "2025-12-31",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-19",
   "evidence": [
     {
       "date": "2023-01-10",
@@ -39,6 +39,21 @@
         "archiveUrl": "https://web.archive.org/web/20250708214802/https://www.cg.gov.ma/en/node/10961",
         "published": "2023-01-10",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "status": "partial",
+      "note": {
+        "fr": "La note de présentation du projet de loi de finances 2026 (octobre 2025) indique qu'une enveloppe globale d'un milliard de dirhams a été allouée à la langue amazighe au titre des lois de finances 2022 à 2025, soit sur quatre ans et non par an. L'amazighe n'a pas reçu de fonds propre : il relève du Fonds de modernisation de l'administration publique.",
+        "ar": "تفيد المذكرة التقديمية لمشروع قانون المالية لسنة 2026 (أكتوبر 2025) بأنه تم رصد غلاف مالي إجمالي قدره مليار درهم للنهوض باللغة الأمازيغية برسم قوانين المالية من 2022 إلى 2025، أي على مدى أربع سنوات وليس سنويا. ولم يحدث صندوق خاص بالأمازيغية، إذ أدرجت ضمن صندوق تحديث الإدارة العمومية."
+      },
+      "source": {
+        "name": "Ministère de l'Économie et des Finances, Note de présentation du projet de loi de finances 2026, p. 116",
+        "url": "https://www.finances.gov.ma/Publication/db/2026/note-presentation_Fr.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261019103000/https://www.finances.gov.ma/Publication/db/2026/note-presentation_Fr.pdf",
+        "published": "2025-10-20",
+        "accessed": "2026-10-19"
       }
     }
   ]
