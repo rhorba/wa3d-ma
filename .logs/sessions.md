@@ -161,3 +161,12 @@
 
 ### [2026-10-16] SESSION_START
 - Resumed. main 35f0f3d (#58 merged), CI GREEN, prod /fr /ar /sitemap.xml 200, no open PRs. UNDERSTAND: news check first (cabinet dahir is the top pending trigger).
+
+### [2026-10-17] SESSION_END
+- Completed: cabinet appointed 2026-10-16 (maroc.ma) -> #59 mandate end 2026-10-16 (14 deadlines, MANDATE_START 2026-2031) merged; #60 verdicts partial x4 (allocations ANSS; AMO, protection sociale, eau CdC RA 2024-2025) merged, prod verified (Vercel missed #59 deploy, #60 deploy carried it); #61 GST partial (cg.gov.ma node/12667, local SHA-256, no Wayback) CI GREEN awaiting merge. Tests 283, coverage 99.83%.
+- Waiting on data: préscolaire (rentrée 2026), croissance/emploi/activité femmes (HCP 2027), Gini/pauvreté/PISA (yearly review).
+- Blocked: amazighe + Awrach (finances.gov.ma unreachable from user network, also in Chrome); retry later.
+- Next: merge #61 -> prod check; watch 2026-2031 programme (R4 within 72 h; investiture pending); GSC recheck ~2026-10-21; logs PR for these entries.
+
+### [2026-10-19] SESSION_START
+- Resumed. main 5816470 (#61 merged), CI GREEN; prod /fr /ar /sitemap.xml 200, GST "Partiellement réalisé" + cg.gov.ma node/12667 live on /fr/2021-2026/medecine-famille-reseaux-hospitaliers. News: El Mansouri government programme to be presented to both chambers today 2026-10-19 15:00 (Art. 88), followed by debate + confidence vote -> R4 72 h window opens. UNDERSTAND: awaiting user pick.

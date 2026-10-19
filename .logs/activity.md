@@ -438,3 +438,12 @@
 ### [2026-10-17] EXECUTE — PR 2: GST entry (partial, dated 2026-10-16) from cg.gov.ma/fr/node/12667 (CG 2025-12-11, decrees 2.25.1044-1054). Wayback save 520 -> local copy .verification/sources/cg-node-12667-2026-10-17.html SHA-256 e96a07e2...289fa (2026-10-04 provenance decision). Amazighe/Awrach: no official figure on cg.gov.ma (search + 2021-2026 record speech node/12873 checked); finances.gov.ma unreachable from this machine.
 
 ### [2026-10-17] VERIFY — feature/verdicts-2021-2026-pr2: lint, typecheck, format, fitness OK; tests 283/283, coverage 99.83%; catalogue:validate 0 errors / 9 warnings (expected pending); real-data build + e2e:real-data 1/1. Security: data-only, cg.gov.ma on V-7 allowlist; no archiveUrl (Wayback 520), local SHA-256 copy kept.
+
+### [2026-10-17] SHIP — PR #61 pushed. CI check: all 11 GREEN. Awaiting user merge.
+
+### [2026-10-19] SHIP — #61 merged; main CI GREEN (run 39010565487); prod verified (GST verdict + source live).
+### [2026-10-19] UNDERSTAND — R4 trigger: 2026-2031 programme presented to Parliament today 15:00 (lesiteinfo, laverite, le1, medi1news). Official text not yet published; target source cg.gov.ma / chambredesrepresentants.ma.
+### [2026-10-19] BRAINSTORM — user picked B (R4 prep) incl. A (logs PR); C: user to download what this machine cannot reach.
+### [2026-10-19] EXECUTE — C research: finances.gov.ma reachable again. Amazighe: PLF 2026 note de présentation p.116 ("enveloppe budgétaire globale d'un milliard de dirhams ... allouée, au titre des lois de finances des années 2022 à 2025"; amazighe folded into FOMAP, not a stand-alone fund), Rapport CST PLF 2026 p.95-96 (amazighe spending 60,25 MDH 2023, 70,90 MDH 2024). Local copies .verification/sources/ SHA-256 note f43a5cb4...99e0, CST 7040d520...4f04. Awrach: no mention in PLF 2025/2026 reports (PLF 2025 note is a scanned PDF); mies.gov.ma unreachable.
+### [2026-10-19] SHIP — PR #62 (logs) pushed; CI 8/11 pass, 3 pending at check.
+### [2026-10-19] PLAN — R4 prep: .verification/r4-2026-2031-prep.md (clock: deadline 2026-10-22 14:00 UTC; sources order; selection method; steps; Q1-Q3). Dry-run: catalogue:validate --data-dir with a fake 2026-2031 entry -> 17 commitments, 0 errors. Awrach sources (mies.gov.ma, emploi.gov.ma, awrach.ma) unreachable from this machine -> user to download.
