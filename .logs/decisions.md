@@ -99,3 +99,7 @@
 ### [2026-10-17] DECISION — User approved AR notes for the 4 entries and the split (PR 1 = 4 verdicts now; PR 2 = GST, amazighe, Awrach when official sources are found).
 
 ### [2026-10-17] DECISION — PR 2 scope: user chose C (ship GST entry now; amazighe + Awrach stay En cours until an official source is reachable; yearly review). GST AR note shipped on user go-ahead.
+
+### [2026-10-19] DECISION — Awrach (user): A park; stays En cours with V-14 warning, yearly review (ministry performance report / CdC). R4 prep (user): Q1 batch 1 = ~15 flagship commitments; Q2 deadline placeholder 2031-10-16 until next government; Q3 if only an official FR text exists: FR original, AR wa3d_translation.
+
+### [2026-10-20] DECISION — User chose C: logs PR + R4 prep worksheet (press placeholders, nothing on main until official text) + GSC Page indexing recheck today.

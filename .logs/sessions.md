@@ -170,3 +170,9 @@
 
 ### [2026-10-19] SESSION_START
 - Resumed. main 5816470 (#61 merged), CI GREEN; prod /fr /ar /sitemap.xml 200, GST "Partiellement réalisé" + cg.gov.ma node/12667 live on /fr/2021-2026/medecine-famille-reseaux-hospitaliers. News: El Mansouri government programme to be presented to both chambers today 2026-10-19 15:00 (Art. 88), followed by debate + confidence vote -> R4 72 h window opens. UNDERSTAND: awaiting user pick.
+
+### [2026-10-19] SESSION_START
+- Resumed 19:59 UTC on main 07dfd8b, CI GREEN, no open PRs; logs from earlier today uncommitted. R4 check: programme presented 14:00 UTC; cg.gov.ma node/13050 (news, no PDF); chambredesrepresentants.ma Seance19102026 has only a 1-page communiqué PDF (balagh), not the programme text. R4 clock: 2026-10-22 14:00 UTC. UNDERSTAND: awaiting user pick.
+
+### [2026-10-20] SESSION_START
+- Resumed 09:12 UTC on main 07dfd8b, CI GREEN, no open PRs, prod /fr /ar /sitemap.xml 200; 2026-10-19 logs still uncommitted. R4: no programme text yet. UNDERSTAND: awaiting user pick.
