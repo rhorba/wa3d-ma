@@ -184,3 +184,8 @@
 
 ### [2026-10-21] SESSION_START
 - Resumed. origin/main 2742607 (#64 merged), main CI GREEN, no open PRs; 10-20 post-merge logs uncommitted on chore/logs-2026-10-20. Dependabot vite update job failed 10-20 23:39 (updater job, not CI). R4 check: programme text still unpublished (cg.gov.ma newest node 13055 = 20 Oct government council; chambredesrepresentants.ma ProgrammeGouv19102026 = YouTube embed only, no PDF). R4 clock: 2026-10-22 14:00 UTC. UNDERSTAND: awaiting user pick.
+
+### [2026-10-21] SESSION_END (pause; R4 recheck ~18:00 UTC)
+- Completed: R4 checks on 4 official sources (no text; Councillors debate today); R4 fallback decision + risk; #65 vite CVE fix (vite ^8.3.4 devDependency) CI GREEN; #66 logs CI GREEN. Tests 283, coverage 99.83%.
+- Next: R4 recheck ~18:00 UTC and 2026-10-22 ~08:00 UTC; on publication -> data/2026-2031-programme per worksheet; if none by 2026-10-22 14:00 UTC log R4 missed (clock restarts at publication). GSC recheck ~10-28.
+- User actions: merge #65 then #66; optional `! git stash drop`.

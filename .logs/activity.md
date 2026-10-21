@@ -467,3 +467,5 @@
 ### [2026-10-21] HANDOFF Orchestrator -> PM: C3 extra official sources for programme text; C4 R4 fallback decision (miss logged once, 72 h clock restarts at official-text publication, no press in data/, twice-daily checks).
 ### [2026-10-21] EXECUTE — C3: chambredesconseillers.ma (2 news items: 19 Oct joint session, 21 Oct debate; no PDF) and sgg.gov.ma (nothing): programme text still unpublished. C4: R4 fallback decision + risk logged. HANDOFF PM -> DevOps/DevSecOps: C2 Dependabot vite failure.
 ### [2026-10-21] EXECUTE — C2: cause = security_update_not_possible (vite only a peer of vitest, config allows direct updates). Override attempt rewrote peer range only -> reverted. Fix: vite ^8.3.4 devDependency; lint/typecheck/283 tests/build pass, coverage 99.83%, audit 6 -> 5 (known dev-only). PR #65 on fix/vite-cve. HANDOFF DevOps -> Project Monitor: C1 logs PR.
+### [2026-10-21] VERIFY — #65 CI 11/11 GREEN (incl. Security scans, coverage gate); #66 CI 11/11 GREEN.
+### [2026-10-21] SHIP — #65 + #66 pushed, CI GREEN, awaiting user merge (merge #65 first). Next R4 check ~18:00 UTC today.
