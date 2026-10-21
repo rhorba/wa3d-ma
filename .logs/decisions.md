@@ -103,3 +103,11 @@
 ### [2026-10-19] DECISION — Awrach (user): A park; stays En cours with V-14 warning, yearly review (ministry performance report / CdC). R4 prep (user): Q1 batch 1 = ~15 flagship commitments; Q2 deadline placeholder 2031-10-16 until next government; Q3 if only an official FR text exists: FR original, AR wa3d_translation.
 
 ### [2026-10-20] DECISION — User chose C: logs PR + R4 prep worksheet (press placeholders, nothing on main until official text) + GSC Page indexing recheck today.
+
+### [2026-10-20] DECISION — R4 prep (user): list of 15 approved; deadline 2031-10-16 placeholder for all (explicit years kept in target text); yearly targets #6 #7 #9 = one entry on the full mandate + note "cible annuelle".
+
+### [2026-10-20] DECISION — G5 (user chose A): keep target 33/36 sitemap URLs indexed (>= 90%), move date from 2026-10-24 to 2026-11-21 (pace ~+1/day, Google-side). No code change; next recheck ~2026-10-28.
+
+### [2026-10-21] DECISION — R4 fallback (user, option C): if the official 2026-2031 programme text is not published by 2026-10-22 14:00 UTC, R4 is logged once as missed; the 72 h clock restarts at official-text publication (not the 2026-10-19 speech). No press wording in data/ (FR-5); /{fr,ar}/2026-2031 stay noindex (ADR-10). Checks twice daily (~08:00 and ~18:00 UTC): cg.gov.ma, chambredesrepresentants.ma ProgrammeGouv19102026, chambredesconseillers.ma, sgg.gov.ma.
+
+### [2026-10-21] DECISION — vite GHSA-698v-4r3x-3vcv: declare vite ^8.3.4 as a direct devDependency (peer of vitest) instead of a pnpm override; the override only rewrote the peer range and Dependabot (direct-only) could not update it. PR #65.

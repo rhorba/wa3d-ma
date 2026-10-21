@@ -10,3 +10,5 @@
 - Before/after crops: both lines follow correct RTL wrapping (the French name's end, then "، ص. 50"; the date right of the URL). Only real defects: mandate range "2026-2021" (AL + ES + AN bidi rule) and FR guillemets wrapping. <bdi> on source names + citation URL kept as a free safeguard; PR says so.
 
 ### [2026-10-16] CORRECTION — Batch 2 split proposed: PR 1 = 4 settled entries (after user AR review); PR 2 = GST, amazighe, Awrach once official sources are found (cg.gov.ma needs manual download).
+
+### [2026-10-20] CORRECTION — PRD G5 "within 30 days of launch" (2026-10-24) -> 2026-11-21 for this launch; threshold unchanged (>= 90%, 33/36). Reason: 16/36 indexed on 10-12 data, crawl pace Google-side.
