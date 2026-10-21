@@ -60,3 +60,7 @@
 - Sitemap estimate ~13/36 (baseline 11/36 on 2026-10-07). Target >= 33/36 by 2026-10-24 at risk. 308 fallback not needed (/fr|/ar/2021-2026 indexed since 2026-10-05).
 
 - [2026-10-16] 2026-10-16 coverage 99.83% stmts / 96.87% branches / 100% lines, 283 tests (fix/mandate-end-2026-10-16).
+
+### [2026-10-20] METRIC — GSC Page indexing (data 2026-10-12): 16 indexed / 31 not (21 Discovered, 5 Crawled, 3 canonical alternates, 2 noindex). G5 trend 11 (10-07) -> 13 (10-09) -> 16 (10-12); target 33/36 by 10-24 not reachable at this pace.
+
+### [2026-10-21] METRICS — fix/vite-cve: tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit 5 (1 moderate, 4 high, all dev-only).

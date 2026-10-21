@@ -41,3 +41,9 @@
 ### [2026-10-07] GSC Request indexing quota — 3rd "Quota Exceeded" on the first request of a day (2026-10-04, 2026-10-06, 2026-10-07). Likely a per-property limit on a new property, not daily usage. Impact: low (sitemap is Success; pages are "Discovered", Google will crawl on its own schedule). Mitigation: stop manual requests; let the sitemap + internal links drive discovery; recheck counts ~2026-10-14. G5 (90% by 2026-10-24) at risk: 11/36 today.
 
 ### [2026-10-08] RISK — braces (GHSA-vfj7-8cjw-p6xm, high) via eslint-config-next > fast-glob > micromatch and sprintf-js (GHSA-hp3w-g68c-fv3c, moderate) via @lhci/cli > js-yaml > argparse: no patched version published; dev/lint/CI tooling only, not in the deployed bundle. Recheck monthly with extract-zip/basic-ftp; override when a fix ships.
+
+### [2026-10-20] RISK UPDATE — G5: 16/36 indexed (data 10-12); target date moved to 2026-11-21 (user). Remaining risk: low-medium, Google-side; mitigation = R4 adds new linked pages, recheck ~10-28.
+
+### [2026-10-21] RISK — R4 at risk of missing its deadline: official programme text unpublished on all 4 official sources (checked 2026-10-21 ~10:00 UTC); House of Councillors debate 2026-10-21, confidence vote pending. Impact: /2026-2031 stays empty + noindex longer, delays G5 mitigation. Mitigation: fallback decision 2026-10-21 (clock restarts at publication), worksheet .verification/r4-prep-2026-10-20.md ready.
+
+### [2026-10-21] RISK UPDATE — Dependabot #9 vite (GHSA-698v-4r3x-3vcv, medium, dev-only): fix in PR #65. basic-ftp now reports patched >=6.2.1 but only via a major bump inside @lhci/cli > lighthouse > puppeteer tree: still treated as no-fix-in-range, monthly recheck unchanged.

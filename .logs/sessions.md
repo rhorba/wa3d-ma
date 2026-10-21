@@ -176,3 +176,16 @@
 
 ### [2026-10-20] SESSION_START
 - Resumed 09:12 UTC on main 07dfd8b, CI GREEN, no open PRs, prod /fr /ar /sitemap.xml 200; 2026-10-19 logs still uncommitted. R4: no programme text yet. UNDERSTAND: awaiting user pick.
+
+### [2026-10-20] SESSION_END (pause; R4 recheck ~18:00 UTC)
+- Completed: PR #64 logs (CI 11/11 GREEN, awaiting user merge); R4 prep worksheet .verification/r4-prep-2026-10-20.md (15 flagships approved, deadline 2031-10-16 for all, yearly note on #6 #7 #9); GSC 16 indexed (data 10-12), 2 noindex = /{fr,ar}/2026-2031 intended; G5 date moved to 2026-11-21.
+- Next: recheck programme text (cg.gov.ma, chambredesrepresentants.ma/ProgrammeGouv19102026) ~18:00 UTC; on publication -> data/2026-2031-programme branch per worksheet checklist, merged before 2026-10-22 14:00 UTC. GSC recheck ~10-28.
+- User actions: merge #64; optional `! git stash drop`.
+
+### [2026-10-21] SESSION_START
+- Resumed. origin/main 2742607 (#64 merged), main CI GREEN, no open PRs; 10-20 post-merge logs uncommitted on chore/logs-2026-10-20. Dependabot vite update job failed 10-20 23:39 (updater job, not CI). R4 check: programme text still unpublished (cg.gov.ma newest node 13055 = 20 Oct government council; chambredesrepresentants.ma ProgrammeGouv19102026 = YouTube embed only, no PDF). R4 clock: 2026-10-22 14:00 UTC. UNDERSTAND: awaiting user pick.
+
+### [2026-10-21] SESSION_END (pause; R4 recheck ~18:00 UTC)
+- Completed: R4 checks on 4 official sources (no text; Councillors debate today); R4 fallback decision + risk; #65 vite CVE fix (vite ^8.3.4 devDependency) CI GREEN; #66 logs CI GREEN. Tests 283, coverage 99.83%.
+- Next: R4 recheck ~18:00 UTC and 2026-10-22 ~08:00 UTC; on publication -> data/2026-2031-programme per worksheet; if none by 2026-10-22 14:00 UTC log R4 missed (clock restarts at publication). GSC recheck ~10-28.
+- User actions: merge #65 then #66; optional `! git stash drop`.
