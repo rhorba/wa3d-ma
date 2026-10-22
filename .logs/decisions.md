@@ -111,3 +111,4 @@
 ### [2026-10-21] DECISION — R4 fallback (user, option C): if the official 2026-2031 programme text is not published by 2026-10-22 14:00 UTC, R4 is logged once as missed; the 72 h clock restarts at official-text publication (not the 2026-10-19 speech). No press wording in data/ (FR-5); /{fr,ar}/2026-2031 stay noindex (ADR-10). Checks twice daily (~08:00 and ~18:00 UTC): cg.gov.ma, chambredesrepresentants.ma ProgrammeGouv19102026, chambredesconseillers.ma, sgg.gov.ma.
 
 ### [2026-10-21] DECISION — vite GHSA-698v-4r3x-3vcv: declare vite ^8.3.4 as a direct devDependency (peer of vitest) instead of a pnpm override; the override only rewrote the peer range and Dependabot (direct-only) could not update it. PR #65.
+### [2026-10-22] DECISION — User chose B: logs PR + pre-match R4 worksheet against the third-party full-text PDF (jarida-tarbawiya.com -> Google Drive). PDF kept in .verification/ only, labelled unofficial; nothing in data/ until official publication (FR-5).

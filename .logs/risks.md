@@ -47,3 +47,4 @@
 ### [2026-10-21] RISK — R4 at risk of missing its deadline: official programme text unpublished on all 4 official sources (checked 2026-10-21 ~10:00 UTC); House of Councillors debate 2026-10-21, confidence vote pending. Impact: /2026-2031 stays empty + noindex longer, delays G5 mitigation. Mitigation: fallback decision 2026-10-21 (clock restarts at publication), worksheet .verification/r4-prep-2026-10-20.md ready.
 
 ### [2026-10-21] RISK UPDATE — Dependabot #9 vite (GHSA-698v-4r3x-3vcv, medium, dev-only): fix in PR #65. basic-ftp now reports patched >=6.2.1 but only via a major bump inside @lhci/cli > lighthouse > puppeteer tree: still treated as no-fix-in-range, monthly recheck unchanged.
+### [2026-10-22] RISK UPDATE — R4 missed at 14:00 UTC (no official text). Clock now runs from official publication. Lead: third-party Google Drive PDF (jarida-tarbawiya.com) suggests the text exists; official host still pending. Checks continue ~08:00/~18:00 UTC.
