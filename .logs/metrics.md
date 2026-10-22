@@ -64,3 +64,4 @@
 ### [2026-10-20] METRIC — GSC Page indexing (data 2026-10-12): 16 indexed / 31 not (21 Discovered, 5 Crawled, 3 canonical alternates, 2 noindex). G5 trend 11 (10-07) -> 13 (10-09) -> 16 (10-12); target 33/36 by 10-24 not reachable at this pace.
 
 ### [2026-10-21] METRICS — fix/vite-cve: tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit 5 (1 moderate, 4 high, all dev-only).
+| 2026-10-22 | fix/next-cve-2026-10-22 (#68) | 283 | 99.83% | next 15.5.28 |

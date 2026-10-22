@@ -48,3 +48,4 @@
 
 ### [2026-10-21] RISK UPDATE — Dependabot #9 vite (GHSA-698v-4r3x-3vcv, medium, dev-only): fix in PR #65. basic-ftp now reports patched >=6.2.1 but only via a major bump inside @lhci/cli > lighthouse > puppeteer tree: still treated as no-fix-in-range, monthly recheck unchanged.
 ### [2026-10-22] RISK UPDATE — R4 missed at 14:00 UTC (no official text). Clock now runs from official publication. Lead: third-party Google Drive PDF (jarida-tarbawiya.com) suggests the text exists; official host still pending. Checks continue ~08:00/~18:00 UTC.
+### [2026-10-22] RISK — Prod on next 15.5.27 (critical RCE advisory) until #68 merged + deployed. Likelihood low (sharp 0.35.5 = advisory workaround); impact critical. Mitigation: #68 green, awaiting user merge.
