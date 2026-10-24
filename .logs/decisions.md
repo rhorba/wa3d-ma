@@ -112,3 +112,5 @@
 
 ### [2026-10-21] DECISION — vite GHSA-698v-4r3x-3vcv: declare vite ^8.3.4 as a direct devDependency (peer of vitest) instead of a pnpm override; the override only rewrote the peer range and Dependabot (direct-only) could not update it. PR #65.
 ### [2026-10-22] DECISION — User chose B: logs PR + pre-match R4 worksheet against the third-party full-text PDF (jarida-tarbawiya.com -> Google Drive). PDF kept in .verification/ only, labelled unofficial; nothing in data/ until official publication (FR-5).
+
+### [2026-10-24] DECISION — Session scope B: housekeeping (#67 rebase) + R4 official-text check. User picked B.
