@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aide-sociale-directe-1000-dirhams",
+  "mandate": "2026-2031",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Relever progressivement l'aide sociale directe minimale de 500 à 1 000 dirhams par mois",
+    "ar": "الرفع التدريجي للحد الأدنى للدعم الشهري من 500 إلى 1.000 درهم"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement œuvre au relèvement progressif du minimum de l'aide mensuelle de 500 à 1 000 dirhams, dans le cadre d'une programmation financière maîtrisée qui tient compte de la composition du ménage et de l'évolution du coût de la vie. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل الحكومة على الرفع التدريجي للحد الأدنى للدعم الشهري من 500 إلى 1.000 درهم، ضمن برمجة مالية مضبوطة تراعي تركيبة الأسرة وتطور كلفة المعيشة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 55
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dessalement-1-8-milliard-m3",
+  "mandate": "2026-2031",
+  "theme": "water_energy",
+  "title": {
+    "fr": "Six stations de dessalement pour plus de 1,8 milliard de m³ à l'horizon 2031",
+    "ar": "إنجاز 6 محطات لتحلية مياه البحر لبلوغ أكثر من 1,8 مليار متر مكعب في أفق سنة 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Réaliser 6 stations de dessalement d'eau de mer, en parallèle de l'accélération des stations dont les travaux ont récemment été lancés ; l'objectif principal est d'atteindre plus de 1,8 milliard de mètres cubes à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إنجاز 6 محطات لتحلية مياه البحر موازاة مع التسريع بإنجاز المحطات التي تم إطلاق أشغالها حديثا، ويكمن الهدف الأساسي في بلوغ أكثر من 1,8 مليار متر مكعب في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 101
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

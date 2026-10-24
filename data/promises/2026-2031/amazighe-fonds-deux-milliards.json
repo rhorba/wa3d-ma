@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "amazighe-fonds-deux-milliards",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Caractère officiel de l'amazighe : un fonds spécial doté de 2 milliards de dirhams",
+    "ar": "صندوق خاص بتفعيل الطابع الرسمي للأمازيغية باعتماد مالي قدره 2 مليار درهم"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Créer un fonds spécial dédié à la mise en œuvre du caractère officiel de l'amazighe, doté d'une enveloppe de 2 milliards de dirhams. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إحداث صندوق خاص بتفعيل الطابع الرسمي للأمازيغية باعتماد مالي قدره 2 مليار درهم»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 35
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

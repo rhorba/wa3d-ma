@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "semences-nationales-50-pourcent",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Porter la part des semences nationales de 20 % à 50 % durant le mandat",
+    "ar": "رفع حصة البذور الوطنية من 20% إلى 50% خلال الولاية الحكومية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Lancer le programme national de souveraineté semencière, visant à porter la part des semences nationales de 20 % à 50 % des semences utilisées durant le mandat gouvernemental. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إطلاق البرنامج الوطني للسيادة في مجال البذور، الرامي إلى رفع حصة البذور الوطنية من 20% إلى 50% من البذور المستعملة خلال الولاية الحكومية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 101
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

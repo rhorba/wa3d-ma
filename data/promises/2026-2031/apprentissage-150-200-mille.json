@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "apprentissage-150-200-mille",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Formation professionnelle et par apprentissage : 150 000 à 200 000 bénéficiaires par an",
+    "ar": "التكوين المهني والتكوين بالتدرج: ما بين 150.000 و200.000 مستفيد سنويا"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement porte la capacité d'accueil de la formation professionnelle et de la formation par apprentissage, progressivement, à un niveau compris entre 150 000 et 200 000 bénéficiaires par an. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تقوم الحكومة برفع الطاقة الاستيعابية للتكوين المهني والتكوين بالتدرج، تدريجيا، إلى ما بين 150.000 و200.000 مستفيد سنويا»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 93
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

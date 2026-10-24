@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "transferts-regions-12-milliards",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Au moins 12 milliards de dirhams par an de transferts aux régions à partir de 2027",
+    "ar": "تحويلات مالية لفائدة الجهات لا تقل عن 12 مليار درهم سنوياً ابتداء من 2027"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Renforcer les ressources financières des régions et leur autonomie, en augmentant de manière tangible le volume des transferts financiers en leur faveur, à au moins 12 milliards de dirhams par an à partir de l'exercice budgétaire 2027. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تقوية الموارد المالية للجهات وتعزيز استقلاليتها، عبر الرفع من حجم التحويلات المالية لفائدتها بشكل ملموس، بما لا يقل عن 12 مليار درهم سنوياً ابتداء من السنة المالية 2027»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 24
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

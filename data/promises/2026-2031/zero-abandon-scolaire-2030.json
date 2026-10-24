@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "zero-abandon-scolaire-2030",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Atteindre l'objectif « zéro abandon scolaire » à l'horizon 2030",
+    "ar": "تحقيق هدف «صفر انقطاع عن الدراسة» في أفق سنة 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Atteindre l'objectif « zéro abandon scolaire » à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تحقيق هدف «صفر انقطاع عن الدراسة» في أفق سنة 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 70
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

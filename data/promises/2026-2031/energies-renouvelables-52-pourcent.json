@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "energies-renouvelables-52-pourcent",
+  "mandate": "2026-2031",
+  "theme": "water_energy",
+  "title": {
+    "fr": "Porter les énergies renouvelables à 52 % de la capacité électrique installée en 2030",
+    "ar": "رفع نسبة الطاقات المتجددة إلى 52% من القدرة الإجمالية المنشأة في أفق سنة 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement accélère la mise en œuvre de la stratégie des énergies renouvelables et porte leur part dans le mix électrique à 52 % de la capacité totale installée, à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تسرع الحكومة إنجاز استراتيجية الطاقات المتجددة، والرفع من نسبتها من المزيج الطاقي الكهربائي إلى 52% من القدرة الإجمالية المنشأة، في أفق سنة 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 99
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

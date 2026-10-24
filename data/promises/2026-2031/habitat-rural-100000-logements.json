@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "habitat-rural-100000-logements",
+  "mandate": "2026-2031",
+  "theme": "housing",
+  "title": {
+    "fr": "Réhabiliter ou construire 100 000 logements ruraux, avec 40 000 dirhams d'aide directe",
+    "ar": "تأهيل أو بناء 100 ألف مسكن قروي خلال الولاية بدعم مباشر قيمته 40 ألف درهم للأسرة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement crée un programme d'habitat rural visant la réhabilitation ou la construction de 100 000 logements durant le mandat, notamment dans les centres ruraux émergents et les zones exposées aux risques naturels ou faiblement équipées. Le programme accorde une aide directe de 40 000 dirhams au ménage éligible. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تُحدث الحكومة برنامجاً للسكن القروي يستهدف تأهيل أو بناء 100 ألف مسكن خلال الولاية، لا سيما في المراكز القروية الصاعدة والمناطق المتأثرة بالمخاطر الطبيعية أو بضعف التجهيز. ويمنح البرنامج دعماً مباشراً قيمته 40 ألف درهم للأسرة المؤهلة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 88
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}
