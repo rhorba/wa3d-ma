@@ -195,3 +195,9 @@
 
 ### [2026-10-24] SESSION_START
 - Resumed on chore/logs-2026-10-22. origin/main 7e3cca9 (#68 next 15.5.28 merged 10-22), main CI GREEN. Open: #67 logs (red on Security scans until rebased on main). Dependabot @vitest/mocker update job failed 10-22 20:45 (updater, not CI). metrics.md 10-22 line reformatted, uncommitted. R4: official programme text unknown since 10-22 20:20 UTC check. UNDERSTAND: awaiting user pick.
+
+### [2026-10-24] SESSION_END
+- Completed: R4 official text found (cg.gov.ma node/13059, PG-2026-2031.pdf, published 2026-10-23 11:04 UTC, byte-identical to 10-22 unofficial copy); batch-1 decisions (NEET for #4, 150-200k vocational for #6, 500k/5 yrs for #7, AR original); #69 zod CVE fix; #67 logs; #70 15 commitments 2026-2031 merged + live on prod; v1.2 recording. Tests 283, coverage 99.83%.
+- Open: Wayback copy of PG-2026-2031.pdf (Cloudflare blocks archive crawler; options A wait / B other archive + rule change / C retry SPN) -> origin.archiveUrl empty on 15 entries. Batch-2 candidate: p.70 "doubling pupils mastering foundational learnings by 2031" (+ 1M jobs, unemployment 7%, women activity 21.2%, alternates). Targets/indicators for 2026-2031 not set (YAGNI).
+- Next: GSC recheck ~2026-10-28 (new 2026-2031 URLs: submit sitemap); 45-day re-verification of 2026-2031 entries by 2026-12-08; Dependabot @vitest/mocker + ip-address dev-only advisories; 2021-2026 V-14 warnings (8) as HCP/CSEFRS data arrives.
+- User actions: merge logs PR; delete repo-root PG-2026-2031.pdf (duplicate of .verification copy); optional `! git stash drop` (stale 2026-10-01 stash).
