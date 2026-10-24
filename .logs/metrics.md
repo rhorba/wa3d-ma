@@ -65,3 +65,4 @@
 
 ### [2026-10-21] METRICS — fix/vite-cve: tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit 5 (1 moderate, 4 high, all dev-only).
 ### [2026-10-22] METRICS — fix/next-cve-2026-10-22 (#68): tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit --prod 0; full audit 8 (4 high dev-only known, 4 moderate dev-only: sprintf-js, @vitest/mocker x2, ip-address).
+### [2026-10-24] METRICS — fix/zod-cve-2026-10-24 (#69): tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit --prod 0.

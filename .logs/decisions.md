@@ -114,3 +114,7 @@
 ### [2026-10-22] DECISION — User chose B: logs PR + pre-match R4 worksheet against the third-party full-text PDF (jarida-tarbawiya.com -> Google Drive). PDF kept in .verification/ only, labelled unofficial; nothing in data/ until official publication (FR-5).
 
 ### [2026-10-24] DECISION — Session scope B: housekeeping (#67 rebase) + R4 official-text check. User picked B.
+
+### [2026-10-24] DECISION — R4 clock start = PG-2026-2031.pdf last-modified 2026-10-23 11:04 UTC (node/13059 has no own date; earliest official evidence). Deadline 2026-10-26 11:04 UTC.
+
+### [2026-10-24] DECISION — R4 batch 1 vs official text (user): #4 -> neet-moins-50-pourcent (p.70/92); #6 -> apprentissage-150-200-mille (p.93, yearly note kept); #7 -> premiere-experience-500000-jeunes (~500 000 over 5 years, no yearly note); #1 wording "gradual minimum monthly support"; #12 -> 52% installed electrical capacity by 2030. Language: official text AR only -> AR original, FR wa3d_translation. Batch stays 15; deadline 2031-10-16 for all.
