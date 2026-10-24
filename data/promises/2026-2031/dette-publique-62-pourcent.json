@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dette-publique-62-pourcent",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Une dette publique sur une trajectoire descendante, à environ 62 % du PIB en 2031",
+    "ar": "المديونية العمومية في مسار تنازلي لتبلغ حوالي 62% من الناتج في أفق سنة 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Placer la dette publique sur une trajectoire descendante pour atteindre environ 62 % du produit intérieur brut à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«وضع المديونية العمومية في مسار تنازلي ليبلغ حوالي 62% من الناتج الداخلي الإجمالي الخام في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 125
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "premiere-experience-500000-jeunes",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Programme « Premier contrat de travail » pour environ 500 000 jeunes en cinq ans",
+    "ar": "برنامج \"أول عقد شغل\" لفائدة حوالي 500.000 شاب خلال خمس سنوات"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement lance le programme « Premier contrat de travail » au profit d'environ 500 000 jeunes sur cinq ans, leur permettant une première expérience professionnelle. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تطلق الحكومة برنامج \"أول عقد شغل\" لفائدة حوالي 500.000 شاب خلال خمس سنوات يمكنهم من أول تجربة مهنية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 94
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

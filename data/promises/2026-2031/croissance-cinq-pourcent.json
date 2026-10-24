@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "croissance-cinq-pourcent",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Une croissance moyenne de 5 % par an sur la période 2027-2031",
+    "ar": "نمو متوسط قدره 5% سنويا خلال الفترة 2027-2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Une croissance moyenne de 5 % par an sur la période 2027-2031, contre environ 3,7 % sur la période 2022-2025. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«نمو متوسط قدره 5% سنويا خلال الفترة 2027-2031، مقابل حوالي 3,7% خلال الفترة 2022-2025»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 124
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

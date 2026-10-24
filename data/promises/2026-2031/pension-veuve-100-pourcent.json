@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pension-veuve-100-pourcent",
+  "mandate": "2026-2031",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Une pension de veuve égale à 100 % au lieu de 50 % de la pension du conjoint décédé",
+    "ar": "تمكين الأرملة من معاش كامل يعادل 100% بدل 50% من معاش الزوج المتوفي"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Permettre à la veuve de bénéficier d'une pension complète égale à 100 % au lieu de 50 % de la pension principale due au conjoint décédé. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تمكين الأرملة من معاش كامل يعادل 100% بدل 50% من المعاش الرئيسي المستحق للزوج المتوفي»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 57
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "neet-moins-50-pourcent",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Réduire d'au moins 50 % le nombre de jeunes NEET à l'horizon 2031",
+    "ar": "خفض أعداد الشباب خارج نطاق التعليم والتكوين والشغل بنسبة 50% على الأقل في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Réduire le nombre de jeunes ni en emploi, ni en études, ni en formation (NEET), avec l'objectif de le baisser d'au moins 50 % à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تقليص أعداد الشباب خارج نطاق التعليم والتكوين والشغل (NEET) بهدف خفضها بنسبة 50% على الأقل في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 70
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}

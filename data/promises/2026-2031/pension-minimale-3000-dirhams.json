@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pension-minimale-3000-dirhams",
+  "mandate": "2026-2031",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Porter progressivement la pension minimale à 3 000 dirhams par mois dans tous les régimes",
+    "ar": "الرفع التدريجي للحد الأدنى للمعاشات الرئيسية إلى 3.000 درهم شهرياً"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le relèvement progressif du minimum des pensions principales à 3 000 dirhams par mois dans les différents régimes. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«الرفع التدريجي للحد الأدنى للمعاشات الرئيسية إلى 3.000 درهم شهرياً في مختلف الأنظمة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-24",
+    "page": 57
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-24",
+  "evidence": []
+}
