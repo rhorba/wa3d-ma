@@ -47,3 +47,4 @@
 ### [2026-10-17] ISSUE — PR 2 sources: finances.gov.ma unreachable from this machine (connection fails); cg.gov.ma refuses automated requests (guide §5). GST, amazighe and Awrach official sources need a manual download.
 
 ### [2026-10-17] ISSUE — A (manual source download): finances.gov.ma also fails to load in Chrome (user network); hcp.ma loads fine. Budget-execution reports (PLF 2026, loi de règlement 2024 n° 04.26) only hosted there. Paused, asked user.
+### [2026-10-24] ISSUE — Wayback snapshot from user (web/20261024063233, URL with __cf_chl_rt_tk) = Cloudflare "Just a moment..." challenge page (id_ raw 403, 3720 B gzip HTML), not the PDF. Not usable as archiveUrl; origin.archiveUrl omitted (optional), follow-up. Local SHA-256 copy kept in .verification/sources/official/.
