@@ -189,3 +189,9 @@
 - Completed: R4 checks on 4 official sources (no text; Councillors debate today); R4 fallback decision + risk; #65 vite CVE fix (vite ^8.3.4 devDependency) CI GREEN; #66 logs CI GREEN. Tests 283, coverage 99.83%.
 - Next: R4 recheck ~18:00 UTC and 2026-10-22 ~08:00 UTC; on publication -> data/2026-2031-programme per worksheet; if none by 2026-10-22 14:00 UTC log R4 missed (clock restarts at publication). GSC recheck ~10-28.
 - User actions: merge #65 then #66; optional `! git stash drop`.
+
+### [2026-10-22] SESSION_START
+- Resumed 20:17 UTC on main 0f1ef3d (#65 + #66 merged), main CI GREEN, no open PRs; 10-21 post-merge SHIP log uncommitted. R4 clock ended 14:00 UTC today. UNDERSTAND: R4 check first.
+
+### [2026-10-24] SESSION_START
+- Resumed on chore/logs-2026-10-22. origin/main 7e3cca9 (#68 next 15.5.28 merged 10-22), main CI GREEN. Open: #67 logs (red on Security scans until rebased on main). Dependabot @vitest/mocker update job failed 10-22 20:45 (updater, not CI). metrics.md 10-22 line reformatted, uncommitted. R4: official programme text unknown since 10-22 20:20 UTC check. UNDERSTAND: awaiting user pick.

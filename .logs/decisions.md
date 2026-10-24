@@ -111,3 +111,10 @@
 ### [2026-10-21] DECISION — R4 fallback (user, option C): if the official 2026-2031 programme text is not published by 2026-10-22 14:00 UTC, R4 is logged once as missed; the 72 h clock restarts at official-text publication (not the 2026-10-19 speech). No press wording in data/ (FR-5); /{fr,ar}/2026-2031 stay noindex (ADR-10). Checks twice daily (~08:00 and ~18:00 UTC): cg.gov.ma, chambredesrepresentants.ma ProgrammeGouv19102026, chambredesconseillers.ma, sgg.gov.ma.
 
 ### [2026-10-21] DECISION — vite GHSA-698v-4r3x-3vcv: declare vite ^8.3.4 as a direct devDependency (peer of vitest) instead of a pnpm override; the override only rewrote the peer range and Dependabot (direct-only) could not update it. PR #65.
+### [2026-10-22] DECISION — User chose B: logs PR + pre-match R4 worksheet against the third-party full-text PDF (jarida-tarbawiya.com -> Google Drive). PDF kept in .verification/ only, labelled unofficial; nothing in data/ until official publication (FR-5).
+
+### [2026-10-24] DECISION — Session scope B: housekeeping (#67 rebase) + R4 official-text check. User picked B.
+
+### [2026-10-24] DECISION — R4 clock start = PG-2026-2031.pdf last-modified 2026-10-23 11:04 UTC (node/13059 has no own date; earliest official evidence). Deadline 2026-10-26 11:04 UTC.
+
+### [2026-10-24] DECISION — R4 batch 1 vs official text (user): #4 -> neet-moins-50-pourcent (p.70/92); #6 -> apprentissage-150-200-mille (p.93, yearly note kept); #7 -> premiere-experience-500000-jeunes (~500 000 over 5 years, no yearly note); #1 wording "gradual minimum monthly support"; #12 -> 52% installed electrical capacity by 2030. Language: official text AR only -> AR original, FR wa3d_translation. Batch stays 15; deadline 2031-10-16 for all.
