@@ -494,3 +494,25 @@
 ### [2026-10-24] SHIP — #67 + #70 merged by user (main e828a0f, CI GREEN). Vercel production deploy 7295329293 success. Prod (wa3d-ma.vercel.app): /fr /ar homes + /{fr,ar}/2026-2031 200, noindex=0, 15 commitments each; detail pages 200; sitemap 36 -> 68 URLs (32 for 2026-2031). R4 DONE within restarted clock (deadline 2026-10-26 11:04 UTC).
 ### [2026-10-24] VIDEO_RECORDED — .recordings/v1.2-2026-10-24.webm (1 502 230 B), fixture build of e828a0f, archive on; scenario e2e/record/journeys.record.ts (critical journeys incl. not-found). Version v1.2 = 2026-2031 mandate live.
 ### [2026-10-24] SHIP — logs PR on chore/logs-2026-10-24 (logs 10-24 B3 + v1.2 recording).
+### [2026-10-25] UNDERSTAND — state: main a32b24c GREEN, no open PRs; open follow-ups: Wayback copy of PG-2026-2031.pdf (archiveUrl empty x15), batch-2 candidates (p.70 learnings x2, 1M jobs, unemployment 7%, women activity 21.2%, NEET), Dependabot @vitest/mocker + ip-address dev-only, GSC recheck ~10-28.
+### [2026-10-25] BRAINSTORM — A deps hygiene / B batch-2 data / C B+A+archive retry. User picked C.
+### [2026-10-25] PLAN — confirmed by user: B1 deps (@vitest/mocker, ip-address), B2 archive retry (V-7 change only with user approval), B3 batch-2 commitments (worksheet -> user sign-off -> data PR), B4 logs + v1.3 recording.
+### [2026-10-25] HANDOFF Orchestrator -> DevSecOps/Tech Lead: B1 dev-only advisories @vitest/mocker <5.0.3 (alerts #10 #11), ip-address <=10.7.3 via @lhci/cli; branch fix/vitest-mocker-ip-address from main; full local gate + CI GREEN.
+### [2026-10-25] EXECUTE — B1: vitest/coverage-v8 ^5.0.5 (@vitest/mocker 5.0.5), override ip-address ^10.7.4. body-parser 1.20.9 override reverted (blocked by pnpm minimumReleaseAge, published 2026-10-22). Format/lint/typecheck OK, 283/283 tests, coverage 99.83%, build OK, audit --prod clean; full audit 5 high dev-only (extract-zip x2 no fix, basic-ftp major, zod 3 via chromium-bidi, body-parser too new).
+### [2026-10-25] HANDOFF DevSecOps -> Security/DBA: B2 archive retry for cg.gov.ma PG-2026-2031.pdf + node/13059 (Wayback CDX, then SPN); V-7 allows web.archive.org only.
+### [2026-10-25] EXECUTE — B2: Wayback CDX empty for PDF + node/13059; SPN /save/ PDF -> HTTP 520 (origin Cloudflare blocks archive crawler, same as 10-24). No archive copy. BLOCKER raised to user.
+### [2026-10-25] VERIFY — #72 CI 11/11 GREEN (Security scans, coverage gate, Lighthouse, e2e). Awaiting user merge.
+### [2026-10-25] HANDOFF Security -> PM/DBA: B3 batch-2 worksheet (archive blocked, no archiveUrl).
+### [2026-10-25] EXECUTE — B3.1: .verification/worksheet-2026-2031-batch2-2026-10-25.md: 5 candidates (1M jobs, unemployment 7%, women activity 21.2%, double foundational learnings 2031, 26M tourists 2030); NEET dropped (already batch 1). AR from rendered pages; source typo "مضاعفه" kept verbatim. Awaiting user sign-off.
+### [2026-10-25] SHIP — #72 merged by user (main 5c313b4); Dependabot open alerts 0. Main CI run 40177239563 in progress.
+### [2026-10-25] HANDOFF PM -> DBA: page fix on fix/2026-2031-pdf-page (15 files origin.page += 6, curation-guide rule), then batch 2 on data/2026-2031-batch2.
+### [2026-10-25] EXECUTE — page fix: 15 origin.page += 6 (verified against PDF text), curation guide rule; catalogue 0 errors, format OK, 283/283 tests, coverage 99.83%. PR on fix/2026-2031-pdf-page.
+### [2026-10-25] VERIFY — #73 CI 11/11 GREEN.
+### [2026-10-25] EXECUTE — B3.3: 5 batch-2 entries on data/2026-2031-batch2 (stacked on #73): emplois-un-million, chomage-sept-pourcent-2031, activite-femmes-21-pourcent (p.130), apprentissages-fondamentaux-doubler-2031 (p.76), tourisme-26-millions-2030 (p.124).
+### [2026-10-25] VERIFY — batch 2: catalogue 36 commitments 0 errors (8 known V-14 warnings 2021-2026); format OK; 283/283 tests, coverage 99.83%; real-data build 88 pages + e2e:real-data 1/1; #page links 130/76 checked in build output. Security: data-only, cg.gov.ma official (V-7).
+### [2026-10-25] SHIP — #73 (fix/2026-2031-pdf-page) and #74 (data/2026-2031-batch2, stacked) pushed, CI 11/11 GREEN on both. Awaiting user merge: #73 first, then #74 (auto-retargets to main).
+### [2026-10-25] SHIP — #73 + #74 merged by user (main 4b32550). Main CI for #73 (40180129994) cancelled by concurrency (superseded by #74 push), not a failure.
+### [2026-10-25] EXECUTE — B2: user SPN attempt from own browser -> "Sorry / Job failed" (Wayback). Fallback per decision: wait, retry weekly; archiveUrl empty on 20 entries.
+### [2026-10-25] SHIP — main 4b32550 CI GREEN (run 40180157245). Prod wa3d-ma.vercel.app: /{fr,ar}/2026-2031 200, noindex=0, 20 commitments each; new detail pages 200; source links #page=130/124 (batch 2), #page=61 (aide sociale, fixed); sitemap 68 -> 78 URLs.
+### [2026-10-25] VIDEO_RECORDED — .recordings/v1.3-2026-10-25.webm (1 549 731 B), fixture build of 4b32550, archive on; scenario e2e/record/journeys.record.ts (critical journeys incl. not-found). Version v1.3 = 2026-2031 batch 2 + page-link fix.
+### [2026-10-25] SHIP — logs PR on chore/logs-2026-10-25 (logs 10-25 + v1.3 recording).
