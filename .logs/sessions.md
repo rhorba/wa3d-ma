@@ -201,3 +201,12 @@
 - Open: Wayback copy of PG-2026-2031.pdf (Cloudflare blocks archive crawler; options A wait / B other archive + rule change / C retry SPN) -> origin.archiveUrl empty on 15 entries. Batch-2 candidate: p.70 "doubling pupils mastering foundational learnings by 2031" (+ 1M jobs, unemployment 7%, women activity 21.2%, alternates). Targets/indicators for 2026-2031 not set (YAGNI).
 - Next: GSC recheck ~2026-10-28 (new 2026-2031 URLs: submit sitemap); 45-day re-verification of 2026-2031 entries by 2026-12-08; Dependabot @vitest/mocker + ip-address dev-only advisories; 2021-2026 V-14 warnings (8) as HCP/CSEFRS data arrives.
 - User actions: merge logs PR; delete repo-root PG-2026-2031.pdf (duplicate of .verification copy); optional `! git stash drop` (stale 2026-10-01 stash).
+
+### [2026-10-25] SESSION_START
+- Resumed on chore/logs-2026-10-24 (merged as #71, a32b24c). origin/main a32b24c, main CI GREEN, no open PRs. Dependabot @vitest/mocker updater job failed again 10-24 10:41 (updater, not CI). Repo-root PG-2026-2031.pdf untracked, SHA-256 identical to .verification copy. UNDERSTAND: awaiting user pick.
+
+### [2026-10-25] SESSION_END
+- Completed: #72 deps (vitest 5.0.5 -> @vitest/mocker fixed, ip-address 10.7.4 override; Dependabot open 0); #73 page-link fix (2026-2031 origin.page = PDF index, +6 on 15; curation guide rule); #74 batch 2 (5 commitments: 1M jobs, unemployment 7%, women activity 21.2%, learnings x2, 26M tourists) live on prod (20 per locale, sitemap 78); v1.3 recording. Tests 283, coverage 99.83%.
+- Archive: Wayback SPN fails for cg.gov.ma (HTTP 520 from here, "Job failed" from user browser) -> wait, retry weekly (next ~2026-11-01); archiveUrl empty on 20 entries; V-7 unchanged.
+- Next: GSC recheck ~2026-10-28 (resubmit sitemap, 78 URLs); body-parser 1.20.9 override once past pnpm minimumReleaseAge; Wayback retry ~11-01; 45-day re-verification of 2026-2031 entries by 2026-12-08; 2021-2026 V-14 warnings (8) as HCP/CSEFRS data arrives.
+- User actions: merge logs PR; delete repo-root PG-2026-2031.pdf (duplicate); optional `! git stash drop`.

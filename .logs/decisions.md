@@ -118,3 +118,7 @@
 ### [2026-10-24] DECISION — R4 clock start = PG-2026-2031.pdf last-modified 2026-10-23 11:04 UTC (node/13059 has no own date; earliest official evidence). Deadline 2026-10-26 11:04 UTC.
 
 ### [2026-10-24] DECISION — R4 batch 1 vs official text (user): #4 -> neet-moins-50-pourcent (p.70/92); #6 -> apprentissage-150-200-mille (p.93, yearly note kept); #7 -> premiere-experience-500000-jeunes (~500 000 over 5 years, no yearly note); #1 wording "gradual minimum monthly support"; #12 -> 52% installed electrical capacity by 2030. Language: official text AR only -> AR original, FR wa3d_translation. Batch stays 15; deadline 2031-10-16 for all.
+
+### [2026-10-25] DECISION — Session scope C: batch-2 commitments (2026-2031) + dev-only deps advisories (@vitest/mocker, ip-address) + archive retry for PG-2026-2031.pdf (Wayback first; second archive only with user-approved V-7 rule change).
+
+### [2026-10-25] DECISION — Archive: user tries SPN from own browser, else wait (retry weekly), V-7 unchanged. Page bug: separate fix PR first (+6 on 15 batch-1 origin.page, curation guide states page = PDF index). Batch 2: all 5 approved (1M jobs, unemployment 7%, women activity 21.2%, learnings x2, 26M tourists).

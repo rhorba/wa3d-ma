@@ -48,3 +48,7 @@
 
 ### [2026-10-17] ISSUE — A (manual source download): finances.gov.ma also fails to load in Chrome (user network); hcp.ma loads fine. Budget-execution reports (PLF 2026, loi de règlement 2024 n° 04.26) only hosted there. Paused, asked user.
 ### [2026-10-24] ISSUE — Wayback snapshot from user (web/20261024063233, URL with __cf_chl_rt_tk) = Cloudflare "Just a moment..." challenge page (id_ raw 403, 3720 B gzip HTML), not the PDF. Not usable as archiveUrl; origin.archiveUrl omitted (optional), follow-up. Local SHA-256 copy kept in .verification/sources/official/.
+
+### [2026-10-25] ISSUE — Wayback SPN for cg.gov.ma PG-2026-2031.pdf returns 520; CDX empty. archiveUrl stays empty on 15 (soon 20) 2026-2031 entries. Awaiting user choice (wait / second archive + V-7 change / user-side SPN).
+
+### [2026-10-25] BUG — 2026-2031 batch-1 origin.page = printed page number, but withPage() (lib/detail.ts:53) and worksheet link #page=N open PDF index N; printed = index - 6 in PG-2026-2031.pdf -> all 15 prod "open at page" links land 6 pages early. 2021-2026 uses PDF index (correct). Fix proposed: +6 on 15 entries; awaiting user decision.
