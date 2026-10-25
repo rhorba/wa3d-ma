@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chomage-sept-pourcent-2031",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Ramener le taux de chômage à 7 % en 2031",
+    "ar": "انخفاض معدل البطالة إلى 7% سنة 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Si l'on tient compte de l'engagement du gouvernement à porter le taux d'activité économique des femmes à 21,2 %, le taux de chômage baissera à 7 % en 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«وإذا أخذنا بعين الاعتبار التزام الحكومة برفع نسبة النشاط الاقتصادي للنساء إلى 21,2%، فإن معدل البطالة سينخفض إلى 7% سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-25",
+    "page": 130
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-25",
+  "evidence": []
+}
