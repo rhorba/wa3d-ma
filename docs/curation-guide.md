@@ -23,7 +23,7 @@ Every change goes through a pull request. Git history is the public audit trail:
    - `original`: the programme's own text.
    - `official_translation`: a translation published by the government.
    - `wa3d_translation`: our translation, shown with the label "traduction Wa3d" / "ترجمة وعد". Use it only when no official translation exists.
-4. **Origin**: the programme document, its URL and the **page** (`origin.page`). If the programme exists only as a speech, the official transcript is the origin.
+4. **Origin**: the programme document, its URL and the **page** (`origin.page`): the PDF page index (the number your PDF viewer shows), not the number printed on the page, so `#page=N` links open the right page. If the programme exists only as a speech, the official transcript is the origin.
 5. **Title** (≤ 90 characters): a neutral label reusing the quote's own words. It states the promise, never a judgement.
    - ✅ "Création d'un million d'emplois nets"
    - ❌ "Le million d'emplois promis", "L'emploi, grand chantier du gouvernement"
