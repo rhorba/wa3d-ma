@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "emplois-un-million",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Créer près d'un million d'emplois durant le mandat",
+    "ar": "إحداث ما يقارب مليون منصب شغل خلال الولاية الحكومية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Cette dynamique intégrée, qui conjugue le renforcement de la compétitivité des secteurs productifs et de services, la valorisation de leurs atouts, l'encouragement de l'investissement et le renforcement de la production locale, devrait ouvrir de nouvelles perspectives de croissance et d'emploi, ce qui permettra, en plus des mesures mentionnées dans le cinquième axe, de créer près d'un million de postes d'emploi durant le mandat gouvernemental. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«من شأن هذه الدينامية المتكاملة، التي تجمع بين تعزيز تنافسية القطاعات الإنتاجية والخدماتية، وتثمين مؤهلاتها، وتحفيز الاستثمار، وتقوية الإنتاج المحلي، أن تفتح آفاقا جديدة للنمو والتشغيل مما سيمكن، بالإضافة إلى التدابير المشار إليها في المحور الخامس، من إحداث ما يقارب مليون منصب شغل خلال الولاية الحكومية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-25",
+    "page": 130
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-25",
+  "evidence": []
+}

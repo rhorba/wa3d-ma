@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tourisme-26-millions-2030",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Atteindre 26 millions de touristes à l'horizon 2030",
+    "ar": "بلوغ 26 مليون سائح في أفق سنة 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement entend lancer une nouvelle feuille de route du tourisme pour la période 2027-2030, afin de consolider la dynamique du secteur, de positionner le Maroc parmi les quinze destinations les plus attractives au monde et d'atteindre 26 millions de touristes à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعتزم الحكومة إطلاق خارطة طريق جديدة للسياحة برسم الفترة 2027-2030، بهدف ترسيخ دينامية القطاع، وتموقع المغرب ضمن الوجهات الخمس عشرة الأكثر جاذبية في العالم، وبلوغ 26 مليون سائح في أفق سنة 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-25",
+    "page": 124
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-25",
+  "evidence": []
+}

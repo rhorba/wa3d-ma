@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "apprentissages-fondamentaux-doubler-2031",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Doubler la proportion d'élèves maîtrisant les apprentissages fondamentaux d'ici 2031",
+    "ar": "مضاعفة نسبة التلاميذ المتحكمين في التعلمات والكفايات الأساسية في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement œuvre à doubler la proportion d'élèves maîtrisant les apprentissages et les compétences fondamentaux à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل الحكومة على مضاعفه نسبة التلاميذ المتحكمين في التعلمات والكفايات الأساسية في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-25",
+    "page": 76
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-25",
+  "evidence": []
+}
