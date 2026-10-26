@@ -24,7 +24,7 @@
     "page": 68
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-26",
   "evidence": [
     {
       "date": "2022-01-12",
@@ -41,6 +41,21 @@
       }
     },
     {
+      "date": "2023-02-13",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le comité stratégique du programme « Awrach », présidé par le Chef du gouvernement, présente le bilan de 2022 : 103 599 bénéficiaires, dont 30 % de femmes, et lance « Awrach 2 ».",
+        "ar": "قدمت اللجنة الاستراتيجية لبرنامج «أوراش»، برئاسة رئيس الحكومة، حصيلة سنة 2022: 103.599 مستفيدا، 30 في المائة منهم نساء، وأعطت الانطلاقة الفعلية لـ«أوراش 2»."
+      },
+      "source": {
+        "name": "Portail national du Maroc, bilan 2022 du programme « Awrach » (communiqué du Chef du gouvernement)",
+        "url": "https://www.maroc.ma/ar/%D8%AD%D8%B5%D9%8A%D9%84%D8%A9-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-%D8%AE%D9%84%D8%A7%D9%84-%D8%B3%D9%86%D8%A9-2022-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-103599-%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D8%A7-%D9%88%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "archiveUrl": "https://web.archive.org/web/20230214082337/https://www.maroc.ma/ar/%D8%AD%D8%B5%D9%8A%D9%84%D8%A9-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-%D8%AE%D9%84%D8%A7%D9%84-%D8%B3%D9%86%D8%A9-2022-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-103599-%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D8%A7-%D9%88%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "published": "2023-02-14",
+        "accessed": "2026-10-26"
+      }
+    },
+    {
       "date": "2023-03-06",
       "status": "in_progress",
       "note": {
@@ -53,6 +68,36 @@
         "archiveUrl": "https://web.archive.org/web/20250815093649/https://www.cg.gov.ma/en/node/11058",
         "published": "2023-03-06",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2023-12-18",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le ministre de l'Inclusion économique indique à la Chambre des représentants que la deuxième édition du programme « Awrach » compte plus de 60 000 bénéficiaires, pour un objectif de 250 000 emplois directs en deux ans.",
+        "ar": "أفاد وزير الإدماج الاقتصادي بمجلس النواب بأن عدد المستفيدين من النسخة الثانية من برنامج «أوراش» فاق 60 ألف شخص، في أفق هدف إجمالي قدره 250 ألف منصب شغل مباشر في غضون سنتين."
+      },
+      "source": {
+        "name": "Portail national du Maroc, réponse du ministre de l'Inclusion économique à la Chambre des représentants sur « Awrach 2 »",
+        "url": "https://www.maroc.ma/ar/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-2-%D9%81%D8%A7%D9%82-60-%D8%A3%D9%84%D9%81-%D8%B4%D8%AE%D8%B5/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "archiveUrl": "https://web.archive.org/web/20231219105250/https://www.maroc.ma/ar/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-2-%D9%81%D8%A7%D9%82-60-%D8%A3%D9%84%D9%81-%D8%B4%D8%AE%D8%B5/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "published": "2023-12-19",
+        "accessed": "2026-10-26"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "status": "partial",
+      "note": {
+        "fr": "Les derniers chiffres officiels publiés font état de 103 599 bénéficiaires en 2022 (première édition) et de plus de 60 000 bénéficiaires de la deuxième édition en décembre 2023, soit au moins 163 599 sur les 250 000 emplois annoncés. Aucun bilan officiel ultérieur n'a été publié avant la fin du mandat.",
+        "ar": "تفيد آخر الأرقام الرسمية المنشورة بتسجيل 103.599 مستفيدا سنة 2022 (النسخة الأولى) وأزيد من 60 ألف مستفيد من النسخة الثانية في دجنبر 2023، أي 163.599 على الأقل من أصل 250 ألف منصب شغل المعلن عنها. ولم تنشر أي حصيلة رسمية لاحقة قبل نهاية الولاية."
+      },
+      "source": {
+        "name": "Portail national du Maroc, réponse du ministre de l'Inclusion économique à la Chambre des représentants sur « Awrach 2 »",
+        "url": "https://www.maroc.ma/ar/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-2-%D9%81%D8%A7%D9%82-60-%D8%A3%D9%84%D9%81-%D8%B4%D8%AE%D8%B5/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "archiveUrl": "https://web.archive.org/web/20231219105250/https://www.maroc.ma/ar/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-2-%D9%81%D8%A7%D9%82-60-%D8%A3%D9%84%D9%81-%D8%B4%D8%AE%D8%B5/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "published": "2023-12-19",
+        "accessed": "2026-10-26"
       }
     }
   ]
