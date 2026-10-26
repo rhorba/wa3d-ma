@@ -210,3 +210,12 @@
 - Archive: Wayback SPN fails for cg.gov.ma (HTTP 520 from here, "Job failed" from user browser) -> wait, retry weekly (next ~2026-11-01); archiveUrl empty on 20 entries; V-7 unchanged.
 - Next: GSC recheck ~2026-10-28 (resubmit sitemap, 78 URLs); body-parser 1.20.9 override once past pnpm minimumReleaseAge; Wayback retry ~11-01; 45-day re-verification of 2026-2031 entries by 2026-12-08; 2021-2026 V-14 warnings (8) as HCP/CSEFRS data arrives.
 - User actions: merge logs PR; delete repo-root PG-2026-2031.pdf (duplicate); optional `! git stash drop`.
+
+### [2026-10-26] SESSION_START
+- Resumed. origin/main ed7f7a2 (#75 logs merged), main CI GREEN, no open PRs, Dependabot open 0, prod /fr 200; repo-root PG-2026-2031.pdf gone. Branch chore/logs-2026-10-26. UNDERSTAND: awaiting user pick.
+
+### [2026-10-26] SESSION_END
+- Completed: D1 sweep (no new official facts except Awrach); #76 batch 3 (9 commitments: AMO public share 50 %, 35 health workers/10k, préscolaire 2028 [deadline 2028-12-31], class overcrowding, school water/sanitation, slums 2030, housing aid 300k, IR exemption 60k DH, fibre 80 %) live on prod (29 per locale, sitemap 96); #77 Awrach partial (maroc.ma 2023-02-13 + 2023-12-18, Wayback copies pre-existing) live; v1.4 recording. Tests 283, coverage 99.83%.
+- Notes: Wayback SPN is blocked by auto-mode permission (outward publish) -> user runs it or allows it; git stash -u fails on OneDrive (tests/unit lock), avoid.
+- Next: GSC recheck ~2026-10-28 (resubmit sitemap, 96 URLs); body-parser 1.20.9 override from 2026-10-29; Wayback retry for PG-2026-2031.pdf ~11-01 (archiveUrl empty on 29 entries); 7 V-14 warnings (HCP annual 2026 ~Feb 2027, CSEFRS); 45-day re-verification of 2026-2031 entries by 2026-12-08; batch-4 alternates in worksheet (1 600 primary care, youth housing 100k, school transport 730k, motorways, local integration).
+- User actions: merge logs PR.

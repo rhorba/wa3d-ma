@@ -52,3 +52,6 @@
 ### [2026-10-25] ISSUE — Wayback SPN for cg.gov.ma PG-2026-2031.pdf returns 520; CDX empty. archiveUrl stays empty on 15 (soon 20) 2026-2031 entries. Awaiting user choice (wait / second archive + V-7 change / user-side SPN).
 
 ### [2026-10-25] BUG — 2026-2031 batch-1 origin.page = printed page number, but withPage() (lib/detail.ts:53) and worksheet link #page=N open PDF index N; printed = index - 6 in PG-2026-2031.pdf -> all 15 prod "open at page" links land 6 pages early. 2021-2026 uses PDF index (correct). Fix proposed: +6 on 15 entries; awaiting user decision.
+### [2026-10-26] ISSUE — Awrach (2021-2026, deadline 2026-10-16 passed): no official final tally on V-7 domains; last evidence in_progress 2023-03-06. Decision needed: keep searching (chambredesrepresentants Q&A, ANAPEC) vs. not_achieved per guide §4 rule ("no official source shows it met").
+### [2026-10-26] ISSUE — git stash -u failed mid-way (OneDrive lock on tests/unit/, Permission denied); working tree intact, duplicate stash dropped. Avoid stash -u on this repo; branch with uncommitted logs instead.
+### [2026-10-26] ISSUE — #77 BEHIND main after #76 merge (strict checks + linear history); rebased via gh pr update-branch --rebase, CI re-running.
