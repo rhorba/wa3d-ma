@@ -122,3 +122,6 @@
 ### [2026-10-25] DECISION — Session scope C: batch-2 commitments (2026-2031) + dev-only deps advisories (@vitest/mocker, ip-address) + archive retry for PG-2026-2031.pdf (Wayback first; second archive only with user-approved V-7 rule change).
 
 ### [2026-10-25] DECISION — Archive: user tries SPN from own browser, else wait (retry weekly), V-7 unchanged. Page bug: separate fix PR first (+6 on 15 batch-1 origin.page, curation guide states page = PDF index). Batch 2: all 5 approved (1M jobs, unemployment 7%, women activity 21.2%, learnings x2, 26M tourists).
+### [2026-10-26] DECISION — Session scope D: news/data sweep (A) + batch-3 2026-2031 commitments (B). Archive workaround deferred to weekly retry ~11-01.
+### [2026-10-26] DECISION — Batch 3 (2026-2031): user keeps all 9 candidates; #3 prescolaire-generalise-2028 deadline 2028-12-31 (own horizon, exception to batch-1 rule; others stay 2031-10-16); trimmed quotes (initial connectors dropped, #9 ends at comma) approved. Awrach: option A (one more official-source search: parliament Q&A, ANAPEC) before any verdict.
+### [2026-10-26] DECISION — Awrach (2021-2026): user picked A: 2 in_progress entries (2023-02-13 maroc.ma 103 599 beneficiaries 2022; 2023-12-18 maroc.ma Awrach 2 > 60 000) + partial verdict 2026-10-26 (>= 163 599 / 250 000, no later official tally). Separate PR data/awrach-verdict.

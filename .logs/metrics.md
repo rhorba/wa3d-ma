@@ -68,3 +68,4 @@
 ### [2026-10-24] METRICS — fix/zod-cve-2026-10-24 (#69): tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit --prod 0.
 ### [2026-10-24] METRICS — data/2026-2031-programme (#70): tests 283/283, coverage 99.83% statements / 96.87% branches; catalogue 31 commitments (16 + 15), 0 errors.
 ### [2026-10-25] METRICS — #72 deps, #73 page fix, #74 batch 2: tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit --prod 0; full audit 5 high dev-only; Dependabot open alerts 0; catalogue 36 commitments (16 + 20), 0 errors; prod sitemap 78 URLs.
+### [2026-10-26] METRICS — #76 batch 3, #77 Awrach: tests 283/283, coverage 99.83% statements / 96.87% branches; catalogue 45 commitments (16 + 29), 0 errors, 7 V-14 warnings (was 8); prod sitemap 96 URLs; Dependabot open alerts 0.
