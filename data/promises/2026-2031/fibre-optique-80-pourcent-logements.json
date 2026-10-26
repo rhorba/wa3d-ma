@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fibre-optique-80-pourcent-logements",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Fibre optique pour 80 % des logements",
+    "ar": "تجهيز 80% من المساكن بالألياف البصرية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement s'engage à assurer le raccordement de tous au réseau de télécommunications, en garantissant l'équipement de 80 % des logements en fibre optique. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تلتزم الحكومة بتوفير خدمة الربط بشبكة الاتصالات للجميع مع ضمان تجهيز 80% من المساكن بالألياف البصرية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 38
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

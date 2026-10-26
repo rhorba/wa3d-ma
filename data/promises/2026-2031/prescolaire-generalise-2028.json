@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "prescolaire-generalise-2028",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Achever la généralisation du préscolaire d'ici 2028",
+    "ar": "استكمال تعميم الولوج إلى التعليم الأولي في أفق 2028"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Achever la généralisation de l'accès au préscolaire à l'horizon 2028, en plaçant l'amélioration de la qualité des services éducatifs au cœur des priorités, en garantissant l'égalité des chances entre tous les enfants et en accordant une attention particulière aux zones rurales et aux territoires déficitaires. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«استكمال تعميم الولوج إلى التعليم الأولي في أفق 2028، مع جعل الارتقاء بجودة الخدمات التربوية في صلب الأولويات، وضمان تكافؤ الفرص بين جميع الأطفال، مع إيلاء عناية خاصة للمناطق القروية والمجالات التي تعرف خصاصاً»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 78
+  },
+  "deadline": "2028-12-31",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

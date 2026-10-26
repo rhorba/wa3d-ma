@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "impot-revenu-exoneration-60000-dirhams",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Impôt sur le revenu : exonération portée à 60 000 dirhams et trois tranches",
+    "ar": "رفع حد الشطر المعفى من الضريبة على الدخل من 40.000 إلى 60.000 درهم"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Cette réforme comprend le relèvement du plafond de la première tranche, relative au revenu net exonéré, de 40 000 à 60 000 dirhams, la réduction du nombre de tranches imposables de cinq à trois, l'adoption de taux progressifs de 10 %, 20 % et 30 % sur ces tranches, ainsi que la baisse du taux marginal appliqué à la dernière tranche de 37 % à 30 %. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«يشمل هذا الإصلاح رفع حد الشطر الأول، المتعلق بالدخل الصافي المعفى، من 40.000 إلى 60.000 درهم، وتقليص عدد الأشطر الخاضعة للضريبة من خمسة إلى ثلاثة، واعتماد معدلات ضريبية تصاعدية بنسبة 10% و20% و30% على هذه الأشطر، إضافة إلى خفض المعدل الهامشي المطبق على الشطر الأخير من 37% إلى 30%»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 58
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

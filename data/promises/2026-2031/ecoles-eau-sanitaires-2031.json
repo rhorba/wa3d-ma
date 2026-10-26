@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ecoles-eau-sanitaires-2031",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Eau potable et sanitaires dans tous les établissements scolaires d'ici 2031",
+    "ar": "تعميم الولوج إلى الماء الصالح للشرب والمرافق الصحية بجميع المؤسسات التعليمية في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« S'engager, à l'horizon 2031, à généraliser l'accès à l'eau potable et à des sanitaires adaptés dans tous les établissements scolaires, en assurant leur entretien et la continuité de leurs services. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«الالتزام، في أفق سنة 2031، بتعميم الولوج إلى الماء الصالح للشرب والمرافق الصحية الملائمة بجميع المؤسسات التعليمية، مع ضمان صيانتها واستمرارية خدماتها»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 83
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}
