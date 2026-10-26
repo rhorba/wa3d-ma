@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sante-part-publique-amo-50-pourcent-2031",
+  "mandate": "2026-2031",
+  "theme": "health",
+  "title": {
+    "fr": "Porter à 50 % la part des hôpitaux publics dans les dépenses de l'AMO d'ici 2031",
+    "ar": "رفع حصة المؤسسات الصحية العمومية من نفقات التأمين الإجباري عن المرض إلى 50% في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement œuvre à porter la part des établissements de santé publics dans les dépenses de l'assurance maladie obligatoire de base à 50 % à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل الحكومة على رفع حصة المؤسسات الصحية العمومية من نفقات التأمين الإجباري الأساسي عن المرض إلى 50% في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 65
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

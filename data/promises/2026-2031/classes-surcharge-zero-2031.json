@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "classes-surcharge-zero-2031",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Mettre fin à la surcharge des classes d'ici 2031",
+    "ar": "القضاء النهائي على ظاهرة الاكتظاظ بالأقسام الدراسية في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« À travers ce pilier, le gouvernement œuvre à l'élimination définitive du phénomène de surcharge des classes à l'horizon 2031, en accélérant la création d'établissements scolaires et l'extension des établissements existants, et en renforçant les ressources humaines éducatives et leur répartition territoriale. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل الحكومة من خلال هذا المرتكز على القضاء النهائي على ظاهرة الاكتظاظ بالأقسام الدراسية في أفق سنة 2031، من خلال تسريع وتيرة إحداث المؤسسات التعليمية وتوسيع المؤسسات القائمة، وتعزيز الموارد البشرية التربوية وتحسين توزيعها المجالي»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 83
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aide-logement-300000-beneficiaires",
+  "mandate": "2026-2031",
+  "theme": "housing",
+  "title": {
+    "fr": "Aide directe au logement : au moins 300 000 bénéficiaires cumulés",
+    "ar": "رفع العدد التراكمي للمستفيدين من الدعم المباشر للسكن إلى 300 ألف على الأقل"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Après une évaluation indépendante du programme avant la fin de sa phase actuelle en 2028, le gouvernement œuvre à le prolonger jusqu'à la fin du mandat et à porter le nombre cumulé de bénéficiaires à au moins 300 000. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل الحكومة، بعد تقييم مستقل للبرنامج قبل انتهاء مرحلته الحالية سنة 2028، على تمديده إلى نهاية الولاية ورفع العدد التراكمي للمستفيدين إلى 300 ألف على الأقل»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 92
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}

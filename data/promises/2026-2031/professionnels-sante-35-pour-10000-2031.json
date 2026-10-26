@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "professionnels-sante-35-pour-10000-2031",
+  "mandate": "2026-2031",
+  "theme": "health",
+  "title": {
+    "fr": "Atteindre 35 professionnels de santé pour 10 000 habitants d'ici 2031",
+    "ar": "بلوغ 35 مهنيا صحيا لكل 10.000 نسمة في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« À travers ce pilier, le gouvernement vise à atteindre 35 professionnels de santé pour 10 000 habitants à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تهدف الحكومة من خلال هذا المرتكز إلى بلوغ 35 مهنياً صحياً لكل 10.000 نسمة في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-26",
+    "page": 65
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-26",
+  "evidence": []
+}
