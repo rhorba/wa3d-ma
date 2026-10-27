@@ -69,3 +69,6 @@
 ### [2026-10-24] METRICS — data/2026-2031-programme (#70): tests 283/283, coverage 99.83% statements / 96.87% branches; catalogue 31 commitments (16 + 15), 0 errors.
 ### [2026-10-25] METRICS — #72 deps, #73 page fix, #74 batch 2: tests 283/283, coverage 99.83% statements / 96.87% branches; pnpm audit --prod 0; full audit 5 high dev-only; Dependabot open alerts 0; catalogue 36 commitments (16 + 20), 0 errors; prod sitemap 78 URLs.
 ### [2026-10-26] METRICS — #76 batch 3, #77 Awrach: tests 283/283, coverage 99.83% statements / 96.87% branches; catalogue 45 commitments (16 + 29), 0 errors, 7 V-14 warnings (was 8); prod sitemap 96 URLs; Dependabot open alerts 0.
+
+### [2026-10-27] SPRINT_SNAPSHOT
+- PRs merged: #79 (PLF 2027 verdicts: Awrach 224 371, préscolaire partial 82,3%), #80 (2026-2031 batch 4, 7 commitments). Catalogue 52 commitments (16 in 2021-2026, 36 in 2026-2031), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 110 URLs.

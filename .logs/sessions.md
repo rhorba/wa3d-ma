@@ -219,3 +219,12 @@
 - Notes: Wayback SPN is blocked by auto-mode permission (outward publish) -> user runs it or allows it; git stash -u fails on OneDrive (tests/unit lock), avoid.
 - Next: GSC recheck ~2026-10-28 (resubmit sitemap, 96 URLs); body-parser 1.20.9 override from 2026-10-29; Wayback retry for PG-2026-2031.pdf ~11-01 (archiveUrl empty on 29 entries); 7 V-14 warnings (HCP annual 2026 ~Feb 2027, CSEFRS); 45-day re-verification of 2026-2031 entries by 2026-12-08; batch-4 alternates in worksheet (1 600 primary care, youth housing 100k, school transport 730k, motorways, local integration).
 - User actions: merge logs PR.
+
+### [2026-10-27] SESSION_START
+- Resumed. origin/main d7806e1 (#78 logs merged), main CI GREEN, no open PRs, Dependabot open 0. Branch chore/logs-2026-10-27. UNDERSTAND: awaiting user pick.
+
+### [2026-10-27] SESSION_END
+- Completed: D1 sweep (PLF 2027 docs on finances.gov.ma: REF + Note de présentation, SHA-256 logged); #79 Awrach evidence 224 371 official (~90 %, partial) + préscolaire verdict partial 82,3 % live on prod; #80 batch 4 (CHU x4, 1 600 ESSP, school transport 730k, youth housing 100k, local integration 80 % auto 2031, digital 100k/yr, airports 80M 2030) live (36 per locale, sitemap 110); motorways dropped; v1.5 recording. Tests 283, coverage 99.83 %.
+- Archive: no Wayback copy of PLF 2027 Note/REF nor PG-2026-2031.pdf; archiveUrl empty on #79 evidence (2) and 36 2026-2031 entries.
+- Next: GSC recheck 2026-10-28 (resubmit sitemap, 110 URLs); body-parser 1.20.9 override from 2026-10-29; Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); 6 V-14 warnings (HCP annual 2026 ~Feb 2027: growth, jobs, women activity; Gini/poverty; education ranking); 45-day re-verification of 2026-2031 entries by 2026-12-08.
+- User actions: merge logs PR.

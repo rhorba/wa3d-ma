@@ -538,3 +538,17 @@
 ### [2026-10-26] SHIP — #77 merged by user (main 4c50eba), main CI GREEN (run 40311190158). Prod /{fr,ar}/2021-2026/awrach-250000-emplois: "Partiellement réalisé" + Wayback link.
 ### [2026-10-26] VIDEO_RECORDED — .recordings/v1.4-2026-10-26.webm (1 616 048 B), fixture build of 4c50eba, archive on; scenario e2e/record/journeys.record.ts. Version v1.4 = 2026-2031 batch 3 (29 commitments) + Awrach verdict.
 ### [2026-10-26] SHIP — logs PR on chore/logs-2026-10-26 (logs 10-26 + v1.4 recording).
+
+### [2026-10-27] PLAN — C: D1 news/data sweep since 2026-10-26, then D2 batch-4 worksheet (gate), D3 batch-4 data PR, D4 logs/recording.
+### [2026-10-27] HANDOFF Orchestrator -> Security/DBA curation: D1 sweep cg.gov.ma, HCP, men.gov.ma, finances.gov.ma, maroc.ma since 2026-10-26; report only, no data edits without user sign-off.
+### [2026-10-27] EXECUTE — D1 sweep: cg.gov.ma node/13060 (programme page), 13061 (infographic quote, Amazigh fund 2 bn DH = already amazighe-fonds-deux-milliards), 13062 (7 priorities infographic, no figures); HCP: no new annual figure; maroc.ma: nothing relevant; finances.gov.ma: PLF 2027 published. Downloaded Note de présentation (SHA-256 8b565393…2459) + REF (f4dd6fa7…26f2) to .verification/sources. Findings: REF p.idx56 Awrach 224 371 beneficiaries (~90% of 250 000, 32,4% women); Note p.idx64-65 préscolaire 82,3% in 2025-2026 (target 90% 2026-27); Note p.idx15 growth ~3,7% avg 2022-2025 (HCP-based entry already 3,6%, no change); REF jobs = HCP series (no change). Wayback: no snapshot of either PDF. Awaiting user sign-off on data edits.
+### [2026-10-27] EXECUTE — D1 data: #79 data/plf2027-verdicts (Awrach evidence 224 371 official, partial; préscolaire verdict partial 82,3%). VERIFY: catalogue 0 errors / 6 warnings (V-14 7->6), prettier OK, tests 283 passed, coverage 99.83%, pnpm audit --prod clean.
+### [2026-10-27] CI — #79 11/11 GREEN (Vercel preview OK). Awaiting user merge.
+### [2026-10-27] HANDOFF Security/DBA curation -> Security/DBA curation (batch 4): D2 worksheet from PG-2026-2031.pdf alternates (pp. idx 69, 84, 101, 109, 116, 38); AR from rendered pages; rules batch 1-3; gate = user sign-off.
+### [2026-10-27] EXECUTE — D2: .verification/worksheet-2026-2031-batch4-2026-10-27.md: 8 candidates (4 CHU, 1 600 ESSP, school transport 730k, youth housing 100k, local integration 80% auto 2031, digital 100k/yr, airports 80M 2030, motorways 1 000 km proposed out). AR from rendered pages. Awaiting user sign-off.
+### [2026-10-27] SHIP — #79 merged (22133eb) by user; prod FR/AR show Awrach 224 371 and préscolaire 82,3%; main CI success.
+### [2026-10-27] EXECUTE — D3: batch 4 (7 entries) on data/2026-2031-batch4. VERIFY: catalogue 52 commitments 0 errors, prettier OK, tests 283, coverage 99.83%, audit clean.
+### [2026-10-27] CI — #80 GREEN (all jobs); Real data smoke took 11m27s (usual ~2m30s), passed.
+### [2026-10-27] SHIP — #80 merged (4fe5b55) by user; prod /fr/2026-2031 and /ar/2026-2031 list 36 commitments, sitemap 110 URLs, new pages 200.
+### [2026-10-27] VIDEO_RECORDED — .recordings/v1.5-2026-10-27.webm (1 604 955 B), fixture build of 4fe5b55, archive on; scenario e2e/record/journeys.record.ts. Version v1.5 = PLF 2027 verdicts (Awrach, préscolaire) + 2026-2031 batch 4 (36 commitments).
+### [2026-10-27] SHIP — logs PR on chore/logs-2026-10-27 (logs 10-27 + v1.5 recording).
