@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "soins-primaires-1600-etablissements",
+  "mandate": "2026-2031",
+  "theme": "health",
+  "title": {
+    "fr": "Mettre à niveau 1 600 établissements de soins de santé primaires supplémentaires",
+    "ar": "استكمال تأهيل 1.600 مؤسسة إضافية للرعاية الصحية الأولية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« … ainsi que l'achèvement de la mise à niveau de 1 600 établissements supplémentaires de soins de santé primaires et l'accélération du programme de mise à niveau de 90 hôpitaux provinciaux et régionaux. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إلى جانب استكمال تأهيل 1.600 مؤسسة إضافية للرعاية الصحية الأولية، وتسريع برنامج تأهيل 90 مستشفى إقليمي وجهوي»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 69
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aeroports-80-millions-passagers-2030",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Aéroports : capacité de 80 millions de passagers d'ici 2030",
+    "ar": "بلوغ طاقة نقل جوي تبلغ 80 مليون مسافر في أفق 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement veille à accompagner et à accélérer la mise en œuvre d'un programme d'investissement d'environ 38 milliards de dirhams pour développer la capacité d'accueil des aéroports, dans le cadre de la stratégie “Aéroports 2030”, qui vise une capacité de transport aérien de 80 millions de passagers à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تحرص الحكومة على مواكبة وتسريع وتيرة تنفيذ برنامج استثماري يناهز 38 مليار درهم، لتطوير الطاقة الاستيعابية للمطارات، ضمن استراتيجية \"مطارات 2030\"، الرامية إلى بلوغ طاقة نقل جوي تبلغ 80 مليون مسافر في أفق 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 116
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}
