@@ -72,3 +72,6 @@
 
 ### [2026-10-27] SPRINT_SNAPSHOT
 - PRs merged: #79 (PLF 2027 verdicts: Awrach 224 371, préscolaire partial 82,3%), #80 (2026-2031 batch 4, 7 commitments). Catalogue 52 commitments (16 in 2021-2026, 36 in 2026-2031), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 110 URLs.
+
+### [2026-10-27] SPRINT_SNAPSHOT (sprint 2)
+- PR merged: #82 (2026-2031 batch 5, 6 commitments). Catalogue 58 commitments (16 in 2021-2026, 42 in 2026-2031), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 122 URLs.

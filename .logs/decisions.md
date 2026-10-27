@@ -133,3 +133,5 @@
 - D1 gate: user picked A: one data PR (Awrach note -> 224 371 official; préscolaire verdict partial 82,3%), archiveUrl empty (no Wayback copy), then batch 4.
 
 ### [2026-10-27] DECISION — Batch 4 (2026-2031): user keeps #1-#7 as proposed (separate CHU / ESSP entries; #5 auto title, aero 60% in quote; #6 yearly, one mandate entry); #8 motorways dropped. Deadline 2031-10-16 for all.
+
+### [2026-10-27] DECISION — Batch 5 (2026-2031): user keeps all 6 as proposed (#1 governance; #2 alongside NEET). Deadline 2031-10-16.
