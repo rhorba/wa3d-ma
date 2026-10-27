@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cesariennes-25-pourcent",
+  "mandate": "2026-2031",
+  "theme": "health",
+  "title": {
+    "fr": "Ramener les césariennes vers un objectif national intermédiaire d'environ 25 %",
+    "ar": "خفض الولادات القيصرية غير المبررة طبيا نحو هدف وطني مرحلي في حدود 25%"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Elle veille à réduire les césariennes non justifiées médicalement, à partir des taux élevés enregistrés, vers un objectif national intermédiaire d'environ 25 %, en s'appuyant sur des protocoles cliniques et des indicateurs de qualité et de sécurité. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تسهر على خفض الولادات القيصرية غير المبررة طبياً، انطلاقاً من المعدلات المرتفعة المسجلة، نحو هدف وطني مرحلي في حدود 25%، بالاستناد إلى بروتوكولات سريرية ومؤشرات جودة وسلامة»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 60
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

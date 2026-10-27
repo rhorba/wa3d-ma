@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "commande-publique-30-pourcent-pme",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Réserver 30 % de la commande publique aux PME marocaines",
+    "ar": "تخصيص 30% من قيمة الصفقات العمومية للمقاولات الصغرى والمتوسطة المغربية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement en fait un véritable levier de développement du tissu productif national, en obligeant légalement les maîtres d'ouvrage publics à réserver 30 % de la valeur de leurs marchés aux petites et moyennes entreprises marocaines, avec des sanctions financières et juridiques en cas de manquement. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تجعل منها الحكومة أداة فعلية لتنمية النسيج الإنتاجي الوطني، من خلال إلزام أصحاب الطلبيات العمومية، قانونيا، بتخصيص 30% من قيمة صفقاتهم للمقاولات الصغرى والمتوسطة المغربية، مع إقرار عقوبات مالية وقانونية عند الإخلال بذلك»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 37
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

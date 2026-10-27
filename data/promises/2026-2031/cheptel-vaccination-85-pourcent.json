@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cheptel-vaccination-85-pourcent",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Vacciner ou traiter au moins 85 % du cheptel, identification à 100 %",
+    "ar": "تلقيح أو معالجة ما لا يقل عن 85% من القطيع وتعميم ترقيمه"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Préserver la santé animale et renforcer la prévention sanitaire, en vaccinant ou en traitant au moins 85 % du cheptel contre les principales maladies animales et en généralisant l'identification du cheptel à 100 %. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«الحفاظ على صحة الحيوان وتعزيز الوقاية الصحية، من خلال تلقيح أو معالجة ما لا يقل عن 85% من القطيع ضد الأمراض الحيوانية الرئيسية، وتعميم ترقيم القطيع بنسبة 100%»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 108
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}
