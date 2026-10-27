@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "integration-locale-automobile-80-pourcent-2031",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Intégration locale : 80 % dans l'automobile d'ici 2031",
+    "ar": "بلوغ نسبة إدماج محلي في حدود 80% في صناعة السيارات في أفق 2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement adopte une trajectoire progressive et transparente d'intégration industrielle locale, dont les objectifs sont fixés chaque année dans les contrats sectoriels, permettant de tendre vers un taux d'intégration locale d'environ 80 % dans l'industrie automobile et de 60 % dans l'industrie aéronautique à l'horizon 2031. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعتمد الحكومة مسارا تصاعديا وشفافا للإدماج الصناعي المحلي، تحدد أهدافه سنويا ضمن العقود القطاعية، بما يتيح التوجه نحو بلوغ نسبة إدماج محلي في حدود 80% في صناعة السيارات، و60% في صناعة الطيران، في أفق سنة 2031»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 109
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

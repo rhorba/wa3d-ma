@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "logement-jeunes-100000-solutions",
+  "mandate": "2026-2031",
+  "theme": "housing",
+  "title": {
+    "fr": "« Logement pour les jeunes » : environ 100 000 solutions entre 2027 et 2031",
+    "ar": "توفير حوالي 100.000 حل سكني للشباب بين 2027 و2031"
+  },
+  "quote": {
+    "fr": {
+      "text": "« À travers le programme “Logement pour les jeunes”, le gouvernement fournit environ 100 000 solutions de logement entre 2027 et 2031, comprenant de petits logements locatifs, des résidences pour jeunes et du logement partagé. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«توفر الحكومة عبر برنامج \"السكن للشباب\" حوالي 100.000 حل سكني بين 2027 و2031 تشمل مساكن إيجارية صغيرة وإقامات للشباب والسكن المشترك»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 101
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

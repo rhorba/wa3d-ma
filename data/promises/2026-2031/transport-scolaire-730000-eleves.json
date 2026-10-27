@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "transport-scolaire-730000-eleves",
+  "mandate": "2026-2031",
+  "theme": "education",
+  "title": {
+    "fr": "Transport scolaire rural : de 624 000 à 730 000 élèves",
+    "ar": "رفع عدد المستفيدين من النقل المدرسي بالعالم القروي إلى نحو 730 ألف تلميذ"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Généraliser le transport scolaire en milieu rural et en améliorer la qualité, en visant à porter le nombre de bénéficiaires d'environ 624 000 élèves actuellement à près de 730 000, en donnant la priorité aux zones confrontées à des difficultés liées à l'éloignement géographique. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعميم النقل المدرسي بالعالم القروي وتحسين جودته، مع استهداف رفع عدد المستفيدين من حوالي 624 ألف تلميذ حاليا إلى نحو 730 ألف تلميذ، وإعطاء الأولوية للمناطق التي تعرف صعوبات مرتبطة بالبعد الجغرافي»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 84
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

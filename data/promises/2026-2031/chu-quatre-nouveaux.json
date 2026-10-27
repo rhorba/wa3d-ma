@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chu-quatre-nouveaux",
+  "mandate": "2026-2031",
+  "theme": "health",
+  "title": {
+    "fr": "Réaliser quatre nouveaux CHU régionaux",
+    "ar": "إنجاز أربعة مراكز استشفائية جامعية جهوية جديدة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement accélère le plan d'investissement dans les infrastructures de santé, à travers la réalisation de quatre nouveaux centres hospitaliers universitaires régionaux à Béni Mellal, Guelmim, Errachidia et Casablanca. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تسرّع الحكومة مخطط الاستثمار في البنيات التحتية الصحية، من خلال إنجاز أربع مراكز استشفائية جامعية جهوية جديدة بكل من بني ملال وكلميم والرشيدية والدار البيضاء»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 69
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}
