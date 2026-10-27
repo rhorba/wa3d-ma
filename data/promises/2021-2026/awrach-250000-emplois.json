@@ -24,7 +24,7 @@
     "page": 68
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-10-26",
+  "lastVerified": "2026-10-27",
   "evidence": [
     {
       "date": "2022-01-12",
@@ -98,6 +98,20 @@
         "archiveUrl": "https://web.archive.org/web/20231219105250/https://www.maroc.ma/ar/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%81%D9%8A%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-2-%D9%81%D8%A7%D9%82-60-%D8%A3%D9%84%D9%81-%D8%B4%D8%AE%D8%B5/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
         "published": "2023-12-19",
         "accessed": "2026-10-26"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "status": "partial",
+      "note": {
+        "fr": "Le rapport économique et financier accompagnant le projet de loi de finances 2027 (octobre 2026) indique que le programme « Awrach » a bénéficié à 224 371 personnes, soit près de 90 % de l'objectif initial de 250 000 bénéficiaires, dont 32,4 % de femmes et 66,2 % de non-diplômés.",
+        "ar": "يفيد التقرير الاقتصادي والمالي المرفق بمشروع قانون المالية لسنة 2027 (أكتوبر 2026) بأن عدد المستفيدين من برنامج «أوراش» بلغ 224.371 شخصا، أي ما يقارب 90% من الهدف الأولي المحدد في 250.000 مستفيد، منهم 32,4% من النساء و66,2% من غير الحاصلين على شهادات."
+      },
+      "source": {
+        "name": "Ministère de l'Économie et des Finances, Rapport économique et financier, projet de loi de finances 2027, p. 44",
+        "url": "https://www.finances.gov.ma/Publication/db/2027/Rapport-economique-financier_Fr.pdf",
+        "published": "2026-10-20",
+        "accessed": "2026-10-27"
       }
     }
   ]
