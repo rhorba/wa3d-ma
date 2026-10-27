@@ -24,7 +24,7 @@
     "page": 24
   },
   "deadline": "2026-10-16",
-  "lastVerified": "2026-09-22",
+  "lastVerified": "2026-10-27",
   "evidence": [
     {
       "date": "2025-12-26",
@@ -39,6 +39,20 @@
         "archiveUrl": "https://web.archive.org/web/20260923052856/https://www.maroc.ma/fr/actualites/le-taux-de-prescolarisation-des-enfants-est-passe-plus-de-70-en-2025",
         "published": "2025-12-26",
         "accessed": "2026-09-22"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "status": "partial",
+      "note": {
+        "fr": "La note de présentation du projet de loi de finances 2027 (octobre 2026) indique que le taux de généralisation du préscolaire a atteint 82,3 % en 2025-2026, avec un objectif de 90 % pour 2026-2027. La généralisation à tous les enfants n'est pas atteinte à la fin du mandat.",
+        "ar": "تفيد المذكرة التقديمية لمشروع قانون المالية لسنة 2027 (أكتوبر 2026) بأن نسبة تعميم التعليم الأولي بلغت 82,3% برسم الموسم الدراسي 2025-2026، مع هدف بلوغ 90% في الموسم 2026-2027. ولم يتحقق التعميم لفائدة جميع الأطفال عند نهاية الولاية."
+      },
+      "source": {
+        "name": "Ministère de l'Économie et des Finances, Note de présentation du projet de loi de finances 2027, p. 56",
+        "url": "https://www.finances.gov.ma/Publication/db/2027/Note-presentation_Fr.pdf",
+        "published": "2026-10-20",
+        "accessed": "2026-10-27"
       }
     }
   ]
