@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "jorf-lasfar-90-millions-tonnes",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Port de Jorf Lasfar : capacité portée de 50 à 90 millions de tonnes par an",
+    "ar": "رفع الطاقة الاستيعابية لميناء الجرف الأصفر من 50 إلى 90 مليون طن سنويا"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Accélérer les travaux d'extension du port de Jorf Lasfar, qui permettra de réduire le temps d'attente en rade de 4 jours à moins d'un jour, de ramener la durée d'escale à quai de 3,3 à deux jours par navire et de porter la capacité du port de 50 à 90 millions de tonnes par an. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تسريع أشغال توسعة ميناء الجرف الأصفر، الذي سيمكن من خفض زمن الانتظار في عرض البحر، من 4 أيام إلى أقل من يوم واحد، وتقليص مدة الرسو بالرصيف من 3,3 إلى يومين لكل سفينة، ورفع الطاقة الاستيعابية للميناء من 50 إلى 90 مليون طن سنويا»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 117
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

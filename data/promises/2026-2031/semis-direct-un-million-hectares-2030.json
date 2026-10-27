@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "semis-direct-un-million-hectares-2030",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Semis direct : un million d'hectares d'ici 2030",
+    "ar": "بلوغ مليون هكتار من الزرع المباشر في أفق 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le programme national de semis direct sera poursuivi, afin d'atteindre l'objectif fixé d'un million d'hectares à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«ستتم مواصلة البرنامج الوطني للزرع المباشر، لبلوغ الهدف المحدد في مليون هكتار في أفق سنة 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 108
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}

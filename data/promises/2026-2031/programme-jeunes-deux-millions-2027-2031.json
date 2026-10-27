@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "programme-jeunes-deux-millions-2027-2031",
+  "mandate": "2026-2031",
+  "theme": "employment",
+  "title": {
+    "fr": "Programme national intégré pour la jeunesse 2027-2031 : environ deux millions de jeunes",
+    "ar": "إطلاق البرنامج الوطني المندمج للشباب 2027-2031 لإدماج وتأهيل حوالي مليوني شاب وشابة"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Lancer le programme national intégré pour la jeunesse 2027-2031, qui vise l'insertion et la qualification d'environ deux millions de jeunes pour un accès durable au marché du travail. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«إطلاق البرنامج الوطني المندمج للشباب 2027-2031، والذي يستهدف إدماج وتأهيل حوالي مليوني شاب وشابة لولوج سوق الشغل بشكل مستدام»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-27",
+    "page": 98
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-27",
+  "evidence": []
+}
