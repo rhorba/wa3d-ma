@@ -552,3 +552,11 @@
 ### [2026-10-27] SHIP — #80 merged (4fe5b55) by user; prod /fr/2026-2031 and /ar/2026-2031 list 36 commitments, sitemap 110 URLs, new pages 200.
 ### [2026-10-27] VIDEO_RECORDED — .recordings/v1.5-2026-10-27.webm (1 604 955 B), fixture build of 4fe5b55, archive on; scenario e2e/record/journeys.record.ts. Version v1.5 = PLF 2027 verdicts (Awrach, préscolaire) + 2026-2031 batch 4 (36 commitments).
 ### [2026-10-27] SHIP — logs PR on chore/logs-2026-10-27 (logs 10-27 + v1.5 recording).
+### [2026-10-27] PLAN — sprint 2: E1 scan unused pages, E2 batch-5 worksheet (gate), E3 batch-5 data PR, E4 logs.
+### [2026-10-27] HANDOFF Orchestrator -> Security/DBA curation: batch 5 from PG-2026-2031.pdf, unused numeric pages; rules batch 1-4; gate = user sign-off.
+### [2026-10-27] EXECUTE — E1/E2: 11 unused numeric pages scanned; .verification/worksheet-2026-2031-batch5-2026-10-27.md: 6 candidates (public procurement 30% SMEs, youth programme 2M 2027-2031, caesareans ~25%, direct seeding 1M ha 2030, livestock vaccination 85%, Jorf Lasfar 90 Mt). Rail p.115 skipped (no numeric target). Awaiting user sign-off.
+### [2026-10-27] EXECUTE — E3: batch 5 (6 entries) on data/2026-2031-batch5. VERIFY: catalogue 58 commitments 0 errors, prettier OK, tests 283, coverage 99.83%, audit clean.
+### [2026-10-27] CI — #82 GREEN (9/9 jobs + Vercel). Awaiting user merge.
+### [2026-10-27] SHIP — #82 merged (f835924) by user; prod /fr/2026-2031 and /ar/2026-2031 list 42 commitments, sitemap 122 URLs, new pages 200; main CI GREEN. #81 main CI GREEN (checked before merge).
+### [2026-10-27] VIDEO_RECORDED — .recordings/v1.6-2026-10-27.webm (1556373 B), fixture build of f835924, archive on; scenario e2e/record/journeys.record.ts. Version v1.6 = 2026-2031 batch 5 (42 commitments).
+### [2026-10-27] SHIP — logs PR on chore/logs-2026-10-27b (sprint 2 logs + v1.6 recording).
