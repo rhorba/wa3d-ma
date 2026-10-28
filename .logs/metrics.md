@@ -75,3 +75,5 @@
 
 ### [2026-10-27] SPRINT_SNAPSHOT (sprint 2)
 - PR merged: #82 (2026-2031 batch 5, 6 commitments). Catalogue 58 commitments (16 in 2021-2026, 42 in 2026-2031), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 122 URLs.
+
+### [2026-10-28] METRIC — GSC Page indexing (last update 2026-10-23): 16 indexed / 31 not (21 Discovered, 5 Crawled, 3 canonical alternates, 2 stale noindex 2026-2031 hubs). Flat vs 2026-10-20 reading. Sitemap 122 discovered (resubmitted 10-28). Report lags sitemap (47 known vs 122).
