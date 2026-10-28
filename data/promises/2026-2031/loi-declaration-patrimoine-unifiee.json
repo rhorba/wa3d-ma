@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "loi-declaration-patrimoine-unifiee",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Adopter une loi unifiée sur la déclaration obligatoire de patrimoine",
+    "ar": "إصدار قانون موحد للتصريح الإجباري بالممتلكات"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement s'engage à promulguer les textes nécessaires qui constituent le fondement du système national d'intégrité, à savoir une loi sur les conflits d'intérêts conformément à l'article 36 de la Constitution, une loi incriminant la divulgation d'informations en vue d'obtenir des avantages ou des bénéfices, une loi de protection des fonctionnaires qui signalent des actes de corruption, et une loi sur la déclaration obligatoire de patrimoine, unifiée et applicable à toutes les catégories d'assujettis, conformément aux articles 147 et 158 de la Constitution. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تلتزم الحكومة بإصدار النصوص الضرورية التي تشكل أساس المنظومة الوطنية للنزاهة والمتمثلة في قانون تنازع المصالح طبقا للفصل 36 من الدستور، وقانون تجريم إفشاء المعلومات بهدف الحصول على امتيازات أو منافع، وقانون حماية الموظفين المبلغين عن أفعال الفساد، وقانون التصريح الإجباري بالممتلكات الموحد والشامل لجميع فئات الملزمين بذلك طبقا للفصلين 147 و158 من الدستور»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 36
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

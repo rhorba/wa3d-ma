@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "deconcentration-representations-regionales-2028",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Achever les décrets créant les représentations administratives régionales d'ici 2028",
+    "ar": "استكمال مراسيم إحداث التمثيليات الإدارية الجهوية المشتركة والقطاعية في أفق 2028"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Accélérer la mise en œuvre de la déconcentration administrative, à travers l'exécution du plan d'action 2026-2028, la clarification des responsabilités et des circuits de décision, et l'achèvement des travaux relatifs aux projets de décrets portant création des représentations administratives régionales communes et sectorielles. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تسريع تنزيل منظومة اللاتمركز الإداري، من خلال تنفيذ مخطط العمل للفترة 2026-2028، وتوضيح المسؤوليات ومسارات اتخاذ القرار، واستكمال الأشغال المتعلقة بمشاريع المراسيم الخاصة بإحداث التمثيليات الإدارية الجهوية المشتركة والقطاعية»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 34
+  },
+  "deadline": "2028-12-31",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

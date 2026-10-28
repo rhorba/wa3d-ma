@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "guichet-unique-numerique-investissement",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Généraliser le guichet unique numérique de l'investissement",
+    "ar": "تعميم الشباك الوحيد الرقمي للاستثمار"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Il généralise le guichet unique numérique de l'investissement et renforce les centres régionaux d'investissement en tant que guichet unifié offrant un accompagnement coordonné sur tout le cycle de vie de l'investissement. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تقوم بتعميم الشباك الوحيد الرقمي للاستثمار، وتقوية المراكز الجهوية للاستثمار باعتبارها شباكا موحدا يوفر مواكبة منسقة على امتداد دورة حياة الاستثمار»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 38
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

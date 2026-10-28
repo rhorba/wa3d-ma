@@ -245,3 +245,6 @@
 - Completed: D = F1 GSC (sitemap resubmitted, 122 discovered; indexing 16/31 flat, report last update 10-23; 2 noindex = /fr|/ar/2026-2031 stale from 10-13 crawl, live clean) + F2 sweep (nothing new since 10-27) + logs PR.
 - Next: GSC noindex validation started 10-28, recheck ~2026-11-04; body-parser 1.20.9 override from 2026-10-29; Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); 6 V-14 warnings; 45-day re-verification of 2026-2031 entries by 2026-12-08; batch 6 qualitative needs a rule decision.
 - User actions: merge logs PR; delete repo-root PG-2026-2031.pdf (duplicate, same SHA-256).
+
+### [2026-10-28] SESSION_START (sprint 2)
+- main 82051b9 (#85 merged). User request: batch 6 (qualitative commitments, 2026-2031). UNDERSTAND: rule needed before worksheet.

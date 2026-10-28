@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "echange-donnees-cadre-legal-plateforme",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Cadre juridique et plateforme centrale pour l'échange de données administratives",
+    "ar": "وضع إطار قانوني ومنصة مركزية لتبادل المعطيات الإدارية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement développe l'échange de données administratives entre établissements publics en mettant en place un cadre juridique adapté et une plateforme centrale de données. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تطور الحكومة تبادل المعطيات الإدارية بين المؤسسات العمومية عبر وضع إطار قانوني ملائم ومنصة مركزية للمعطيات»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 38
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

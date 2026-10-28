@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "code-penal-article-245-revision",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Réviser l'article 245 du Code pénal",
+    "ar": "مراجعة الفصل 245 من القانون الجنائي"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement révise l'article 245 du Code pénal afin qu'il couvre les formes multiples et nouvelles d'intérêts illégitimes qui échappent aujourd'hui à l'incrimination. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تراجع الحكومة الفصل 245 من القانون الجنائي ليشمل الأشكال المتعددة والمتجددة للمصالح غير المشروعة التي تفلت اليوم من التجريم»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 36
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "silence-administration-vaut-accord",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Faire valoir accord le silence de l'administration sur les demandes d'autorisation",
+    "ar": "اعتبار سكوت الإدارة بعد انصرام الأجل بمثابة موافقة على طلبات التراخيص"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement fixe des délais maximaux contraignants pour statuer sur les demandes d'autorisation, et applique la règle selon laquelle le silence de l'administration à l'expiration du délai vaut accord, sauf disposition légale contraire. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تضع الحكومة آجالا قصوى ملزمة للبت في طلبات التراخيص، مع تطبيق قاعدة اعتبار سكوت الإدارة بعد انصرام الأجل بمثابة موافقة، ما لم ينص القانون على خلاف ذلك»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 38
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}
