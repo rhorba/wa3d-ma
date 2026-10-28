@@ -560,3 +560,12 @@
 ### [2026-10-27] SHIP — #82 merged (f835924) by user; prod /fr/2026-2031 and /ar/2026-2031 list 42 commitments, sitemap 122 URLs, new pages 200; main CI GREEN. #81 main CI GREEN (checked before merge).
 ### [2026-10-27] VIDEO_RECORDED — .recordings/v1.6-2026-10-27.webm (1556373 B), fixture build of f835924, archive on; scenario e2e/record/journeys.record.ts. Version v1.6 = 2026-2031 batch 5 (42 commitments).
 ### [2026-10-27] SHIP — logs PR on chore/logs-2026-10-27b (sprint 2 logs + v1.6 recording).
+
+### [2026-10-28] BRAINSTORM — options A GSC recheck / B D1 sweep / C batch 6 qualitative (rule first) / D A+B. User picked D.
+### [2026-10-28] PLAN — F1 GSC: resubmit sitemap (122 URLs) + read indexing report via Chrome (user session), log; F2 D1 sweep since 2026-10-27 (cg.gov.ma, HCP, finances.gov.ma, men.gov.ma, maroc.ma), report only, data edits gated; F3 logs PR. Awaiting user confirmation.
+### [2026-10-28] HANDOFF Orchestrator -> DevOps/Marketing (GSC): F1 resubmit sitemap 122 URLs + read indexing report via Chrome; only change = sitemap resubmit.
+### [2026-10-28] EXECUTE — F1 GSC: sitemap resubmitted, read 2026-10-28, Success, 122 discovered (was 78 read 10-26). Page indexing (last update 2026-10-23): 16 indexed / 31 not indexed (21 discovered-not-indexed, 5 crawled-not-indexed, 3 alternate canonical, 2 noindex). Noindex = /fr/2026-2031 + /ar/2026-2031, last crawled 2026-10-13 (before noindex lift); live now 200, no meta noindex, no X-Robots-Tag -> stale. Validate fix not clicked (pending user).
+### [2026-10-28] HANDOFF DevOps/Marketing (GSC) -> Security/DBA curation: F2 sweep since 2026-10-27 (cg.gov.ma, HCP, finances.gov.ma, men.gov.ma, maroc.ma); report only.
+### [2026-10-28] EXECUTE — F2 sweep since 2026-10-27: cg.gov.ma fr/ar node 13063-13078 all 404, homepage newest 13056 -> nothing after 13062; HCP homepage newest 2026-10-23 (Q2 2026 EMO labour analysis, IPC Sept, tourism satellite account 2025, household survey Q3) -> already seen 10-27, no new annual figure; finances.gov.ma: PLF 2027 already captured, nothing new; men.gov.ma newest 2026-10-21; maroc.ma: no programme-relevant item. Result: no data edits proposed.
+### [2026-10-28] VERIFY — logs-only change (no code/data): no tests needed beyond CI; security: no secrets, GSC numbers only.
+### [2026-10-28] SHIP — logs PR on chore/logs-2026-10-28 (GSC recheck + sweep). No recording (no user-facing change).
