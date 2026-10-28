@@ -569,3 +569,4 @@
 ### [2026-10-28] EXECUTE — F2 sweep since 2026-10-27: cg.gov.ma fr/ar node 13063-13078 all 404, homepage newest 13056 -> nothing after 13062; HCP homepage newest 2026-10-23 (Q2 2026 EMO labour analysis, IPC Sept, tourism satellite account 2025, household survey Q3) -> already seen 10-27, no new annual figure; finances.gov.ma: PLF 2027 already captured, nothing new; men.gov.ma newest 2026-10-21; maroc.ma: no programme-relevant item. Result: no data edits proposed.
 ### [2026-10-28] VERIFY — logs-only change (no code/data): no tests needed beyond CI; security: no secrets, GSC numbers only.
 ### [2026-10-28] SHIP — logs PR on chore/logs-2026-10-28 (GSC recheck + sweep). No recording (no user-facing change).
+### [2026-10-28] CI — #84 GREEN (all jobs + Vercel, run 40668245808). Awaiting user merge.
