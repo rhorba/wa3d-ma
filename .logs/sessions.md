@@ -248,3 +248,9 @@
 
 ### [2026-10-28] SESSION_START (sprint 2)
 - main 82051b9 (#85 merged). User request: batch 6 (qualitative commitments, 2026-2031). UNDERSTAND: rule needed before worksheet.
+
+### [2026-10-28] SESSION_END (sprint 2)
+- Completed: rule A for qualitative commitments (curation guide 2.8); #86 batch 6 (12: 4 integrity laws, penal code art. 245, interests platform, silence = consent, digital investment window, data-exchange framework, deconcentration decrees 2028, framework law elderly, marriage aid 5 000 DH) live (54 per locale, sitemap 146); GSC noindex validation started (#85); v1.7 recording.
+- Notes: #7 silence = consent partly exists in law 55-19 (regulation-listed decisions) -> evidence must separate extension from 55-19 regime. Worksheets in .verification are untracked (local only).
+- Next: body-parser 1.20.9 override from 2026-10-29; Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 146 URLs); 6 V-14 warnings; 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws.
+- User actions: merge logs PR; delete repo-root PG-2026-2031.pdf.

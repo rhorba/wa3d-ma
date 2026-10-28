@@ -580,3 +580,7 @@
 ### [2026-10-28] EXECUTE — G1/G2: .verification/worksheet-2026-2031-batch6-2026-10-28.md: 11 rule-A candidates (4 integrity laws, penal code art. 245, interests platform, silence = consent, digital investment window, data-exchange framework + platform, deconcentration decrees 2026-2028, framework law elderly) + 1 numeric out-of-rule (marriage aid 5 000 DH); 5 proposed out. AR from rendered pages 29/34/36/38/40. Awaiting user sign-off.
 ### [2026-10-28] GATE — user sign-off batch 6: keep all 12 (1-5, 6 separate, 7, 8, 9, 10 deadline 2028-12-31, 11, 12 marriage aid numeric).
 ### [2026-10-28] EXECUTE — G3: batch 6 (12 entries: 11 editorial rule A + aide-mariage-5000-dirhams) on data/2026-2031-batch6; curation guide 2.8 rule A added. VERIFY: catalogue 70 commitments 0 errors / 6 warnings, prettier OK, tests 283, coverage 99.83%, audit --prod clean. Security: data-only, cg.gov.ma official (V-7); no secrets.
+### [2026-10-28] CI — #86 GREEN (9/9 jobs + Vercel). Awaiting user merge.
+### [2026-10-28] SHIP — #86 merged (8b77ac7) by user; main CI GREEN (run 40674776040). Prod /fr/2026-2031 and /ar/2026-2031 list 54 commitments, sitemap 146 URLs, new pages 200, editorial pages show "sans cible chiffrée".
+### [2026-10-28] VIDEO_RECORDED — .recordings/v1.7-2026-10-28.webm (1610716 B), fixture build of 8b77ac7, archive on; scenario e2e/record/journeys.record.ts. Version v1.7 = 2026-2031 batch 6 (54 commitments, first editorial entries under rule A).
+### [2026-10-28] SHIP — logs PR on chore/logs-2026-10-28c (sprint 2 logs + v1.7 recording).
