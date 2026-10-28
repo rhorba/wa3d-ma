@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "plateforme-declarations-interets",
+  "mandate": "2026-2031",
+  "theme": "governance",
+  "title": {
+    "fr": "Publier les déclarations d'intérêts sur une plateforme électronique",
+    "ar": "نشر التصريحات بالمصالح عبر منصة إلكترونية"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Les déclarations d'intérêts et les situations traitées sont publiées sur une plateforme électronique, permettant le contrôle citoyen par la société civile, les médias et l'opinion publique. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«وتنشر التصريحات بالمصالح والوضعيات التي تمت معالجتها عبر منصة إلكترونية، بما يتيح الرقابة المجتمعية لهيئات المجتمع المدني والإعلام والرأي العام»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 36
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

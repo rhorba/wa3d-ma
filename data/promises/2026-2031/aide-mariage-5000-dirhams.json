@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aide-mariage-5000-dirhams",
+  "mandate": "2026-2031",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Verser une aide au mariage pouvant atteindre 5 000 dirhams",
+    "ar": "دعم مالي للشباب المقبلين على الزواج يصل إلى 5.000 درهم"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Parallèlement, il œuvre à la mise en œuvre et au suivi des réformes du Code de la famille, avec la publication d'un rapport annuel sur leur application, et à l'encouragement des jeunes qui se marient par une aide financière pouvant atteindre 5 000 dirhams. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعمل موازاة مع ذلك على تفعيل وتتبع إصلاحات مدونة الأسرة مع نشر تقرير سنوي حول تطبيقها، وعلى تشجيع الشباب المقبلين على الزواج بدعم مالي يصل إلى 5.000 درهم»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 40
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

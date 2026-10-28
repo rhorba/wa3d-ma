@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "loi-cadre-personnes-agees",
+  "mandate": "2026-2031",
+  "theme": "social_protection",
+  "title": {
+    "fr": "Adopter une loi-cadre sur l'insertion socio-économique des personnes âgées",
+    "ar": "اعتماد قانون إطار للإدماج السوسيو-اقتصادي للأشخاص المسنين"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Le gouvernement adopte une loi-cadre fixant les objectifs fondamentaux de l'action publique en matière d'insertion socio-économique des personnes âgées. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«تعتمد الحكومة قانونا إطارا يحدد الأهداف الأساسية للعمل العمومي في مجال الإدماج السوسيو-اقتصادي للأشخاص المسنين»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-28",
+    "page": 40
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-28",
+  "evidence": []
+}

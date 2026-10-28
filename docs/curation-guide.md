@@ -30,6 +30,7 @@ Every change goes through a pull request. Git history is the public audit trail:
 6. **Theme**: one of employment, social protection, health, education, economy, governance, housing, water & energy, other.
 7. **Deadline**: the date the programme gives. If none is given, use the **mandate end** (2021-2026: the day the next government was appointed, 2026-10-16, [maroc.ma, 2026-10-16](https://www.maroc.ma/fr/actualites/sm-le-roi-preside-la-ceremonie-de-nomination-des-membres-du-nouveau-gouvernement)).
 8. **Target** (only if the promise has a number): the indicator, the baseline value, year and **source**, the target value and the direction (`increase`/`decrease`, V-11). **Never invent a target** for a promise without a number (FR-7): it stays editorial, with a status only.
+   - **Which promises without a number qualify** (decided 2026-10-28): only those that name a deliverable whose existence can be checked: a text published in the Bulletin officiel (law, decree), a body created, a platform or scheme launched. It counts as `achieved` when that deliverable exists. Leave out recurring duties (meetings, annual reports) and general wording ("consolider", "renforcer", "poursuivre"). Several laws announced in one sentence are separate commitments.
 
 ## 3. Evidence entries and statuses
 Each entry is a dated official fact: `date` (the date of the act or publication, not the day you found it), `status`, a factual `note` in FR and AR, and an official `source`.
