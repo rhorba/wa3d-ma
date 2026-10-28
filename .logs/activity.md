@@ -570,3 +570,5 @@
 ### [2026-10-28] VERIFY — logs-only change (no code/data): no tests needed beyond CI; security: no secrets, GSC numbers only.
 ### [2026-10-28] SHIP — logs PR on chore/logs-2026-10-28 (GSC recheck + sweep). No recording (no user-facing change).
 ### [2026-10-28] CI — #84 GREEN (all jobs + Vercel, run 40668245808). Awaiting user merge.
+### [2026-10-28] SHIP — #84 merged by user (5968e00), main CI GREEN (run 40669378611).
+### [2026-10-28] EXECUTE — GSC "Validate fix" on "Excluded by noindex tag" (/fr|/ar/2026-2031) clicked with user OK; Validation: Started 2026-10-28. Recheck ~2026-11-04.
