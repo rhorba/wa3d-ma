@@ -584,3 +584,15 @@
 ### [2026-10-28] SHIP — #86 merged (8b77ac7) by user; main CI GREEN (run 40674776040). Prod /fr/2026-2031 and /ar/2026-2031 list 54 commitments, sitemap 146 URLs, new pages 200, editorial pages show "sans cible chiffrée".
 ### [2026-10-28] VIDEO_RECORDED — .recordings/v1.7-2026-10-28.webm (1610716 B), fixture build of 8b77ac7, archive on; scenario e2e/record/journeys.record.ts. Version v1.7 = 2026-2031 batch 6 (54 commitments, first editorial entries under rule A).
 ### [2026-10-28] SHIP — logs PR on chore/logs-2026-10-28c (sprint 2 logs + v1.7 recording).
+
+### [2026-10-29] BRAINSTORM — options A body-parser 1.20.9 override / B D1 sweep / C batch 7 rule A / D A+B + logs PR. User picked D.
+### [2026-10-29] PLAN — H1 D1 sweep since 2026-10-28 (cg.gov.ma, HCP, finances.gov.ma, men.gov.ma, maroc.ma), report only, data edits gated; H2 after 11:38 UTC: override "body-parser@<1.20.9": "^1.20.9" (dev-only via @lhci/cli > express), pnpm install, tests + coverage + audit, PR fix/deps-body-parser, CI watch; H3 logs PR. Awaiting user confirmation.
+### [2026-10-29] CHORE — repo-root PG-2026-2031.pdf deleted with user OK (untracked; SHA-256 7322ee0f... identical to .verification/sources/official/PG-2026-2031.pdf).
+### [2026-10-29] GATE — user confirmed plan D (H1-H3).
+### [2026-10-29] HANDOFF Orchestrator -> Security/DBA curation: H1 D1 sweep since 2026-10-28 (cg.gov.ma, HCP, finances.gov.ma, men.gov.ma, maroc.ma); report only.
+### [2026-10-29] EXECUTE — H1 sweep since 2026-10-28: cg.gov.ma fr node 13063-13067 (new, all 2026-10-28): Russia-Africa summit x4 (not programme) + 13065 Royal Cabinet communique on Nador West Med (first terminal "dans les prochains jours", 2nd terminal 1.8M TEU April 2027, 54 bn DH mobilised) and Tanger Med 3 launch -> royal projects, not a programme entry; context only for programme pp. idx 114/115/116/119 (NWM rail + road links, NWM ramp-up, NWM LNG) which are unquantified projects outside rule A. HCP newest 2026-10-23 (seen), finances.gov.ma PLF 2027 (seen), men.gov.ma 2026-10-27 robotics caravan (not programme), maroc.ma 10-27/28 nothing programme-relevant. No data edits proposed.
+### [2026-10-29] RISK — coverage gap found in sweep: programme p. idx 116 (same bullet group as Jorf Lasfar) has numeric "Casablanca port anchorage waiting time -50%" (11-13 h -> 38 h 2023-2025, +5%/yr traffic) and p. idx 119 "agricultural GDP 200-250 bn DH and agri exports 50-60 bn DH by 2030" (Generation Green) -> neither in catalogue nor in batch 3-5 worksheets. Batch-7 candidates; not acted on (gated).
+### [2026-10-29] CHORE — old stash from 2026-10-01 dropped by the user (`git stash drop`, eaeec58).
+### [2026-10-29] SCOPE — H2 body-parser 1.20.9 override deferred to next session (user ended session before 11:38 UTC minimum-release-age window); install job stopped, branch fix/deps-body-parser deleted unpushed, package.json reverted.
+### [2026-10-29] VERIFY — logs-only change: no code/data, no secrets.
+### [2026-10-29] SHIP — logs PR on chore/logs-2026-10-29. No recording (no user-facing change).
