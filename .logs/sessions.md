@@ -257,3 +257,9 @@
 
 ### [2026-10-29] SESSION_START
 - Resumed. origin/main 42999cb (#87 logs merged), main CI GREEN (run 40676561673), no open PRs. Branch chore/logs-2026-10-29. body-parser 1.20.9 published 2026-10-22 11:38 UTC -> past 7-day minimumReleaseAge from today 11:38 UTC. Repo-root PG-2026-2031.pdf still untracked. UNDERSTAND: awaiting user pick.
+
+### [2026-10-29] SESSION_END
+- Completed: H1 sweep since 10-28 (cg.gov.ma 13063-13067: Russia-Africa summit + Royal Cabinet NWM/Tanger Med 3 communique -> context only; HCP/finances/MEN/maroc.ma nothing new) -> no data edits; coverage gap found: Casablanca port waiting time -50% (p. idx 116) and agri GDP 200-250 bn DH + agri exports 50-60 bn DH 2030 (p. idx 119) not in catalogue; repo-root PG-2026-2031.pdf deleted; stale stash dropped.
+- Deferred: H2 body-parser 1.20.9 override (eligible after 2026-10-29 11:38 UTC; add "body-parser@<1.20.9": "^1.20.9" to pnpm.overrides, dev-only via @lhci/cli > express).
+- Next: H2 body-parser; batch 7 (Casablanca port -50%, agri GDP, agri exports); Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 146 URLs); 6 V-14 warnings; 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws.
+- User actions: merge logs PR.
