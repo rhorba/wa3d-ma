@@ -254,3 +254,6 @@
 - Notes: #7 silence = consent partly exists in law 55-19 (regulation-listed decisions) -> evidence must separate extension from 55-19 regime. Worksheets in .verification are untracked (local only).
 - Next: body-parser 1.20.9 override from 2026-10-29; Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 146 URLs); 6 V-14 warnings; 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws.
 - User actions: merge logs PR; delete repo-root PG-2026-2031.pdf.
+
+### [2026-10-29] SESSION_START
+- Resumed. origin/main 42999cb (#87 logs merged), main CI GREEN (run 40676561673), no open PRs. Branch chore/logs-2026-10-29. body-parser 1.20.9 published 2026-10-22 11:38 UTC -> past 7-day minimumReleaseAge from today 11:38 UTC. Repo-root PG-2026-2031.pdf still untracked. UNDERSTAND: awaiting user pick.
