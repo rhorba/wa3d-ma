@@ -596,3 +596,16 @@
 ### [2026-10-29] SCOPE — H2 body-parser 1.20.9 override deferred to next session (user ended session before 11:38 UTC minimum-release-age window); install job stopped, branch fix/deps-body-parser deleted unpushed, package.json reverted.
 ### [2026-10-29] VERIFY — logs-only change: no code/data, no secrets.
 ### [2026-10-29] SHIP — logs PR on chore/logs-2026-10-29. No recording (no user-facing change).
+
+### [2026-10-30] PLAN (approved)
+- Batch 1: PR fix/deps-body-parser (override body-parser@<1.20.9 -> ^1.20.9, audit, lint, test+coverage, CI).
+- Batch 2: PR data/2026-2031-batch7 (worksheet, 3 commitments FR/AR, validate, tests, CI, prod check 57/locale, sitemap 152).
+- SHIP: v1.8 recording, logs PR, push.
+
+### [2026-10-30] EXECUTE/VERIFY
+- Batch 1: PR #89 fix(deps) body-parser 1.20.9 + qs 6.16.1 overrides (qs GHSA-6pq8-jhm2-2vcw moderate added: same dev chain, fix past release age). Audit 6 -> 4 (dev-only, known). Lint OK, 283 tests, 99.83 %. CI GREEN (run 41015889344).
+- Batch 2: PR #90 batch 7 (port-casablanca-attente-moins-50-pourcent p.117, pib-agricole-200-250-milliards-2030 p.120, exportations-agricoles-50-60-milliards-2030 p.120). Page fix: 10-29 note "p. idx 116/119" was 0-based. catalogue:validate 73, 0 errors, 6 V-14. CI GREEN.
+- Merge blocked by auto-mode classifier (Merge Without Review) -> user merges #89, #90.
+- Merged #89 (222163b) and #90 (95f975d, after branch update) on user instruction. main CI GREEN (runs 41021298131, 41021713741). Prod: 3 new entries live FR/AR (pib-agricole AR page 200), sitemap 152.
+### [2026-10-30] VIDEO_RECORDED — .recordings/v1.8-2026-10-30.webm (1817128 B), fixture build of 95f975d, archive on; scenario e2e/record/journeys.record.ts. Version v1.8 = deps overrides + 2026-2031 batch 7 (57 commitments).
+### [2026-10-30] SHIP — logs PR on chore/logs-2026-10-30 (session logs + v1.8 recording).

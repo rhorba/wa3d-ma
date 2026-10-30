@@ -263,3 +263,12 @@
 - Deferred: H2 body-parser 1.20.9 override (eligible after 2026-10-29 11:38 UTC; add "body-parser@<1.20.9": "^1.20.9" to pnpm.overrides, dev-only via @lhci/cli > express).
 - Next: H2 body-parser; batch 7 (Casablanca port -50%, agri GDP, agri exports); Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 146 URLs); 6 V-14 warnings; 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws.
 - User actions: merge logs PR.
+
+### [2026-10-30] SESSION_START
+- Resumed. origin/main baa8c92 (#88 logs merged), main CI GREEN (run 40861716321), no open PRs, Dependabot open 0. Branch chore/logs-2026-10-30. body-parser override not yet applied. Untracked CV .docx files in repo root (not project files). UNDERSTAND: awaiting user pick.
+
+### [2026-10-30] SESSION_END
+- Completed: repo-root CV .docx deleted; #89 deps (body-parser 1.20.9, qs 6.16.1; audit 6 -> 4 dev-only); #90 batch 7 (Casablanca port waiting -50 % p.117, agri GDP 200-250 bn DH 2030 + agri exports 50-60 bn DH 2030 p.120) live (57 per locale, sitemap 152); v1.8 recording. Tests 283, coverage 99.83 %.
+- Notes: auto mode blocks `gh pr merge` unless the user explicitly asks in-session; PR merges need branch up to date (strict checks) -> `gh pr update-branch` first.
+- Next: Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 152 URLs, resubmit sitemap); 6 V-14 warnings (HCP annual 2026 ~Feb 2027); 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws; monthly recheck extract-zip/basic-ftp/zod.
+- User actions: merge logs PR.

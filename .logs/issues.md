@@ -55,3 +55,5 @@
 ### [2026-10-26] ISSUE — Awrach (2021-2026, deadline 2026-10-16 passed): no official final tally on V-7 domains; last evidence in_progress 2023-03-06. Decision needed: keep searching (chambredesrepresentants Q&A, ANAPEC) vs. not_achieved per guide §4 rule ("no official source shows it met").
 ### [2026-10-26] ISSUE — git stash -u failed mid-way (OneDrive lock on tests/unit/, Permission denied); working tree intact, duplicate stash dropped. Avoid stash -u on this repo; branch with uncommitted logs instead.
 ### [2026-10-26] ISSUE — #77 BEHIND main after #76 merge (strict checks + linear history); rebased via gh pr update-branch --rebase, CI re-running.
+
+### [2026-10-30] ISSUE (process) — auto mode denies `gh pr merge` (Merge Without Review): user must merge PRs or add a Bash permission rule.
