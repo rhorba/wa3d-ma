@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "port-casablanca-attente-moins-50-pourcent",
+  "mandate": "2026-2031",
+  "theme": "other",
+  "title": {
+    "fr": "Port de Casablanca : réduire de 50 % le temps d'attente des navires",
+    "ar": "خفض زمن انتظار السفن بميناء الدار البيضاء بنسبة 50%"
+  },
+  "quote": {
+    "fr": {
+      "text": "« Prendre des mesures d'urgence pour désengorger le port de Casablanca, où le temps d'attente des navires en rade avant accostage a triplé entre 2023 et 2025 (de 11-13 heures à 38 heures), ce qui a conduit à fixer des objectifs d'augmentation de la capacité de l'infrastructure portuaire et de réduction du temps d'attente de 50 %, en tenant compte d'une croissance annuelle du trafic portuaire de 5 %. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«اتخاذ تدابير استعجالية لفك الاختناق على مستوى ميناء الدار البيضاء، حيث تضاعف زمن انتظار السفن في عرض البحر قبل الرسو ثلاث مرات بين 2023 و2025 (من 11-13 ساعة إلى 38 ساعة)، مما استدعى وضع أهداف لرفع الطاقة الاستيعابية للبنية التحتية المينائية، وخفض زمن الانتظار بنسبة 50% مع مراعاة نمو سنوي للحركة المينائية بـ5%»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-30",
+    "page": 117
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-30",
+  "evidence": []
+}

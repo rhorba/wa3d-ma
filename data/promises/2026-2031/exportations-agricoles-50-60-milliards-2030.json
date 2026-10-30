@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "exportations-agricoles-50-60-milliards-2030",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "Exportations agricoles portées entre 50 et 60 milliards de dirhams d'ici 2030",
+    "ar": "مضاعفة قيمة الصادرات الفلاحية لتصل إلى ما بين 50 و60 مليار درهم في أفق 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« … et à doubler la valeur des exportations agricoles pour la porter entre 50 et 60 milliards de dirhams. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«ومضاعفة قيمة الصادرات الفلاحية لتصل إلى ما بين 50 و60 مليار درهم»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-30",
+    "page": 120
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-30",
+  "evidence": []
+}
