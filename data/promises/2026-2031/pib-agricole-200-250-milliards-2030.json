@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pib-agricole-200-250-milliards-2030",
+  "mandate": "2026-2031",
+  "theme": "economy",
+  "title": {
+    "fr": "PIB agricole porté entre 200 et 250 milliards de dirhams d'ici 2030",
+    "ar": "مضاعفة الناتج الداخلي الفلاحي الخام ليتراوح ما بين 200 و250 مليار درهم في أفق 2030"
+  },
+  "quote": {
+    "fr": {
+      "text": "« … en visant à doubler le PIB agricole pour le porter entre 200 et 250 milliards de dirhams à l'horizon 2030. »",
+      "provenance": "wa3d_translation"
+    },
+    "ar": {
+      "text": "«سعيا إلى مضاعفة الناتج الداخلي الفلاحي الخام ليتراوح ما بين 200 و250 مليار درهم في أفق سنة 2030»",
+      "provenance": "original"
+    }
+  },
+  "origin": {
+    "name": "Programme gouvernemental 2026-2031 (Chef du gouvernement)",
+    "url": "https://www.cg.gov.ma/sites/default/files/documents_publications/PG-2026-2031.pdf",
+    "accessed": "2026-10-30",
+    "page": 120
+  },
+  "deadline": "2031-10-16",
+  "lastVerified": "2026-10-30",
+  "evidence": []
+}
