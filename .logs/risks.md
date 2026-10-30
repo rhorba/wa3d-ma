@@ -51,3 +51,5 @@
 ### [2026-10-22] RISK — Prod on next 15.5.27 (critical RCE advisory) until #68 merged + deployed. Likelihood low (sharp 0.35.5 = advisory workaround); impact critical. Mitigation: #68 green, awaiting user merge.
 
 ### [2026-10-25] RISK (low) — new dev-only high body-parser GHSA-27r3-jxmh-p828 via @lhci/cli > express (fix 1.20.9, published 2026-10-22, blocked by pnpm minimumReleaseAge): add override once past the release-age window. Remaining dev-only: extract-zip x2 (no fix), basic-ftp (fix = major 6.x vs get-uri ^5), zod 3 via chromium-bidi.
+
+### [2026-10-30] RISK UPDATE — body-parser GHSA-27r3-jxmh-p828 and qs GHSA-6pq8-jhm2-2vcw closed by overrides (#89). Remaining dev-only: extract-zip x2 (no fix), basic-ftp (major-only), zod 3 via chromium-bidi. Batch 7 agri targets (#90) are Génération Green 2020-2030 objectives adopted by the programme: medium strength.

@@ -135,3 +135,6 @@
 ### [2026-10-27] DECISION — Batch 4 (2026-2031): user keeps #1-#7 as proposed (separate CHU / ESSP entries; #5 auto title, aero 60% in quote; #6 yearly, one mandate entry); #8 motorways dropped. Deadline 2031-10-16 for all.
 
 ### [2026-10-27] DECISION — Batch 5 (2026-2031): user keeps all 6 as proposed (#1 governance; #2 alongside NEET). Deadline 2031-10-16.
+
+### [2026-10-30] DECISION — sprint scope
+- User picked D: H2 body-parser override (PR 1) then batch 7 2026-2031 (PR 2: Casablanca port waiting time -50 %, agri GDP 200-250 bn DH 2030, agri exports 50-60 bn DH 2030). Repo-root CV .docx files deleted at user request.
