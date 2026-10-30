@@ -609,3 +609,4 @@
 - Merged #89 (222163b) and #90 (95f975d, after branch update) on user instruction. main CI GREEN (runs 41021298131, 41021713741). Prod: 3 new entries live FR/AR (pib-agricole AR page 200), sitemap 152.
 ### [2026-10-30] VIDEO_RECORDED — .recordings/v1.8-2026-10-30.webm (1817128 B), fixture build of 95f975d, archive on; scenario e2e/record/journeys.record.ts. Version v1.8 = deps overrides + 2026-2031 batch 7 (57 commitments).
 ### [2026-10-30] SHIP — logs PR on chore/logs-2026-10-30 (session logs + v1.8 recording).
+- CI check: PR #91 GREEN (all 11 checks).
