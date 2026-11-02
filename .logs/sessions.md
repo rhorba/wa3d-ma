@@ -282,3 +282,8 @@
 - Notes: never set a browser User-Agent on curl (auto mode denies it); web.archive.org unreachable locally today; PDF text needs pdftotext -enc UTF-8 and python -X utf8; source citations use "PDF p. N".
 - Next: review #94 Arabic notes; recheck 13 partial entries by 2026-12-08; tier B after 45 vs 35 health-staff discrepancy explained; PLF 2027 adoption -> update notes; Wayback retry (3 PDFs, 4 failing links) then close #92; GSC recheck ~11-04 (noindex validation, 152 URLs); 6 V-14 warnings (HCP annual ~Feb 2027); monthly recheck extract-zip/basic-ftp/zod.
 - User actions: merge logs PR.
+
+### [2026-11-02] SESSION_END (update)
+- Also completed: #96 minimatch alert accepted as dev-only; user reviewed the 8 Arabic notes, 3 fixed in #97. Supersedes "review #94 Arabic notes" in Next; a native reader pass is still advised.
+- Open choice: alert #15 stays open unless dismissed by the user.
+- User actions: merge logs PR.
