@@ -24,6 +24,21 @@
     "page": 41
   },
   "deadline": "2031-10-16",
-  "lastVerified": "2026-10-24",
-  "evidence": []
+  "lastVerified": "2026-11-02",
+  "evidence": [
+    {
+      "date": "2026-10-20",
+      "status": "in_progress",
+      "note": {
+        "fr": "La note de présentation du projet de loi de finances 2027 (octobre 2026) indique qu'il est prévu de créer un compte dédié au financement de la mise en œuvre du caractère officiel de l'amazighe, doté de 2 milliards de dirhams. Le projet n'est pas encore adopté.",
+        "ar": "تفيد المذكرة التقديمية لمشروع قانون المالية لسنة 2027 (أكتوبر 2026) بأنه من المقرر إحداث حساب مخصص لتمويل تفعيل الطابع الرسمي للأمازيغية، بغلاف مالي قدره 2 مليار درهم. ولم تتم المصادقة على المشروع بعد."
+      },
+      "source": {
+        "name": "Ministère de l'Économie et des Finances, Note de présentation du projet de loi de finances 2027, PDF p. 21",
+        "url": "https://www.finances.gov.ma/Publication/db/2027/Note-presentation_Fr.pdf",
+        "published": "2026-10-20",
+        "accessed": "2026-11-02"
+      }
+    }
+  ]
 }
