@@ -624,3 +624,7 @@
 ### [2026-11-02] EXECUTE — B3: 57 entries reviewed against programme (hash unchanged), PLF 2027 Note + REF (hashes unchanged) and ministry sites. PLF n° 60.26 in committee since 10-23. Worksheet .verification/reverification-2026-11-02.md: 8 tier A (in_progress recommended), 13 tier B, 36 no change; 13 partial (ministry unreadable). Gap found: PLF 2027 was never assessed against 2026-2031 entries (10-27 used it for 2021-2026 verdicts only). Awaiting user decision, no data edits.
 ### [2026-11-02] GATE — user OK on B4 recommendations: 8 tier A evidence entries, lastVerified on 44 fully checked entries, tier B skipped, #93 not merged.
 ### [2026-11-02] HANDOFF Curation -> Backend/data: B4 data PR.
+### [2026-11-02] EXECUTE/VERIFY — B4: PR #94, 8 in_progress evidence entries (PLF 2027 Note, 2026-10-20, PDF page citations) + lastVerified 2026-11-02 on 44 entries; 13 partial entries unchanged; tier B skipped. catalogue:validate 73, 0 errors, 6 V-14. Lint OK, 283 tests, 99.83 %. CI GREEN after branch update (#93 merged first).
+### [2026-11-02] SHIP — #94 merged on user instruction (9f2f3b2); main CI GREEN (run 41428906715). Prod FR/AR IR page 200 with evidence, sitemap 152.
+### [2026-11-02] VIDEO_RECORDED — .recordings/v1.9-2026-11-02.webm (1659859 B), fixture build of 9f2f3b2, archive on; scenario e2e/record/journeys.record.ts. Version v1.9 = first 2026-2031 statuses (8 in_progress). NoFallbackError in server log = expected 404 journey.
+### [2026-11-02] SHIP — logs PR on chore/logs-2026-11-02 (session logs + v1.9 recording).

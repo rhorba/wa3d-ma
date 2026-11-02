@@ -80,3 +80,6 @@
 
 ### [2026-10-30] SPRINT_SNAPSHOT
 - PRs merged: #89 (deps body-parser + qs), #90 (2026-2031 batch 7, 3 commitments). Catalogue 73 commitments (16 in 2021-2026, 57 in 2026-2031), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 152 URLs. pnpm audit 4 high (dev-only, no fix in range).
+
+### [2026-11-02] SPRINT_SNAPSHOT
+- PRs merged: #93 (actions bump), #94 (PLF 2027 evidence). Catalogue 73 commitments (57 in 2026-2031: 8 in_progress, 49 not_started), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 152.
