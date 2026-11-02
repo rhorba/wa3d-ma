@@ -610,3 +610,17 @@
 ### [2026-10-30] VIDEO_RECORDED — .recordings/v1.8-2026-10-30.webm (1817128 B), fixture build of 95f975d, archive on; scenario e2e/record/journeys.record.ts. Version v1.8 = deps overrides + 2026-2031 batch 7 (57 commitments).
 ### [2026-10-30] SHIP — logs PR on chore/logs-2026-10-30 (session logs + v1.8 recording).
 - CI check: PR #91 GREEN (all 11 checks).
+
+### [2026-11-02] BRAINSTORM — options A housekeeping / B A + sweep / C B + early re-verification of 57 2026-2031 entries. User picked C (over recommended B).
+
+### [2026-11-02] PLAN — scope C. B1 housekeeping (#93 review, Wayback retry, 2 failed links, #92). B2 sweep since 2026-10-29, report only. B3 re-verification of 57 2026-2031 entries (programme PDF hash, per-theme official progress check, worksheet .verification/reverification-2026-11-02.md). B4 data PR after user review: lastVerified only for entries actually checked; evidence entries gated. SHIP: logs PR, recording only if status/evidence changes. Awaiting user confirmation.
+
+### [2026-11-02] GATE — user confirmed plan C (B1-B4).
+### [2026-11-02] HANDOFF Orchestrator -> DevOps/DevSecOps: B1 review #93 action bumps, Wayback retry, 2 failed links, #92; merge of #93 not authorised.
+### [2026-11-02] EXECUTE — B1: #93 reviewed (setup-node 7.1.0 949feb24, upload-artifact 7.0.2 cf430e03, SHAs match upstream tags, CI green, not merged). Live PG-2026-2031.pdf SHA-256 7322ee0f... identical to snapshot, 1560218 B: no quote recheck needed. catalogue:links 54 ok, 4 Wayback unreachable (2 on issue #92 run; different set, host-level: 429 then fetch failed, Chrome error page). Wayback retry for 3 PDFs INCONCLUSIVE; #92 left open.
+### [2026-11-02] HANDOFF DevOps -> Security/DBA curation: B2 sweep since 2026-10-29, report only.
+### [2026-11-02] EXECUTE — B2 sweep since 2026-10-29: cg.gov.ma nodes 13070-13071 (not programme); no Conseil de gouvernement report listed after 10-20. HCP IPPI Sept 10-30 (not programme). men.gov.ma 10-29 items (not programme). maroc.ma PLF 2027 in finance committee 10-29. BO newest listed 7554-bis 2026-10-22, no integrity law found (issue contents not opened). finances.gov.ma could not check (no readable text). No data edits proposed.
+### [2026-11-02] HANDOFF Security/DBA curation -> same, B3 re-verification of 57 entries.
+### [2026-11-02] EXECUTE — B3: 57 entries reviewed against programme (hash unchanged), PLF 2027 Note + REF (hashes unchanged) and ministry sites. PLF n° 60.26 in committee since 10-23. Worksheet .verification/reverification-2026-11-02.md: 8 tier A (in_progress recommended), 13 tier B, 36 no change; 13 partial (ministry unreadable). Gap found: PLF 2027 was never assessed against 2026-2031 entries (10-27 used it for 2021-2026 verdicts only). Awaiting user decision, no data edits.
+### [2026-11-02] GATE — user OK on B4 recommendations: 8 tier A evidence entries, lastVerified on 44 fully checked entries, tier B skipped, #93 not merged.
+### [2026-11-02] HANDOFF Curation -> Backend/data: B4 data PR.

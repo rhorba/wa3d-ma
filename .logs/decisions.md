@@ -138,3 +138,5 @@
 
 ### [2026-10-30] DECISION — sprint scope
 - User picked D: H2 body-parser override (PR 1) then batch 7 2026-2031 (PR 2: Casablanca port waiting time -50 %, agri GDP 200-250 bn DH 2030, agri exports 50-60 bn DH 2030). Repo-root CV .docx files deleted at user request.
+
+### [2026-11-02] DECISION — scope C: housekeeping + D1 sweep since 2026-10-29 + early re-verification of all 57 2026-2031 entries (ahead of 2026-12-08 deadline).

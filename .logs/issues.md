@@ -57,3 +57,5 @@
 ### [2026-10-26] ISSUE — #77 BEHIND main after #76 merge (strict checks + linear history); rebased via gh pr update-branch --rebase, CI re-running.
 
 ### [2026-10-30] ISSUE (process) — auto mode denies `gh pr merge` (Merge Without Review): user must merge PRs or add a Bash permission rule.
+
+### [2026-11-02] ISSUE — web.archive.org unreachable from local machine (429 on availability API, fetch failed in catalogue:links, Chrome error page, WebFetch refused). Retry later; not link rot evidence.

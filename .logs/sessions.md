@@ -272,3 +272,6 @@
 - Notes: auto mode blocks `gh pr merge` unless the user explicitly asks in-session; PR merges need branch up to date (strict checks) -> `gh pr update-branch` first.
 - Next: Wayback retry ~11-01 (PG-2026-2031 + 2 PLF 2027 PDFs); GSC recheck ~11-04 (noindex validation, 152 URLs, resubmit sitemap); 6 V-14 warnings (HCP annual 2026 ~Feb 2027); 45-day re-verification of 2026-2031 entries by 2026-12-08; watch BO for integrity laws; monthly recheck extract-zip/basic-ftp/zod.
 - User actions: merge logs PR.
+
+### [2026-11-02] SESSION_START
+- Resumed. origin/main 2137fda (#91 logs merged), main CI GREEN (run 41023544301), prod /fr 200, sitemap 152. Dependabot alerts 0. Open: PR #93 (actions bump, all checks green, CLEAN), issue #92 Revue mensuelle 2026-11 (6 V-14 known; 2 Wayback links fetch failed, prescolaire + registre social; 7 cg.gov.ma bot-blocked). Wayback availability API returned 429 today, retry result unknown. Branch chore/logs-2026-11-02. UNDERSTAND: awaiting user pick.
