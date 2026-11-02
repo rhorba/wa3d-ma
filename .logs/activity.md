@@ -630,3 +630,4 @@
 ### [2026-11-02] SHIP — logs PR on chore/logs-2026-11-02 (session logs + v1.9 recording).
 - CI check: PR #95 GREEN (all 11 checks).
 ### [2026-11-02] VERIFY — minimatch triage: dev-only, code path absent in 3.1.5, no change to package.json. Risk logged. CI status of main 5b8d9bb GREEN (run 41431395359); #95 was merged before the requested merge command ran.
+### [2026-11-02] SHIP — #97 Arabic note fixes (3 entries) merged (fd6992a); main CI completed success fd6992a; prod checked. No recording: wording only.
