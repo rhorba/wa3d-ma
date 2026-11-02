@@ -628,3 +628,4 @@
 ### [2026-11-02] SHIP — #94 merged on user instruction (9f2f3b2); main CI GREEN (run 41428906715). Prod FR/AR IR page 200 with evidence, sitemap 152.
 ### [2026-11-02] VIDEO_RECORDED — .recordings/v1.9-2026-11-02.webm (1659859 B), fixture build of 9f2f3b2, archive on; scenario e2e/record/journeys.record.ts. Version v1.9 = first 2026-2031 statuses (8 in_progress). NoFallbackError in server log = expected 404 journey.
 ### [2026-11-02] SHIP — logs PR on chore/logs-2026-11-02 (session logs + v1.9 recording).
+- CI check: PR #95 GREEN (all 11 checks).
