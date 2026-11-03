@@ -631,3 +631,10 @@
 - CI check: PR #95 GREEN (all 11 checks).
 ### [2026-11-02] VERIFY — minimatch triage: dev-only, code path absent in 3.1.5, no change to package.json. Risk logged. CI status of main 5b8d9bb GREEN (run 41431395359); #95 was merged before the requested merge command ran.
 ### [2026-11-02] SHIP — #97 Arabic note fixes (3 entries) merged (fd6992a); main CI completed success fd6992a; prod checked. No recording: wording only.
+
+### [2026-11-03] BRAINSTORM/PLAN (sprint 2)
+- User picked C (13 partial entries). Read transport, industry, energy, digital ministry sites: no new act -> 4 entries eligible for lastVerified 2026-11-03. Agriculture (5) unreachable; employment ministry (3 + numerique) unreadable. Worksheet .verification/reverification-partial-2026-11-03.md. Awaiting plan approval.
+
+### [2026-11-03] EXECUTE/VERIFY (sprint 2)
+- lastVerified 2026-11-03 on 4 entries (aeroports, integration auto, energies renouvelables, fibre). catalogue:validate 0 errors / 6 known V-14; tests 283 passed; coverage 99.83 %. Security: data-only change (dates), no code or dependency change.
+- 2026-11-03: PR #99 pushed, CI GREEN (run 41591580187), all checks pass.
