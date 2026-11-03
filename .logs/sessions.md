@@ -287,3 +287,12 @@
 - Also completed: #96 minimatch alert accepted as dev-only; user reviewed the 8 Arabic notes, 3 fixed in #97. Supersedes "review #94 Arabic notes" in Next; a native reader pass is still advised.
 - Open choice: alert #15 stays open unless dismissed by the user.
 - User actions: merge logs PR.
+
+### [2026-11-03] SESSION_START
+- Resumed. origin/main 06e23dc (#98 logs merged), main CI GREEN (run 41438471572), no open PRs. Open: issue #92 (Revue mensuelle 2026-11), Dependabot alert #15 minimatch (dev-only, accepted, awaiting user dismiss choice). Branch chore/logs-2026-11-03. UNDERSTAND: awaiting user pick.
+
+### [2026-11-03] SESSION_END
+- Completed: recheck of 13 partial 2026-2031 entries; 4 read with no new act (transport, industry, energy, digital) -> lastVerified 2026-11-03. No status changes.
+- Still partial (9): 5 agriculture (agriculture.gov.ma unreachable via curl and Chrome), 4 employment (emploi.gov.ma renders empty; anapec.ma not on allowlist, latest news April 2026). Due by 2026-12-08; user asked to test the two sites from their browser.
+- Notes: mtnra.gov.ma is a dead cPanel page; digital ministry now "Intelligence artificielle, Transformation numérique et Réforme de l'Administration" (mmsp.gov.ma), new minister Ahmed Rahhou.
+- Next: retry the 9; GSC recheck 2026-11-04; Wayback retry then close #92; alert #15 decision; PLF 2027 adoption.
