@@ -143,3 +143,5 @@
 
 ### [2026-11-13] DECISION
 - User picked recommendation: D (sweep since 11-03 + PLF 2027 status) then A (GSC recheck) then B (Wayback retry, close #92). Plan: 3 batches, data edits only if sweep finds programme-related acts, shown to user before PR.
+### [2026-11-13] DECISION
+- User approved ("yes for all"): (1) evidence entry 2026-11-12 on aide-sociale-directe-1000-dirhams with FR/AR notes as drafted; (2) archiveUrl on 57 origins + 8 PLF sources in the same data PR; (3) basic-ftp bump now in a separate deps PR.
