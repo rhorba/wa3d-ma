@@ -140,3 +140,8 @@
 - User picked D: H2 body-parser override (PR 1) then batch 7 2026-2031 (PR 2: Casablanca port waiting time -50 %, agri GDP 200-250 bn DH 2030, agri exports 50-60 bn DH 2030). Repo-root CV .docx files deleted at user request.
 
 ### [2026-11-02] DECISION — scope C: housekeeping + D1 sweep since 2026-10-29 + early re-verification of all 57 2026-2031 entries (ahead of 2026-12-08 deadline).
+
+### [2026-11-13] DECISION
+- User picked recommendation: D (sweep since 11-03 + PLF 2027 status) then A (GSC recheck) then B (Wayback retry, close #92). Plan: 3 batches, data edits only if sweep finds programme-related acts, shown to user before PR.
+### [2026-11-13] DECISION
+- User approved ("yes for all"): (1) evidence entry 2026-11-12 on aide-sociale-directe-1000-dirhams with FR/AR notes as drafted; (2) archiveUrl on 57 origins + 8 PLF sources in the same data PR; (3) basic-ftp bump now in a separate deps PR.

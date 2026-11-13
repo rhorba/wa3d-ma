@@ -84,3 +84,6 @@
 ### [2026-11-02] SPRINT_SNAPSHOT
 - PRs merged: #93 (actions bump), #94 (PLF 2027 evidence). Catalogue 73 commitments (57 in 2026-2031: 8 in_progress, 49 not_started), V-14 warnings 6. Tests 283, coverage 99.83%. Sitemap 152.
 - 2026-11-03: coverage 99.83 % (283 tests), data-only PR
+
+### [2026-11-13] SPRINT_SNAPSHOT
+- Tests 283 pass, coverage 99.83 % statements / 96.87 % branches. PRs opened: #100 data, #101 deps, logs. GSC 88 indexed / 80 not (was 16 / 31 on 10-28). Catalogue 73 commitments, 0 errors, 14 warnings.

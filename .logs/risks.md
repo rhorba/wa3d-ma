@@ -57,3 +57,6 @@
 ### [2026-11-02] RISK — all 57 entries show not_started while PLF 2027 (published 2026-10-20) already contains explicit acts toward at least 8. Public statuses understated until B4. Note also says 45 health professionals/10k by 2030 vs programme 35 by 2031: unexplained.
 
 ### [2026-11-02] RISK (low, accepted) — Dependabot #15 minimatch GHSA-g3hv-75wg-m249 (medium, DoS by glob pattern amplification, patched 11.0.1, dev-only). pnpm audit --prod clean. 3.1.5 (eslint, eslint plugins, glob 7) has no firstPhasePreProcess or optimizationLevel, so the described flaw is absent; 10.2.6 has it, via @typescript-eslint/typescript-estree only, and needs attacker-controlled patterns, while ours come from repo config. Override rejected: major jump in lint tooling. Dependabot job failure security_update_not_possible expected until upstream moves. Recheck monthly with extract-zip/basic-ftp/zod.
+
+### [2026-11-13] RISK
+- HCP replaced ENE with EMO ("chomage strict", "emploi contre revenu"). Programme targets (unemployment 7 %, female activity 21.2 %, 1 M jobs) were written against ENE-era series; annual 2026 figures (~Feb 2027) may not be comparable with baselines. Decide the series rule before entering 2026 values.

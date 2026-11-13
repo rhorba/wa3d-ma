@@ -296,3 +296,12 @@
 - Still partial (9): 5 agriculture (agriculture.gov.ma unreachable via curl and Chrome), 4 employment (emploi.gov.ma renders empty; anapec.ma not on allowlist, latest news April 2026). Due by 2026-12-08; user asked to test the two sites from their browser.
 - Notes: mtnra.gov.ma is a dead cPanel page; digital ministry now "Intelligence artificielle, Transformation numérique et Réforme de l'Administration" (mmsp.gov.ma), new minister Ahmed Rahhou.
 - Next: retry the 9; GSC recheck 2026-11-04; Wayback retry then close #92; alert #15 decision; PLF 2027 adoption.
+
+### [2026-11-13] SESSION_START
+- Resumed. origin/main 86013f8 (#99 merged), main CI GREEN (run 41597678812), no open PRs. Open: issue #92 (Revue mensuelle 2026-11). Branch chore/logs-2026-11-13. 10 days since last session: GSC recheck (due 11-04) and Wayback retry overdue; 9 partial entries due 2026-12-08. UNDERSTAND: awaiting user pick.
+
+### [2026-11-13] SESSION_END
+- Completed: sweep since 11-03 (decree 2.26.838 found; BO 7555-7559 contents read, nothing else); Wayback reachable, PG-2026-2031 + PLF note archived with matching hashes; GSC 88 indexed, noindex validation passed, sitemap 152 read 11-11; #100 data (evidence + 65 archive links) and #101 basic-ftp 6.2.6, both CI green, unmerged; #92 commented, left open (Vercel usage box).
+- Notes: sgg.gov.ma BO list = DesktopModules/MVC/TableListBO/BO/AjaxMethod with headers ModuleId/TabId (FR 2873/775, AR 3111/847); Arabic edition is ahead of the French one. Wayback id_ responses need curl --compressed. HCP now publishes EMO not ENE (risk logged).
+- Next: after #100 merge -> check prod + v1.10 recording; 8 V-13 on 2021-2026 entries (last verified 09-22) need re-verification; PLF 2027 vote 11-13/14 at Chambre des representants -> then Chambre des conseillers, update 8 notes on adoption; decree 2.26.838 BO publication -> new evidence; 9 partial entries (agriculture, employment) by 2026-12-08; EMO vs ENE series rule before Feb 2027; #92 Vercel usage.
+- User actions: review and merge #100, #101, logs PR; check Vercel usage.
