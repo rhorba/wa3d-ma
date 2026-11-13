@@ -296,3 +296,6 @@
 - Still partial (9): 5 agriculture (agriculture.gov.ma unreachable via curl and Chrome), 4 employment (emploi.gov.ma renders empty; anapec.ma not on allowlist, latest news April 2026). Due by 2026-12-08; user asked to test the two sites from their browser.
 - Notes: mtnra.gov.ma is a dead cPanel page; digital ministry now "Intelligence artificielle, Transformation numérique et Réforme de l'Administration" (mmsp.gov.ma), new minister Ahmed Rahhou.
 - Next: retry the 9; GSC recheck 2026-11-04; Wayback retry then close #92; alert #15 decision; PLF 2027 adoption.
+
+### [2026-11-13] SESSION_START
+- Resumed. origin/main 86013f8 (#99 merged), main CI GREEN (run 41597678812), no open PRs. Open: issue #92 (Revue mensuelle 2026-11). Branch chore/logs-2026-11-13. 10 days since last session: GSC recheck (due 11-04) and Wayback retry overdue; 9 partial entries due 2026-12-08. UNDERSTAND: awaiting user pick.
