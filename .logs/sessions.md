@@ -305,3 +305,12 @@
 - Notes: sgg.gov.ma BO list = DesktopModules/MVC/TableListBO/BO/AjaxMethod with headers ModuleId/TabId (FR 2873/775, AR 3111/847); Arabic edition is ahead of the French one. Wayback id_ responses need curl --compressed. HCP now publishes EMO not ENE (risk logged).
 - Next: after #100 merge -> check prod + v1.10 recording; 8 V-13 on 2021-2026 entries (last verified 09-22) need re-verification; PLF 2027 vote 11-13/14 at Chambre des representants -> then Chambre des conseillers, update 8 notes on adoption; decree 2.26.838 BO publication -> new evidence; 9 partial entries (agriculture, employment) by 2026-12-08; EMO vs ENE series rule before Feb 2027; #92 Vercel usage.
 - User actions: review and merge #100, #101, logs PR; check Vercel usage.
+
+### [2026-11-14] SESSION_START
+- Resumed. origin/main 5b30597 (#102 logs merged, #100 data merged). PR #101 basic-ftp CLOSED unmerged (user: "101 was failed"; fix not on main, Dependabot #16 still applies). Branch chore/logs-2026-11-13 (3 ahead, clean). PLF 2027 vote 11-13/14 Chambre des représentants status unknown. UNDERSTAND: awaiting user pick.
+
+### [2026-11-14] SESSION_END
+- Completed: A = prod check after #100 (FR/AR aide-sociale-directe-1000-dirhams 200 with decree 2.26.838 evidence + archive links, sitemap 152) + v1.10 recording. B = PLF 2027 (bill 60.26): Chambre des representants adopted part 1 on 2026-11-14 (179 for / 126 against / 0 abstention; committee 11-12: 23 / 17; 59 of 291 amendments accepted) and, per Hespress only, the whole bill in first reading that evening with the same count. No data change.
+- Limits: vote known from press only (Le Matin, Hespress, SNRT); chambredesrepresentants.ma shows the agenda, no result yet. The 59 accepted amendments were not read, so whether they touch the 8 tracked measures is unknown. BO: latest issue still 7559 (2026-11-09), decree 2.26.838 not published.
+- Next: official vote communique + adopted text (amendments vs the 8 PLF notes); Chambre des conseillers reading -> second reading -> BO, update 8 notes on final adoption; decree 2.26.838 BO publication; basic-ftp override redo (#101 closed, failure cause not diagnosed); 8 V-13 on 2021-2026; 9 partial entries by 2026-12-08; EMO vs ENE rule; #92 Vercel usage.
+- User actions: merge logs PR; check Vercel usage.

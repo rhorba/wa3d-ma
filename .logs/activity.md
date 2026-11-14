@@ -653,3 +653,10 @@
 ### [2026-11-13] VERIFY — both branches: lint clean, 283 tests pass, coverage 99.83 % statements. Security: public URLs only, no secrets; deps change dev-only.
 ### [2026-11-13] CI — #100 GREEN (run 43402651280), #101 GREEN (run 43402855623), all 8 checks incl. Lighthouse and real-data smoke.
 ### [2026-11-13] SHIP — pushed chore/data-2026-11-13 (#100), fix/deps-basic-ftp (#101), chore/logs-2026-11-13 (logs PR). Not merged (user merges). v1.10 recording due after #100 is live (user-facing evidence change).
+
+### [2026-11-14] PLAN — user pick "A then B". A: prod check after #100, v1.10 recording. B: PLF 2027 vote status, update 8 notes only on adoption, BO check for decree 2.26.838; data PR only if something changed. E (#101) not picked.
+### [2026-11-14] EXECUTE — A: prod wa3d-ma.vercel.app /fr and /ar 2026-2031/aide-sociale-directe-1000-dirhams 200, decree 2.26.838 present, archive links rendered, sitemap 152. main CI success (run 43405954453).
+### [2026-11-14] VIDEO_RECORDED — .recordings/v1.10-2026-11-14.webm (1472905 B), fixture build of 5b30597, archive on; scenario e2e/record/journeys.record.ts, 1 passed. Version v1.10 = decree evidence + archive links. NoFallbackError in server log = expected 404 journey.
+### [2026-11-14] EXECUTE — B: bill 60.26 part 1 adopted in plenary 2026-11-14, 179 / 126 / 0 (Le Matin 16:30, SNRT, Hespress FR); Hespress AR 22:13 reports whole bill adopted in first reading, same count, after part 2 session. Chamber site: agenda only. sgg.gov.ma AR list: latest BO 7559 (2026-11-09), no new issue -> decree 2.26.838 unpublished. No data edits: notes say "not yet adopted", still true until both chambers + BO; press is not an accepted source (FR-5).
+### [2026-11-14] VERIFY — no code or data change; tests and coverage not re-run (last: 283 pass, 99.83 % on 2026-11-13). Security: logs + video only, no secrets.
+### [2026-11-14] SHIP — logs PR on chore/logs-2026-11-14 (session logs + v1.10 recording).
