@@ -686,3 +686,8 @@
 
 ### [2026-11-18] UNDERSTAND/BRAINSTORM — Item 5 (9 entries due 2026-12-08)
 - agriculture.gov.ma, emploi.gov.ma, anapec.ma all HTTP 200 today (were unreachable/empty on 11-03). Standard track: data curation, one data PR. User picked B. PLAN pending confirmation.
+
+### [2026-11-18] PLAN — Item 5 confirmed by user
+- Batch 1: read emploi.gov.ma, anapec.ma, agriculture.gov.ma for the 9 entries -> worksheet .verification/reverification-2026-11-18.md, report only. Batch 2: data PR (anapec.ma allowlist, evidence or lastVerified), validate/test/e2e, CI.
+### [2026-11-18] HANDOFF Orchestrator -> Security/DBA curation: batch 1 read-only sweep of 3 sites for 9 entries; data edits gated on user review.
+### [2026-11-18] EXECUTE — Item 5 batch 1: 3 sites + ONSSA read for 9 entries. 1 evidence candidate (semis direct, 540 000 ha programmed 2026-2027, agriculture.gov.ma 2026-11-10); 8 lastVerified only. anapec.ma: nothing after 2026-04 -> allowlist addition not needed. Worksheet .verification/reverification-2026-11-18.md. No Wayback copy of the article. Awaiting user review.
