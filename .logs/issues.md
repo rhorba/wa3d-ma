@@ -91,3 +91,6 @@
 - Tests: 283 passed / 0 failed; catalogue:validate 0 errors (14 warnings, all 2021-2026, cleared by #105); lint + format clean; build + e2e:real-data 1 passed
 - Security: data-only change (1 evidence entry on an allowlisted .gov.ma source, 9 dates), no code or dependency change
 - Status: pass
+
+### [2026-11-18 19:30] [ISSUE] — Dependabot #18 minimatch (moderate, dev-only)
+- Globparts amplification DoS; patched 11.0.1. Development scope only. Not fixed this session; review with the monthly deps recheck.

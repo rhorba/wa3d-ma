@@ -692,3 +692,7 @@
 ### [2026-11-18] HANDOFF Orchestrator -> Security/DBA curation: batch 1 read-only sweep of 3 sites for 9 entries; data edits gated on user review.
 ### [2026-11-18] EXECUTE — Item 5 batch 1: 3 sites + ONSSA read for 9 entries. 1 evidence candidate (semis direct, 540 000 ha programmed 2026-2027, agriculture.gov.ma 2026-11-10); 8 lastVerified only. anapec.ma: nothing after 2026-04 -> allowlist addition not needed. Worksheet .verification/reverification-2026-11-18.md. No Wayback copy of the article. Awaiting user review.
 ### [2026-11-18] EXECUTE — Item 5 batch 2: user approved (1 evidence + 8 lastVerified, no anapec.ma). Wayback save of the agriculture article failed (520, 523) -> archiveUrl omitted (schema optional; empty string fails V-1). Evidence dated 2026-11-10 (publication), as other 2026-2031 in_progress evidence. Commit 8aca053.
+### [2026-11-18] [SHIP] — Item 5: PR #106 (chore/data-2026-11-18-b) pushed
+- Summary: semis direct in_progress evidence + lastVerified 2026-11-18 on 9 entries. CI 11/11 green.
+- Status: complete, awaiting user merge
+- Note: new Dependabot alert #18 (minimatch, moderate, development scope, fix 11.0.1) seen on push -> backlog.
