@@ -673,3 +673,5 @@
 ### [2026-11-18] SHIP — pushed fix/deps-basic-ftp-2, PR #104 (commit 7 basic-ftp override). Status: CI red on Security scans.
 ### [2026-11-18] CI — #104 run 44269333138 RED: Trivy (SCA) HIGH picomatch 4.0.7 CVE-2026-112366 (no fixed version; Trivy DB refreshed today, main has the same picomatch -> main would fail too). All other 10 checks green. Prod path per pnpm why --prod: next-intl > @parcel/watcher > picomatch.
 ### [2026-11-18] DECISION — blocker options A narrow .trivyignore / B wait / C lower gate; user pick A, on the same PR. Added .trivyignore (CVE-2026-112366 exp:2026-12-18, justification) + --ignorefile /src/.trivyignore in ci.yml Trivy step. Local Trivy run stopped (too slow on OneDrive mount); CI is the check.
+### [2026-11-18] CI — #104 run 44272939205 GREEN (11/11 incl. Security scans with .trivyignore, Lighthouse, real-data smoke). PR body updated. User merges.
+### [2026-11-18] [SHIP] — fix/deps-basic-ftp-2 (#104: c64fe3f basic-ftp override + 2be0be2 Trivy ignore), logs branch chore/logs-2026-11-18 pushed. Status: complete. Note: main will go red on Trivy until #104 is merged.
