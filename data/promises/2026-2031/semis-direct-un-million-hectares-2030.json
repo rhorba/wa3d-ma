@@ -25,6 +25,21 @@
     "page": 108
   },
   "deadline": "2031-10-16",
-  "lastVerified": "2026-10-27",
-  "evidence": []
+  "lastVerified": "2026-11-18",
+  "evidence": [
+    {
+      "date": "2026-11-10",
+      "status": "in_progress",
+      "note": {
+        "fr": "Le ministère de l'Agriculture annonce le 10 novembre 2026, lors du lancement de la campagne agricole 2026-2027, une superficie programmée de 540 000 hectares en semis direct pour cette campagne et réaffirme l'objectif d'un million d'hectares à l'horizon 2030. Il s'agit d'une superficie programmée, non d'une superficie réalisée.",
+        "ar": "أعلنت وزارة الفلاحة في 10 نونبر 2026، بمناسبة انطلاق الموسم الفلاحي 2026-2027، عن برمجة 540 ألف هكتار بتقنية الزرع المباشر برسم هذا الموسم، وجددت التأكيد على هدف مليون هكتار في أفق 2030. ويتعلق الأمر بمساحة مبرمجة وليس بمساحة منجزة."
+      },
+      "source": {
+        "name": "Ministère de l'Agriculture, de la Pêche Maritime et de la Souveraineté Alimentaire, « Lancement officiel de la campagne agricole 2026-2027 depuis la région de Béni Mellal Khénifra »",
+        "url": "https://www.agriculture.gov.ma/fr/actualites/lancement-officiel-de-la-campagne-agricole-2026-2027-depuis-la-region-de-beni-mellal",
+        "published": "2026-11-10",
+        "accessed": "2026-11-18"
+      }
+    }
+  ]
 }
