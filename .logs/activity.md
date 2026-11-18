@@ -698,3 +698,8 @@
 - Note: new Dependabot alert #18 (minimatch, moderate, development scope, fix 11.0.1) seen on push -> backlog.
 ### [2026-11-18] [CI] — #105 reopened
 - User closed #105 after seeing the stale 16:10 failing run (latest run 17:43 was green). User merged #106 (main CI green, a5b1780). Reopened #105, update-branch onto main with #106: CI 11/11 green, mergeable.
+### [2026-11-18] [CI] — main after #105 merge: CI green (9c1e4f8). #104, #105, #106 all on main.
+### [2026-11-18] UNDERSTAND — EMO vs ENE series rule (Standard: data policy, no code)
+- HCP note EMO T3 2026 (hcp.ma attachment 2928207, 2026-11-03), footnote 1: "Les résultats de l'EMO ne sont pas directement comparables à ceux de l'ENE". New concepts (emploi contre revenu, chômage strict, taux de participation), sampling frame RGPH 2024, 135 000 households/yr. No back-cast or bridge published. EMO T3 2026: chômage strict 10.5 %, women participation 18.1 %.
+- Programme 2026-2031 p.130 states targets (women "نسبة النشاط الاقتصادي" 21.2 %, unemployment 7 % in 2031, ~1 M jobs) without naming the series; wording is ENE-era.
+- Affected: 2026-2031 chomage-sept-pourcent-2031, activite-femmes-21-pourcent, emplois-un-million, neet-moins-50-pourcent; 2021-2026 activite-femmes-trente-pourcent, emploi-million-postes (V-14 waiting on "annual 2026", which will be EMO).
