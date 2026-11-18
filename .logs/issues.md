@@ -59,3 +59,43 @@
 ### [2026-10-30] ISSUE (process) — auto mode denies `gh pr merge` (Merge Without Review): user must merge PRs or add a Bash permission rule.
 
 ### [2026-11-02] ISSUE — web.archive.org unreachable from local machine (429 on availability API, fetch failed in catalogue:links, Chrome error page, WebFetch refused). Retry later; not link rot evidence.
+
+### [2026-11-18 10:00] [VERIFY] — basic-ftp override (fix/deps-basic-ftp-2)
+- Tests: 283 passed / 0 failed (23 files); lint OK; tsc --noEmit OK; pnpm install --frozen-lockfile OK
+- Security: basic-ftp GHSA-5pm8-86m8-9m6r gone from pnpm audit; remaining extract-zip, zod, minimatch (accepted, dev-only) + new picomatch (see below)
+- Status: pass
+
+### [2026-11-18] ISSUE — pnpm audit: picomatch GHSA-fc5q-39xc-vjpf (high, ReDoS), all versions <= 4.0.7, no patched release. Dev-only via eslint-config-next (fast-glob/micromatch, tinyglobby). No fix possible now; candidate for accepted-risk list, recheck when a patched version is published.
+
+### [2026-11-18 10:45] [VERIFY] — Trivy ignore for picomatch CVE-2026-112366 (fix/deps-basic-ftp-2)
+- Tests: 283 passed (unchanged, no app code touched); pnpm format:check OK
+- Security: single-CVE ignore with expiry 2026-12-18; all other HIGH/CRITICAL still gate; Trivy result confirmed by CI after push
+- Status: pass
+
+### [2026-11-18 11:20] [VERIFY] — logs branch chore/logs-2026-11-18 (logs only)
+- Tests: n/a, .logs/ markdown only; diff vs main reviewed (5 log files, append-only)
+- Security: no secrets, no code
+- Status: pass
+
+### [2026-11-18 12:10] [VERIFY] — data PR chore/data-2026-11-18 (PISA verdict, 8 lastVerified, oecd.org allowlist)
+- Tests: 283 passed / 0 failed; catalogue:validate 0 errors (5 known V-14); format:check OK; lint OK; e2e:real-data 1 passed
+- Security: data-only; allowlist +1 domain (oecd.org, international publisher like worldbank.org / imf.org), archiveUrl on web.archive.org (V-7)
+- Status: pass
+
+### [2026-11-18 16:20] [VERIFY] — logs branch chore/logs-2026-11-18 (logs only, after #105 ship)
+- Tests: n/a, .logs/ markdown only, append-only
+- Security: no secrets, no code
+- Status: pass
+
+### [2026-11-18 19:00] [VERIFY] — item 5 data PR (chore/data-2026-11-18-b, 8aca053)
+- Tests: 283 passed / 0 failed; catalogue:validate 0 errors (14 warnings, all 2021-2026, cleared by #105); lint + format clean; build + e2e:real-data 1 passed
+- Security: data-only change (1 evidence entry on an allowlisted .gov.ma source, 9 dates), no code or dependency change
+- Status: pass
+
+### [2026-11-18 19:30] [ISSUE] — Dependabot #18 minimatch (moderate, dev-only)
+- Globparts amplification DoS; patched 11.0.1. Development scope only. Not fixed this session; review with the monthly deps recheck.
+
+### [2026-11-18 20:00] [VERIFY] — logs-only session close (chore/logs-2026-11-18)
+- Tests: n/a, logs only; main CI green 9c1e4f8 (last code/data run 283 passed)
+- Security: no code, data or dependency change; public URLs only
+- Status: pass

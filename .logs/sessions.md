@@ -314,3 +314,13 @@
 - Limits: vote known from press only (Le Matin, Hespress, SNRT); chambredesrepresentants.ma shows the agenda, no result yet. The 59 accepted amendments were not read, so whether they touch the 8 tracked measures is unknown. BO: latest issue still 7559 (2026-11-09), decree 2.26.838 not published.
 - Next: official vote communique + adopted text (amendments vs the 8 PLF notes); Chambre des conseillers reading -> second reading -> BO, update 8 notes on final adoption; decree 2.26.838 BO publication; basic-ftp override redo (#101 closed, failure cause not diagnosed); 8 V-13 on 2021-2026; 9 partial entries by 2026-12-08; EMO vs ENE rule; #92 Vercel usage.
 - User actions: merge logs PR; check Vercel usage.
+
+### [2026-11-18] SESSION_START
+- Resumed from 2026-11-14 SESSION_END. main f25c6a6 (#103 merged), CI green, no open PR. Branch chore/logs-2026-11-18.
+- User pick: items 1 (PLF 2027 official vote + adopted text vs 8 notes) and 2 (decree 2.26.838 BO check), then continue.
+
+### [2026-11-18] SESSION_END
+- Completed: PLF 2027 adopted 1st reading 2026-11-14 (179/126/0), 287 amendments, 8 notes still accurate; decree 2.26.838 not in BO (newest 7559, 11-09). #104 basic-ftp override + .trivyignore picomatch (exp 2026-12-18) merged. #105 PISA 2025 verdict (education-top-60-mondial not_achieved), 8 V-13 re-verified, oecd.org allowlisted: merged (user had closed it on a stale red run; reopened, green). #106 9 entries re-verified, semis direct in_progress evidence (540 000 ha programmed 2026-2027) merged. Main CI green 9c1e4f8. Tests 283, coverage 99.83 %.
+- Open decision: EMO vs ENE rule, options A/B/C in decisions.md (recommended A). HCP T3 2026 footnote: EMO not directly comparable with ENE.
+- Next: user pick on EMO vs ENE, then #92 Vercel usage (user action). Wayback retry for agriculture.gov.ma campaign article (520/523) -> archiveUrl on semis direct evidence. picomatch review before 2026-12-18. Dependabot #18 minimatch (moderate, dev-only, fix 11.0.1). PLF 2027: Chambre des conseillers -> 2nd reading -> BO, update 8 notes on final adoption. Decree 2.26.838 BO publication -> evidence. 5 V-14 remain (HCP annual / EMO rule).
+- User actions: merge logs PR.

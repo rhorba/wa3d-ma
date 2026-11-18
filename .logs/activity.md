@@ -660,3 +660,46 @@
 ### [2026-11-14] EXECUTE — B: bill 60.26 part 1 adopted in plenary 2026-11-14, 179 / 126 / 0 (Le Matin 16:30, SNRT, Hespress FR); Hespress AR 22:13 reports whole bill adopted in first reading, same count, after part 2 session. Chamber site: agenda only. sgg.gov.ma AR list: latest BO 7559 (2026-11-09), no new issue -> decree 2.26.838 unpublished. No data edits: notes say "not yet adopted", still true until both chambers + BO; press is not an accepted source (FR-5).
 ### [2026-11-14] VERIFY — no code or data change; tests and coverage not re-run (last: 283 pass, 99.83 % on 2026-11-13). Security: logs + video only, no secrets.
 ### [2026-11-14] SHIP — logs PR on chore/logs-2026-11-14 (session logs + v1.10 recording).
+
+### [2026-11-18] UNDERSTAND — Standard track: official-source check of PLF 2027 first reading + decree 2.26.838 BO; data edits only if a tracked measure changed (rule from 2026-11-14: update the 8 PLF notes on final adoption only).
+### [2026-11-18] EXECUTE — PLF 2027 (bill 60.26) official: chambredesrepresentants.ma/fr/AdoptionPLF27L1 + text page: whole bill adopted in first reading 2026-11-14, 179 / 126 / 0, transmitted to Chambre des conseillers (second reading at the Chambre des representants if amended there). Deposited 2026-10-20, presented 2026-10-23. Committee report (1erepartieUP_0.pdf SHA-256 9b819b5d6d43c329…, p4): 287 amendments, 59 accepted, 116 rejected, 112 withdrawn; committee vote 23 / 17 / 0. No adopted-text PDF online; final wording of amended part-1 articles in report part 2 (2emepUP2_0.pdf f983ee219d6e9352…, p725-790), compared with deposited text (01- Projet loi de Finances 2027_Fr_0.pdf 5794a1cca7423fd0…).
+- IR (impot-revenu-exoneration-60000-dirhams): CGI art. 73-I target barème (0-60 000 exempt, 10/20/30 %) and 247-XXXXVII transitional tables 2027-2030 identical to deposited text -> unchanged.
+- Amazigh (amazighe-fonds-deux-milliards): art. 13 amended, purpose clause only (adds "effective and practical implementation of LO 26.16 and provide the necessary financial resources"); account name, ordonnateur, credit/debit unchanged, no amount in the article (2 bn DH figure comes from the Note de presentation) -> note still accurate.
+- Other 6 notes (aide sociale directe, pension minimale, pension veuve, soins primaires, transferts regions, transport scolaire): not bill articles, no hit in amended-article list -> unchanged.
+- Result: no data edits; notes saying "pas encore adopte" stay true (first reading only).
+### [2026-11-18] EXECUTE — Decree 2.26.838: sgg.gov.ma/arabe/BulletinOfficiel.aspx (Chrome; direct AJAX call blocked by auto-mode classifier, not retried): newest 7559 (2026-11-09), then 7558 (11-05), 7557 (11-02), 7556-bis (10-30) -> no issue after the 11-12 council, decree unpublished. Web search: press only, no BO reference.
+### [2026-11-18] BRAINSTORM/PLAN — item 3 basic-ftp: #101 had all 8 checks green and was closed manually by the user 2026-11-14 (no comment), not a CI failure. Upstream get-uri 8.0.2 (2026-11-16, < 7-day release age) depends on basic-ftp ^6.2.4; we are pinned to get-uri 6.0.5 via puppeteer > proxy-agent 6.5.0. User pick A: redo the override. Plan confirmed.
+### [2026-11-18] EXECUTE — branch fix/deps-basic-ftp-2: pnpm.overrides basic-ftp@<6.2.4 -> ^6.2.4 (resolves 6.2.6). Same unrelated drift as #101 (legacy-javascript 0.0.3 -> 0.0.4) reverted; lockfile diff basic-ftp only; frozen install OK.
+### [2026-11-18] SHIP — pushed fix/deps-basic-ftp-2, PR #104 (commit 7 basic-ftp override). Status: CI red on Security scans.
+### [2026-11-18] CI — #104 run 44269333138 RED: Trivy (SCA) HIGH picomatch 4.0.7 CVE-2026-112366 (no fixed version; Trivy DB refreshed today, main has the same picomatch -> main would fail too). All other 10 checks green. Prod path per pnpm why --prod: next-intl > @parcel/watcher > picomatch.
+### [2026-11-18] DECISION — blocker options A narrow .trivyignore / B wait / C lower gate; user pick A, on the same PR. Added .trivyignore (CVE-2026-112366 exp:2026-12-18, justification) + --ignorefile /src/.trivyignore in ci.yml Trivy step. Local Trivy run stopped (too slow on OneDrive mount); CI is the check.
+### [2026-11-18] CI — #104 run 44272939205 GREEN (11/11 incl. Security scans with .trivyignore, Lighthouse, real-data smoke). PR body updated. User merges.
+### [2026-11-18] [SHIP] — fix/deps-basic-ftp-2 (#104: c64fe3f basic-ftp override + 2be0be2 Trivy ignore), logs branch chore/logs-2026-11-18 pushed. Status: complete. Note: main will go red on Trivy until #104 is merged.
+### [2026-11-18] EXECUTE — item 4 research: HCP since 09-15: tourism satellite account (10-20), IPC Sept (10-22), labour Q2 analysis (10-23), EMO Q3 2026 (11-03) -> no annual 2026 figure for activite-femmes / croissance / emploi; nothing on Gini or poverty. madkhoul: only draft decree 2.26.838 (post-mandate, unpublished). RSU unchanged (achieved). PISA 2025 (OECD, 2026-09-08): Morocco country note (below OECD avg in all 3, lower than 2022 in maths and reading, Level 2+: maths 16 %, reading 13 %, science 23 %); Volume I chapter 2 comparison table: science 358, 82 of 91 systems higher, 8 not significantly different. Gap: 2026-09-22 check missed PISA 2025.
+### [2026-11-18] EXECUTE — branch chore/data-2026-11-18: evidence not_achieved on education-top-60-mondial (source OECD chapter, archive web/20261104162528; Wayback save returned 520, existing snapshot used), lastVerified 2026-11-18 on 8 entries, oecd.org on allowlist. catalogue:validate 0 errors, 5 warnings (V-13 8->0, V-14 6->5).
+### [2026-11-18] [SHIP] — pushed chore/data-2026-11-18, PR #105 (6e1fdf2). Status: complete pending CI.
+### [2026-11-18] CI — #105 run 44344043318: 10/11 green, Security scans RED on picomatch CVE-2026-112366 only (main lacks .trivyignore; fixed by #104). Action: user merges #104, then update #105 branch (gh pr update-branch 105) and re-check CI.
+
+### [2026-11-18 18:10] [CI] — #105 green after #104 merge
+- Summary: #104 merged 17:42; `gh pr update-branch 105` pulled the picomatch .trivyignore into #105. Run 44361773729: 11/11 green (Security scans now pass).
+- Status: #105 ready for merge
+
+### [2026-11-18] UNDERSTAND/BRAINSTORM — Item 5 (9 entries due 2026-12-08)
+- agriculture.gov.ma, emploi.gov.ma, anapec.ma all HTTP 200 today (were unreachable/empty on 11-03). Standard track: data curation, one data PR. User picked B. PLAN pending confirmation.
+
+### [2026-11-18] PLAN — Item 5 confirmed by user
+- Batch 1: read emploi.gov.ma, anapec.ma, agriculture.gov.ma for the 9 entries -> worksheet .verification/reverification-2026-11-18.md, report only. Batch 2: data PR (anapec.ma allowlist, evidence or lastVerified), validate/test/e2e, CI.
+### [2026-11-18] HANDOFF Orchestrator -> Security/DBA curation: batch 1 read-only sweep of 3 sites for 9 entries; data edits gated on user review.
+### [2026-11-18] EXECUTE — Item 5 batch 1: 3 sites + ONSSA read for 9 entries. 1 evidence candidate (semis direct, 540 000 ha programmed 2026-2027, agriculture.gov.ma 2026-11-10); 8 lastVerified only. anapec.ma: nothing after 2026-04 -> allowlist addition not needed. Worksheet .verification/reverification-2026-11-18.md. No Wayback copy of the article. Awaiting user review.
+### [2026-11-18] EXECUTE — Item 5 batch 2: user approved (1 evidence + 8 lastVerified, no anapec.ma). Wayback save of the agriculture article failed (520, 523) -> archiveUrl omitted (schema optional; empty string fails V-1). Evidence dated 2026-11-10 (publication), as other 2026-2031 in_progress evidence. Commit 8aca053.
+### [2026-11-18] [SHIP] — Item 5: PR #106 (chore/data-2026-11-18-b) pushed
+- Summary: semis direct in_progress evidence + lastVerified 2026-11-18 on 9 entries. CI 11/11 green.
+- Status: complete, awaiting user merge
+- Note: new Dependabot alert #18 (minimatch, moderate, development scope, fix 11.0.1) seen on push -> backlog.
+### [2026-11-18] [CI] — #105 reopened
+- User closed #105 after seeing the stale 16:10 failing run (latest run 17:43 was green). User merged #106 (main CI green, a5b1780). Reopened #105, update-branch onto main with #106: CI 11/11 green, mergeable.
+### [2026-11-18] [CI] — main after #105 merge: CI green (9c1e4f8). #104, #105, #106 all on main.
+### [2026-11-18] UNDERSTAND — EMO vs ENE series rule (Standard: data policy, no code)
+- HCP note EMO T3 2026 (hcp.ma attachment 2928207, 2026-11-03), footnote 1: "Les résultats de l'EMO ne sont pas directement comparables à ceux de l'ENE". New concepts (emploi contre revenu, chômage strict, taux de participation), sampling frame RGPH 2024, 135 000 households/yr. No back-cast or bridge published. EMO T3 2026: chômage strict 10.5 %, women participation 18.1 %.
+- Programme 2026-2031 p.130 states targets (women "نسبة النشاط الاقتصادي" 21.2 %, unemployment 7 % in 2031, ~1 M jobs) without naming the series; wording is ENE-era.
+- Affected: 2026-2031 chomage-sept-pourcent-2031, activite-femmes-21-pourcent, emplois-un-million, neet-moins-50-pourcent; 2021-2026 activite-femmes-trente-pourcent, emploi-million-postes (V-14 waiting on "annual 2026", which will be EMO).

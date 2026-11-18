@@ -148,3 +148,12 @@
 
 ### [2026-11-14] DECISION
 - User picked A then B. PLF first-reading vote at the Chambre des representants does not change the 8 PLF notes: update on final adoption, from official sources only.
+
+### [2026-11-18] DECISION — item 4 (8 V-13 entries): user pick B = bump lastVerified on all 8 + settle education-top-60-mondial as not_achieved on PISA 2025 (supersedes 2026-10-16 Q5 "PISA wait" for this entry: PISA 2025 published 2026-09-08 is the last cycle in the mandate; next 2029). User approved adding oecd.org to the V-7 allowlist and the FR/AR notes as drafted.
+
+### [2026-11-18] DECISION — Item 5: re-verify the 9 partially checked 2026-2031 entries
+- Options: A ministry sites only / B A + anapec.ma on allowlist / C B + HCP and PLF 2027 programme reports
+- Chosen: B (user). anapec.ma allowlist addition to be confirmed at PLAN with the justification text.
+- Scope: numerique-100000-jeunes-par-an, apprentissage-150-200-mille, premiere-experience-500000-jeunes, programme-jeunes-deux-millions-2027-2031 (employment); exportations-agricoles-50-60-milliards-2030, pib-agricole-200-250-milliards-2030, semences-nationales-50-pourcent, semis-direct-un-million-hectares-2030, cheptel-vaccination-85-pourcent (agriculture). "Partial" = partially verified on 2026-11-03, not a status value.
+
+### [2026-11-18] PENDING — EMO vs ENE rule: options A (no cross-series comparison; 2021-2026 verdicts on last annual ENE figure; 2026-2031 EMO-to-EMO) / B (A but no figures until bridge or annual EMO ~Feb 2027) / C (A + series field and validator rule). Recommended A. User to pick next session.
