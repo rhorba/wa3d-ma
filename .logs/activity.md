@@ -696,3 +696,5 @@
 - Summary: semis direct in_progress evidence + lastVerified 2026-11-18 on 9 entries. CI 11/11 green.
 - Status: complete, awaiting user merge
 - Note: new Dependabot alert #18 (minimatch, moderate, development scope, fix 11.0.1) seen on push -> backlog.
+### [2026-11-18] [CI] — #105 reopened
+- User closed #105 after seeing the stale 16:10 failing run (latest run 17:43 was green). User merged #106 (main CI green, a5b1780). Reopened #105, update-branch onto main with #106: CI 11/11 green, mergeable.
