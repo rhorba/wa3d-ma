@@ -71,3 +71,8 @@
 - Tests: 283 passed (unchanged, no app code touched); pnpm format:check OK
 - Security: single-CVE ignore with expiry 2026-12-18; all other HIGH/CRITICAL still gate; Trivy result confirmed by CI after push
 - Status: pass
+
+### [2026-11-18 11:20] [VERIFY] — logs branch chore/logs-2026-11-18 (logs only)
+- Tests: n/a, .logs/ markdown only; diff vs main reviewed (5 log files, append-only)
+- Security: no secrets, no code
+- Status: pass
