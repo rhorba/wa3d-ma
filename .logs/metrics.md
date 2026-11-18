@@ -90,3 +90,4 @@
 - [2026-11-18] Coverage: 99.83% (594/595 statements, 283 tests) — fix/deps-basic-ftp-2
 - [2026-11-18] Coverage: 99.83% (unchanged; CI config + .trivyignore only) — fix/deps-basic-ftp-2
 - [2026-11-18] Coverage: n/a — logs-only branch chore/logs-2026-11-18
+- [2026-11-18] Coverage: 99.83% (594/595, 283 tests; data-only change) — chore/data-2026-11-18

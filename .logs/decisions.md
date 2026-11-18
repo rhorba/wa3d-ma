@@ -148,3 +148,5 @@
 
 ### [2026-11-14] DECISION
 - User picked A then B. PLF first-reading vote at the Chambre des representants does not change the 8 PLF notes: update on final adoption, from official sources only.
+
+### [2026-11-18] DECISION — item 4 (8 V-13 entries): user pick B = bump lastVerified on all 8 + settle education-top-60-mondial as not_achieved on PISA 2025 (supersedes 2026-10-16 Q5 "PISA wait" for this entry: PISA 2025 published 2026-09-08 is the last cycle in the mandate; next 2029). User approved adding oecd.org to the V-7 allowlist and the FR/AR notes as drafted.
