@@ -81,3 +81,8 @@
 - Tests: 283 passed / 0 failed; catalogue:validate 0 errors (5 known V-14); format:check OK; lint OK; e2e:real-data 1 passed
 - Security: data-only; allowlist +1 domain (oecd.org, international publisher like worldbank.org / imf.org), archiveUrl on web.archive.org (V-7)
 - Status: pass
+
+### [2026-11-18 16:20] [VERIFY] — logs branch chore/logs-2026-11-18 (logs only, after #105 ship)
+- Tests: n/a, .logs/ markdown only, append-only
+- Security: no secrets, no code
+- Status: pass
