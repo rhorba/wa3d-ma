@@ -99,7 +99,7 @@ jobs:
       - name: Trivy (SCA)
         run: >
           docker run --rm -v "${{ github.workspace }}:/src" aquasec/trivy@sha256:62b1e65e8869bc4b4c6aa4fa2b21595256c7c2f6018a9d9ad61caf87187c1969
-          fs --scanners vuln --severity CRITICAL,HIGH --exit-code 1 --skip-dirs /src/skills --skip-dirs /src/docs /src
+          fs --scanners vuln --severity CRITICAL,HIGH --exit-code 1 --ignorefile /src/.trivyignore --skip-dirs /src/skills --skip-dirs /src/docs /src
       - name: Gitleaks (secrets)
         run: >
           docker run --rm -v "${{ github.workspace }}:/repo" zricethezav/gitleaks@sha256:c00b6bd0aeb3071cbcb79009cb16a60dd9e0a7c60e2be9ab65d25e6bc8abbb7f
