@@ -86,3 +86,8 @@
 - Tests: n/a, .logs/ markdown only, append-only
 - Security: no secrets, no code
 - Status: pass
+
+### [2026-11-18 19:00] [VERIFY] — item 5 data PR (chore/data-2026-11-18-b, 8aca053)
+- Tests: 283 passed / 0 failed; catalogue:validate 0 errors (14 warnings, all 2021-2026, cleared by #105); lint + format clean; build + e2e:real-data 1 passed
+- Security: data-only change (1 evidence entry on an allowlisted .gov.ma source, 9 dates), no code or dependency change
+- Status: pass
