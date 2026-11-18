@@ -683,3 +683,6 @@
 ### [2026-11-18 18:10] [CI] — #105 green after #104 merge
 - Summary: #104 merged 17:42; `gh pr update-branch 105` pulled the picomatch .trivyignore into #105. Run 44361773729: 11/11 green (Security scans now pass).
 - Status: #105 ready for merge
+
+### [2026-11-18] UNDERSTAND/BRAINSTORM — Item 5 (9 entries due 2026-12-08)
+- agriculture.gov.ma, emploi.gov.ma, anapec.ma all HTTP 200 today (were unreachable/empty on 11-03). Standard track: data curation, one data PR. User picked B. PLAN pending confirmation.
