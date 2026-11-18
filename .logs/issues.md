@@ -66,3 +66,8 @@
 - Status: pass
 
 ### [2026-11-18] ISSUE — pnpm audit: picomatch GHSA-fc5q-39xc-vjpf (high, ReDoS), all versions <= 4.0.7, no patched release. Dev-only via eslint-config-next (fast-glob/micromatch, tinyglobby). No fix possible now; candidate for accepted-risk list, recheck when a patched version is published.
+
+### [2026-11-18 10:45] [VERIFY] — Trivy ignore for picomatch CVE-2026-112366 (fix/deps-basic-ftp-2)
+- Tests: 283 passed (unchanged, no app code touched); pnpm format:check OK
+- Security: single-CVE ignore with expiry 2026-12-18; all other HIGH/CRITICAL still gate; Trivy result confirmed by CI after push
+- Status: pass
