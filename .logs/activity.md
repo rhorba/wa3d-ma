@@ -679,3 +679,7 @@
 ### [2026-11-18] EXECUTE — branch chore/data-2026-11-18: evidence not_achieved on education-top-60-mondial (source OECD chapter, archive web/20261104162528; Wayback save returned 520, existing snapshot used), lastVerified 2026-11-18 on 8 entries, oecd.org on allowlist. catalogue:validate 0 errors, 5 warnings (V-13 8->0, V-14 6->5).
 ### [2026-11-18] [SHIP] — pushed chore/data-2026-11-18, PR #105 (6e1fdf2). Status: complete pending CI.
 ### [2026-11-18] CI — #105 run 44344043318: 10/11 green, Security scans RED on picomatch CVE-2026-112366 only (main lacks .trivyignore; fixed by #104). Action: user merges #104, then update #105 branch (gh pr update-branch 105) and re-check CI.
+
+### [2026-11-18 18:10] [CI] — #105 green after #104 merge
+- Summary: #104 merged 17:42; `gh pr update-branch 105` pulled the picomatch .trivyignore into #105. Run 44361773729: 11/11 green (Security scans now pass).
+- Status: #105 ready for merge
