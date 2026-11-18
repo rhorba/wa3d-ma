@@ -1,5 +1,5 @@
 {
-  "$comment": "V-7 / SEC-3 allowlist. A source URL passes when its host equals an entry or is a subdomain of it (dot boundary). Changed only by PR, with the reason. v1 approved 2026-09-21 (Story 4.1): v0 from Security SEC-3 + national public agencies.",
+  "$comment": "V-7 / SEC-3 allowlist. A source URL passes when its host equals an entry or is a subdomain of it (dot boundary). Changed only by PR, with the reason. v1 approved 2026-09-21 (Story 4.1): v0 from Security SEC-3 + national public agencies. oecd.org added 2026-11-18: OECD publishes PISA, the international assessment behind education-top-60-mondial.",
   "domains": [
     "gov.ma",
     "maroc.ma",
@@ -14,6 +14,7 @@
     "cnss.ma",
     "one.org.ma",
     "ondh.ma",
-    "cese.ma"
+    "cese.ma",
+    "oecd.org"
   ]
 }
