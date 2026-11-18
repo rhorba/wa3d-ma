@@ -94,3 +94,8 @@
 
 ### [2026-11-18 19:30] [ISSUE] — Dependabot #18 minimatch (moderate, dev-only)
 - Globparts amplification DoS; patched 11.0.1. Development scope only. Not fixed this session; review with the monthly deps recheck.
+
+### [2026-11-18 20:00] [VERIFY] — logs-only session close (chore/logs-2026-11-18)
+- Tests: n/a, logs only; main CI green 9c1e4f8 (last code/data run 283 passed)
+- Security: no code, data or dependency change; public URLs only
+- Status: pass

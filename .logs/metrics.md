@@ -93,3 +93,4 @@
 - [2026-11-18] Coverage: 99.83% (594/595, 283 tests; data-only change) — chore/data-2026-11-18
 - [2026-11-18] Coverage: n/a — logs-only push chore/logs-2026-11-18
 - [2026-11-18] Coverage: 99.83% (item 5 data PR, 283 tests)
+- [2026-11-18] Coverage: n/a — logs-only session close
