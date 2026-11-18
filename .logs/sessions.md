@@ -314,3 +314,7 @@
 - Limits: vote known from press only (Le Matin, Hespress, SNRT); chambredesrepresentants.ma shows the agenda, no result yet. The 59 accepted amendments were not read, so whether they touch the 8 tracked measures is unknown. BO: latest issue still 7559 (2026-11-09), decree 2.26.838 not published.
 - Next: official vote communique + adopted text (amendments vs the 8 PLF notes); Chambre des conseillers reading -> second reading -> BO, update 8 notes on final adoption; decree 2.26.838 BO publication; basic-ftp override redo (#101 closed, failure cause not diagnosed); 8 V-13 on 2021-2026; 9 partial entries by 2026-12-08; EMO vs ENE rule; #92 Vercel usage.
 - User actions: merge logs PR; check Vercel usage.
+
+### [2026-11-18] SESSION_START
+- Resumed from 2026-11-14 SESSION_END. main f25c6a6 (#103 merged), CI green, no open PR. Branch chore/logs-2026-11-18.
+- User pick: items 1 (PLF 2027 official vote + adopted text vs 8 notes) and 2 (decree 2.26.838 BO check), then continue.

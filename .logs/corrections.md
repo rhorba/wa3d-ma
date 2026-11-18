@@ -12,3 +12,6 @@
 ### [2026-10-16] CORRECTION — Batch 2 split proposed: PR 1 = 4 settled entries (after user AR review); PR 2 = GST, amazighe, Awrach once official sources are found (cg.gov.ma needs manual download).
 
 ### [2026-10-20] CORRECTION — PRD G5 "within 30 days of launch" (2026-10-24) -> 2026-11-21 for this launch; threshold unchanged (>= 90%, 33/36). Reason: 16/36 indexed on 10-12 data, crawl pace Google-side.
+
+### [2026-11-18] CORRECTION — PLF 2027 amendment count
+- 2026-11-14 SESSION_END said "59 of 291 amendments accepted" (press). Official committee report p4: 287 submitted, 59 accepted, 116 rejected, 112 withdrawn. Whole-bill first-reading adoption (Hespress only on 11-14) now confirmed by chambredesrepresentants.ma.
