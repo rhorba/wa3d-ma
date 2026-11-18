@@ -87,3 +87,4 @@
 
 ### [2026-11-13] SPRINT_SNAPSHOT
 - Tests 283 pass, coverage 99.83 % statements / 96.87 % branches. PRs opened: #100 data, #101 deps, logs. GSC 88 indexed / 80 not (was 16 / 31 on 10-28). Catalogue 73 commitments, 0 errors, 14 warnings.
+- [2026-11-18] Coverage: 99.83% (594/595 statements, 283 tests) — fix/deps-basic-ftp-2

@@ -59,3 +59,10 @@
 ### [2026-10-30] ISSUE (process) — auto mode denies `gh pr merge` (Merge Without Review): user must merge PRs or add a Bash permission rule.
 
 ### [2026-11-02] ISSUE — web.archive.org unreachable from local machine (429 on availability API, fetch failed in catalogue:links, Chrome error page, WebFetch refused). Retry later; not link rot evidence.
+
+### [2026-11-18 10:00] [VERIFY] — basic-ftp override (fix/deps-basic-ftp-2)
+- Tests: 283 passed / 0 failed (23 files); lint OK; tsc --noEmit OK; pnpm install --frozen-lockfile OK
+- Security: basic-ftp GHSA-5pm8-86m8-9m6r gone from pnpm audit; remaining extract-zip, zod, minimatch (accepted, dev-only) + new picomatch (see below)
+- Status: pass
+
+### [2026-11-18] ISSUE — pnpm audit: picomatch GHSA-fc5q-39xc-vjpf (high, ReDoS), all versions <= 4.0.7, no patched release. Dev-only via eslint-config-next (fast-glob/micromatch, tinyglobby). No fix possible now; candidate for accepted-risk list, recheck when a patched version is published.
