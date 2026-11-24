@@ -324,3 +324,6 @@
 - Open decision: EMO vs ENE rule, options A/B/C in decisions.md (recommended A). HCP T3 2026 footnote: EMO not directly comparable with ENE.
 - Next: user pick on EMO vs ENE, then #92 Vercel usage (user action). Wayback retry for agriculture.gov.ma campaign article (520/523) -> archiveUrl on semis direct evidence. picomatch review before 2026-12-18. Dependabot #18 minimatch (moderate, dev-only, fix 11.0.1). PLF 2027: Chambre des conseillers -> 2nd reading -> BO, update 8 notes on final adoption. Decree 2.26.838 BO publication -> evidence. 5 V-14 remain (HCP annual / EMO rule).
 - User actions: merge logs PR.
+
+### [2026-11-24] SESSION_START
+- Resumed from 2026-11-18. main f0dedf8 (#107 merged). validate: 0 errors, 5 V-14. User picked EMO vs ENE option A.

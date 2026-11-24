@@ -157,3 +157,6 @@
 - Scope: numerique-100000-jeunes-par-an, apprentissage-150-200-mille, premiere-experience-500000-jeunes, programme-jeunes-deux-millions-2027-2031 (employment); exportations-agricoles-50-60-milliards-2030, pib-agricole-200-250-milliards-2030, semences-nationales-50-pourcent, semis-direct-un-million-hectares-2030, cheptel-vaccination-85-pourcent (agriculture). "Partial" = partially verified on 2026-11-03, not a status value.
 
 ### [2026-11-18] PENDING — EMO vs ENE rule: options A (no cross-series comparison; 2021-2026 verdicts on last annual ENE figure; 2026-2031 EMO-to-EMO) / B (A but no figures until bridge or annual EMO ~Feb 2027) / C (A + series field and validator rule). Recommended A. User to pick next session.
+
+### [2026-11-24] DECIDED — EMO vs ENE rule: option A (user)
+- Never compare EMO and ENE figures. 2021-2026 verdicts use the last annual ENE figure (2025, HCP 2026-02-03). 2026-2031 compares EMO to EMO. Settles the 2 employment V-14 (activite-femmes-trente-pourcent, emploi-million-postes). The other 3 V-14 (croissance, Gini, pauvrete) are unrelated and stay open.
