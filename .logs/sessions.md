@@ -327,3 +327,7 @@
 
 ### [2026-11-24] SESSION_START
 - Resumed from 2026-11-18. main f0dedf8 (#107 merged). validate: 0 errors, 5 V-14. User picked EMO vs ENE option A.
+
+### [2026-11-24] SESSION_END
+- Completed: EMO vs ENE option A decided. PR #109: curation-guide series-break rule; activite-femmes-trente-pourcent not_achieved (19 % 2025 ENE), emploi-million-postes partial (94 000 / 1 M). Source HCP EMO T3 2026 note (footnote checked). validate 0 errors, V-14 5 -> 3. Tests 283, coverage 99.83 %, e2e 58. CI green.
+- Next: user merges #109 and logs PR. #92 Vercel usage (user). Wayback retry agriculture.gov.ma article. picomatch review before 2026-12-18. Dependabot #18 minimatch. PLF 2027 final adoption -> 8 notes. Decree 2.26.838 BO. 3 V-14 (croissance, Gini, pauvrete: HCP annual ~Feb 2027).
