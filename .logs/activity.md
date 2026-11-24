@@ -707,3 +707,4 @@
 ### [2026-11-24] BRAINSTORM — EMO vs ENE: user picked A (Standard track: data policy + 2 data entries)
 ### [2026-11-24] PLAN — EMO vs ENE confirmed by user; emploi-million-postes -> partial (user pick), activite-femmes-trente-pourcent -> not_achieved. Batch 1: curation-guide rule + 2 verdicts on chore/data-2026-11-24. Batch 2: verify + PR.
 ### [2026-11-24] HANDOFF Scrum Master -> DBA/curation: write the rule and 2 evidence entries (FR+AR), sources HCP 2025 annual + EMO T3 2026 footnote.
+### [2026-11-24] EXECUTE — chore/data-2026-11-24 f3be03d: curation-guide series-break rule; activite-femmes-trente-pourcent not_achieved, emploi-million-postes partial. Source HCP EMO T3 2026 note (footnote 1 checked in attachment 2928207, archive web/20261111124349); HCP 2025 annual re-read (19 %, 193 000).
