@@ -99,3 +99,9 @@
 - Tests: n/a, logs only; main CI green 9c1e4f8 (last code/data run 283 passed)
 - Security: no code, data or dependency change; public URLs only
 - Status: pass
+
+### [2026-11-24 09:18] [VERIFY] — EMO vs ENE rule + 2 employment verdicts (f3be03d)
+- Tests: 283 passed / 0 failed; e2e 58 passed; lint, typecheck, format clean
+- Security: pass (data + docs only, no dependency change; sources on allowlist, archived)
+- catalogue:validate: 0 errors, 3 warnings (V-14 5 -> 3)
+- Status: pass

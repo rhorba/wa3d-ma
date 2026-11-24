@@ -703,3 +703,11 @@
 - HCP note EMO T3 2026 (hcp.ma attachment 2928207, 2026-11-03), footnote 1: "Les résultats de l'EMO ne sont pas directement comparables à ceux de l'ENE". New concepts (emploi contre revenu, chômage strict, taux de participation), sampling frame RGPH 2024, 135 000 households/yr. No back-cast or bridge published. EMO T3 2026: chômage strict 10.5 %, women participation 18.1 %.
 - Programme 2026-2031 p.130 states targets (women "نسبة النشاط الاقتصادي" 21.2 %, unemployment 7 % in 2031, ~1 M jobs) without naming the series; wording is ENE-era.
 - Affected: 2026-2031 chomage-sept-pourcent-2031, activite-femmes-21-pourcent, emplois-un-million, neet-moins-50-pourcent; 2021-2026 activite-femmes-trente-pourcent, emploi-million-postes (V-14 waiting on "annual 2026", which will be EMO).
+
+### [2026-11-24] BRAINSTORM — EMO vs ENE: user picked A (Standard track: data policy + 2 data entries)
+### [2026-11-24] PLAN — EMO vs ENE confirmed by user; emploi-million-postes -> partial (user pick), activite-femmes-trente-pourcent -> not_achieved. Batch 1: curation-guide rule + 2 verdicts on chore/data-2026-11-24. Batch 2: verify + PR.
+### [2026-11-24] HANDOFF Scrum Master -> DBA/curation: write the rule and 2 evidence entries (FR+AR), sources HCP 2025 annual + EMO T3 2026 footnote.
+### [2026-11-24] EXECUTE — chore/data-2026-11-24 f3be03d: curation-guide series-break rule; activite-femmes-trente-pourcent not_achieved, emploi-million-postes partial. Source HCP EMO T3 2026 note (footnote 1 checked in attachment 2928207, archive web/20261111124349); HCP 2025 annual re-read (19 %, 193 000).
+### [2026-11-24] [SHIP] — EMO vs ENE: PR #109 (chore/data-2026-11-24, f3be03d)
+- Summary: series-break rule + activite-femmes not_achieved + emploi-million partial. CI run 45363943402 all green (11/11 + Vercel).
+- Status: complete, awaiting user merge
