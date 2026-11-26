@@ -340,3 +340,4 @@
 - Blocked: Wayback SPN for agriculture.gov.ma article -> 504 x2 (site does not answer the crawler).
 - Waiting: PLF 2027 at Chambre des conseillers (deadline ~12-06); decree 2.26.838 not in BO (AR 7560 11-12, FR 7559-bis); 3 V-14 (HCP annual ~Feb 2027).
 - Next: user merges #111 (Dependabot #18 auto-closes). PLF 2027 final vote after ~12-06 -> 8 notes. BO check. Wayback retry or alternate archive. 45-day re-verification of 2026-2031 entries by 12-08.
+- Update 2026-11-26: #111 merged, main CI green. archive.today failed too; local PDF + SHA-256 in .sources (d8da2c84...). Next: retry public archive for the agriculture article; Dependabot #18 auto-close check.

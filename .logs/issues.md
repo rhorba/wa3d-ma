@@ -115,3 +115,8 @@
 - Tests: n/a, logs only; PR #111 CI 11/11 green
 - Security: no further code or dependency change
 - Status: pass
+
+### [2026-11-26 10:55] [VERIFY] — archive fallback logs (chore/logs-2026-11-26)
+- Tests: n/a, logs only (no data or code change); main CI green 98ac014
+- Security: PDF kept in gitignored .sources/, hash logged; no new hosts
+- Status: pass
