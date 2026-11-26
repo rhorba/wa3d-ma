@@ -729,3 +729,11 @@
 ### [2026-11-26] [SHIP] — deps: PR #111 (fix/deps-minimatch-picomatch)
 - Summary: minimatch override (Dependabot #18), withdrawn picomatch CVE ignore removed, #92 closed (Vercel 1.8/100 GB).
 - Status: complete, awaiting user merge
+
+### [2026-11-26] UNDERSTAND — archive for agriculture.gov.ma campaign article (Standard, user picked archive.today)
+### [2026-11-26] BRAINSTORM — A archive.today (user pick), fallback B local PDF + SHA-256 (user "yes"), C retry later.
+### [2026-11-26] PLAN — A: archive.ph capture + V-7 allow archive.ph; if capture fails, B per .sources convention, drop rule change.
+### [2026-11-26] HANDOFF Scrum Master -> DBA/curation: archive provenance for semis direct evidence.
+### [2026-11-26] EXECUTE — A failed: archive.ph wip/y1SrS ended "Not Found (yet?)", search "No results" (crawler gets no answer, same as Wayback 504). V-7 archive.ph change written + tested (283 pass) then discarded, not committed. B: user saved PDF via Chrome print; .sources/agriculture-campagne-2026-2027-beni-mellal-2026-11-26.pdf 972 598 B, SHA-256 d8da2c84b252b5c731c107ba0f3ac587f9eefc600026ec845a6484168772dfd2; text matches evidence (540 000 ha 2026-2027, 1 M ha 2030, dated 10/11/2026). archiveUrl stays empty (V-7 accepts web.archive.org only). Main CI green after #111 merge (run 45792846741); Dependabot #18 still open pending rescan.
+### [2026-11-26] [SHIP] — logs: archive fallback (chore/logs-2026-11-26)
+- Status: complete, logs-only PR
