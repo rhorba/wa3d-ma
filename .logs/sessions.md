@@ -334,3 +334,9 @@
 
 ### [2026-11-26] SESSION_START
 - Resumed from 2026-11-24. #109 + #110 merged (main 300699f, CI green run 45368718108). User: "do them all" via authenticated browser (8 open items).
+
+### [2026-11-26] SESSION_END
+- Completed: #92 closed (Vercel 1.8 GB / 100 GB). PR #111: minimatch override -> 11.0.9 (Dependabot #18), picomatch CVE ignore removed (GHSA withdrawn 11-18), CI 11/11 green. Tests 283, coverage 99.83 %.
+- Blocked: Wayback SPN for agriculture.gov.ma article -> 504 x2 (site does not answer the crawler).
+- Waiting: PLF 2027 at Chambre des conseillers (deadline ~12-06); decree 2.26.838 not in BO (AR 7560 11-12, FR 7559-bis); 3 V-14 (HCP annual ~Feb 2027).
+- Next: user merges #111 (Dependabot #18 auto-closes). PLF 2027 final vote after ~12-06 -> 8 notes. BO check. Wayback retry or alternate archive. 45-day re-verification of 2026-2031 entries by 12-08.

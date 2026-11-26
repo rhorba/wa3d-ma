@@ -96,3 +96,4 @@
 - [2026-11-18] Coverage: n/a — logs-only session close
 - [2026-11-24] Coverage: 99.83%
 - [2026-11-26] Coverage: 99.83% (594/595, 283 tests) — fix/deps-minimatch-picomatch
+- [2026-11-26] Coverage: n/a — logs-only session close

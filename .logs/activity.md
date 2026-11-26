@@ -725,3 +725,7 @@
 - PLF 2027: Chambre des conseillers still examining (22-day limit ~2026-12-06); no final adoption. 8 notes unchanged.
 - Decree 2.26.838: BO AR newest 7560 (2026-11-12, has 2.26.806-808), FR newest 7559-bis; 2.26.838 not published.
 - V-14 x3: waiting on HCP annual ~Feb 2027, no action.
+### [2026-11-26] [CI] — PR #111 run 45791400560: 11/11 green (Security scans incl. Trivy pass without picomatch ignore).
+### [2026-11-26] [SHIP] — deps: PR #111 (fix/deps-minimatch-picomatch)
+- Summary: minimatch override (Dependabot #18), withdrawn picomatch CVE ignore removed, #92 closed (Vercel 1.8/100 GB).
+- Status: complete, awaiting user merge
