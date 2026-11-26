@@ -1,10 +1,4 @@
 # Trivy ignore list: one entry per CVE, each with justification and an expiry.
 # Expired entries are reported again, so CI goes red until they are reviewed.
 
-# picomatch 4.0.7 ReDoS via repeated extglob patterns (GHSA-fc5q-39xc-vjpf).
-# No patched release exists (all versions <= 4.0.7 affected) as of 2026-11-18.
-# Path: next-intl > @parcel/watcher > picomatch (build/dev file watching);
-# other paths are dev-only eslint tooling. Glob patterns come from project
-# config, never from user input, so the ReDoS is not reachable by visitors.
-# Review: remove once a fixed picomatch ships, or re-assess by the expiry date.
-CVE-2026-112366 exp:2026-12-18
+# (empty) picomatch CVE-2026-112366 removed 2026-11-26: GHSA-fc5q-39xc-vjpf withdrawn 2026-11-18.

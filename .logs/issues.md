@@ -105,3 +105,8 @@
 - Security: pass (data + docs only, no dependency change; sources on allowlist, archived)
 - catalogue:validate: 0 errors, 3 warnings (V-14 5 -> 3)
 - Status: pass
+
+### [2026-11-26 10:00] [VERIFY] — minimatch override + picomatch ignore removal (fix/deps-minimatch-picomatch)
+- Tests: 283 passed / 0 failed; lint, typecheck clean
+- Security: Dependabot #18 fixed via override (11.0.9); withdrawn picomatch CVE ignore removed, Trivy in CI decides
+- Status: pass

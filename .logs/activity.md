@@ -711,3 +711,17 @@
 ### [2026-11-24] [SHIP] — EMO vs ENE: PR #109 (chore/data-2026-11-24, f3be03d)
 - Summary: series-break rule + activite-femmes not_achieved + emploi-million partial. CI run 45363943402 all green (11/11 + Vercel).
 - Status: complete, awaiting user merge
+
+### [2026-11-26] UNDERSTAND — backlog sweep, 8 items (Standard: deps + ops checks, no data change)
+### [2026-11-26] BRAINSTORM — user asked to do all items; dependency fixes follow existing convention (pnpm override, .trivyignore review), no alternatives worth a gate.
+### [2026-11-26] PLAN — 1 log #109 (already merged); 2 Vercel usage; 3 Wayback SPN; 4 picomatch; 5 minimatch override; 6-8 external-status checks. One PR fix/deps-minimatch-picomatch.
+### [2026-11-26] HANDOFF Scrum Master -> DevSecOps: minimatch override + picomatch .trivyignore review; Deployment: Vercel usage.
+### [2026-11-26] EXECUTE — results
+- #109 merged earlier (5463b31), logs #110 merged (300699f).
+- #92 Vercel usage Oct 27 - Nov 26: Fast Data Transfer 1.8 GB / 100 GB (threshold 70 GB, SDR-5 fallback not needed); origin 111 MB / 10 GB; 45K function invocations.
+- Wayback SPN for agriculture.gov.ma campaign article: 2 tries, both HTTP 504 (target did not answer the crawler; page loads from Morocco). archiveUrl still empty on semis direct evidence.
+- picomatch: GHSA-fc5q-39xc-vjpf withdrawn 2026-11-18 (GitHub + OSV); NVD CVE-2026-112366 still "Awaiting Analysis". Removed .trivyignore entry; CI Trivy confirms.
+- Dependabot #18: pnpm override minimatch@>=7.0.0 <11.0.1 -> ^11.0.1 (10.2.6 -> 11.0.9, typescript-estree dev path; upstream 8.74 already uses ^11.0.1).
+- PLF 2027: Chambre des conseillers still examining (22-day limit ~2026-12-06); no final adoption. 8 notes unchanged.
+- Decree 2.26.838: BO AR newest 7560 (2026-11-12, has 2.26.806-808), FR newest 7559-bis; 2.26.838 not published.
+- V-14 x3: waiting on HCP annual ~Feb 2027, no action.
